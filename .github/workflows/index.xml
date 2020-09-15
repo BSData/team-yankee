@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Team Yankee WW3" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Team Yankee WW3.gstz" dataType="gamesystem" dataId="9096-fd85-6ba1-72c5" dataName="Team Yankee WW3" dataBattleScribeVersion="2.03" dataRevision="2"/>
+  </dataIndexEntries>
+</dataIndex>
