@@ -4354,11 +4354,6 @@
         <categoryLink id="2297-a7d6-174d-225c" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d876-fdc8-f4eb-8c8e" name="HMMWVV Light Attack Platoon" hidden="false" collective="false" import="true" targetId="0d79-5c1a-c417-434f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f8d9-cd9e-11fa-d863" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="4f6f-1d94-819c-d4f6" name="UH-1 Huey Rifle Platoon" hidden="false" collective="false" import="true" targetId="024a-7375-ea01-d515" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5c6e-e1ce-3b41-a977" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -4427,6 +4422,11 @@
     <entryLink id="5ce1-7931-511a-da6c" name="M1A1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="0d0e-ece7-81e6-5c53" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3f97-246e-4a37-ae28" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="88b8-dca0-2644-bd3c" name="Light Motor Infantry Platoon" hidden="false" collective="false" import="true" targetId="1372-2c79-590d-c188" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f602-4029-75c2-312e" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -5061,11 +5061,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="024a-7375-ea01-d515" name="UH-1 Huey Rifle Platoon" publicationId="ce0d-b868-73d3-d028" page="43" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="07ac-7b7c-ac40-7dbb" name="UH-1 Huey Rifle Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="ba8c-85b8-4860-cd28">12&quot;/30CM</characteristic>
+            <characteristic name="Road Dash" typeId="ad4b-3a11-05ef-daf4">12&quot;/30CM</characteristic>
+            <characteristic name="Cross" typeId="93df-8d45-e422-9163">AUTO</characteristic>
+            <characteristic name="Is Hit On" typeId="b0ba-ff6a-b454-a926">4+</characteristic>
+            <characteristic name="Infantry Save" typeId="7ad2-ac9e-02fd-af45">3+</characteristic>
+            <characteristic name="Courage" typeId="3ea8-3e5a-9400-878e">4+</characteristic>
+            <characteristic name="Morale" typeId="68ce-356d-7a68-0eaf">3+</characteristic>
+            <characteristic name="Rally" typeId="2a3a-aed9-48b2-234a">4+</characteristic>
+            <characteristic name="Skill" typeId="eb99-12e9-c164-6fd6">4+</characteristic>
+            <characteristic name="Assault" typeId="060b-f9d6-0748-a496">4+</characteristic>
+            <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="2958-6741-2b19-9aa9" name="UH-1 Huey" hidden="false" targetId="078f-b587-f3e3-35aa" type="infoGroup"/>
-        <infoLink id="cf34-4261-8493-3bae" name="Infantry Team" hidden="false" targetId="ba24-e728-49ed-a81d" type="profile"/>
         <infoLink id="b78f-cbe2-30d4-0867" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
         <infoLink id="6394-d0d7-cacd-6dad" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="218f-2939-9279-1cf3" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
+        <infoLink id="6444-7f52-e8a0-6a73" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
+        <infoLink id="e2ad-d18b-be8e-50df" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+        <infoLink id="a377-8810-8bde-0bfc" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="16bf-baae-2555-d096" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="cca8-fa51-1e1e-b9e5">
@@ -5074,64 +5096,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63db-5f3e-418e-4390" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cca8-fa51-1e1e-b9e5" name="5x M249 SAW or 5x M72 LAW 1x M47 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="3700-5533-48fd-5fd8" name="M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="9430-ae91-aa10-eb2f">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c2-bf8d-0574-a683" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f25-18b4-0be2-3c93" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="9430-ae91-aa10-eb2f" name="M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="eb58-a4fd-21bd-4f1a" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="762e-97c8-523b-7771" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="24e1-adc8-4333-67ee" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="cca8-fa51-1e1e-b9e5" name="5x M249 SAW with 5x M72 LAW 1x M47 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a883-cec0-daeb-9105" name="7x M249 SAW or 7x M72 LAW 1x M47 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e7f6-fd83-9ed0-c298" name="M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="6479-2176-cdb3-109b">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f5-6d16-8949-e238" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad4-0785-c05a-ab47" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="6479-2176-cdb3-109b" name="M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="dd72-aac9-26a7-0c23" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3057-94df-a14b-04b8" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="2e1b-76e1-7026-abb4" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="a883-cec0-daeb-9105" name="7x M249 SAW with 7x M72 LAW 1x M47 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
@@ -5276,75 +5246,69 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="566d-b9a0-1b86-7631" name="2MarDiv Rifle Platoon" publicationId="ce0d-b868-73d3-d028" page="75" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a90d-b24b-e710-136a" name="2MarDiv Rifle Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="ba8c-85b8-4860-cd28">12&quot;/30CM</characteristic>
+            <characteristic name="Road Dash" typeId="ad4b-3a11-05ef-daf4">12&quot;/30CM</characteristic>
+            <characteristic name="Cross" typeId="93df-8d45-e422-9163">AUTO</characteristic>
+            <characteristic name="Is Hit On" typeId="b0ba-ff6a-b454-a926">4+</characteristic>
+            <characteristic name="Infantry Save" typeId="7ad2-ac9e-02fd-af45">3+</characteristic>
+            <characteristic name="Courage" typeId="3ea8-3e5a-9400-878e">3+</characteristic>
+            <characteristic name="Morale" typeId="68ce-356d-7a68-0eaf">4+</characteristic>
+            <characteristic name="Rally" typeId="2a3a-aed9-48b2-234a">3+</characteristic>
+            <characteristic name="Skill" typeId="eb99-12e9-c164-6fd6">4+</characteristic>
+            <characteristic name="Assault" typeId="060b-f9d6-0748-a496">4+</characteristic>
+            <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="bf09-6667-4729-08ef" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="87ed-d766-32f0-48fa" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
+        <infoLink id="c52b-4ae5-0a9c-6171" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
+        <infoLink id="f43d-9baf-4a85-aa5c" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="647b-a957-4dbc-2c6d" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="35cd-2388-31f2-5452" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc6d-1d5c-9c42-fbd4">
+        <selectionEntryGroup id="35cd-2388-31f2-5452" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a9ea-6e65-7603-aeea">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949e-52a6-427b-75bb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec0-7c85-98b3-e160" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cc6d-1d5c-9c42-fbd4" name="6x M249 SAW 4x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a6dc-44d2-10b0-d642" name="9x M249 SAW wth M72 LAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="42e3-872e-f480-9518" name="2MarDiv  UH-1 Huey" hidden="false" targetId="1e66-485a-3aa2-9419" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fd2f-0455-89b7-ff67" name="6x M72 LAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="052a-65c9-747e-e762" name="AAVP7" hidden="false" targetId="0a11-b3ec-0163-8efc" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="28b6-17f2-a3d2-86bd" name="9x M249 SAW UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="104a-067f-6565-e233" name="2MarDiv  UH-1 Huey" hidden="false" targetId="1e66-485a-3aa2-9419" type="infoGroup"/>
+                <infoLink id="b95a-c4c4-1ca2-cd76" name="AAVP7 Transport" hidden="false" targetId="a39b-b1c6-8ba9-08f2" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e279-9aa8-52e3-3847" name="9x M72 LAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a9ea-6e65-7603-aeea" name="6x M249 SAW wth M72 LAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="93a9-67eb-5a55-0bdc" name="AAVP7" hidden="false" targetId="0a11-b3ec-0163-8efc" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b96e-3fc2-acaf-53d1" name="6x M249 SAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="71a7-c802-b3da-6c9a" name="AAVP7" hidden="false" targetId="0a11-b3ec-0163-8efc" type="infoGroup"/>
+                <infoLink id="4258-ea61-b835-9eb7" name="AAVP7 Transport" hidden="false" targetId="a39b-b1c6-8ba9-08f2" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="328b-c2d7-5074-25d5" name="6x M72 LAW UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cfcf-2217-f6d5-f374" name="9x M249 SAW wth M72 LAW 4x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="95f7-260d-46d7-6736" name="2MarDiv  UH-1 Huey" hidden="false" targetId="1e66-485a-3aa2-9419" type="infoGroup"/>
+                <infoLink id="3327-3a5d-9f60-52f6" name="UH-1 Huey" hidden="false" targetId="a7f6-ed76-19aa-dfce" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="468b-bb72-8b7a-1a79" name="6x M249 SAW wth M72 LAW 4x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f686-1968-6f25-5576" name="UH-1 Huey" hidden="false" targetId="a7f6-ed76-19aa-dfce" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fe6e-78c9-7ef6-53fe" name="9x M249 SAW 2x AAVP7" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="81d5-f971-c022-4175" name="AAVP7" hidden="false" targetId="0a11-b3ec-0163-8efc" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c0f5-d726-ca00-b024" name="9x M72 LAW UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5759,11 +5723,32 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1372-2c79-590d-c188" name="Light Motor Infantry Platoon" publicationId="ce0d-b868-73d3-d028" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="505a-0b74-2212-f081" name="Light Motor Infantry Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="ba8c-85b8-4860-cd28">12&quot;/30CM</characteristic>
+            <characteristic name="Road Dash" typeId="ad4b-3a11-05ef-daf4">12&quot;/30CM</characteristic>
+            <characteristic name="Cross" typeId="93df-8d45-e422-9163">AUTO</characteristic>
+            <characteristic name="Is Hit On" typeId="b0ba-ff6a-b454-a926">4+</characteristic>
+            <characteristic name="Infantry Save" typeId="7ad2-ac9e-02fd-af45">3+</characteristic>
+            <characteristic name="Courage" typeId="3ea8-3e5a-9400-878e">4+</characteristic>
+            <characteristic name="Morale" typeId="68ce-356d-7a68-0eaf">4+</characteristic>
+            <characteristic name="Rally" typeId="2a3a-aed9-48b2-234a">4+</characteristic>
+            <characteristic name="Skill" typeId="eb99-12e9-c164-6fd6">3+</characteristic>
+            <characteristic name="Assault" typeId="060b-f9d6-0748-a496">4+</characteristic>
+            <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="470a-0f30-d5a4-9f67" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
         <infoLink id="8bd2-c44d-4a88-ad76" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="8cad-cd8b-172b-4543" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
         <infoLink id="6600-73a1-b4cd-edf1" name="HMMWV Transport" hidden="false" targetId="0a70-c302-36b5-0261" type="infoGroup"/>
+        <infoLink id="78d6-ebd4-d37a-296f" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f59-1e3f-ba65-e530" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="67ad-00e7-e801-debd">
@@ -5772,68 +5757,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec6-1a10-3ca4-0a60" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c90e-28b1-9cbd-c77a" name="6x M249 SAW or M72 LAW 1x M60 GPMG 3x M47 10X HMMWV" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="a065-374f-7624-6b96" name="6x M249 SAW or M72 LAW" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8168-4210-0a52-cc56" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186e-d83a-340d-a1a6" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="0dc8-b250-6722-5ce3" name="M249 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="e28b-782b-3f30-c6d2" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6cea-1644-1a70-302a" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="73d1-ab21-2415-2d36" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="645e-1282-d505-42ee" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                        <infoLink id="7618-3c84-512c-359f" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="c90e-28b1-9cbd-c77a" name="6x M249 SAW with M72 LAW 1x M60 GPMG 3x M47 10X HMMWV" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="82b9-5539-5537-b945" name="M60 GPMG" hidden="false" targetId="ccbc-7622-a4af-0026" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="67ad-00e7-e801-debd" name="6x M249 SAW or M72 LAW 2xM47 8X HMMWV" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="4ade-bb4a-282f-538a" name="6x M249 SAW or M72 LAW" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e09-4981-74fd-702b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa54-aab9-7007-7625" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="7138-79c4-27fc-b8c6" name="M249 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="613e-6083-2cc9-6182" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8292-d255-07d0-3086" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="46b1-51fb-43a3-fe68" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="dd31-10d5-0de4-59c6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                        <infoLink id="60f7-338e-78b9-4a67" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="67ad-00e7-e801-debd" name="6x M249 SAW with M72 LAW 2xM47 8X HMMWV" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
@@ -5880,18 +5812,39 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f675-5bf4-b041-50d7" name="M113 Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a097-58f5-4435-03ab" name="M113 Mech Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="ba8c-85b8-4860-cd28">12&quot;/30CM</characteristic>
+            <characteristic name="Road Dash" typeId="ad4b-3a11-05ef-daf4">12&quot;/30CM</characteristic>
+            <characteristic name="Cross" typeId="93df-8d45-e422-9163">AUTO</characteristic>
+            <characteristic name="Is Hit On" typeId="b0ba-ff6a-b454-a926">4+</characteristic>
+            <characteristic name="Infantry Save" typeId="7ad2-ac9e-02fd-af45">3+</characteristic>
+            <characteristic name="Courage" typeId="3ea8-3e5a-9400-878e">4+</characteristic>
+            <characteristic name="Morale" typeId="68ce-356d-7a68-0eaf">4+</characteristic>
+            <characteristic name="Rally" typeId="2a3a-aed9-48b2-234a">4+</characteristic>
+            <characteristic name="Skill" typeId="eb99-12e9-c164-6fd6">4+</characteristic>
+            <characteristic name="Assault" typeId="060b-f9d6-0748-a496">4+</characteristic>
+            <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="9174-2848-4e9b-f2e7" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-        <infoLink id="dcb6-4f86-fb7b-d61d" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
+        <infoLink id="9693-0d9c-32a3-7f4f" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
+        <infoLink id="d683-9d4f-446e-36b6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="db51-3eb0-8965-98eb" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="350a-1012-56ab-fcef">
+        <selectionEntryGroup id="db51-3eb0-8965-98eb" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="36c6-6341-6452-1934">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca3-4c30-a9b7-2cfb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca5-894c-322b-9be0" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="350a-1012-56ab-fcef" name="3x M47 3x M113" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="350a-1012-56ab-fcef" name="4x M249 with M72 LAW 3x M47 3x M113" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="fc9a-ae61-9f49-1eed" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -5902,37 +5855,11 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0597-2ec0-8acb-d2b7" name="M249 or M72 LAW" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03d-df76-33f3-c71f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce04-bd07-7879-9337" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="61d1-d5e9-e5f7-6af2" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="763d-c2b5-38f6-7a83" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8fa5-f424-c9d1-5225" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="ed50-d384-4c54-d15a" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="36c6-6341-6452-1934" name="3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="36c6-6341-6452-1934" name="3x M249 or M72 LAW 3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="dc43-c087-1ea0-b9b5" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -5943,34 +5870,8 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="8dd8-d5f9-1947-0ab3" name="M249 or M72 LAW" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2832-cfe1-2c7d-da58" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c71e-8fd3-4c53-989b" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="7ab2-835d-6b94-09a7" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="0b4c-ba7e-02ea-0ed0" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="62b4-4316-7ce0-38d9" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="d3aa-863f-ee8d-94e7" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5981,6 +5882,32 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="97dd-eb71-692d-636a" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a5c3-15ea-c1fa-c72d" name="M2 Bradley Mech Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="ba8c-85b8-4860-cd28">12&quot;/30CM</characteristic>
+            <characteristic name="Road Dash" typeId="ad4b-3a11-05ef-daf4">12&quot;/30CM</characteristic>
+            <characteristic name="Cross" typeId="93df-8d45-e422-9163">AUTO</characteristic>
+            <characteristic name="Is Hit On" typeId="b0ba-ff6a-b454-a926">4+</characteristic>
+            <characteristic name="Infantry Save" typeId="7ad2-ac9e-02fd-af45">3+</characteristic>
+            <characteristic name="Courage" typeId="3ea8-3e5a-9400-878e">4+</characteristic>
+            <characteristic name="Morale" typeId="68ce-356d-7a68-0eaf">4+</characteristic>
+            <characteristic name="Rally" typeId="2a3a-aed9-48b2-234a">4+</characteristic>
+            <characteristic name="Skill" typeId="eb99-12e9-c164-6fd6">4+</characteristic>
+            <characteristic name="Assault" typeId="060b-f9d6-0748-a496">4+</characteristic>
+            <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b817-5b9d-4393-e146" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
+        <infoLink id="1294-2e7a-4066-8e46" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
+        <infoLink id="f9ab-38b2-4922-9d28" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
+        <infoLink id="950b-0520-503a-fba6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="cb2e-7348-41bd-8fa1" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a99c-dec1-83a5-200b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="febc-62eb-e721-443b">
           <constraints>
@@ -5988,154 +5915,42 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ed-67ba-a884-b6da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="59ab-2226-4fa3-99d6" name="3x M47 Dragon 3x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="59ab-2226-4fa3-99d6" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="bfe8-d9e3-439e-0512" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
                 <infoLink id="532e-6adc-ccd7-2f6e" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                <infoLink id="c475-57eb-352b-5b78" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
+                <infoLink id="c475-57eb-352b-5b78" name="M2A2/M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="8f62-84a5-9436-f4c4" name="3x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="ad21-1cda-4ccb-c50c">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef6a-7da2-10a5-fea3" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a1-976d-48ad-990d" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="ad21-1cda-4ccb-c50c" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="1db7-d283-0ee5-114b" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a827-b8a6-7dcd-acf3" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="2b27-fb11-9d73-39fb" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="0254-ca1b-afa8-fbd1" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                        <infoLink id="c74d-9c9b-1be8-02de" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="12.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="febc-62eb-e721-443b" name="3x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="febc-62eb-e721-443b" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="fbfb-1b78-aa27-265e" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
                 <infoLink id="c04e-3365-87d0-a255" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                <infoLink id="d26f-2e7d-65c5-5553" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
+                <infoLink id="d26f-2e7d-65c5-5553" name="M2/M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="b712-52d1-de21-9a52" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="e282-de7a-bdc1-9653">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accf-f25f-074f-4f43" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d453-6a23-545c-479f" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="e282-de7a-bdc1-9653" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="a435-0a78-e9fd-f6a6" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e410-6001-c28c-4d84" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="f973-09e3-5cf2-d652" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="5d64-c5cb-3ce1-56fb" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                        <infoLink id="ee52-ba74-149a-29bc" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0798-7432-6f3d-f763" name="3x M47 Dragon 4x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0798-7432-6f3d-f763" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9bfd-b08c-4685-45b8" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
                 <infoLink id="1da9-0dce-d65e-1ab1" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                <infoLink id="0fd8-96d3-fd58-b115" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
+                <infoLink id="0fd8-96d3-fd58-b115" name="M2A2/M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="b1bb-5af9-d517-d5da" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ab5-bb78-6a9c-ec8f">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b489-3f75-a25f-f1ce" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c0-3f52-c4af-e833" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="9ab5-bb78-6a9c-ec8f" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="ccbe-f9cd-c5cc-cea3" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="cbb6-c247-906f-3f37" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="aff7-40f5-7a09-71d1" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="16ca-1ccb-9320-aa3c" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                        <infoLink id="b5b1-8a62-e2b5-97ee" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="19.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9780-18b4-cddb-702e" name="3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9780-18b4-cddb-702e" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="cb6a-f1a1-fd6b-09de" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
                 <infoLink id="8a6a-41ba-9803-8da4" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                <infoLink id="07aa-c003-5b77-caca" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
+                <infoLink id="07aa-c003-5b77-caca" name="M2/M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e33f-c006-c8cf-cf64" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="f068-448d-eeb9-a94d">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdce-8c0f-dd2c-d85e" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e14-c40f-e8a3-1784" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="f068-448d-eeb9-a94d" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="b348-5983-929b-95d8" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1428-406b-200b-06d8" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="8c42-d421-8935-52fa" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                        <infoLink id="2f56-99f1-b5d4-ed62" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                        <infoLink id="d534-ca99-c90d-30a0" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="15.0"/>
               </costs>
