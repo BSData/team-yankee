@@ -1507,7 +1507,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="11.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2ec3-2fe7-2bf2-17cc" name="3x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
@@ -1583,7 +1583,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="50a4-bb0f-85e0-acc9" name="3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
