@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0050-c33c-cf58-fb47" name="Leopard - West Germans in World War III" shortName="Leopard" publisher="FW906" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
+    <publication id="132c-e55c-0907-462f" name="Panzertruppen - West Germans in World War III" shortName="Panzertruppen" publisher="ISBN 9780994120663" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="7b0f-b885-5925-9892" name="Artillery Unit" hidden="false"/>
@@ -78,33 +79,24 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="adda-066e-8cc3-78c4" name="Leopard 2 Panzer Zug or Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff20-c695-7038-9695" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde7-755f-e90e-0b6f" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="4e8c-bb2b-faa0-d2d8" name="Leopard 2 Panzer Zug or Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" defaultSelectionEntryId="efc0-4c89-5267-891c">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0983-5427-f4ea-0a23" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a1d-c3b7-88a1-94dc" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="efc0-4c89-5267-891c" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry"/>
-                <entryLink id="bd75-b0fa-7a48-684c" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f319-6249-15d8-1552" name="Zug Choice" hidden="false" collective="false" import="true" defaultSelectionEntryId="fab4-3396-63bd-44fc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e71-86d4-19d9-8d2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f967-dc96-e84d-c187" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fab4-3396-63bd-44fc" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry"/>
+            <entryLink id="04db-c5ea-b65a-f989" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="04cc-2bd3-85f0-ce43" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc47-34ac-5f57-314a" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc3-fd17-0e93-59b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc47-34ac-5f57-314a" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fc3-fd17-0e93-59b1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="331a-f72d-4fc8-861c" name="Jaguar 1 Jagdpanzer Zug" hidden="false" collective="false" import="true" targetId="0e22-9d99-a2f2-6f8d" type="selectionEntry">
@@ -176,27 +168,6 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7453-7879-8dae-4478" name="Leopard 2 Panzer Zug or Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5424-5f82-3e3a-58e2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18bf-e7b4-ba43-80bd" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ff52-56ab-61e9-2fe7" name="Marder Panzergrenadier Zug or Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" defaultSelectionEntryId="517b-7037-f92d-e1e1">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8656-3c9f-e46b-eb5d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf34-53aa-6e42-4f98" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="111f-b50d-224f-bb21" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry"/>
-                <entryLink id="517b-7037-f92d-e1e1" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f2f8-2f49-1af3-759c" name="Jaguar 1 Jagdpanzer Zug or Jaguar 2 Jagdpanzer Zug" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c94-0571-21a1-a0ed" type="max"/>
@@ -218,11 +189,23 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5a1c-7162-c55c-a146" name="Optional Tank Support" hidden="false" collective="false" import="true" defaultSelectionEntryId="794a-90a2-8b45-a877">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19a-d758-bf16-f172" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba4-95f8-0236-518f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ec6-5e76-b9a4-b6b8" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry"/>
+            <entryLink id="794a-90a2-8b45-a877" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cfce-1083-c998-0080" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7da-e564-f01a-d8be" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af43-0df1-bc5a-4737" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7da-e564-f01a-d8be" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af43-0df1-bc5a-4737" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="e0c6-38af-4545-f0f2" name="Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="c542-88a6-8378-b479" type="selectionEntry">
@@ -395,6 +378,150 @@
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4438-7740-784e-4162" name="Leopard 1 Panzerkompanie" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9b2d-287a-14d3-c175" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1472-48f4-5d78-9560" name="Zug Choice" hidden="false" collective="false" import="true" defaultSelectionEntryId="e28d-b694-fb16-687a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="340f-2a88-8498-a7db" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e7e-f346-71ea-99fd" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e28d-b694-fb16-687a" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry"/>
+            <entryLink id="5109-4407-7132-6df6" name="Marder Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="7d57-2c77-9780-e996" type="selectionEntry"/>
+            <entryLink id="839d-d020-a774-2390" name="M113 Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="f659-324d-e3ef-772f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b046-dec7-1c5d-bbca" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3bf6-9265-93a8-ed86" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c23-a85e-845b-b6bc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8f2a-6663-b38f-7923" name="Leopard 1 Panzerkompanie HQ" hidden="false" collective="false" import="true" targetId="e0da-43d5-d8ec-81b5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e2d-03fb-aa0b-7e20" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a59-2380-5c5b-57bc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="78c4-cf50-77de-7674" name="Jaguar 2 Jagdpanzer Zug" hidden="false" collective="false" import="true" targetId="389f-49df-e8d5-512d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8104-65a3-d2d8-76f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d1c6-4d12-ea91-abf6" name="Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="c542-88a6-8378-b479" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f60e-47c7-63ca-f286" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="04a1-be4b-59ac-2b11" name="M109G Panzerartillerie Batterie" hidden="false" collective="false" import="true" targetId="9ca9-63ad-bdfc-9b7b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987d-ae7f-7131-239d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d1b3-9c20-eb12-3b28" name="Gepard Flakpanzer Batterie" hidden="false" collective="false" import="true" targetId="a24b-4e4c-73dc-72fd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79b4-5024-8dc7-8fbb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="6212-4a5b-c300-17e9" name="M113 Panzergrenadier Kompanie" publicationId="132c-e55c-0907-462f" page="7" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9426-636e-ddcf-94f4" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8969-0a8b-7c73-a2c9" name="Zug Choice" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e06-dd60-f1f4-345b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b7f-880f-2e4b-a0e8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6d5-9f59-58d6-f067" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2e06-dd60-f1f4-345b" name="M113 Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="f659-324d-e3ef-772f" type="selectionEntry"/>
+            <entryLink id="dcdd-274f-70c9-f062" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="03a1-d3ee-9e32-9b03" name="M113 Panzergrenadier Kompanie HQ" hidden="false" collective="false" import="true" targetId="fb39-e5ce-df10-7152" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e8b-2c20-4e26-cda0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7f-963c-b6f9-e816" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a610-3372-d2d0-0fee" name="M113 Panzergrenadier Zug" hidden="false" collective="false" import="true" targetId="f659-324d-e3ef-772f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6cb6-dcec-036b-df9a" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="168b-b048-03e0-5dea" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f309-759a-564d-4d5a" name="Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="c542-88a6-8378-b479" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f3-293a-25e8-2068" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="60f1-11bd-51bc-384f" name="M109G Panzerartillerie Batterie" hidden="false" collective="false" import="true" targetId="9ca9-63ad-bdfc-9b7b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe0-5fdd-bcbd-c8f6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="09ce-4e78-dcae-2c18" name="Gepard Flakpanzer Batterie" hidden="false" collective="false" import="true" targetId="a24b-4e4c-73dc-72fd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cdf-dcb0-0e00-9c80" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f800-c0f4-6af5-832f" name="Jaguar 2 Jagdpanzer Zug" hidden="false" collective="false" import="true" targetId="389f-49df-e8d5-512d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e46c-f0d6-a1eb-c39b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3369-a9b6-d12c-bf39" name="M113 Panzermörser Zug" hidden="false" collective="false" import="true" targetId="3ae1-383e-f318-9f6d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d032-b21e-b597-f1b1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0a84-2841-a1b6-1f53" name="Fuchs Panzeraufklärungs Kompanie" publicationId="132c-e55c-0907-462f" page="10" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2fb0-e486-025e-89af" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5603-ddf4-4da5-c39e" name="Zug Choice" hidden="false" collective="false" import="true" defaultSelectionEntryId="38e6-b5fd-c408-4dcd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af9a-4928-a2ac-b713" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="092a-1a07-b551-8f89" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="38e6-b5fd-c408-4dcd" name="Fuchs Panzeraufklärungs Zug" hidden="false" collective="false" import="true" targetId="bae0-8445-021e-980a" type="selectionEntry"/>
+            <entryLink id="d9f6-b1a7-deee-2271" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="341b-ba08-3a71-b38d" name="Fuchs Panzeraufklärungs Zug" hidden="false" collective="false" import="true" targetId="bae0-8445-021e-980a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7b9-84c1-41dc-3a65" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4646-2ae5-e735-299a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f9db-a6b1-9332-126e" name="Fuchs Panzeraufklärungs Kompanie HQ" hidden="false" collective="false" import="true" targetId="7aaf-059b-75cd-2e50" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d00d-e6a1-a41a-e300" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6412-bcc0-a749-6d09" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="16a4-c9d6-765b-8687" name="Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="c542-88a6-8378-b479" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacd-2e93-61dd-3037" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1203,6 +1330,88 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e0da-43d5-d8ec-81b5" name="Leopard 1 Panzerkompanie HQ" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="21c6-345e-6efc-3deb" name="1x Leopard 1" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b363-4c31-aceb-6566" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d3-c4ae-1eb5-7613" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cf37-0195-ab34-7bcc" name="Leopard 1 (HQ)" hidden="false" targetId="e402-2413-e740-7898" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="f659-324d-e3ef-772f" name="M113 Panzergrenadier Zug" publicationId="132c-e55c-0907-462f" page="8" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="494a-e7f4-c357-0781" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c394-585a-1563-51ab">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b33-b71a-013d-48b5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e5f-c12e-d77a-0c03" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b830-48e7-c5a4-619c" name="3x MG3 Team with Panzerfaust 44 Anti-Tank Rocket, 3x Milan Missile Team, 3x M113" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4bd6-0120-4812-a65c" name="Milan Missile Team" hidden="false" targetId="18bd-b5e1-d788-4843" type="infoGroup"/>
+                <infoLink id="00ee-8aa5-0a41-09d7" name="MG3 Team with Panzerfaust 44" hidden="false" targetId="3c21-40a2-d8f2-4e96" type="infoGroup"/>
+                <infoLink id="4620-54a9-99e5-2c09" name="M113 Transport" hidden="false" targetId="2649-5852-d902-dbf2" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c394-585a-1563-51ab" name="2x MG3 Team with Panzerfaust 44 Anti-Tank Rocket, 2x Milan Missile Team, 2x M113" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fad0-e582-e019-ca9d" name="Milan Missile Team" hidden="false" targetId="18bd-b5e1-d788-4843" type="infoGroup"/>
+                <infoLink id="8ed1-9bea-7822-8762" name="MG3 Team with Panzerfaust 44" hidden="false" targetId="3c21-40a2-d8f2-4e96" type="infoGroup"/>
+                <infoLink id="144b-7039-8eab-2047" name="M113 Transport" hidden="false" targetId="2649-5852-d902-dbf2" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="fb39-e5ce-df10-7152" name="M113 Panzergrenadier Kompanie HQ" publicationId="132c-e55c-0907-462f" page="7" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="f382-8e75-0af1-dba6" name="1x G3 Rifle Team, 1x M113" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f091-4819-b857-b51f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8291-49c0-a772-eac9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="21ca-46cb-cef0-83f4" name="G3 Rifle Team" hidden="false" targetId="e0cd-91ce-54f8-bcb0" type="infoGroup"/>
+            <infoLink id="4e45-4959-5b0e-c2c8" name="M113 Transport" hidden="false" targetId="2649-5852-d902-dbf2" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="7aaf-059b-75cd-2e50" name="Fuchs Panzeraufklärungs Kompanie HQ" publicationId="132c-e55c-0907-462f" page="10" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="1b83-a5ee-5671-e956" name="1x G3 Rifle Team, 1x Fuchs" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-c14a-544f-67e7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cabf-8086-b64e-4ecb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f19e-efb7-ae53-2c48" name="G3 Rifle Team" hidden="false" targetId="e0cd-91ce-54f8-bcb0" type="infoGroup"/>
+            <infoLink id="2495-1cac-a0e3-6036" name="Fuchs Transport" hidden="false" targetId="f550-e74d-386a-99a6" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6712-1949-6f59-f1a9" name="Forward Defence" publicationId="0050-c33c-cf58-fb47" page="38" hidden="false">
@@ -1770,6 +1979,25 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
       </characteristics>
     </profile>
+    <profile id="81e1-6627-c677-643b" name="M113 Transport" publicationId="0050-c33c-cf58-fb47" page="27" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">24&quot; / 60cm</characteristic>
+        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot; / 80cm</characteristic>
+        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">3+</characteristic>
+        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
+        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
+        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
+        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
+        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
+        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
+        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
+        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
+        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
+        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="b136-79c0-eba2-6e8b" name="Leopard 2 Panzer" publicationId="0050-c33c-cf58-fb47" page="22" hidden="false">
@@ -2009,6 +2237,20 @@
         <infoLink id="944c-c328-29b0-c84b" name="Roland 2 AA Missile" hidden="false" targetId="fccd-6c95-07b8-1746" type="profile"/>
         <infoLink id="6dc1-bbc0-7993-b7a0" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="3f51-996e-f88f-f8e4" name="Guided AA" hidden="false" targetId="8fe0-6df6-1e26-7ec2" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2649-5852-d902-dbf2" name="M113 Transport" hidden="false">
+      <infoLinks>
+        <infoLink id="ba37-e8e4-f7ac-b0ea" name="M113 Transport" hidden="false" targetId="81e1-6627-c677-643b" type="profile"/>
+        <infoLink id="7d5f-d7f7-2385-b3e0" name="7.62mm AA MG" hidden="false" targetId="828e-2208-2785-a126" type="infoGroup"/>
+        <infoLink id="648a-1076-aef3-bcbd" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+        <infoLink id="fcce-dcc0-2fb9-fe21" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="828e-2208-2785-a126" name="7.62mm AA MG" hidden="false">
+      <infoLinks>
+        <infoLink id="7734-bbb6-3360-8f77" name="7.62mm AA MG" hidden="false" targetId="3135-8b97-b0ea-a8c2" type="profile"/>
+        <infoLink id="aff9-9a22-119b-6cc8" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
