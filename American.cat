@@ -1507,7 +1507,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="11.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2ec3-2fe7-2bf2-17cc" name="3x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
@@ -1583,7 +1583,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="50a4-bb0f-85e0-acc9" name="3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
@@ -5749,6 +5749,8 @@
         <infoLink id="6600-73a1-b4cd-edf1" name="HMMWV Transport" hidden="false" targetId="0a70-c302-36b5-0261" type="infoGroup"/>
         <infoLink id="78d6-ebd4-d37a-296f" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
         <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="3725-92b0-7b53-44a4" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
+        <infoLink id="5e42-21f6-ca96-1412" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f59-1e3f-ba65-e530" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="67ad-00e7-e801-debd">
@@ -5922,7 +5924,7 @@
                 <infoLink id="c475-57eb-352b-5b78" name="M2A2/M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="febc-62eb-e721-443b" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
@@ -5942,7 +5944,7 @@
                 <infoLink id="0fd8-96d3-fd58-b115" name="M2A2/M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="19.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9780-18b4-cddb-702e" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
