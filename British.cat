@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e6e0-9a49-2e0b-f063" name="British" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e6e0-9a49-2e0b-f063" name="British" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="96f5-a2c3-a592-699e" name="World War III &quot;Team Yankee&quot; - British" shortName="British" publisher="ISBN 9781988558134" publicationDate="2019" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -93,14 +93,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d31f-7ecd-0d8c-21e8" name="Warrior Mechanised Company (HQ)" hidden="false" collective="false" import="true" targetId="db52-979b-043a-76be" type="selectionEntry">
+        <entryLink id="d31f-7ecd-0d8c-21e8" name="Warrior Mechanised Company HQ" hidden="false" collective="false" import="true" targetId="db52-979b-043a-76be" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53f-7207-b113-7d5f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7674-98c6-a367-4889" type="max"/>
           </constraints>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="a9df-d775-0149-f9f6" name="Warrior Mechanised Platoon" hidden="false" collective="false" import="true" targetId="d6d7-28fc-8199-738a" type="selectionEntry">
           <constraints>
@@ -213,6 +210,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bdd2-22b4-fc40-d611" name="FV432 Mechanised Company" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -277,6 +277,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="06e6-33ac-354d-b447" name="Medium Recce Squadron" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -303,6 +306,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -323,6 +329,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="86eb-461f-6d1c-1123" name="Wheeled Recce Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -350,6 +359,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -618,7 +630,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6d7-28fc-8199-738a" name="Warrior Mechanised Platoon" publicationId="96f5-a2c3-a592-699e" page="20" hidden="false" collective="false" import="true" type="unit">
@@ -882,7 +894,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bb9-00a8-668e-6d9d" name="FV432 Mechanised Platoon" publicationId="96f5-a2c3-a592-699e" page="36" hidden="false" collective="false" import="true" type="unit">
@@ -1017,7 +1029,7 @@
         <categoryLink id="83bb-3033-3b8b-d56c" name="Artillery Unit" hidden="false" targetId="dd59-c376-1e7b-928f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="aa38-7d40-77d8-9a7d" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="aa38-7d40-77d8-9a7d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a249-7c76-c1a8-0e2e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cd6-6a9a-d461-4b96" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ec-f6a9-2105-cf1e" type="max"/>
@@ -1084,6 +1096,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="56ef-0772-5b30-fc61" name="Lynx Airmobile Platoon" publicationId="96f5-a2c3-a592-699e" page="39" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1160,6 +1175,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2c71-1714-737a-6ca5" name="Spartan Recce Squadron HQ" publicationId="96f5-a2c3-a592-699e" page="40" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1171,6 +1189,9 @@
           <infoLinks>
             <infoLink id="70a5-c4e9-c826-a8cf" name="Spartan Recce HQ" hidden="false" targetId="4e00-1814-0b7d-0fa6" type="infoGroup"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1204,6 +1225,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="588d-172f-a48d-1dcf" name="Scorpion Recce Troop" publicationId="96f5-a2c3-a592-699e" page="41" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1232,6 +1256,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4d93-a834-632f-88e7" name="Striker Guided Weapons Troop" publicationId="96f5-a2c3-a592-699e" page="42" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1245,19 +1272,32 @@
               <infoLinks>
                 <infoLink id="a9bb-5fd6-15de-c0e1" name="Striker Swingfire" hidden="false" targetId="be29-6411-ddf9-88f0" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b90d-248c-5804-1a31" name="4x Striker" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9a14-6a4d-eac5-17ab" name="Striker Swingfire" hidden="false" targetId="be29-6411-ddf9-88f0" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="7cbe-83bf-bffe-5584" name="Spartan Support Troop" publicationId="96f5-a2c3-a592-699e" page="43" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7cbe-83bf-bffe-5584" name="Spartan Support Troop" publicationId="96f5-a2c3-a592-699e" page="43" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="a373-6768-e076-5296" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a2b9-0b1c-18ac-e996">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee62-04d2-a518-b33e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f0-dd9f-3325-2654" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="997d-98e5-a1ec-a2fc" name="4x GPMG Team with 66mm Anti-Tank, 4x Spartan" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -1280,6 +1320,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0250-5b98-6d10-acb3" name="Wheeled Recce Squadron HQ" publicationId="96f5-a2c3-a592-699e" page="45" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1296,6 +1339,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="23d6-5c48-24bd-660f" name="Fox Recce Troop" publicationId="96f5-a2c3-a592-699e" page="45" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1312,6 +1358,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a1ce-60aa-5cee-424e" name="M109 Field Battery" publicationId="96f5-a2c3-a592-699e" page="46" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1360,6 +1409,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="daa0-287e-1f26-4197" name="Abbot Field Battery" publicationId="96f5-a2c3-a592-699e" page="46" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1400,6 +1452,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="762a-dab9-f573-0e28" name="MLRS Medium Rocket Battery" publicationId="96f5-a2c3-a592-699e" page="47" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1449,6 +1504,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3ff2-1d31-4538-e9b2" name="FV432 FOO" publicationId="96f5-a2c3-a592-699e" page="47" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1465,6 +1523,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="847f-c65e-3b36-de38" name="Chieftain Marksman AA Battery" publicationId="96f5-a2c3-a592-699e" page="48" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1493,6 +1554,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0d4d-877f-d1b1-665f" name="Spartan Blowpipe SAM Section" publicationId="96f5-a2c3-a592-699e" page="48" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1529,6 +1593,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7d9a-0790-7ffa-23f2" name="Tracked Rapier SAM Section" publicationId="96f5-a2c3-a592-699e" page="49" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1557,6 +1624,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d46d-3416-5499-4530" name="TOW Lynx Helarm Flight" publicationId="96f5-a2c3-a592-699e" page="49" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1585,6 +1655,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="eb5b-42ce-4de8-e45e" name="Harrier Close Air Support Flight" publicationId="96f5-a2c3-a592-699e" page="49" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1613,6 +1686,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
