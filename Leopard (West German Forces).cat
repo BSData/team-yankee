@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="4" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0050-c33c-cf58-fb47" name="Leopard - West Germans in World War III" shortName="Leopard" publisher="FW906" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
     <publication id="132c-e55c-0907-462f" name="Panzertruppen - West Germans in World War III" shortName="Panzertruppen" publisher="ISBN 9780994120663" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
@@ -430,6 +430,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6212-4a5b-c300-17e9" name="M113 Panzergrenadier Kompanie" publicationId="132c-e55c-0907-462f" page="7" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -486,6 +489,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0a84-2841-a1b6-1f53" name="Fuchs Panzeraufklärungs Kompanie" publicationId="132c-e55c-0907-462f" page="10" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -522,6 +528,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1327,7 +1336,7 @@
         <categoryLink id="a2da-b6ac-d256-87d3" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0da-43d5-d8ec-81b5" name="Leopard 1 Panzerkompanie HQ" hidden="false" collective="false" import="true" type="unit">
@@ -1345,6 +1354,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f659-324d-e3ef-772f" name="M113 Panzergrenadier Zug" publicationId="132c-e55c-0907-462f" page="8" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
@@ -1377,6 +1389,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fb39-e5ce-df10-7152" name="M113 Panzergrenadier Kompanie HQ" publicationId="132c-e55c-0907-462f" page="7" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1394,6 +1409,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7aaf-059b-75cd-2e50" name="Fuchs Panzeraufklärungs Kompanie HQ" publicationId="132c-e55c-0907-462f" page="10" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -1411,6 +1429,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
