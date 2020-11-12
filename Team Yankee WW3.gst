@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="2" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="3" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Still a work in progress. Will be adding other forces as I can acquire the books or cards to do so.</readme>
   <publications>
     <publication id="ce0d-b868-73d3-d028" name="American" shortName="American" publisher="American"/>
@@ -250,8 +250,8 @@ When Deploying their remaining Units, a player may trreat the area entirely with
     <rule id="63c4-326e-93d2-76aa" name="Passengers 1" hidden="false">
       <description>A Transport Team can carry 1 Infantry Teams as Passengers. </description>
     </rule>
-    <rule id="b814-659f-46f8-b83a" name="Assualt #" publicationId="cc6b-118f-f23b-6738" hidden="false">
-      <description>Teams with the Assualt # speical rule use this number for To Hit rolls in Assualts rather than the normal one hsown on the card.</description>
+    <rule id="b814-659f-46f8-b83a" name="Assault #" publicationId="cc6b-118f-f23b-6738" hidden="false">
+      <description>Teams with the Assualt # special rule use this number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
     <rule id="60ba-123c-4f2a-1604" name="AA MG" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>AA MG Weapons can Shoot at Aircraft with a ROF of 1</description>
