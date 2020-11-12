@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2dd9-018c-3821-dd24" name="Red Thunder - Soviets in World War III" shortName="Red Thunder" publisher="ISBN 9780994147417" publicationDate="2017" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -2069,7 +2069,7 @@
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">6</characteristic>
         <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">4</characteristic>
         <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">6</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5</characteristic>
+        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Dedicated AA, Radar</characteristic>
       </characteristics>
     </profile>
@@ -2133,7 +2133,7 @@
     </profile>
     <profile id="a8db-ccd7-4dce-0d74" name="AT-3 Sagger Missile" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
+        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm - 44&quot; / 110cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
         <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">-</characteristic>
         <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">19</characteristic>
@@ -2674,6 +2674,16 @@
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
+    <profile id="8bf4-ac5a-776b-28fb" name="7.62mm MG (BMP)" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
+        <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
+        <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">1</characteristic>
+        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
+        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
+        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="e330-12a9-5851-6424" name="125mm 2A46 Gun" hidden="false">
@@ -2757,7 +2767,7 @@
         <infoLink id="3a3d-6d1a-f429-899c" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="b2ad-e0fe-3a66-a64d" name="BMP-1" hidden="false" targetId="df9d-db95-e288-f921" type="profile"/>
         <infoLink id="092c-d3c0-430c-8d67" name="AT-3 Sagger Missile" hidden="false" targetId="ccba-d530-d76f-a4e0" type="infoGroup"/>
-        <infoLink id="df07-9cf4-a939-e2e7" name="7.62mm MG" hidden="false" targetId="ff35-1171-70bc-51fa" type="profile"/>
+        <infoLink id="df07-9cf4-a939-e2e7" name="7.62mm MG (BMP)" hidden="false" targetId="8bf4-ac5a-776b-28fb" type="profile"/>
         <infoLink id="094e-e47d-441f-abad" name="73mm 2A28 Gun" hidden="false" targetId="db4a-4116-b0c0-19ec" type="infoGroup"/>
       </infoLinks>
     </infoGroup>
@@ -2773,7 +2783,7 @@
         <infoLink id="9164-3d67-0473-5406" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="4ae7-c1b2-df36-2113" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="c43d-d6a6-e0f3-b919" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
-        <infoLink id="c028-2152-0911-d52a" name="7.62mm MG" hidden="false" targetId="ff35-1171-70bc-51fa" type="profile"/>
+        <infoLink id="c028-2152-0911-d52a" name="7.62mm MG (BMP)" hidden="false" targetId="8bf4-ac5a-776b-28fb" type="profile"/>
         <infoLink id="dc45-86d1-43ed-decf" name="BMP-2" hidden="false" targetId="7c8d-c7a9-aaf8-2afa" type="profile"/>
         <infoLink id="4a4b-a633-a987-2f91" name="30mm 2A42 Gun" hidden="false" targetId="5c4f-d3aa-269e-afa1" type="infoGroup"/>
         <infoLink id="545a-7018-e012-2e2c" name="AT-5  Spandrel Missile" hidden="false" targetId="c623-3761-d8bd-9794" type="infoGroup"/>
@@ -2985,7 +2995,7 @@
         <infoLink id="74ec-c176-0a8a-4131" name="Observer" hidden="false" targetId="e41f-bf7a-3766-c44c" type="rule"/>
         <infoLink id="4a3a-7884-70f9-b7ca" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
         <infoLink id="8770-ae69-23dc-8819" name="BMP-1 OP" hidden="false" targetId="93cd-e83f-9c07-d430" type="profile"/>
-        <infoLink id="977f-b5d6-ebc6-18bd" name="7.62mm MG" hidden="false" targetId="ff35-1171-70bc-51fa" type="profile"/>
+        <infoLink id="977f-b5d6-ebc6-18bd" name="7.62mm MG (BMP)" hidden="false" targetId="8bf4-ac5a-776b-28fb" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="f156-c71e-8266-7693" name="2S3 Acacia" hidden="false">
