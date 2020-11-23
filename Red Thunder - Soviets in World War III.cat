@@ -2714,6 +2714,7 @@
     <infoGroup id="faf0-9a03-e56b-b4f2" name="12.7mm AA MG" hidden="false">
       <infoLinks>
         <infoLink id="9a05-aa64-1706-1b20" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+        <infoLink id="4879-1511-d73a-048b" name="12.7mm AA MG" hidden="false" targetId="c5b2-6c94-a5b2-5808" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="441d-979f-fdfa-7419" name="T-64" hidden="false">
@@ -2814,6 +2815,7 @@
         <infoLink id="4452-9187-4ccf-3138" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="8d8e-b65b-cd2a-295b" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="c4f3-070e-887e-88ba" name="AT-5  Spandrel Missile" hidden="false" targetId="c623-3761-d8bd-9794" type="infoGroup"/>
+        <infoLink id="5c6e-efed-e8b8-5ee3" name="Spandrel" hidden="false" targetId="4459-41e2-8e79-0f5a" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="c809-a61f-b7be-ea94" name="2S1 Carnation" hidden="false">
