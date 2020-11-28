@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="3" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="5" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Still a work in progress. Will be adding other forces as I can acquire the books or cards to do so.</readme>
   <publications>
     <publication id="ce0d-b868-73d3-d028" name="American" shortName="American" publisher="American"/>
     <publication id="cc6b-118f-f23b-6738" name="WW3 Team Yankee" shortName="WW3" publisher="WW3 Team Yankee"/>
+    <publication id="87b2-2e1f-509c-a6e1" name="Red Thunder - Soviets in World War III" shortName="Red Thunder" publisher="ISBN 9780994147417" publicationDate="2017" publisherUrl="www.team-yankee.com"/>
+    <publication id="8b89-33f2-0e6f-53bb" name="Soviet" shortName="Soviet" publisher="ISBN 9781988558233" publicationDate="2020" publisherUrl="www.team-yankee.com"/>
   </publications>
   <costTypes>
     <costType id="7216-9333-2b5d-9b72" name="Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -291,6 +293,9 @@ When Deploying their remaining Units, a player may trreat the area entirely with
     </rule>
     <rule id="e41f-bf7a-3766-c44c" name="Observer" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>An Observer Team can Spot for any friendly Artillllery Unit. An Observer Team reduces the score required to Range In by -1.</description>
+    </rule>
+    <rule id="e699-aa9d-514c-9f08" name="Tandem Warhead" hidden="false">
+      <description>A Tandem Warhead HEAT Weapon is unaffected by ERA Armour. The Tank rolls its Armour Save based on its normal armour rating, not that of ERA.</description>
     </rule>
   </sharedRules>
 </gameSystem>

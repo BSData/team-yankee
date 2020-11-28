@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="2dd9-018c-3821-dd24" name="Red Thunder - Soviets in World War III" shortName="Red Thunder" publisher="ISBN 9780994147417" publicationDate="2017" publisherUrl="www.team-yankee.com"/>
+    <publication id="87b2-2e1f-509c-a6e1" name="Red Thunder - Soviets in World War III" shortName="Red Thunder" publisher="ISBN 9780994147417" publicationDate="2017" publisherUrl="www.team-yankee.com"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="5981-98e5-3605-b7e9" name="Artillery Unit" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="8647-d1fd-0825-8022" name="BMP-1 Observation Post" publicationId="2dd9-018c-3821-dd24" page="40" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8647-d1fd-0825-8022" name="BMP-1 Observation Post" publicationId="87b2-2e1f-509c-a6e1" page="40" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="7baf-85fa-46af-260a" value="1.0">
           <conditions>
@@ -39,7 +39,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf71-8dc7-23b8-0c34" name="2S3 Acacia Heavy SP Howitzer Battery" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bf71-8dc7-23b8-0c34" name="2S3 Acacia Heavy SP Howitzer Battery" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d5-9f68-be64-80e7" type="max"/>
       </constraints>
@@ -95,7 +95,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b293-bb2d-9018-5e29" name="BM-21 Hail Rocket Launcher Battery" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b293-bb2d-9018-5e29" name="BM-21 Hail Rocket Launcher Battery" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6f-52e5-74c4-5328" type="max"/>
       </constraints>
@@ -133,7 +133,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58ad-1933-c9e9-0055" name="SU-25 Frogfoot Aviation Company" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="58ad-1933-c9e9-0055" name="SU-25 Frogfoot Aviation Company" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8645-9069-1d24-6554" type="max"/>
       </constraints>
@@ -178,7 +178,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="678f-83b0-92b9-951c" name="MI-24 Hind Assault Helicopter Company" publicationId="2dd9-018c-3821-dd24" page="43" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="678f-83b0-92b9-951c" name="MI-24 Hind Assault Helicopter Company" publicationId="87b2-2e1f-509c-a6e1" page="43" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="c343-63fa-c111-7549" value="0.0">
           <conditions>
@@ -307,7 +307,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7d3-6e70-5541-0e16" name="T-64 Tank Battalion" publicationId="2dd9-018c-3821-dd24" page="19" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e7d3-6e70-5541-0e16" name="T-64 Tank Battalion" publicationId="87b2-2e1f-509c-a6e1" page="19" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1f-0b67-39b3-4ee5" type="max"/>
       </constraints>
@@ -403,7 +403,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b459-162f-5234-b175" name="BTR-60 Motor Rifle Platoon" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b459-162f-5234-b175" name="BTR-60 Motor Rifle Platoon" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fccf-89b6-96ac-0ec8" type="max"/>
       </constraints>
@@ -411,7 +411,7 @@
         <categoryLink id="ed77-b0de-3ef8-e70d" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0684-3ce2-cdc6-596a" name="BTR-60 Motor Rifle Batallion HQ" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0684-3ce2-cdc6-596a" name="BTR-60 Motor Rifle Batallion HQ" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4985-9956-21e6-dcbf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b47-bc10-7fa8-c4a2" type="max"/>
@@ -579,7 +579,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56e1-e830-7b08-a2b9" name="T-72 Tank Battalion" publicationId="2dd9-018c-3821-dd24" page="34" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="56e1-e830-7b08-a2b9" name="T-72 Tank Battalion" publicationId="87b2-2e1f-509c-a6e1" page="34" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e3-78c2-c35a-ac4f" type="max"/>
       </constraints>
@@ -587,7 +587,7 @@
         <categoryLink id="5a2f-2e76-6017-c941" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ce9b-cac9-ae34-1600" name="T-72 Tank Battalion HQ" publicationId="2dd9-018c-3821-dd24" page="34" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="ce9b-cac9-ae34-1600" name="T-72 Tank Battalion HQ" publicationId="87b2-2e1f-509c-a6e1" page="34" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d093-8727-3829-1986" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a70f-98ad-e130-10b1" type="min"/>
@@ -653,7 +653,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e80-4f9b-6c45-62fe" name="Afgantsy Air Assault Battalion" publicationId="2dd9-018c-3821-dd24" page="38" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7e80-4f9b-6c45-62fe" name="Afgantsy Air Assault Battalion" publicationId="87b2-2e1f-509c-a6e1" page="38" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1792-f9be-b69a-630c" type="max"/>
       </constraints>
@@ -692,7 +692,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f91-37fd-2897-8863" name="Anti Tank Support" publicationId="2dd9-018c-3821-dd24" page="16" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5f91-37fd-2897-8863" name="Anti Tank Support" publicationId="87b2-2e1f-509c-a6e1" page="16" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a9-fce0-c003-0180" type="max"/>
       </constraints>
@@ -787,7 +787,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="090c-0872-4719-0c77" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="54eb-a4d4-b69b-c2f9" name="SA-8 Gecko SAM Platoon" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="54eb-a4d4-b69b-c2f9" name="SA-8 Gecko SAM Platoon" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" collective="false" import="true" type="unit">
               <categoryLinks>
                 <categoryLink id="806a-3144-d6fa-7272" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
               </categoryLinks>
@@ -897,7 +897,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="019a-5e8b-350c-108f" name="T-64 Tank Company" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="019a-5e8b-350c-108f" name="T-64 Tank Company" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="698b-eb95-1b1e-5b60" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
       </categoryLinks>
@@ -913,7 +913,7 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="deb9-1110-28f4-56a9" name="Up to 3 Mine Clearing Devices" publicationId="2dd9-018c-3821-dd24" page="35" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="deb9-1110-28f4-56a9" name="Up to 3 Mine Clearing Devices" publicationId="87b2-2e1f-509c-a6e1" page="35" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2efa-3204-3e34-8b2c" type="max"/>
           </constraints>
@@ -1003,7 +1003,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8c0-d815-c1f8-2133" name="SA-13 Gopher SAM Platoon" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a8c0-d815-c1f8-2133" name="SA-13 Gopher SAM Platoon" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0b36-0569-e81f-316b" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="false"/>
       </categoryLinks>
@@ -1037,7 +1037,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2a4-bf11-4868-0d93" name="SA-9 Gaskin SAM Platoon" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b2a4-bf11-4868-0d93" name="SA-9 Gaskin SAM Platoon" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="aa68-3a00-db0d-c9d8" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="false"/>
       </categoryLinks>
@@ -1071,7 +1071,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f05-5f03-9ed8-5187" name="ZSU-23-4 Shilka Platoon" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3f05-5f03-9ed8-5187" name="ZSU-23-4 Shilka Platoon" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="7273-6f30-a545-cb40" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a56-d41a-7643-f33f">
           <constraints>
@@ -1102,7 +1102,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="805e-c00f-9ffd-6884" name="BRDM-2 Recon Platoon" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="805e-c00f-9ffd-6884" name="BRDM-2 Recon Platoon" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="543c-28df-7027-9356" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e25d-d799-7318-cb73">
           <constraints>
@@ -1133,7 +1133,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ac9-b7d1-794a-bf0d" name="BMP-1 Recon Platoon" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0ac9-b7d1-794a-bf0d" name="BMP-1 Recon Platoon" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="8f21-67a1-bc96-cf42" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed5a-b424-3317-b65c">
           <constraints>
@@ -1146,7 +1146,7 @@
                 <infoLink id="855a-ca4f-576d-a667" name="BMP-1" hidden="false" targetId="de71-e9d9-0c27-3357" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="56b4-e6e0-aa08-7f05" name="3x BMP-1" hidden="false" collective="false" import="true" type="unit">
@@ -1154,7 +1154,7 @@
                 <infoLink id="a247-a9b9-48ef-0b65" name="BMP-1" hidden="false" targetId="de71-e9d9-0c27-3357" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="5.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9295-b1d3-2162-6ec3" name="4x BMP-1" hidden="false" collective="false" import="true" type="unit">
@@ -1162,7 +1162,7 @@
                 <infoLink id="4a85-457e-dd0c-1e8f" name="BMP-1" hidden="false" targetId="de71-e9d9-0c27-3357" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1172,7 +1172,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4644-9241-18ca-f98a" name="BMP-2 Recon Platoon" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4644-9241-18ca-f98a" name="BMP-2 Recon Platoon" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="fb4b-2327-4f94-42da" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9973-9538-ba5e-10fc">
           <constraints>
@@ -1211,7 +1211,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f234-a0a9-9f95-27cc" name="Spandrel Anti-Tank Platoon" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f234-a0a9-9f95-27cc" name="Spandrel Anti-Tank Platoon" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="eefa-1716-dcae-3c29" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="false"/>
       </categoryLinks>
@@ -1245,7 +1245,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41a6-49cd-6d2b-89e9" name="2S1 Carnation SP Howitzer Battery" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="41a6-49cd-6d2b-89e9" name="2S1 Carnation SP Howitzer Battery" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="c1e1-b306-9d53-f35f" name="Artillery Unit" hidden="false" targetId="5981-98e5-3605-b7e9" primary="false"/>
         <categoryLink id="bb78-4110-76b7-b49d" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -1281,7 +1281,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28ee-a896-a0c1-910a" name="BTR-60 Motor Rifle Company" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="28ee-a896-a0c1-910a" name="BTR-60 Motor Rifle Company" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="1de5-8bf6-fe78-43d7" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
@@ -1401,7 +1401,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dedc-500b-424c-e438" name="BMP-1 Motor Rifle Company" publicationId="2dd9-018c-3821-dd24" page="30" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dedc-500b-424c-e438" name="BMP-1 Motor Rifle Company" publicationId="87b2-2e1f-509c-a6e1" page="30" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="794c-6b92-6a8e-c2f2" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
@@ -1498,7 +1498,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="524d-e20d-f88f-8947" name="BMP-2 Motor Rifle Company" publicationId="2dd9-018c-3821-dd24" page="30" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="524d-e20d-f88f-8947" name="BMP-2 Motor Rifle Company" publicationId="87b2-2e1f-509c-a6e1" page="30" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="5ff3-00b7-1604-11fd" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
@@ -1595,9 +1595,9 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="61cc-ae97-3765-abbf" name="T-72 Tank Company" publicationId="2dd9-018c-3821-dd24" page="35" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="61cc-ae97-3765-abbf" name="T-72 Tank Company" publicationId="87b2-2e1f-509c-a6e1" page="35" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="e749-1dc7-f22b-0797" name="Up to 3 Mine Clearing Devices" publicationId="2dd9-018c-3821-dd24" page="35" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e749-1dc7-f22b-0797" name="Up to 3 Mine Clearing Devices" publicationId="87b2-2e1f-509c-a6e1" page="35" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb0-a612-530a-df3a" type="max"/>
           </constraints>
@@ -1687,7 +1687,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fcb7-4a95-8c60-6aad" name="Air Assault Company" publicationId="2dd9-018c-3821-dd24" page="38" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fcb7-4a95-8c60-6aad" name="Air Assault Company" publicationId="87b2-2e1f-509c-a6e1" page="38" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="abfc-7de1-e512-597c" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
       </categoryLinks>
@@ -1839,7 +1839,7 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68f1-dedd-50fd-c655" name="MI-24 Assault Landing Company" publicationId="2dd9-018c-3821-dd24" page="43" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="68f1-dedd-50fd-c655" name="MI-24 Assault Landing Company" publicationId="87b2-2e1f-509c-a6e1" page="43" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1bf-c3d7-7924-963a" type="max"/>
       </constraints>
@@ -1895,7 +1895,7 @@
     <rule id="5b62-d530-eef5-c6d5" name="Assault 6" hidden="false">
       <description>6 To Hit in Assault</description>
     </rule>
-    <rule id="85e0-7665-f5ac-446a" name="Krasnopol Projectile" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false">
+    <rule id="85e0-7665-f5ac-446a" name="Krasnopol Projectile" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false">
       <description>- 1 Shot per Weapon Firing
 - Pre Requisites for Artillery Bombardment must be met
 - No +1 &quot;To Hit&quot; Penalty for more than 16&quot; / 40cm
@@ -1903,12 +1903,12 @@
 - No Increase to Armour Rating if more than 16&quot; / 40cm
 </description>
     </rule>
-    <rule id="1457-cfd0-b0e9-a08b" name="Air Assault" publicationId="2dd9-018c-3821-dd24" page="37" hidden="false">
+    <rule id="1457-cfd0-b0e9-a08b" name="Air Assault" publicationId="87b2-2e1f-509c-a6e1" page="37" hidden="false">
       <description>May only be held in Reserve if all deployed Units are Air Assault</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="0529-2b0b-004a-051c" name="T-64 (HQ)" publicationId="2dd9-018c-3821-dd24" page="19" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="0529-2b0b-004a-051c" name="T-64 (HQ)" publicationId="87b2-2e1f-509c-a6e1" page="19" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot; / 35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -1927,7 +1927,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="98b3-6520-9d6e-9cb4" name="T-64" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="98b3-6520-9d6e-9cb4" name="T-64" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot; / 35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -1946,7 +1946,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbde-077f-4bc3-1e7c" name="125mm 2A46 Gun" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="fbde-077f-4bc3-1e7c" name="125mm 2A46 Gun" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">32&quot; / 80cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -1956,7 +1956,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, Laser Rangefinder, Advanced Stabiliser</characteristic>
       </characteristics>
     </profile>
-    <profile id="016e-d144-a080-dae0" name="AT-8 Songster Missile" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="016e-d144-a080-dae0" name="AT-8 Songster Missile" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm - 48&quot; / 120cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -1966,7 +1966,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Guided</characteristic>
       </characteristics>
     </profile>
-    <profile id="c5b2-6c94-a5b2-5808" name="12.7mm AA MG" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="c5b2-6c94-a5b2-5808" name="12.7mm AA MG" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -1976,7 +1976,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="ff35-1171-70bc-51fa" name="7.62mm MG" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="ff35-1171-70bc-51fa" name="7.62mm MG" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -1986,7 +1986,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="caa1-6934-e34c-d8b3" name="SA-13 Gopher" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="caa1-6934-e34c-d8b3" name="SA-13 Gopher" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2005,7 +2005,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd31-7c48-0610-be3c" name="SA-13 Gopher AA Missile" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="fd31-7c48-0610-be3c" name="SA-13 Gopher AA Missile" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">56&quot; / 140cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -2015,7 +2015,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="6cd2-2a59-ac40-4a3a" name="SA-9 Gaskin" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="6cd2-2a59-ac40-4a3a" name="SA-9 Gaskin" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">10&quot; / 25cm</characteristic>
@@ -2034,7 +2034,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f92-6292-285b-55a7" name="SA-9 Gaskin AA Missile" publicationId="2dd9-018c-3821-dd24" page="21" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="3f92-6292-285b-55a7" name="SA-9 Gaskin AA Missile" publicationId="87b2-2e1f-509c-a6e1" page="21" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot; / 120cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -2044,7 +2044,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="50e8-2b09-7c9f-a647" name="ZSU-23-4" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="50e8-2b09-7c9f-a647" name="ZSU-23-4" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">14&quot; / 35cm</characteristic>
@@ -2063,7 +2063,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="6c97-0483-b835-b8c8" name="23mm 2A7 AA Gun" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="6c97-0483-b835-b8c8" name="23mm 2A7 AA Gun" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">6</characteristic>
@@ -2073,7 +2073,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Dedicated AA, Radar</characteristic>
       </characteristics>
     </profile>
-    <profile id="316a-9e8c-abee-9fd0" name="BRDM-2" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="316a-9e8c-abee-9fd0" name="BRDM-2" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">10&quot; / 25cm</characteristic>
@@ -2092,7 +2092,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="231c-67d1-11fa-58a8" name="14.5mm MG" publicationId="2dd9-018c-3821-dd24" page="22" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="231c-67d1-11fa-58a8" name="14.5mm MG" publicationId="87b2-2e1f-509c-a6e1" page="22" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2102,7 +2102,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="df9d-db95-e288-f921" name="BMP-1" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="df9d-db95-e288-f921" name="BMP-1" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2121,7 +2121,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b9e9-8ff4-4704-9090" name="73mm 2A28 Gun" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b9e9-8ff4-4704-9090" name="73mm 2A28 Gun" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2131,7 +2131,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="a8db-ccd7-4dce-0d74" name="AT-3 Sagger Missile" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="a8db-ccd7-4dce-0d74" name="AT-3 Sagger Missile" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm - 44&quot; / 110cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2141,7 +2141,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="7c8d-c7a9-aaf8-2afa" name="BMP-2" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="7c8d-c7a9-aaf8-2afa" name="BMP-2" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2160,7 +2160,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b2df-de83-b7fb-4f8e" name="30mm 2A42 Gun" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b2df-de83-b7fb-4f8e" name="30mm 2A42 Gun" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2170,7 +2170,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter, Stabiliser</characteristic>
       </characteristics>
     </profile>
-    <profile id="bc57-cdc1-af92-38a8" name="AT-5 Spandrel Missile" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="bc57-cdc1-af92-38a8" name="AT-5 Spandrel Missile" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 48&quot; / 120cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2180,7 +2180,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="4459-41e2-8e79-0f5a" name="Spandrel" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="4459-41e2-8e79-0f5a" name="Spandrel" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">10&quot; / 25cm</characteristic>
@@ -2199,7 +2199,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="9526-2b1d-6de7-894e" name="2S1 Carnation" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="9526-2b1d-6de7-894e" name="2S1 Carnation" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2218,7 +2218,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0c33-9017-62f7-e48d" name="122mm 2A31 Howitzer" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="0c33-9017-62f7-e48d" name="122mm 2A31 Howitzer" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">88&quot; / 220cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -2228,7 +2228,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d13-95a5-12ed-aba3" name="122mm 2A31 Howitzer (Direct Fire)" publicationId="2dd9-018c-3821-dd24" page="24" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="1d13-95a5-12ed-aba3" name="122mm 2A31 Howitzer (Direct Fire)" publicationId="87b2-2e1f-509c-a6e1" page="24" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot; / 60cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2238,7 +2238,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, HEAT, Slow Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="5b47-63d3-ec9b-d1f0" name="AK-74 Team (HQ)" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+    <profile id="5b47-63d3-ec9b-d1f0" name="AK-74 Team (HQ)" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
       <characteristics>
         <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot; / 20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot; / 20cm</characteristic>
@@ -2255,7 +2255,7 @@
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="3761-7025-c274-7d6d" name="BTR-60" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="3761-7025-c274-7d6d" name="BTR-60" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">10&quot; / 25cm</characteristic>
@@ -2274,7 +2274,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="388b-5d6e-44a6-fe71" name="AK-74 Rifle" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="388b-5d6e-44a6-fe71" name="AK-74 Rifle" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2284,7 +2284,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Pinned ROF 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="6d0e-96a0-65a6-c5da" name="RPG-18 Anti-Tank " publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="6d0e-96a0-65a6-c5da" name="RPG-18 Anti-Tank " publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2294,7 +2294,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Slow-Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="14eb-9415-8960-006e" name="RPG-7 Anti-Tank" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="14eb-9415-8960-006e" name="RPG-7 Anti-Tank" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot; / 30cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2304,7 +2304,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 6, HEAT, Slow-Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="7da9-2622-f72a-21b6" name="PKM LMG" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="7da9-2622-f72a-21b6" name="PKM LMG" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -2314,7 +2314,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 6, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="0fbc-7cbe-0b69-82da" name="AGS-17 Grenade Launcher" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="0fbc-7cbe-0b69-82da" name="AGS-17 Grenade Launcher" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">9</characteristic>
@@ -2324,7 +2324,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 6, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="696f-068b-375e-1a26" name="AT-4 Spigot Missile" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="696f-068b-375e-1a26" name="AT-4 Spigot Missile" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 40&quot; / 100cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2334,7 +2334,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 6, Guided, HEAT, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="626f-c257-ceb9-a72b" name="SA-14 Gremlin AA Missile" publicationId="2dd9-018c-3821-dd24" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="626f-c257-ceb9-a72b" name="SA-14 Gremlin AA Missile" publicationId="87b2-2e1f-509c-a6e1" page="27" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot; / 120cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2344,7 +2344,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 6, Guided AA, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ae8-98ff-ba8c-d4f1" name="AK-74 Team" publicationId="2dd9-018c-3821-dd24" page="26" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+    <profile id="1ae8-98ff-ba8c-d4f1" name="AK-74 Team" publicationId="87b2-2e1f-509c-a6e1" page="26" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
       <characteristics>
         <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot; / 20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot; / 20cm</characteristic>
@@ -2361,7 +2361,7 @@
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0357-ab16-63a9-4135" name="T-72 (HQ)" publicationId="2dd9-018c-3821-dd24" page="34" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="0357-ab16-63a9-4135" name="T-72 (HQ)" publicationId="87b2-2e1f-509c-a6e1" page="34" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2380,7 +2380,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="f095-8eef-7faa-cc44" name="T-72" publicationId="2dd9-018c-3821-dd24" page="35" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="f095-8eef-7faa-cc44" name="T-72" publicationId="87b2-2e1f-509c-a6e1" page="35" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2399,7 +2399,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="f10b-0b66-f39a-6890" name="MI-24 Hind (Afgantsy)" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+    <profile id="f10b-0b66-f39a-6890" name="MI-24 Hind (Afgantsy)" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
       <characteristics>
         <characteristic name="Is hit on" typeId="a94f-1214-dc73-0af0">3+</characteristic>
         <characteristic name="Aircraft Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
@@ -2409,7 +2409,7 @@
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="478e-8d0f-5ebe-5b7d" name="AT-6 Spiral Missile (Air Launched)" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="478e-8d0f-5ebe-5b7d" name="AT-6 Spiral Missile (Air Launched)" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -2419,7 +2419,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d81-b41f-1be2-0e91" name="12.7mm YAK-B Gatling Gun" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="1d81-b41f-1be2-0e91" name="12.7mm YAK-B Gatling Gun" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -2429,7 +2429,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
       </characteristics>
     </profile>
-    <profile id="3339-3f65-b70e-1ede" name="57mm UB-32 Rocket Launcher" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="3339-3f65-b70e-1ede" name="57mm UB-32 Rocket Launcher" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -2439,7 +2439,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">One Shot</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b7c-5ed0-997a-84c8" name="Storm" publicationId="2dd9-018c-3821-dd24" page="40" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="7b7c-5ed0-997a-84c8" name="Storm" publicationId="87b2-2e1f-509c-a6e1" page="40" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2458,7 +2458,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="93cd-e83f-9c07-d430" name="BMP-1 OP" publicationId="2dd9-018c-3821-dd24" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="93cd-e83f-9c07-d430" name="BMP-1 OP" publicationId="87b2-2e1f-509c-a6e1" page="23" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2477,7 +2477,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4fd-aaa2-a8e7-fb76" name="2S3 Acacia" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="b4fd-aaa2-a8e7-fb76" name="2S3 Acacia" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot; / 40cm</characteristic>
@@ -2496,7 +2496,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="9bce-5323-01b4-2093" name="152mm Howitzer" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="9bce-5323-01b4-2093" name="152mm Howitzer" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">88&quot; / 220cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -2506,7 +2506,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="4897-b929-e0dd-d14e" name="152mm Howitzer (Direct Fire)" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="4897-b929-e0dd-d14e" name="152mm Howitzer (Direct Fire)" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2516,7 +2516,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, HEAT, Slow-Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a2a-45b9-c494-5d35" name="152mm Howitzer (Krasnopol Projectile)" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8a2a-45b9-c494-5d35" name="152mm Howitzer (Krasnopol Projectile)" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm - 88&quot; / 220cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2526,7 +2526,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, Krasnopol Projectile</characteristic>
       </characteristics>
     </profile>
-    <profile id="e0f1-6d40-6e9a-fc5b" name="7.62mm AA MG" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="e0f1-6d40-6e9a-fc5b" name="7.62mm AA MG" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2536,7 +2536,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="c436-c022-e9e8-1e85" name="BM-21" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="1d0d-99f1-d80c-2026" typeName="Unarmored Tank Unit">
+    <profile id="c436-c022-e9e8-1e85" name="BM-21" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="1d0d-99f1-d80c-2026" typeName="Unarmored Tank Unit">
       <characteristics>
         <characteristic name="Tactical Move" typeId="c12d-44b4-4826-9d0e">8&quot; / 20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="5321-8ef2-2e31-96f7">8&quot; / 20cm</characteristic>
@@ -2553,7 +2553,7 @@
         <characteristic name="Counterattack" typeId="498a-fd31-607a-feec">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="eac4-1b53-0cca-8a4a" name="BM-21 Rocket Launcher" publicationId="2dd9-018c-3821-dd24" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="eac4-1b53-0cca-8a4a" name="BM-21 Rocket Launcher" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">96&quot; / 240cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -2563,7 +2563,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="320b-ae60-7efc-9c66" name="SA-8 Gecko" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" typeId="1d0d-99f1-d80c-2026" typeName="Unarmored Tank Unit">
+    <profile id="320b-ae60-7efc-9c66" name="SA-8 Gecko" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" typeId="1d0d-99f1-d80c-2026" typeName="Unarmored Tank Unit">
       <characteristics>
         <characteristic name="Tactical Move" typeId="c12d-44b4-4826-9d0e">10&quot; / 25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="5321-8ef2-2e31-96f7">10&quot; / 25cm</characteristic>
@@ -2580,7 +2580,7 @@
         <characteristic name="Counterattack" typeId="498a-fd31-607a-feec">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b958-5465-4694-2bda" name="SA-8 Gecko Missile" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b958-5465-4694-2bda" name="SA-8 Gecko Missile" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">72&quot; / 180cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -2590,7 +2590,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="f2d5-995c-f784-293a" name="SU-25" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+    <profile id="f2d5-995c-f784-293a" name="SU-25" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
       <characteristics>
         <characteristic name="Is hit on" typeId="a94f-1214-dc73-0af0">3+</characteristic>
         <characteristic name="Aircraft Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
@@ -2600,7 +2600,7 @@
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="ceb3-71a6-7f88-b56c" name="KH-25 Air-Ground Missile" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="ceb3-71a6-7f88-b56c" name="KH-25 Air-Ground Missile" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 28&quot; / 70cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -2610,7 +2610,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7e7-6656-0676-ffed" name="30mm GSh-30-2 Gun" publicationId="2dd9-018c-3821-dd24" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="d7e7-6656-0676-ffed" name="30mm GSh-30-2 Gun" publicationId="87b2-2e1f-509c-a6e1" page="42" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -2620,7 +2620,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
       </characteristics>
     </profile>
-    <profile id="6e6b-aaca-c6f9-a568" name="AT-6 Spiral Missile" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="6e6b-aaca-c6f9-a568" name="AT-6 Spiral Missile" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 56&quot; / 140cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -2664,7 +2664,7 @@
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a9f-d28b-4cee-a13a" name="MI-24 Hind (Red Banner)" publicationId="2dd9-018c-3821-dd24" page="39" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+    <profile id="0a9f-d28b-4cee-a13a" name="MI-24 Hind (Red Banner)" publicationId="87b2-2e1f-509c-a6e1" page="39" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
       <characteristics>
         <characteristic name="Is hit on" typeId="a94f-1214-dc73-0af0">3+</characteristic>
         <characteristic name="Aircraft Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
@@ -2674,7 +2674,7 @@
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="8bf4-ac5a-776b-28fb" name="7.62mm MG (BMP)" publicationId="2dd9-018c-3821-dd24" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8bf4-ac5a-776b-28fb" name="7.62mm MG (BMP)" publicationId="87b2-2e1f-509c-a6e1" page="20" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -2714,6 +2714,7 @@
     <infoGroup id="faf0-9a03-e56b-b4f2" name="12.7mm AA MG" hidden="false">
       <infoLinks>
         <infoLink id="9a05-aa64-1706-1b20" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+        <infoLink id="4879-1511-d73a-048b" name="12.7mm AA MG" hidden="false" targetId="c5b2-6c94-a5b2-5808" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="441d-979f-fdfa-7419" name="T-64" hidden="false">
@@ -2767,7 +2768,7 @@
         <infoLink id="3a3d-6d1a-f429-899c" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="b2ad-e0fe-3a66-a64d" name="BMP-1" hidden="false" targetId="df9d-db95-e288-f921" type="profile"/>
         <infoLink id="092c-d3c0-430c-8d67" name="AT-3 Sagger Missile" hidden="false" targetId="ccba-d530-d76f-a4e0" type="infoGroup"/>
-        <infoLink id="df07-9cf4-a939-e2e7" name="7.62mm MG (BMP)" hidden="false" targetId="8bf4-ac5a-776b-28fb" type="profile"/>
+        <infoLink id="df07-9cf4-a939-e2e7" name="7.62mm MG (Transports)" hidden="false" targetId="8bf4-ac5a-776b-28fb" type="profile"/>
         <infoLink id="094e-e47d-441f-abad" name="73mm 2A28 Gun" hidden="false" targetId="db4a-4116-b0c0-19ec" type="infoGroup"/>
       </infoLinks>
     </infoGroup>
@@ -2814,6 +2815,7 @@
         <infoLink id="4452-9187-4ccf-3138" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="8d8e-b65b-cd2a-295b" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="c4f3-070e-887e-88ba" name="AT-5  Spandrel Missile" hidden="false" targetId="c623-3761-d8bd-9794" type="infoGroup"/>
+        <infoLink id="5c6e-efed-e8b8-5ee3" name="Spandrel" hidden="false" targetId="4459-41e2-8e79-0f5a" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="c809-a61f-b7be-ea94" name="2S1 Carnation" hidden="false">
