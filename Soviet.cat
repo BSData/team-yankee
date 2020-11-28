@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="db75-8085-21af-2a36" name="Soviet" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="db75-8085-21af-2a36" name="Soviet" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9cfb-0c38-b382-fb84" name="Rocket Artillery Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -28,6 +28,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b6da-5f16-2075-ad77" name="Recon Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -49,6 +52,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="59a3-3afc-a7a3-8bc5" name="Anti-Tank Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -69,6 +75,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0dd4-2d8f-be1c-e37a" name="Anti-Aircraft Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -90,6 +99,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -229,6 +241,66 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="f9c7-87d8-ccf3-3b1b" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dedb-5afb-616b-bd48" name="T-80 Tank Company" hidden="false" collective="false" import="true" targetId="02c7-ae1f-41b2-6ed2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5b8d-761b-127d-38e4" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e25e-95c7-6749-c367" name="T-64 Tank Company" hidden="false" collective="false" import="true" targetId="490b-9fbc-77fd-9b0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0d6b-6cb0-05be-8174" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e3a-baa1-5cd9-9cd2" name="T-72 Tank Company" hidden="false" collective="false" import="true" targetId="ee42-210f-6008-eb65" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1849-bc05-007b-5898" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b51-4fb7-078f-e362" name="T-62M Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af93-c408-f63d-732f" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f72a-a7e4-f363-8518" name="T-55AM Tank Company" hidden="false" collective="false" import="true" targetId="7aba-78af-6ec3-828a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="44cb-40d7-34c2-90ef" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="42ee-9a48-22f6-b0af" name="BMP-1 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="63fe-02a0-1d0a-1af4" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ade4-3740-9674-7990" name="BMP-2 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="b2b4-b0af-5cc9-5346" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a626-3dda-9891-1725" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e17e-bfd2-3dd3-3ba7" name="BMP-3 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="37f6-a4b7-70b8-6c61" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="571e-b816-3fec-5cf2" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e57-f4e0-1652-b1a1" name="BTR-60 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="64f0-cc4f-e91a-25f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="aa2e-a9d5-c75c-4634" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fab8-6bb0-8670-a288" name="Air Assault Company" hidden="false" collective="false" import="true" targetId="8bdf-632a-0252-8524" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fd63-0a17-8d23-ed25" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ec85-f59b-86c2-05ca" name="MI-24 Hind Assault Helicopter Company (Afgantsy)" hidden="false" collective="false" import="true" targetId="a98f-4ada-3789-4a66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b934-1c96-149d-66ba" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c9a3-50f9-c944-7f28" name="T-80 Shock Tank Platoon" hidden="false" collective="false" import="true" targetId="7b2c-586b-c3bf-8011" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cf24-87d3-d06e-4ee3" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1616,6 +1688,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="64f0-cc4f-e91a-25f3" name="BTR-60 Motor Rifle Company" publicationId="8b89-33f2-0e6f-53bb" page="48" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1694,6 +1769,9 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1753,6 +1831,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8bdf-632a-0252-8524" name="Air Assault Company" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
@@ -1814,6 +1895,9 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2004-341c-cb2e-28f2" name="Replace all RPG-7 Teams with RPG-7VR Teams" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1867,6 +1951,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a98f-4ada-3789-4a66" name="MI-24 Hind Assault Helicopter Company (Afgantsy)" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1945,6 +2032,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7b2c-586b-c3bf-8011" name="T-80 Shock Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2010,7 +2100,7 @@
     </selectionEntry>
     <selectionEntry id="1cbd-7abe-2579-88d1" name="BMP-3 Shock Recon Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="a724-8c11-4fc2-e483" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a724-8c11-4fc2-e483" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec1d-d341-951f-802f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef99-19f0-dfe7-8e85" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f646-ead7-545d-8f94" type="max"/>
@@ -2100,7 +2190,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d46e-dc97-ff7f-5a2d" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d46e-dc97-ff7f-5a2d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="468f-7b1d-fb8e-7ab5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c841-8a10-b1d0-a7ff" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3430-67ef-ff46-1e8e" type="max"/>
@@ -2112,6 +2202,16 @@
                 <infoLink id="f837-dc03-f586-89b5" name="AK-74 Team with RPG-18 Anti-Tank (Shock)" hidden="false" targetId="c63d-7f62-dbd4-088c" type="infoGroup"/>
                 <infoLink id="5410-bc7f-4968-23b5" name="RPG-7VR Anti-Tank Team (Shock)" hidden="false" targetId="9c5d-1c47-bf1e-66a7" type="infoGroup"/>
                 <infoLink id="65aa-93c9-d327-d37c" name="PKM LMG Team (Shock)" hidden="false" targetId="35dc-9ef4-4581-7b7f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="468f-7b1d-fb8e-7ab5" name="4x AK-74 Team with RPG-18 Anti-Tank, 3x RPG-7VR Anti-Tank Team, 4x Shock BMP-3" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="8925-e4ac-f81a-d5ef" name="BMP-3 (Shock)" hidden="false" targetId="0f3a-eeb1-ab22-1222" type="infoGroup"/>
+                <infoLink id="ed72-83fc-fd58-8a44" name="AK-74 Team with RPG-18 Anti-Tank (Shock)" hidden="false" targetId="c63d-7f62-dbd4-088c" type="infoGroup"/>
+                <infoLink id="031b-00c1-64ac-5d21" name="RPG-7VR Anti-Tank Team (Shock)" hidden="false" targetId="9c5d-1c47-bf1e-66a7" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="24.0"/>
@@ -2248,6 +2348,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89fd-4c4e-01e3-be70" name="BM-21 Hail Rocket Launcher Battery" publicationId="87b2-2e1f-509c-a6e1" page="41" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2605,6 +2708,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2bb1-7131-9658-7eb6" name="T-64 Tank Batallion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2668,6 +2774,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae10-627b-ef0b-c588" name="T-72 Tank Batallion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2731,6 +2840,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="24b4-35df-31ca-019d" name="T-62M Tank Batallion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2788,6 +2900,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4d2d-98e5-3985-cc61" name="T-55AM Tank Batallion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2844,6 +2959,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ddaa-07d2-22ec-0e6d" name="BMP Motor Rifle Batallion HQ" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2935,6 +3053,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dd45-ae2f-090c-71c8" name="BTR-60 Motor Rifle Batallion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2999,6 +3120,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0d7-b134-e8be-81ba" name="Air Assault Batallion" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
@@ -3021,6 +3145,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6d2c-cf14-586b-85bb" name="T-80 Shock Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
@@ -3072,6 +3199,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
