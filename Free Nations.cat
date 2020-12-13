@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="63dc-a08d-29fa-af37" name="Free Nations - Canadian, French, Dutch and Australian Forces in WWIII" shortName="Free Nations" publisher="ISBN 9780995104204" publicationDate="2018" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -1726,9 +1726,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb1-50bd-6772-8e3c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f2e0-4abc-34f7-be55" name="FR VAB Section d&apos;Infanterie" hidden="false" collective="false" import="true" targetId="1be9-a229-7c63-14e7" type="selectionEntry"/>
             <entryLink id="9778-1859-ff3f-840a" name="FR AMX-10 RC Peloton de Cavalerie" hidden="false" collective="false" import="true" targetId="1ca1-5335-3fa8-d962" type="selectionEntry"/>
             <entryLink id="5cc5-5280-53b2-d60a" name="FR AMX-30 Peloton Blindé" hidden="false" collective="false" import="true" targetId="5225-d867-0cc9-e4ff" type="selectionEntry"/>
+            <entryLink id="826a-d3b7-8fe6-83ff" name="FR Milan Section Antichar" hidden="false" collective="false" import="true" targetId="b59d-ba3f-8698-dd00" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2073,6 +2073,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dc45-816f-b28c-6f08" name="NL M113 C&amp;V Verkennings Ploeg" publicationId="63dc-a08d-29fa-af37" page="59" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2089,6 +2092,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b6bb-92d3-9118-2ca7" name="NL Leopard 2 Verkennings Tank Peloton" publicationId="63dc-a08d-29fa-af37" page="59" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2105,6 +2111,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9589-8999-8efa-a2c0" name="NL Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2121,6 +2130,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d966-8313-ae40-66a3" name="NL M106 Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2137,6 +2149,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7969-9617-c32e-2b8d" name="NL M113 Tirailleur Peloton" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2169,6 +2184,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3c87-5558-12d9-3b9e" name="NL M109 Veldartillerie Batterij" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2197,6 +2215,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d9cf-7f9d-5e12-f316" name="NL YPR-765 OP" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2213,6 +2234,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6089-fcef-caa4-7b69" name="NL Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2256,6 +2280,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1808-bb50-7d01-d2f0" name="NL Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
@@ -2299,6 +2326,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c863-9745-9dd2-007a" name="NL YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2347,17 +2377,42 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa8c-163a-9d59-a84c" name="NL Verkennings Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="9d7a-d512-e95f-64cf" name="Tank Support" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9d7a-d512-e95f-64cf" name="Tank Support" hidden="false" collective="false" import="true" defaultSelectionEntryId="a90d-74a4-9433-f204">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b4-e0fe-51d5-155d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8dc-6d26-5235-4100" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3470-25ce-7f19-7503" name="NL Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="b6bb-92d3-9118-2ca7" type="selectionEntry"/>
-            <entryLink id="a90d-74a4-9433-f204" name="NL Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9589-8999-8efa-a2c0" type="selectionEntry"/>
+            <entryLink id="3470-25ce-7f19-7503" name="NL Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="b6bb-92d3-9118-2ca7" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="60ca-ccdd-0071-141f" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="fa8c-163a-9d59-a84c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9589-8999-8efa-a2c0" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="fa8c-163a-9d59-a84c" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ca-ccdd-0071-141f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a90d-74a4-9433-f204" name="NL Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9589-8999-8efa-a2c0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fbcf-75d8-3917-4f49" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="fa8c-163a-9d59-a84c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bb-92d3-9118-2ca7" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="fa8c-163a-9d59-a84c" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcf-75d8-3917-4f49" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2385,6 +2440,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5111-ae8e-a710-9020" name="AU Leopard AS1 Armoured Squadron HQ" publicationId="63dc-a08d-29fa-af37" page="71" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2413,6 +2471,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6de9-ca97-6b84-76d2" name="AU Leopard AS1 Armoured Troop" publicationId="63dc-a08d-29fa-af37" page="72" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2441,6 +2502,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0e9-12ba-afe2-f913" name="AU M113 Cavalry Troop" publicationId="63dc-a08d-29fa-af37" page="72" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2487,6 +2551,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="31cf-8ed4-f30e-a62b" name="AU M113 Mechanised Company HQ" publicationId="63dc-a08d-29fa-af37" page="74" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2504,6 +2571,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa4a-bbff-4528-b4e9" name="AU M113 Mechanised Platoon" publicationId="63dc-a08d-29fa-af37" page="75" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2536,6 +2606,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d965-41d6-4d34-4599" name="AU M125 Mortar Platoon" publicationId="63dc-a08d-29fa-af37" page="76" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2572,6 +2645,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ae4-d8e4-c9a2-1294" name="AU Milan Anti-Tank Section" publicationId="63dc-a08d-29fa-af37" page="76" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2602,6 +2678,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8dcb-cf0b-8902-ca2a" name="AU Anti-Tank Land Rover Section" publicationId="63dc-a08d-29fa-af37" page="77" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2630,6 +2709,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d499-6616-768f-c054" name="AU M113 Redeye SAM Section" publicationId="63dc-a08d-29fa-af37" page="78" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2646,6 +2728,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="494d-a68b-9865-9d16" name="AU Scorpion Armoured Troop" publicationId="63dc-a08d-29fa-af37" page="78" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2674,6 +2759,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dc5a-67e2-a359-caef" name="AU Leopard AS1 Armoured Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
@@ -2707,6 +2795,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a96c-1034-a81e-e279" name="AU M113 Mechanised Company" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
@@ -2749,6 +2840,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
