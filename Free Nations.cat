@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="4" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="63dc-a08d-29fa-af37" name="Free Nations - Canadian, French, Dutch and Australian Forces in WWIII" shortName="Free Nations" publisher="ISBN 9780995104204" publicationDate="2018" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -2803,7 +2803,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="97a3-a05b-759b-2f6a" name="Unit Choice" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="802c-ef27-18b3-1af5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="802c-ef27-18b3-1af5" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="d856-0d0a-dd5b-91b9" name="AU M113 Mechanised Platoon" hidden="false" collective="false" import="true" targetId="aa4a-bbff-4528-b4e9" type="selectionEntry"/>
@@ -2820,8 +2820,8 @@
         </entryLink>
         <entryLink id="5d12-1623-fceb-51bd" name="AU M113 Mechanised Platoon" hidden="false" collective="false" import="true" targetId="aa4a-bbff-4528-b4e9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a59c-6f02-76f3-9ef9" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2316-8bc6-16af-3da6" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a59c-6f02-76f3-9ef9" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2316-8bc6-16af-3da6" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="7f39-66be-6050-2b69" name="AU M125 Mortar Platoon" hidden="false" collective="false" import="true" targetId="d965-41d6-4d34-4599" type="selectionEntry">
