@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e6e0-9a49-2e0b-f063" name="British" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e6e0-9a49-2e0b-f063" name="British" revision="3" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="96f5-a2c3-a592-699e" name="World War III &quot;Team Yankee&quot; - British" shortName="British" publisher="ISBN 9781988558134" publicationDate="2019" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -1273,7 +1273,7 @@
                 <infoLink id="a9bb-5fd6-15de-c0e1" name="Striker Swingfire" hidden="false" targetId="be29-6411-ddf9-88f0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b90d-248c-5804-1a31" name="4x Striker" hidden="false" collective="false" import="true" type="upgrade">
@@ -1281,7 +1281,7 @@
                 <infoLink id="9a14-6a4d-eac5-17ab" name="Striker Swingfire" hidden="false" targetId="be29-6411-ddf9-88f0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
