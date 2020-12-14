@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="American" revision="1" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="American" revision="2" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is still a work in progress</readme>
   <selectionEntries>
     <selectionEntry id="2572-fade-0e37-b805" name="HMMWV Scout Section" hidden="false" collective="false" import="true" type="unit">
@@ -73,7 +73,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6014-7604-ad9e-da77" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7053-0e79-1835-1442" name="M109 Field Artillery Battery" hidden="false" collective="false" import="true" targetId="3484-1993-0776-b345" type="selectionEntry"/>
+            <entryLink id="7053-0e79-1835-1442" name="US Army M109 Field Artillery Battery" hidden="false" collective="false" import="true" targetId="3484-1993-0776-b345" type="selectionEntry"/>
             <entryLink id="f3eb-2b52-0859-efce" name="2MarDiv M109 Artillery Battery" hidden="false" collective="false" import="true" targetId="c775-0a7c-fdb3-11b6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -225,41 +225,6 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf00-3237-649d-46a6" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="230b-dcbf-625f-660d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7573-ff02-13d3-2103" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="63bf-5fed-43e2-5735" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-            <infoLink id="b8bd-fa26-85e4-4194" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-            <infoLink id="ddd2-b95d-22b7-2260" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-            <infoLink id="45a8-0faa-6678-b44f" name="M30 107MM Mortar" hidden="false" targetId="edab-e5b8-e6e0-e87d" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="7ca2-37a6-6682-683a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a7a1-3eea-dc7a-675c">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a91-201f-b342-1968" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9300-82ea-2871-399f" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="a7a1-3eea-dc7a-675c" name="3x M106" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b1af-7ee9-3d90-f4ee" name="6x M106" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="150d-41ee-e568-24e0" name="M901 ITV Anti-Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4898-620c-27f4-c03f" type="max"/>
@@ -300,364 +265,34 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="55d3-da90-06e7-5631" name="M3 Bradley or M113 Scout Section" hidden="false" collective="false" import="true" defaultSelectionEntryId="8ebf-1669-d0d7-cc6e">
+        <selectionEntryGroup id="55d3-da90-06e7-5631" name="M3 Bradley or M113 Scout Section" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e63-fa09-1afe-0e2b" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aba-7b7a-edc1-422e" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="fc84-9487-56e1-a2e1" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="09c6-eaed-c99e-6145" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
-                <infoLink id="6f1b-c5a0-fe1b-d36e" name="TOW 2 Missile" hidden="false" targetId="985f-afac-086e-c6e1" type="profile"/>
-                <infoLink id="7109-7ec4-755c-5647" name="M245 25mm Bushmaster" hidden="false" targetId="5e9d-1099-1f06-3fea" type="profile"/>
-                <infoLink id="db98-d658-26bf-df9e" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="998a-b3bc-cd38-9274" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9717-66cf-fdb4-961f">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e2e-63d6-0f51-7fb9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98b-1b21-9d30-5c89" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="9717-66cf-fdb4-961f" name="2x M3 Bradley" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="3e59-d92e-c20f-7a39" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="c872-62f4-f11f-a1d2" name="2x M3A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="f777-603c-0fc4-f73b" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                        <infoLink id="bb8a-e20a-e1ff-fead" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8ebf-1669-d0d7-cc6e" name="M113 Scout Section" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b002-16cd-0f23-6df5" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2944-4708-2ada-868e" name="M113  Scout" hidden="false" targetId="b68a-50dd-c284-a35a" type="profile"/>
-                <infoLink id="21ae-033f-8280-a235" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-                <infoLink id="ccd2-968a-53e8-4a52" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
-                <infoLink id="cda7-8dcc-4851-ddfe" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-                <infoLink id="8f06-328c-c600-d636" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0f15-a0ab-b958-5432" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="45c6-4e4a-82d8-2a4a">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="970f-3bd3-2ad5-e07a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd5c-4153-ada0-95e4" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="c36e-d9cf-ec9b-df0e" name="1x M113 Scout 1x M901 ITV (TOW 2)" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="2d71-c17b-8d6a-2f1f" name="TOW 2 Missile" hidden="false" targetId="985f-afac-086e-c6e1" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="45c6-4e4a-82d8-2a4a" name="1x M113 Scout 1x M901 ITV (TOW)" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="2c0b-0f05-35fc-ef45" name="TOW Missile" hidden="false" targetId="a341-d172-fd3c-6cb9" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="82c9-a683-3c9f-0728" name="M113 Scout Section" hidden="false" collective="false" import="true" targetId="a794-aabe-f786-d5f6" type="selectionEntry"/>
+            <entryLink id="9f7c-b280-d573-e60e" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" targetId="4502-8596-abce-8fbb" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cb54-8f9d-dbad-6456" name="M113 or M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bf4-537e-8fc1-9c78">
+        <selectionEntryGroup id="cb54-8f9d-dbad-6456" name="M113 or M2 Bradley Mech Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ea-bc38-cc6a-521b" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa2-f1bc-031d-714a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa2-f1bc-031d-714a" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="8bf4-537e-8fc1-9c78" name="M113 Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea8-4fa8-3fca-f8c7" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5902-806c-e308-6e3f" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="1f09-7a2c-5882-51f3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="40fd-7ace-39bb-b399">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b190-c82c-4fbf-53c0" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f9-d099-1103-37df" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="40fd-7ace-39bb-b399" name="3x M47 3x M113" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="7c9c-98f0-a953-07fa" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71aa-ed64-228a-3c10" type="max"/>
-                          </constraints>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="35e0-6ec5-ae27-660c" name="M249 or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="02eb-4694-e0f3-adbc">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b292-3ede-221a-7dfb" type="min"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f454-cc29-63b3-298f" type="max"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="02eb-4694-e0f3-adbc" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="0db6-0146-2c6d-4b9e" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7cc7-70bf-bcd8-4a22" name="3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="1545-287a-2d9d-87e3" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c4-da60-64ab-d826" type="max"/>
-                          </constraints>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="7412-c60b-1bc6-8624" name="M249 or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="898f-4a16-5178-e65a">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f3d-f341-24d0-f9e6" type="min"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cce-cbdd-893c-ad65" type="max"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="898f-4a16-5178-e65a" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="92ea-aab0-4979-34c4" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e065-ebfa-b898-ae8d" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ec-f3cf-7c05-a172" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2817-edb1-c963-cc68" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="a85c-cf3e-99fd-a485" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="64ba-ae40-7f9d-7d13">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2699-4a80-2b96-2e5a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43b2-33cf-7194-3676" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="3c7f-417c-d4f1-5265" name="3x M47 Dragon 3x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="f115-5faa-5318-e18b" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
-                        <infoLink id="c513-bfa7-479b-0a54" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                        <infoLink id="26e6-892d-d350-6785" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                      </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="328d-323a-8861-3230" name="3x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="46c0-4939-0dd2-8a65">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415f-2137-6f47-5248" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd1-51e2-87fe-f936" type="min"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="46c0-4939-0dd2-8a65" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="cb5f-14f0-2ee8-5cda" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="3dd5-50a8-d367-c1a4" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="3951-fbaa-f740-1ca0" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                                <infoLink id="b6d0-26b3-fd10-5b10" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                                <infoLink id="2480-573b-04f7-bcd2" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="64ba-ae40-7f9d-7d13" name="3x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="3541-0104-f830-256e" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
-                        <infoLink id="6c03-cba4-f849-25a4" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                        <infoLink id="ee5b-3539-4a81-09b7" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                      </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="58ed-d49e-148a-6ba3" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="7320-020e-b64a-82e5">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab03-e915-e395-8c51" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d3-c479-f6b9-93cd" type="min"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="7320-020e-b64a-82e5" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="1f90-3769-45c0-42ff" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="bf1e-48cf-a35c-5392" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="c092-b980-8610-e29e" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                                <infoLink id="4f00-cff2-932f-a5bc" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                                <infoLink id="4143-66d3-1278-3f64" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4a92-cba9-b449-070b" name="3x M47 Dragon 4x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="0ce4-33af-8bad-85e3" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
-                        <infoLink id="fad5-84de-1084-348c" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                        <infoLink id="000c-74ea-dd92-0387" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                      </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="8f10-2777-372c-ef59" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="12e2-99c2-bdd1-8578">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c052-69c1-099b-7de1" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a27-a8c5-8e63-2341" type="min"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="12e2-99c2-bdd1-8578" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="a713-e84c-fa9d-ad3c" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="cd08-d2b1-6054-e48f" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="3d9f-7a64-ef0a-3ebf" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                                <infoLink id="97dd-7375-9f64-2d6f" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                                <infoLink id="72dd-4173-a636-b22d" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e6b6-7a76-c649-7743" name="3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="cad3-17a7-363d-a3f4" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
-                        <infoLink id="2e01-7eef-0fac-8b92" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                        <infoLink id="0362-5081-7058-4b29" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                      </infoLinks>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="9e94-5626-ee2b-21cf" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="c405-7f75-076f-32af">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a7c-c69e-ffa7-5b99" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67bc-a696-cc49-49ae" type="min"/>
-                          </constraints>
-                          <selectionEntries>
-                            <selectionEntry id="c405-7f75-076f-32af" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="c886-1462-14f9-d015" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                            <selectionEntry id="7e10-ac0e-9542-afab" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                              <infoLinks>
-                                <infoLink id="06fd-03c1-6e6b-3de9" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                                <infoLink id="e44b-f2ea-97ba-def5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                                <infoLink id="ba6f-2719-f0d6-0b0f" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                              </infoLinks>
-                              <costs>
-                                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                              </costs>
-                            </selectionEntry>
-                          </selectionEntries>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="8d72-14ab-2091-bea2" name="M113 Mech Platoon" hidden="false" collective="false" import="true" targetId="f675-5bf4-b041-50d7" type="selectionEntry"/>
+            <entryLink id="c51d-de5b-6f6b-5c51" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b334-02aa-8217-b24d" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="ab17-6af6-53d9-1288" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef13-0925-616c-0186" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -775,42 +410,6 @@
                   </infoLinks>
                   <costs>
                     <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a3e1-ab0f-c137-d905" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa0-05de-72d1-c185" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7843-82b1-090d-10c3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5e-cd1d-8ba6-62e6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9531-3c4f-88df-e071" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-            <infoLink id="4dad-61aa-dcc8-962c" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-            <infoLink id="1857-ede6-9645-fd0b" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-            <infoLink id="3ee5-1bef-30bd-c787" name="M30 107MM Mortar" hidden="false" targetId="edab-e5b8-e6e0-e87d" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a6a8-d637-1c54-f036" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b43-5c56-3276-1928">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ed-2017-3ad1-3df6" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0203-396a-a22d-7907" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="6b43-5c56-3276-1928" name="3x M106" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="fe9b-d93b-28bf-0d18" name="6x M106" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -950,6 +549,13 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="2e28-8cc8-89c7-bcd3" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="ab17-6af6-53d9-1288" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f89-8dfb-4f88-754a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -958,48 +564,6 @@
       <categoryLinks>
         <categoryLink id="3bc2-bd69-90ff-a9d2" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f9bb-2fcd-11aa-eb8b" name="M109 Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ec-d594-4fa0-ae87" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b248-5b0c-b082-b50d" name="Bomblets" hidden="false" targetId="650f-eef5-2ffa-21f1" type="rule"/>
-            <infoLink id="b849-fbb3-bf05-6d53" name="Laser-Guided Projectiles" hidden="false" targetId="6085-2818-344e-c682" type="rule"/>
-            <infoLink id="eb70-8d5a-83b8-d527" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
-            <infoLink id="0e04-3f9e-cb78-f8f0" name="M109" hidden="false" targetId="7894-8920-f84b-6aa7" type="profile"/>
-            <infoLink id="1d9b-3990-aded-d0c7" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-            <infoLink id="f662-8493-fef1-bdb3" name="M185 155mm howitzer" hidden="false" targetId="06be-fdea-c9d3-13e2" type="profile"/>
-            <infoLink id="a522-0c79-5c64-e7a4" name="M185 155mm howitzer direct fire" hidden="false" targetId="d327-44f6-44db-d971" type="profile"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink id="9e30-24fd-fd79-be2d" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6510-d9ce-5273-9749" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a7e8-521d-bb04-5925">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95fa-003f-d3a7-bc86" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fbc-9ef9-7f86-50df" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="a7e8-521d-bb04-5925" name="3x M109" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4130-80e0-950c-3b40" name="6x M109" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="14.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="efaf-42ef-7143-5de2" name="M1A1 or M1 Abrams" hidden="false" collective="false" import="true" defaultSelectionEntryId="d5e9-180f-98ba-a97d">
           <constraints>
@@ -1407,6 +971,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d4-1dc6-7653-69a7" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ac0a-f7ba-4e0a-b74f" name="US Army M109 Field Artillery Battery" hidden="false" collective="false" import="true" targetId="3484-1993-0776-b345" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e499-675c-7509-eebd" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1460,177 +1029,6 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4b77-741d-9c7c-bc1f" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9651-5839-5ab8-0fee" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a18b-6799-d339-80d6" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="b8b5-2c49-fc08-a0f4" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ec3-2fe7-2bf2-17cc">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228b-3add-e71e-0751" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b122-ef66-0188-8a48" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="f0e7-796b-bd5c-0c3a" name="3x M47 Dragon 3x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="2ce5-39f4-1d96-e454" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
-                    <infoLink id="ddcc-2f3b-64b6-e13d" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                    <infoLink id="2a83-bd09-2309-4d3c" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="e26a-83db-d1eb-a71d" name="3x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="df7f-ca8f-6f26-65c3">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-5632-6071-590a" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="300b-7929-c4b9-5ab1" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="df7f-ca8f-6f26-65c3" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="4e36-85f8-f1ca-bd4b" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="90fc-edb0-de66-2abc" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="32e4-72d4-b57d-2dae" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                            <infoLink id="48e9-6249-b008-9eb2" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                            <infoLink id="4f94-d75e-80a4-8338" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2ec3-2fe7-2bf2-17cc" name="3x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="a721-3d8b-83af-0df6" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
-                    <infoLink id="79e4-2c65-f7c3-6a6a" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                    <infoLink id="e20c-426e-4ab9-a8ff" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="dd46-df33-6f67-ff23" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d66-c55a-4b1a-757e">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="431b-bb60-eac5-94f0" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad99-82e1-7415-4e7d" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="4d66-c55a-4b1a-757e" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="0b60-3903-50c5-cf0a" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="87df-32bc-66ab-4811" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="7d89-57f5-e47d-1660" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                            <infoLink id="3c78-43c1-1096-9c8a" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                            <infoLink id="e79a-3134-b96f-81da" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6f1c-3632-beb0-354e" name="3x M47 Dragon 4x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="d19e-72db-e063-4dd7" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
-                    <infoLink id="e611-1d43-91f8-ca0a" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                    <infoLink id="00e9-27d8-831d-992a" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="0a79-ca01-8707-939a" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc0a-d9a9-84e8-84ab" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="606b-a80a-e423-b2f2" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="3e92-be3a-b92b-e7af" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="fcfa-b09a-53cc-f476" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="6452-b20e-1262-0e9c" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="4e90-3a77-af39-acdd" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                            <infoLink id="468c-6c09-0a46-7c8b" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                            <infoLink id="4a37-7284-a9f1-4bc9" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="50a4-bb0f-85e0-acc9" name="3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="1394-0c92-df15-8e54" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
-                    <infoLink id="3c4d-7ca6-ed1c-f721" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
-                    <infoLink id="6ba6-554c-812a-96e6" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="bf3b-e910-b1ec-88d8" name="4x M249 SAW or M72 LAW" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f069-4f5f-7575-b313" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c8-26b1-4f16-dbb7" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="7e06-ef2b-f43e-435b" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="0835-d399-db2f-33b1" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="d039-d99c-df87-0bfa" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="5e55-5981-a865-72e0" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                            <infoLink id="d8ed-440e-e212-313c" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
-                            <infoLink id="67d7-6db7-0e1e-02ec" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8e3b-5d05-1b4b-cb03" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d78-39e2-0ecd-ad81" type="min"/>
@@ -1665,41 +1063,6 @@
                     <infoLink id="7d62-fd00-8647-770d" name="M2A2/M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
                     <infoLink id="ba3e-019d-9fc5-0f35" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
                   </infoLinks>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="89b0-345f-6ad5-900f" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="136d-0e02-993c-e52f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c7-e9c5-82ea-d838" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ed6e-cf85-ef84-beb4" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-            <infoLink id="2753-dd57-9b16-171d" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-            <infoLink id="b822-1b1e-5f88-e126" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-            <infoLink id="b743-1b88-7d90-0088" name="M30 107MM Mortar" hidden="false" targetId="edab-e5b8-e6e0-e87d" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6330-5638-b481-e516" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e00-3dc9-ec2a-b0a6">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9526-417f-a7b0-578a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a951-7cd9-1f02-3f82" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="3e00-3dc9-ec2a-b0a6" name="3x M106" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d6d7-30af-d8e7-cca9" name="6x M106" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
                   </costs>
@@ -1868,6 +1231,19 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c0e-3486-2536-caaf" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="ab17-6af6-53d9-1288" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7a-94ad-8527-f798" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8289-4361-ae93-0dc4" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bff-91c4-b14d-fd43" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ded-cba8-ed55-8b45" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -1886,111 +1262,6 @@
             <infoLink id="ca40-2543-60d3-ba93" name="M16 rifle team HQ" hidden="false" targetId="758e-dd25-7bbb-19dd" type="profile"/>
             <infoLink id="3821-1d43-8302-09df" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
           </infoLinks>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bbb1-61f8-7588-40fb" name="M113 Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce8-6680-c3b4-6159" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b953-ec4a-a08f-2b0b" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6c84-7960-f336-a774" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-            <infoLink id="bac6-aff7-4849-6099" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="f27d-6697-0ec8-4c5e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2ec-031b-f3bf-cef4">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f06-160b-7d6a-a351" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a8a-7f88-742d-bb35" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="b2ec-031b-f3bf-cef4" name="3x M47 3x M113" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="6fb8-f69c-4f8c-e9e3" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ea-0ae1-c3c5-43ad" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="3cff-712d-c20a-8dc6" name="M249 or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="70d4-206b-9c65-28be">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ccd-9988-863e-1313" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7482-45c8-e644-ac6c" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="70d4-206b-9c65-28be" name="3x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="2041-4d6c-515f-0803" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="b8c2-3b79-fd32-91c4" name="3x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="0148-7aa3-6251-0f14" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="572b-d770-daf7-5527" name="3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="8a3d-ae26-8aaf-a90c" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a2-26cc-94ed-d1b8" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="a9b9-500c-a0d5-3f38" name="M249 or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7a8-b196-e22d-2fff">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e200-18ed-e41d-c559" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b3-e9bf-a95d-a0a4" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="e7a8-b196-e22d-2fff" name="4x M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="0907-6c73-c063-fbe4" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="17c0-8b40-d4af-9754" name="4x M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="66ef-91e1-0bc8-363c" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
@@ -2039,196 +1310,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="711d-719b-127b-9b84" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="b1d3-0925-ff87-604a" name="M1A1 Abrams Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0b37-c801-c812-4a6d" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
-                <infoLink id="43a2-d1b0-7621-5904" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
-                <infoLink id="a5e8-e24c-4e1a-d6d2" name="Advanced Stabiliser" hidden="false" targetId="16f1-d6c2-e846-b6c8" type="rule"/>
-                <infoLink id="f0e6-7355-43fd-380c" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-                <infoLink id="8bb4-72c8-4216-1c44" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
-                <infoLink id="5117-ddae-f416-85cd" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
-                <infoLink id="69db-57b7-ae94-77d8" name="M256 120mm gun" hidden="false" targetId="d35b-ac1d-1959-1daa" type="profile"/>
-                <infoLink id="d354-a495-0094-230a" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="7786-cab2-0ff9-ccef" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="2d70-cac0-2261-1c42" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="809f-5b63-5cc1-d288">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc47-ba0e-762a-4a5b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a200-bf52-ac00-7bdc" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="16ce-d864-93d3-b795" name="3x M1A1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="aa63-6422-d95c-559a" name="M1A1 Abrams" hidden="false" targetId="872d-daa3-fe3d-a036" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="42.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1efb-7bc9-3039-8127" name="2x M1A1HC" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="700d-13ea-a6c1-68e5" name="M1A1HC Abrams" hidden="false" targetId="5d42-4fd3-6a3c-87eb" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="36.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="809f-5b63-5cc1-d288" name="2x M1A1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="e695-a8a8-313c-02f4" name="M1A1 Abrams" hidden="false" targetId="872d-daa3-fe3d-a036" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="28.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f6a5-975b-03ae-caee" name="4x M1A1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="4645-73d0-daf7-3ce7" name="M1A1 Abrams" hidden="false" targetId="872d-daa3-fe3d-a036" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="56.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a06f-3c6c-e1b8-41e9" name="3x M1A1HC" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="1d32-f32c-6e6e-4d45" name="M1A1HC Abrams" hidden="false" targetId="5d42-4fd3-6a3c-87eb" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="54.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0598-a176-c078-9fd9" name="4x M1A1HC" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="2b1d-ce7f-437e-678d" name="M1A1HC Abrams" hidden="false" targetId="5d42-4fd3-6a3c-87eb" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="72.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="be73-92ea-d3da-056d" name="M1 Abrams Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="c29e-5349-f9b3-8fbb" name="M68 105mm gun" hidden="false" targetId="5e9c-1d1a-9d40-492b" type="profile"/>
-                <infoLink id="61f3-3cea-70ff-5cd7" name="Advanced Stabiliser" hidden="false" targetId="16f1-d6c2-e846-b6c8" type="rule"/>
-                <infoLink id="785d-3543-b352-daeb" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-                <infoLink id="0bd5-2a7a-f14f-f663" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
-                <infoLink id="7f57-d36f-dd05-d193" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
-                <infoLink id="8831-7d15-78a0-0193" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-                <infoLink id="2f73-a2d5-7630-0ae9" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
-                <infoLink id="f3d6-b586-81a7-8aec" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="d9f0-a949-7e3d-a469" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6b15-03e3-882d-a627" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="df4e-3ceb-3c85-93f8">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5f-23cf-a381-ebae" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d0-19f2-e4b2-1362" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="a139-8d7b-907a-6bf2" name="3x M1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="a205-e86c-f170-fd82" name="M1 Abrams" hidden="false" targetId="1939-60e3-7b15-2d35" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="df4e-3ceb-3c85-93f8" name="2x M1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="f41f-84dd-dcf2-66f7" name="M1 Abrams" hidden="false" targetId="1939-60e3-7b15-2d35" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6788-b7ac-7556-5432" name="4x M1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="16c1-b319-22b4-797c" name="M1 Abrams" hidden="false" targetId="1939-60e3-7b15-2d35" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="32.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="98d2-ac24-6ec7-6867" name="2x IPM1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="77e7-3279-7e79-348b" name="IPM1 Abrams" hidden="false" targetId="2ac7-51f4-d4b4-b168" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a01e-3bed-86d3-7b24" name="3x IPM1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="d37c-fc69-534d-e5a7" name="IPM1 Abrams" hidden="false" targetId="2ac7-51f4-d4b4-b168" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="27.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6cc2-e19b-93cb-f4c1" name="4x IPM1 Abrams" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="01ca-16f2-eb5e-6cad" name="IPM1 Abrams" hidden="false" targetId="2ac7-51f4-d4b4-b168" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="36.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2fc1-c66d-0314-12d1" name="M60 Patton Tank Platoon" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="1175-d56f-46ad-79d9" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-                <infoLink id="8167-f286-92d8-80e6" name=".50 cal  MG" hidden="false" targetId="b8ec-c5d7-69f3-1692" type="profile"/>
-                <infoLink id="ef82-8fde-676f-451f" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
-                <infoLink id="db37-def2-2b3a-693b" name="M60 Patton" hidden="false" targetId="b578-f839-ead7-6a68" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="261b-b222-86d9-3be3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="307f-53cf-37b1-f744">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7013-ba1a-a3b8-c0b2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e05-983b-d9fc-e32c" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="307f-53cf-37b1-f744" name="2x M60 Patton" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8dcf-6c6c-10ba-fb9e" name="3x M60 Patton" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="12.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="96d3-ba48-0f26-8c9e" name="4x M60 Patton" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="43c8-ceea-ef91-c35a" name="M1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="b574-347b-c757-237d" type="selectionEntry"/>
+            <entryLink id="59e5-16df-21e5-50e8" name="M1A1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="0d0e-ece7-81e6-5c53" type="selectionEntry"/>
+            <entryLink id="193e-7b67-7450-a7e1" name="M60 Patton Tank Platoon" hidden="false" collective="false" import="true" targetId="35e6-e332-e227-ceaa" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="41ee-9b37-2a19-0b6d" name="M3 Bradley or M113 Scout Section" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b28-3cb6-9f5b-ff55">
           <constraints>
@@ -2318,6 +1404,19 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2888-5b98-c2ce-98de" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="ab17-6af6-53d9-1288" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1967-d5e9-c76e-9ada" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="713f-6908-abcf-3df8" name="M113 Mech Platoon" hidden="false" collective="false" import="true" targetId="f675-5bf4-b041-50d7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f0-370e-d8fd-7d2c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef5-ee91-b856-9b93" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -3344,53 +2443,6 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd3b-3455-c255-3a24" name="M109 Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af34-473a-ac9e-1048" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ef9d-f125-4d0d-2928" name="Bomblets" hidden="false" targetId="650f-eef5-2ffa-21f1" type="rule"/>
-            <infoLink id="ba4d-2d34-5e79-0a25" name="Laser-Guided Projectiles" hidden="false" targetId="6085-2818-344e-c682" type="rule"/>
-            <infoLink id="e795-e575-ff14-d1de" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
-            <infoLink id="1c79-b0a7-c16f-a61c" name="M109" hidden="false" targetId="7894-8920-f84b-6aa7" type="profile"/>
-            <infoLink id="99bb-d438-d451-4207" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
-            <infoLink id="97ad-c42d-4cf4-f241" name="M185 155mm howitzer" hidden="false" targetId="06be-fdea-c9d3-13e2" type="profile"/>
-            <infoLink id="8e39-2705-374c-7012" name="M185 155mm howitzer direct fire" hidden="false" targetId="d327-44f6-44db-d971" type="profile"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink id="05cf-980e-f00e-a873" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="b142-ec55-f96e-5ed3" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="588c-1ec6-7d85-4974" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2dfc-eb4a-fdc2-f196">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac2-940d-d4c6-34c9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f0-8831-fbb6-986d" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="2dfc-eb4a-fdc2-f196" name="3x M109" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6f9c-09e7-13bf-001e" name="6x M109" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="14.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="23e9-3daa-e78e-7357" name="UH-1 Huey Rifle Platoon" publicationId="ce0d-b868-73d3-d028" page="43" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d78-4f94-4217-2d07" type="max"/>
@@ -3607,9 +2659,14 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afdb-aac6-82bf-4dfb" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5891-7c69-1aa0-5a21" name="M106 cavalry Mortar Platoon" hidden="false" collective="false" import="true" targetId="9082-c032-dc92-4f00" type="selectionEntry">
+        <entryLink id="5891-7c69-1aa0-5a21" name="M106 Cavalry Mortar Platoon" hidden="false" collective="false" import="true" targetId="9082-c032-dc92-4f00" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc9-4ed0-337e-ef0c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2af2-910c-8ae0-f577" name="US Army M109 Field Artillery Battery" hidden="false" collective="false" import="true" targetId="3484-1993-0776-b345" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be7-be42-b9ca-1a43" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4190,42 +3247,11 @@
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53a7-caef-06d6-c095" name="3xM270" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="075c-e1dc-25b0-b76f" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cf79-aa8b-04fd-c269" name="M1 Abrams Combat Team" publicationId="ce0d-b868-73d3-d028" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="1e15-2f28-2bc3-f0a2" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="200f-0d7c-ff7d-7bec" name="M113 or M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae08-83a3-93ae-daab" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="d334-05a9-54d7-2f4f" name="M113 Mech Platoon" hidden="false" collective="false" import="true" targetId="f675-5bf4-b041-50d7" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="62e4-7377-1ab7-37e0" name="M113 or M3 Bradley Scout Section" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6dc-1675-b3f6-9a63" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="819a-f655-19d7-aee3" name="M113 Scout Section" hidden="false" collective="false" import="true" targetId="a794-aabe-f786-d5f6" type="selectionEntry"/>
-            <entryLink id="f0c2-4357-fdef-b23e" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" targetId="4502-8596-abce-8fbb" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="5bbc-002d-87b4-f35e" name="M1 Abrams  HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec91-70b5-25d0-20d3" type="min"/>
@@ -4279,6 +3305,28 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9f09-c7b6-7357-e564" name="M3 Bradley or M113 Scout Section" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb2-aa11-9c02-c2ce" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896e-fd04-89ce-adf8" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ce54-f685-0e28-37aa" name="M113 Scout Section" hidden="false" collective="false" import="true" targetId="a794-aabe-f786-d5f6" type="selectionEntry"/>
+            <entryLink id="61a4-bcbc-ce9c-362b" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" targetId="4502-8596-abce-8fbb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9904-2b25-613d-f021" name="M113 or M2 Bradley Mech Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f87-ba61-ecd3-2aef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c256-cafd-3123-a087" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6865-89ce-a772-82ac" name="M113 Mech Platoon" hidden="false" collective="false" import="true" targetId="f675-5bf4-b041-50d7" type="selectionEntry"/>
+            <entryLink id="b8f6-8420-8282-ce15" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" targetId="4502-8596-abce-8fbb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="880d-2698-fac0-b3d6" name="M1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="b574-347b-c757-237d" type="selectionEntry">
           <constraints>
@@ -4287,7 +3335,7 @@
           </constraints>
         </entryLink>
         <entryLink id="2a19-099e-9ece-f558" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry"/>
-        <entryLink id="2c29-5266-faf7-5147" name="M106 Cavalry Mortar Platoon" hidden="false" collective="false" import="true" targetId="9082-c032-dc92-4f00" type="selectionEntry">
+        <entryLink id="2c29-5266-faf7-5147" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="ab17-6af6-53d9-1288" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa5-10b0-a6af-25f4" type="max"/>
           </constraints>
@@ -4757,6 +3805,41 @@
       <categoryLinks>
         <categoryLink id="c514-6f7a-d42b-2797" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="36f1-ed8f-95a1-13ec" name="Add Bomblet Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf8-6caf-8d4e-18e3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6f9e-0ae5-f719-cc03" name="Bomblets" hidden="false" targetId="650f-eef5-2ffa-21f1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e8f-78c7-089f-e237" name="Add Minelet Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57cc-0630-90a3-ffbc" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3b70-c11a-9338-0362" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a443-d0e4-fc7a-c985" name="Add Laser-Guided Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90da-44bb-0e75-0de4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="acd8-f6e2-304c-b593" name="Laser-Guided Projectiles" hidden="false" targetId="6085-2818-344e-c682" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="67ce-c669-df9d-3bad" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9f7-9218-b97e-b439">
           <constraints>
@@ -5036,6 +4119,41 @@
       <infoLinks>
         <infoLink id="de2e-dfb0-9ce7-e893" name="USMC M109" hidden="false" targetId="ce35-c47b-28fb-b9f1" type="infoGroup"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6546-764e-9a08-5a63" name="Add Bomblet Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6168-6524-89b7-2fa7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="05bc-cc4d-2bf7-270f" name="Bomblets" hidden="false" targetId="650f-eef5-2ffa-21f1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="51c2-e36d-0210-019c" name="Add Laser-Guided Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eac-e3eb-c649-c837" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="437a-33e9-7bab-bcd7" name="Laser-Guided Projectiles" hidden="false" targetId="6085-2818-344e-c682" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccf5-aebf-435f-24b1" name="Add Minelet Munitions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c3-a700-bde9-c01c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="149a-d799-ed3f-e685" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9dce-261c-34be-aa18" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="82ff-4996-e1f2-c9f4">
           <constraints>
@@ -5331,7 +4449,7 @@
             </selectionEntry>
             <selectionEntry id="6580-f630-d356-d826" name="2x M47" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5801,9 +4919,9 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="51b3-0c82-64a4-1c9c" name="4x RDF/LT" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="51b3-0c82-64a4-1c9c" name="3x RDF/LT" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5815,7 +4933,7 @@
     </selectionEntry>
     <selectionEntry id="f675-5bf4-b041-50d7" name="M113 Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a097-58f5-4435-03ab" name="M113 Mech Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
+        <profile id="c29d-1bf7-b7be-5034" name="M113 Mech Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
           <characteristics>
             <characteristic name="Tactical move" typeId="e0ee-5804-d1a7-ffb3">8&quot;/20CM</characteristic>
             <characteristic name="Terrain Dash" typeId="ccbc-9147-7cef-acca">8&quot;/20CM</characteristic>
@@ -5834,11 +4952,25 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9174-2848-4e9b-f2e7" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
-        <infoLink id="9693-0d9c-32a3-7f4f" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
         <infoLink id="d683-9d4f-446e-36b6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
         <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="6f23-2f35-855f-f93e" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
+        <infoLink id="f64c-fff7-323c-8e55" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
+        <infoLink id="efa2-7e15-bf78-0b9c" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
+        <infoLink id="c4dd-0638-8fc1-2f0e" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
+        <infoLink id="807a-7c1e-ec4f-6aff" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+        <infoLink id="8fb3-f3f5-6d8c-ad65" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="3232-291c-8e23-14a8" name="Add 1x M47" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4890-aeb9-9ea5-3d40" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="db51-3eb0-8965-98eb" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="36c6-6341-6452-1934">
           <constraints>
@@ -5847,31 +4979,11 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="350a-1012-56ab-fcef" name="4x M249 with M72 LAW 3x M47 3x M113" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="fc9a-ae61-9f49-1eed" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="991a-0762-e3d6-5d4e" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="36c6-6341-6452-1934" name="3x M249 or M72 LAW 3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="dc43-c087-1ea0-b9b5" name="1x M47" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e094-c983-53f5-77ba" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="36c6-6341-6452-1934" name="3x M249 with M72 LAW 3x M47 4x M113" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
@@ -5917,7 +5029,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ed-67ba-a884-b6da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="59ab-2226-4fa3-99d6" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="59ab-2226-4fa3-99d6" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="bfe8-d9e3-439e-0512" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
                 <infoLink id="532e-6adc-ccd7-2f6e" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
@@ -5927,7 +5039,7 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="febc-62eb-e721-443b" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="febc-62eb-e721-443b" name="3x M249 SAW with M72 LAW 2x M47 Dragon 3x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="fbfb-1b78-aa27-265e" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
                 <infoLink id="c04e-3365-87d0-a255" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
@@ -5937,7 +5049,7 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0798-7432-6f3d-f763" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2A2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0798-7432-6f3d-f763" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9bfd-b08c-4685-45b8" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
                 <infoLink id="1da9-0dce-d65e-1ab1" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
@@ -5947,7 +5059,7 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="16.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9780-18b4-cddb-702e" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2 Bradly" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9780-18b4-cddb-702e" name="4x M249 SAW with M72 LAW 3x M47 Dragon 4x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="cb6a-f1a1-fd6b-09de" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
                 <infoLink id="8a6a-41ba-9803-8da4" name="M2/M3 Bradley Weapons" hidden="false" targetId="f7bf-2d24-b7c2-9cc8" type="infoGroup"/>
@@ -6106,7 +5218,7 @@
             <infoLink id="3da5-9bda-ab84-1ef3" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6184,6 +5296,96 @@
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="ab17-6af6-53d9-1288" name="M106 Heavy Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d459-e9fb-b6a0-95ca" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="aa48-c9d5-e6f4-81c3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b99b-b04c-edea-87e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db19-5fcd-3c52-bb23" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="aa48-c9d5-e6f4-81c3" name="3x M106" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="04f3-9083-ea50-d51d" name="M106" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">24&quot;/60CM</characteristic>
+                    <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
+                    <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">3+</characteristic>
+                    <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
+                    <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
+                    <characteristic name="Top" typeId="f293-d7ab-abe0-c981">0</characteristic>
+                    <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
+                    <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
+                    <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
+                    <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
+                    <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
+                    <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">5+</characteristic>
+                    <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="29e1-6045-d617-7723" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
+                    <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
+                    <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">ARTILLERY</characteristic>
+                    <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
+                    <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">4+</characteristic>
+                    <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b797-51da-65f4-6ddd" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3eeb-7ef6-3f20-f0c2" name="6x M106" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="4ace-87bc-86d0-a16c" name="M106" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">24&quot;/60CM</characteristic>
+                    <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
+                    <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">3+</characteristic>
+                    <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
+                    <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
+                    <characteristic name="Top" typeId="f293-d7ab-abe0-c981">0</characteristic>
+                    <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
+                    <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
+                    <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
+                    <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
+                    <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
+                    <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">5+</characteristic>
+                    <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d139-1358-c355-28e4" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
+                    <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
+                    <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">ARTILLERY</characteristic>
+                    <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
+                    <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">4+</characteristic>
+                    <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e29d-a99d-a249-a478" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -6735,7 +5937,7 @@
         <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
         <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
         <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">5+</characteristic>
+        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">6</characteristic>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
       </characteristics>
     </profile>
