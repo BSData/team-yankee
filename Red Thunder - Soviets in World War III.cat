@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aed7-aa45-90a5-ecbd" name="Red Thunder - Soviets in World War III" revision="6" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="87b2-2e1f-509c-a6e1" name="Red Thunder - Soviets in World War III" shortName="Red Thunder" publisher="ISBN 9780994147417" publicationDate="2017" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -1185,7 +1185,7 @@
                 <infoLink id="5f5b-efd0-4904-be02" name="BMP-2" hidden="false" targetId="c309-bb09-7532-6cd4" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5b1d-55d4-69ee-7816" name="3x BMP-2" hidden="false" collective="false" import="true" type="unit">
@@ -1193,7 +1193,7 @@
                 <infoLink id="6616-2898-f4f7-06e8" name="BMP-2" hidden="false" targetId="c309-bb09-7532-6cd4" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49bb-f5b6-b481-a2c0" name="4x BMP-2" hidden="false" collective="false" import="true" type="unit">
@@ -1201,7 +1201,7 @@
                 <infoLink id="69c6-5589-7b57-c322" name="BMP-2" hidden="false" targetId="c309-bb09-7532-6cd4" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
