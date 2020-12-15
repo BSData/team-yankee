@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="American" revision="2" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="American" revision="3" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is still a work in progress</readme>
   <selectionEntries>
     <selectionEntry id="2572-fade-0e37-b805" name="HMMWV Scout Section" hidden="false" collective="false" import="true" type="unit">
@@ -4551,20 +4551,20 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d3a0-0b15-813a-d1c3" name="6x HMMWV-MK19" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d3a0-0b15-813a-d1c3" name="3x HMMWV-MK19" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c494-32bc-8e2b-98f4" name="MK 19 40mm GL" hidden="false" targetId="f6cd-1fc9-54a9-8735" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e2f9-1d51-2150-182b" name="3x HMMWV-M2" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e2f9-1d51-2150-182b" name="6x HMMWV-M2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="90fd-8207-e373-b2e6" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="87b5-932b-a52c-7885" name="6x HMMWV-MK19" hidden="false" collective="false" import="true" type="upgrade">
@@ -5386,6 +5386,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
