@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="American" revision="3" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="American" revision="4" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is still a work in progress</readme>
   <selectionEntries>
     <selectionEntry id="2572-fade-0e37-b805" name="HMMWV Scout Section" hidden="false" collective="false" import="true" type="unit">
@@ -974,6 +974,11 @@
         <entryLink id="ac0a-f7ba-4e0a-b74f" name="US Army M109 Field Artillery Battery" hidden="false" collective="false" import="true" targetId="3484-1993-0776-b345" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e499-675c-7509-eebd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="acd1-7d64-b55f-8f42" name="UH-1 Huey Rifle Platoon" hidden="false" collective="false" import="true" targetId="024a-7375-ea01-d515" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f8-04ad-3e08-829f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2443,92 +2448,6 @@
             <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="23e9-3daa-e78e-7357" name="UH-1 Huey Rifle Platoon" publicationId="ce0d-b868-73d3-d028" page="43" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d78-4f94-4217-2d07" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="233e-f824-2011-5386" name="UH-1 Huey" hidden="false" targetId="078f-b587-f3e3-35aa" type="infoGroup"/>
-            <infoLink id="3d27-1a27-64cd-4612" name="Infantry Team" hidden="false" targetId="ba24-e728-49ed-a81d" type="profile"/>
-            <infoLink id="1860-fedf-8091-e70a" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
-            <infoLink id="5179-cee2-cdaa-dac3" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e7ef-beb8-2d2f-b4c2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="fccb-a931-d425-5e27">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c3c-ae2a-182a-bc3e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ac-5214-8ff4-16fc" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="fccb-a931-d425-5e27" name="5x M249 SAW or 5x M47 LAW 1x M47 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="7b63-b03d-38bf-7393" name="M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f82-316f-03b1-78f0">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="958f-9cf9-f0b6-9727" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="052c-0429-b057-2624" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="2f82-316f-03b1-78f0" name="M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="313e-3250-7049-122d" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="b07e-0ccc-924e-cb79" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="3169-c761-7d79-1b8a" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="438d-18c5-a3fa-a686" name="7x M249 SAW or 7x M72 LAW 1x M47 3x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="226e-2af7-4b6b-66fc" name="M249 SAW or M72 LAW" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ac0-4962-cf3f-22f8">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="148a-0c39-548b-3bc2" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b7-7aa2-7e95-0f98" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="0ac0-4962-cf3f-22f8" name="M249 SAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="3035-e2e5-dc55-f158" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="706c-65b2-1837-612e" name="M72 LAW" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="de67-a4fd-3758-4429" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0a34-a3fc-40dd-6e26" name="Tank Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f23d-2b30-d75a-5fc4">
@@ -2669,6 +2588,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be7-be42-b9ca-1a43" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="a6f7-a7ce-b5aa-224c" name="UH-1 Huey Rifle Platoon" hidden="false" collective="false" import="true" targetId="024a-7375-ea01-d515" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -4206,7 +4126,49 @@
         <infoLink id="6444-7f52-e8a0-6a73" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
         <infoLink id="e2ad-d18b-be8e-50df" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="a377-8810-8bde-0bfc" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="9fe3-d58f-7686-a016" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+        <infoLink id="b836-8c26-9b1b-ae9e" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c4df-b1d7-5c81-bf44" name="Add 1x M47 Dragon Missile Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd5-6876-df56-1c13" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e63-c0f2-b532-a03d" name="Add 1x M60 GPMG Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b2-6590-84ab-34be" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="44f8-e0f3-06fb-a2b4" name="M60 GPMG" hidden="false" targetId="5d20-0981-2a11-42f7" type="profile"/>
+            <infoLink id="b7aa-2f82-e266-722e" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="942b-b777-ba66-1f57" name="Add 1x M224 60mm Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="486d-9a7f-65b0-6388" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8ce7-67f0-38da-e7e5" name="M224 60mm Mortar" hidden="false" targetId="1ac9-c0ed-e552-855d" type="profile"/>
+            <infoLink id="abc2-1182-8e4e-ebbb" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+            <infoLink id="ea67-dd8e-1b09-3bdf" name="Overhead Fire" hidden="false" targetId="1012-26ff-1087-e4a6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e5ab-66f3-7bb1-d816" name="Add 1x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d755-582a-b42e-ae25" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="16bf-baae-2555-d096" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="cca8-fa51-1e1e-b9e5">
           <constraints>
@@ -6144,7 +6106,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Laser Rangefinder</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccbc-7622-a4af-0026" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="ccbc-7622-a4af-0026" name="M60 GPMG (Heavy)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -6547,6 +6509,16 @@
         <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
+        <characteristic name="ROF Halted" typeId="7a61-c54f-97c9-9ecd">5</characteristic>
+        <characteristic name="ROF Moving" typeId="9696-6fb3-ca9f-9769">2</characteristic>
+        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
+        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
+        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 5</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
