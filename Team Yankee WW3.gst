@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="5" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="6" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Still a work in progress. Will be adding other forces as I can acquire the books or cards to do so.</readme>
   <publications>
     <publication id="ce0d-b868-73d3-d028" name="American" shortName="American" publisher="American"/>
@@ -89,11 +89,7 @@
     <categoryEntry id="49c4-0317-f106-84c7" name="Combat Formation" hidden="false"/>
     <categoryEntry id="f947-2750-08c3-d4fc" name="Support Unit" hidden="false"/>
     <categoryEntry id="6e0b-5b8e-50c9-666c" name="Allied Formation" hidden="false"/>
-    <categoryEntry id="ccc5-e668-a26d-db83" name="Formation Support" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b30-9a84-71a1-ad6d" type="max"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry id="ccc5-e668-a26d-db83" name="Formation Support" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="cab4-4782-0e92-0a9c" name="Standard" hidden="false">
@@ -108,7 +104,7 @@
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="c304-0424-a197-1909" name="Support Platoon" hidden="false" targetId="f947-2750-08c3-d4fc" primary="false"/>
+        <categoryLink id="c304-0424-a197-1909" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="false"/>
         <categoryLink id="d4df-45f7-c0ca-739f" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
         <categoryLink id="2ce6-6a0c-438a-24b4" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="false"/>
       </categoryLinks>
