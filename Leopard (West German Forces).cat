@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="4" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b0b5-b9fe-0017-2fd1" name="Leopard (West German Forces)" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0050-c33c-cf58-fb47" name="Leopard - West Germans in World War III" shortName="Leopard" publisher="FW906" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
     <publication id="132c-e55c-0907-462f" name="Panzertruppen - West Germans in World War III" shortName="Panzertruppen" publisher="ISBN 9780994120663" publicationDate="2016" publisherUrl="www.team-yankee.com"/>
@@ -94,6 +94,31 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="04cc-2bd3-85f0-ce43" name="Leopard 2 Panzer Zug" hidden="false" collective="false" import="true" targetId="b787-388d-0ffa-f002" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2fc3-fd17-0e93-59b1" value="2.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdc-d828-0ad7-172e" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="247a-82d0-ec04-fccb" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdc-d828-0ad7-172e" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="247a-82d0-ec04-fccb" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdc-d828-0ad7-172e" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc47-34ac-5f57-314a" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fc3-fd17-0e93-59b1" type="max"/>
@@ -278,7 +303,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4647-073d-e51c-1a40" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4ce5-2cdd-7ff4-2f94" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry">
+        <entryLink id="4ce5-2cdd-7ff4-2f94" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="64c6-fb17-9bed-f551" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b7d-a17e-4063-3b8c" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9682-4008-096c-f9b8" type="max"/>
@@ -398,6 +423,31 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b046-dec7-1c5d-bbca" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="8a30-3724-6484-e919" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="7c23-a85e-845b-b6bc" value="2.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f06-80fa-bebb-c542" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f06-80fa-bebb-c542" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca86-edf0-d001-a6cc" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f06-80fa-bebb-c542" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca86-edf0-d001-a6cc" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3bf6-9265-93a8-ed86" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c23-a85e-845b-b6bc" type="max"/>
@@ -575,6 +625,14 @@
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="33.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cdc-d828-0ad7-172e" name="4 x Leopard 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5404-2937-016e-bebf" name="Leopard 2 Panzer" hidden="false" targetId="b136-79c0-eba2-6e8b" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="44.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1040,6 +1098,14 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="2f06-80fa-bebb-c542" name="4 x Leopard 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="bc02-4304-e93e-a57f" name="Leopard 1" hidden="false" targetId="36cb-87fa-9763-aaf9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1429,6 +1495,38 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64c6-fb17-9bed-f551" name="Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" type="unit">
+      <comment>Max 3 Tanks Unit-Size</comment>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="33cd-45a5-bfd3-7f79" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3a7-7347-2bb2-7f38" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1717-ee1b-f172-ad6a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5548-bd0f-6c1c-b3c6" name="2 x Leopard 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d09-054b-cc26-44fa" name="Leopard 1" hidden="false" targetId="36cb-87fa-9763-aaf9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="108d-89b2-8567-9060" name="3 x Leopard 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="958e-5a9d-ab5a-fe4f" name="Leopard 1" hidden="false" targetId="36cb-87fa-9763-aaf9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
