@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="db75-8085-21af-2a36" name="Soviet" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="db75-8085-21af-2a36" name="Soviet" revision="6" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9cfb-0c38-b382-fb84" name="Rocket Artillery Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2558,6 +2558,7 @@
             <selectionEntry id="eb4f-7f8b-d1e4-2d65" name="2x MI-24 Hind" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="4161-7c1d-ea88-c506" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="fd3b-ee69-1b61-fb23" name="AT-6 Spiral Missile (Air Launched)" hidden="false" targetId="ea32-12ff-0893-f072" type="infoGroup"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="355a-e090-b6b4-6e00" name="2x AK-74 Team with RPG-18 Anti-Tank, 2x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
@@ -2568,6 +2569,19 @@
                     <infoLink id="7eeb-5622-c548-5bdb" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                     <infoLink id="7bbe-1e03-3eb0-a453" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                   </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="2910-42b8-e9b2-d53b" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46f-7e64-fe0f-3c95" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="9876-249a-35fe-d0f0" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <costs>
                     <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
                   </costs>
@@ -2580,6 +2594,7 @@
             <selectionEntry id="ab46-544b-3ff1-56f3" name="4x MI-24 Hind" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="ea37-5c32-ee6f-73aa" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="d08c-0511-cc2f-f1f7" name="AT-6 Spiral Missile (Air Launched)" hidden="false" targetId="ea32-12ff-0893-f072" type="infoGroup"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="30c4-199e-e7d3-a048" name="Mounted Infantry" hidden="false" collective="false" import="true">
@@ -2592,6 +2607,19 @@
                         <infoLink id="edfa-629e-0ef5-eb6b" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                         <infoLink id="afd1-5ee4-f798-f2ff" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                       </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="6df6-10b7-7e1c-b2f1" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a394-5c81-679b-5f7c" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="4296-7753-69c5-fa53" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                       <costs>
                         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
                       </costs>
@@ -2601,6 +2629,19 @@
                         <infoLink id="b8c6-5ac1-3820-d5ab" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                         <infoLink id="0b2e-9e6a-798c-78a1" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                       </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="5f1b-dc11-df41-7855" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f5-7969-64e2-26ab" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="ed9d-bccb-c74e-201c" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                       <costs>
                         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
                       </costs>
@@ -2613,6 +2654,10 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="7504-efef-ae62-c993" name="6x MI-24 Hind" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="2404-d122-3205-f885" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="1390-4102-813d-061d" name="AT-6 Spiral Missile (Air Launched)" hidden="false" targetId="ea32-12ff-0893-f072" type="infoGroup"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="2d95-3585-de41-217e" name="Mounted Infantry" hidden="false" collective="false" import="true">
                   <constraints>
@@ -2624,6 +2669,19 @@
                         <infoLink id="ff97-762d-9f70-7bf9" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                         <infoLink id="04b4-1b53-a36f-00d6" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                       </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="c244-78e0-4e17-f016" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d539-bd9b-dd2e-2a8f" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="6f6a-de4b-0ec3-fe8e" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                       <costs>
                         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
                       </costs>
@@ -2633,6 +2691,19 @@
                         <infoLink id="2310-d322-4c90-b116" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                         <infoLink id="3288-20a4-fbca-0618" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                       </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="068c-73d5-2384-6ad5" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3936-8b0a-927d-036b" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="24f4-245f-e53b-ff42" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                       <costs>
                         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
                       </costs>
@@ -2642,6 +2713,19 @@
                         <infoLink id="7305-e4ab-f354-748f" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
                         <infoLink id="5dfd-7a89-6504-ad1d" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
                       </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="fbe5-cb3c-01c1-a8df" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6a-f28b-bec2-8240" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="e1bd-cb17-9bc5-0104" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                       <costs>
                         <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
                       </costs>
@@ -2651,6 +2735,188 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf8d-3f6f-34ab-92a6" name="6x MI-24 Hind (AT-9)" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="c2d2-0e77-3740-8be6" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="88d8-076a-79f7-688d" name="AT-9 Spiral-2 Missile (Air Launched)" hidden="false" targetId="5654-d83c-b1fa-9a40" type="infoGroup"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="14df-ebf5-9032-cd83" name="Mounted Infantry" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e29-113d-d4ad-1c1d" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2742-41df-49ec-e9cb" name="4x AK-74 Team with RPG-18 Anti-Tank, 4x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                      <infoLinks>
+                        <infoLink id="5a3c-8cbf-284d-b5e8" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                        <infoLink id="e7f1-d90b-adb2-b3d2" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="fca9-52b0-16a5-3eb3" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afe-d537-4af9-ea9d" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="f2a7-7261-adc5-eb10" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="91cb-6fe9-6a06-f3a6" name="6x AK-74 Team with RPG-18 Anti-Tank, 6x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                      <infoLinks>
+                        <infoLink id="7f1e-93e1-c11f-8e5f" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                        <infoLink id="b0eb-4a36-677a-c817" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="4d01-66b6-b0eb-802a" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a57-5c6c-07e3-048e" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="8e33-9073-fa40-31aa" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6dcb-48fe-c6b8-d90d" name="2x AK-74 Team with RPG-18 Anti-Tank, 2x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                      <infoLinks>
+                        <infoLink id="eceb-dc75-6721-a0f0" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                        <infoLink id="2526-30b7-b264-4503" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="f88c-a8c0-b1e5-b8ea" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77de-f985-58f0-6274" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="3941-f45e-1a2b-f157" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fcf1-5294-8b3e-b2b4" name="4x MI-24 Hind (AT-9)" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="55ef-964b-e597-41a2" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="3392-e502-90b3-fea6" name="AT-9 Spiral-2 Missile (Air Launched)" hidden="false" targetId="5654-d83c-b1fa-9a40" type="infoGroup"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="bd2a-d324-34ee-b2a4" name="Mounted Infantry" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1356-8cd6-bc29-ece3" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="ca50-f07f-2c8f-3b8b" name="4x AK-74 Team with RPG-18 Anti-Tank, 4x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                      <infoLinks>
+                        <infoLink id="1277-f31a-0c69-6652" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                        <infoLink id="a970-396f-d1be-adf4" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="6c60-c565-97fa-09bd" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979b-c06b-97e5-cc4b" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="142e-5055-d571-6210" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b840-4650-d6fc-2df1" name="2x AK-74 Team with RPG-18 Anti-Tank, 2x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                      <infoLinks>
+                        <infoLink id="acd0-4d0e-6ed6-66ce" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                        <infoLink id="69ea-9fa9-4a27-6223" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="e372-37d9-da5b-c640" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe4b-f5db-2ace-f1a1" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="e4f6-2d91-96e0-ec19" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4f3f-8a64-839a-1c6e" name="2x MI-24 Hind (AT-9)" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="9ee8-43f3-6724-a964" name="MI-24 Hind (Red Banner)" hidden="false" targetId="921d-22a8-cd05-a5c3" type="infoGroup"/>
+                <infoLink id="f7c0-3ffb-a0cb-27e2" name="AT-9 Spiral-2 Missile (Air Launched)" hidden="false" targetId="5654-d83c-b1fa-9a40" type="infoGroup"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="6e52-bacf-fd10-46f3" name="2x AK-74 Team with RPG-18 Anti-Tank, 2x RPG-7 Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b46-0ff6-9bad-a25d" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="62c7-09b6-f614-06b7" name="AK-74 Team with RPG-18 Anti-Tank" hidden="false" targetId="1609-31b4-c1d3-a2fe" type="infoGroup"/>
+                    <infoLink id="ede5-7fad-c22f-655a" name="RPG-7 Anti-Tank Team" hidden="false" targetId="8980-7eca-46d3-00a6" type="infoGroup"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="fea1-2052-6801-5ebd" name="Replace all RPG-7 with RPG-7VR" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5131-0dfa-7220-1d17" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b6df-1efd-0e73-30e3" name="RPG-7VR Anti-Tank" hidden="false" targetId="c423-e0b3-309a-e24e" type="infoGroup"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
