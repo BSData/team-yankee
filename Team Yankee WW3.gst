@@ -124,7 +124,9 @@
     <rule id="8e4a-59b8-2d58-8f33" name="Anti-Helicopter" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>Can shoot at Helicopters</description>
     </rule>
-    <rule id="5571-a7f9-133c-dd58" name="Guided" publicationId="cc6b-118f-f23b-6738" hidden="false"/>
+    <rule id="5571-a7f9-133c-dd58" name="Guided" publicationId="cc6b-118f-f23b-6738" hidden="false">
+	<description>does not have usual +1 to hit penalty for shooting over 16&quot;/40CM. cannot hit infantry teams unless they are stationary and  in bulletproof cover</description>
+	</rule>
     <rule id="c037-2081-25b7-61b7" name="Chobham Armor" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>Side Armour is 16 against HEAT weapons.</description>
     </rule>
@@ -182,7 +184,7 @@ This movement may not use any Movement Orders, and may not take a Team within:
 
 When Deploying their remaining Units, a player may trreat the area entirely within 8&quot;/20CM of a Spearhead Team that is In Command as an extension of their Deployment Area. Teams placed here may not be placed in the areas that a Spearhead Team may not move into.</description>
     </rule>
-    <rule id="d3fb-834f-d6a6-3a25" name="Stabliser" publicationId="cc6b-118f-f23b-6738" hidden="false">
+    <rule id="d3fb-834f-d6a6-3a89" name="Stabliser"  hidden="false">
       <description>Tank can move 14&quot;/35CM at Tactical, gaining +1 penalty To Hit. Machine-guns cannot Shoot and Team cannot Assault if it moves more than 10&quot;/25CM</description>
     </rule>
     <rule id="5807-4eac-7fae-eda0" name="Amphibious" publicationId="cc6b-118f-f23b-6738" hidden="false">
@@ -289,6 +291,17 @@ When Deploying their remaining Units, a player may trreat the area entirely with
     </rule>
     <rule id="e41f-bf7a-3766-c44c" name="Observer" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>An Observer Team can Spot for any friendly Artillllery Unit. An Observer Team reduces the score required to Range In by -1.</description>
+    </rule>
+	<rule id="1920-a1a7-2ff4-73c1" name="NLOS (Non Line of Sight)"   hidden="false">
+      <description>A weapon with NLOS has no To Hit penalty for ranges over 16" and does not require a Line of Sight to Shoot At an enemy team. The target Team always counts as Concealed to the NLOS weapon, even when in Line of Sight. NLOS weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.</description>
+    </rule>
+	<rule id="beb6-7b27-c6e9-3056" name="Radar" hidden="false">
+      <description>Weapons equipped with Radar increase their Range by +12&quot;/30CM against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16&quot;/40CM when Shooting at Aircraft.</description>
+    </rule>
+	<rule id="beb6-7c27-c6f9-3066" name="Napalm" hidden="false">
+      <description>Infantry and Unarmoured Tank Teams re-roll successful Saves if hit by an Aircraft Unit firing an Artillery Bombardment using Napalm bombs.
+	  Armoured Tank Teams use Top armour for Saves when hit by Napalm bombs.
+	  </description>
     </rule>
     <rule id="e699-aa9d-514c-9f08" name="Tandem Warhead" hidden="false">
       <description>A Tandem Warhead HEAT Weapon is unaffected by ERA Armour. The Tank rolls its Armour Save based on its normal armour rating, not that of ERA.</description>
