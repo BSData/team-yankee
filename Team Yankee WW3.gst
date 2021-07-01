@@ -184,7 +184,7 @@ This movement may not use any Movement Orders, and may not take a Team within:
 
 When Deploying their remaining Units, a player may trreat the area entirely within 8&quot;/20CM of a Spearhead Team that is In Command as an extension of their Deployment Area. Teams placed here may not be placed in the areas that a Spearhead Team may not move into.</description>
     </rule>
-    <rule id="d3fb-834f-d6a6-3a89" name="Stabliser"  hidden="false">
+    <rule id="d3fb-834f-d6a6-3a89" name="Stabiliser"  hidden="false">
       <description>Tank can move 14&quot;/35CM at Tactical, gaining +1 penalty To Hit. Machine-guns cannot Shoot and Team cannot Assault if it moves more than 10&quot;/25CM</description>
     </rule>
     <rule id="5807-4eac-7fae-eda0" name="Amphibious" publicationId="cc6b-118f-f23b-6738" hidden="false">

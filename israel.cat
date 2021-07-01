@@ -22,6 +22,13 @@
 			<infoLink id="52ef-7faf-de01-f557" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
             <infoLink id="c9c5-52aa-5217-d0dd" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
             <infoLink id="cf69-a609-95a8-6be3" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+			<infoLink id="cf69-a609-95a8-6666" name="Dragon mount" hidden="false" targetId="dfec-07f6-3fa0-c825" type="rule"/>
+			<infoLink id="7777-a609-95a8-6666" name="pinned ROF 1" hidden="false" targetId="1567-d8ea-bc21-5566" type="rule"/>
+			<infoLink id="3676-3348-c692-100a" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+			<infoLink id="9769-a5d8-a340-2b91" name="heavy weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
+			<infoLink id="3063-150b-1833-ebb2" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+			<infoLink id="d54e-2694-393a-605d" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+			<infoLink id="5d0d-14d9-b1d2-5924" name="HQ transport" hidden="false" targetId="2d25-2cc5-0ea9-7fd9" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="676e-09cf-8b31-d8a3" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
@@ -101,9 +108,14 @@
         <infoLink id="58c4-7df5-37c4-a16e" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
 		<infoLink id="4cf3-12ca-e37c-55af" name="Magach 6" hidden="false" targetId="b578-f839-ead7-6a68" type="profile"/>      
         <infoLink id="6be9-3e79-7c74-98e7" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+		<infoLink id="9886-a565-7d89-5104" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
+        <infoLink id="4d92-e6bd-df80-8ef1" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+		<infoLink id="8fc2-d4c0-a6a5-badf" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
+		<infoLink id="119a-c8a0-06f6-79bd" name="Accurate" hidden="false" targetId="b8d6-5c93-8cd5-5578" type="rule"/>
+		<infoLink id="59e8-6ed5-72fe-b88b" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="30f3-475e-27e8-c5a8" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="30f3-475e-27e8-c5a8" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a141-b0ec-a143-e00f" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e76-3e0f-6506-d748">
@@ -215,7 +227,6 @@
       </costs>
     </selectionEntry>
 	
-	
 	<selectionEntry id="a847-0242-20bf-c799" name="Israeli M113 Recce Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
 	  <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b87-13a6-658b-aa29" type="min"/>
@@ -230,7 +241,7 @@
 		<infoLink id="80b7-13b0-5ff8-e559" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="efa8-d617-926d-4531" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="efa8-d617-926d-4531" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="77b8-4dee-0604-f48f" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="68fb-f0c8-daf1-e319">
@@ -259,7 +270,6 @@
 	
 	<selectionEntry id="b79d-d450-09bb-2c21" name="Israeli Jeep Recce Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-	  
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc4f-5985-4232-5d05" type="max"/>
       </constraints>
       <infoLinks>
@@ -267,9 +277,10 @@
 		<infoLink id="09ef-3ef0-c5eb-3482" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
         <infoLink id="5fc0-50d7-8caa-b15d" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
 		<infoLink id="5ebf-effd-b89d-3b52" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
+		<infoLink id="83f9-977b-6a7b-e902" name="forward firing" hidden="false" targetId="253b-8bc1-23c4-40c7" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="f59d-8c25-2327-74f2" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="f59d-8c25-2327-74f2" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8285-cc2b-e175-dea3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="58ac-8d48-7075-db00">
@@ -297,9 +308,10 @@
 		<infoLink id="2bf8-bcf3-4720-d040" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
         <infoLink id="3cde-6060-8479-9fc6" name="120mm Mortar" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
 		<infoLink id="2c71-48ad-3610-a4f3" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+		<infoLink id="3f5e-e400-5949-d6f6" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="fae4-d77f-c6b3-8dda" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="fae4-d77f-c6b3-8dda" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="890a-218a-108d-d4a5" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="463d-3da1-ef09-15a5">
@@ -335,6 +347,8 @@
       <infoLinks>
         <infoLink id="a471-0804-1370-8b1d" name="ZSU-23-4 Shilka" hidden="false" targetId="a39b-b1c6-8ba9-08f2" type="profile"/>
         <infoLink id="0172-ebbb-09f7-cd4b" name="23mm 2A7 AA gun" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
+		<infoLink id="5451-03fb-3278-2c20" name="Radar" hidden="false" targetId="beb6-7b27-c6e9-3056" type="rule"/>
+		<infoLink id="ff08-bf9d-dcae-419b" name="dedicated AA" hidden="false" targetId="514b-1009-1db9-e89a" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
         <categoryLink id="ff11-d0a3-9418-0c60" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -404,6 +418,9 @@
       <infoLinks>
         <infoLink id="ef47-e0d1-767c-b3de" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
         <infoLink id="897c-052e-0dc7-76f4" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
+		<infoLink id="85ba-596f-b4e8-570f" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+		<infoLink id="7c14-d47a-dca4-4b24" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+		<infoLink id="bdbb-8761-6172-ca23" name="observer" hidden="false" targetId="e41f-bf7a-3766-c44c" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
         <categoryLink id="2bd8-18bb-296b-731f" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -431,6 +448,8 @@
       <infoLinks>
         <infoLink id="18dd-398a-a45d-9459" name="Redeye Team" hidden="false" targetId="c29d-1bf7-b7be-5034" type="profile"/>
         <infoLink id="0f94-2ea4-b727-c01e" name="Redeye Team" hidden="false" targetId="cd4d-890c-a052-7b94" type="profile"/>
+		<infoLink id="a35a-c192-1f9d-0f6d" name="Guided AA" hidden="false" targetId="8fe0-6df6-1e26-7ec2" type="rule"/>
+		<infoLink id="01f3-b3b9-b0e7-9f2d" name="heavy weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
         <categoryLink id="c6f6-4ad8-5f38-4bbe" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -464,9 +483,11 @@
         <infoLink id="83ff-6fdf-5c54-d8e5" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
         <infoLink id="7266-c22c-e5e1-b467" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
 		<infoLink id="7ec0-1eb4-f04d-1db3" name="81mm Mortar" hidden="false" targetId="e941-dbc2-57fe-bcc6" type="profile"/>
+		<infoLink id="11f3-8755-04c9-8a56" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+		<infoLink id="b9c3-7285-843f-8740" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="c6f6-4ad8-5f38-4bbf" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="c6f6-4ad8-5f38-4bbf" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c1ad-962f-59dd-d45b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b30f-705e-8bf4-4f82">
@@ -496,9 +517,13 @@
       <infoLinks>
         <infoLink id="222a-e517-8e80-bbb5" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
         <infoLink id="d54d-8113-d029-7058" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
+		<infoLink id="2db5-1ddd-137b-b983" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+		<infoLink id="ddad-9058-c482-cd2e" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+		<infoLink id="28af-c025-dbd2-599b" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="a495-0ec4-3320-5fd6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="c6f6-4ad8-5f38-4bce" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="c6f6-4ad8-5f38-4bce" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="190e-7213-d43c-0393" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f1a1-287c-95d4-4db3">
@@ -525,11 +550,12 @@
 	
 	<selectionEntry id="2572-fade-0e37-b805" name="Israeli Jeep (TOW) platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="e297-7238-303f-c89b" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
         <infoLink id="c375-79bd-0157-b1c2" name="Jeep" hidden="false" targetId="6702-5ea6-6c16-f461" type="profile"/>
         <infoLink id="f07a-8a6a-2040-117d" name="Improved TOW Missile" hidden="false" targetId="985f-afac-086e-c6e1" type="profile"/>
         <infoLink id="3c63-470d-35ed-0d9a" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
         <infoLink id="1f4f-fa74-b1ae-af11" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+		<infoLink id="11cb-0390-f005-baee" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="9f8e-c858-a482-71d4" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5a57-7b52-2726-6241" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -669,16 +695,19 @@
 	<selectionEntry id="b574-347b-c757-237d" name="Israeli Merkava Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b022-7a67-2e55-e17f" name="M68 105mm gun" hidden="false" targetId="d35b-ac1d-1959-1daa" type="profile"/>
-        <infoLink id="797e-41a4-4f1e-8f67" name="Advanced Stabiliser" hidden="false" targetId="16f1-d6c2-e846-b6c8" type="rule"/>
-        <infoLink id="b630-4edb-b126-d5a3" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-        <infoLink id="5ce1-10a9-3cf7-5a2f" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+        <infoLink id="797e-41a4-4f1e-8f67" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
+		<infoLink id="25cb-2c21-b5b6-ce22" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="5ce1-10a9-3cf7-5a2f" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
         <infoLink id="fe70-c541-551b-6a27" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
         <infoLink id="fbfe-8302-9a06-179e" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
         <infoLink id="d85d-f093-6476-69ab" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
         <infoLink id="4dd2-901b-74f4-f193" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+		<infoLink id="665d-b41b-3a26-461d" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+		<infoLink id="5ef1-4b4e-7dd9-464d" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
+		<infoLink id="b0a7-acc6-2475-10c7" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="c6f6-4ad8-5f38-4dbe" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="c6f6-4ad8-5f38-4dbe" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="72f9-cdcc-27a8-1bd8" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5060-d5d8-e26b-460a">
@@ -733,7 +762,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="28f8-91a4-cd25-befe" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
-        <infoLink id="5a48-979c-d7ad-466e" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="5a48-979c-d7ad-466e" name="Guided AA" hidden="false" targetId="8fe0-6df6-1e26-7ec2" type="rule"/>
         <infoLink id="140f-6464-7ec6-4f34" name="M48 Chaparral SAM Platoon" hidden="false" targetId="fa21-f1f8-f01f-404b" type="profile"/>
         <infoLink id="952e-37cb-7369-35cd" name="MIM-72 Sidewinder AA Missile" hidden="false" targetId="26a4-d546-53c8-f619" type="profile"/>
       </infoLinks>
@@ -775,6 +804,10 @@
         <infoLink id="08f7-7450-bb6c-5c0a" name="M185 155mm howitzer" hidden="false" targetId="06be-fdea-c9d3-13e2" type="profile"/>
         <infoLink id="ebf5-0488-bd6f-933b" name="M185 155mm howitzer direct fire" hidden="false" targetId="d327-44f6-44db-d971" type="profile"/>
         <infoLink id="1e2f-5f07-5d5e-4701" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+		<infoLink id="3d91-1dd8-feba-7179" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+        <infoLink id="c717-483d-56a5-4bb9" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
+        <infoLink id="7ab0-9049-4ec4-7ed9" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+		<infoLink id="0a94-62b6-299f-3432" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c514-6f7a-d42b-2797" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -884,8 +917,8 @@
 	
 	<selectionEntry id="907c-b621-4ce4-7a46" name="Israeli Skyhawk Fighter Flight" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="53a5-5d5c-4586-9f2e" name="Skyhawk" hidden="false" targetId="a44f-137d-53e9-fe28" type="infoGroup"/>
-              </infoLinks>
+				<infoLink id="53a5-5d5c-4586-9f2e" name="Skyhawk" hidden="false" targetId="a44f-137d-53e9-fe28" type="infoGroup"/>
+			  </infoLinks>
 			  <categoryLinks>
         <categoryLink id="0e37-510f-7386-5d53" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
@@ -913,10 +946,7 @@
                 <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
-	
-	
-	
-	
+
 	<selectionEntry id="f675-5bf4-b041-50d7" name="Israeli M113 Mech Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c29d-1bf7-b7be-5034" name="Israeli Infantry Platoon" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
@@ -950,7 +980,7 @@
         <infoLink id="8fb3-f3f5-6d8c-ad65" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
       </infoLinks>
 	  <categoryLinks>
-        <categoryLink id="c6f6-4ad8-5f38-5cbe" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="c6f6-4ad8-5f38-5cbe" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3232-291c-8e23-14a8" name="Add 1x M47" hidden="false" collective="false" import="true" type="upgrade">
@@ -1673,6 +1703,7 @@
       <infoLinks>
         <infoLink id="5f99-27ce-6d8a-8553" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="5d08-204b-e734-4131" name="Radar M163" hidden="false" targetId="90ff-cbfd-16c2-1b3d" type="rule"/>
+		<infoLink id="5d08-204b-e734-ab2c" name="dedicated AA" hidden="false" targetId="514b-1009-1db9-e89a" type="rule"/>
         <infoLink id="7633-077b-b623-c67f" name="M113  Chassis VADS" hidden="false" targetId="7c55-4e46-61f3-1fb3" type="profile"/>
         <infoLink id="d1ba-7b0c-db3e-e645" name="M168 20MM Vulcan Gatling AA gun" hidden="false" targetId="1bf0-5a8e-7e98-c8a3" type="profile"/>
       </infoLinks>
