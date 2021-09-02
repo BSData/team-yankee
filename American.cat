@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="American" revision="5" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="American" revision="6" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is still a work in progress</readme>
   <selectionEntries>
     <selectionEntry id="2572-fade-0e37-b805" name="HMMWV Scout Section" hidden="false" collective="false" import="true" type="unit">
@@ -1673,9 +1673,9 @@
                     <cost name="Points" typeId="7216-9333-2b5d-9b72" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="bc54-2893-428f-0fee" name="4x RDF/LT" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="bc54-2893-428f-0fee" name="3x RDF/LT" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                    <cost name="Points" typeId="7216-9333-2b5d-9b72" value="6.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b7df-6100-ce59-b90b" name="4x RDF/LT" hidden="false" collective="false" import="true" type="upgrade">
