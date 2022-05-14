@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="4" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d513-979e-a800-9289" name="Free Nations" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="63dc-a08d-29fa-af37" name="Free Nations - Canadian, French, Dutch and Australian Forces in WWIII" shortName="Free Nations" publisher="ISBN 9780995104204" publicationDate="2018" publisherUrl="www.team-yankee.com"/>
   </publications>
@@ -1959,7 +1959,7 @@
                 <infoLink id="f267-4bb3-3e38-b513" name="M106 120mm" hidden="false" targetId="de2a-bcd0-163b-28e7" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8de4-aa70-b7b8-81d2" name="3x M106 120mm" hidden="false" collective="false" import="true" type="unit">
@@ -1967,7 +1967,7 @@
                 <infoLink id="f3e6-45d0-3fb5-31ad" name="M106 120mm" hidden="false" targetId="de2a-bcd0-163b-28e7" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="Points" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4462,7 +4462,7 @@
         <infoLink id="f75c-a20d-61bc-76a3" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
         <infoLink id="149c-197d-5ff1-ce1d" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
         <infoLink id="9de7-8336-da24-38cd" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
-        <infoLink id="4c92-925b-208c-f202" name="Stabliser" hidden="false" targetId="d3fb-834f-d6a6-3a25" type="rule"/>
+        <infoLink id="4c92-925b-208c-f202" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
         <infoLink id="b50f-78ae-919f-feda" name="105mm L7 Gun" hidden="false" targetId="47ea-1e21-f8ff-5c9b" type="profile"/>
       </infoLinks>
     </infoGroup>
@@ -4937,7 +4937,7 @@
       <infoLinks>
         <infoLink id="289f-39c7-9498-75a1" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
         <infoLink id="c74d-0e88-7bf8-a168" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
-        <infoLink id="c392-fee5-a886-1698" name="Stabliser" hidden="false" targetId="d3fb-834f-d6a6-3a25" type="rule"/>
+        <infoLink id="c392-fee5-a886-1698" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
         <infoLink id="e810-7039-8423-45ff" name="105mm Gun" hidden="false" targetId="289b-d7e5-b423-c97d" type="profile"/>
       </infoLinks>
     </infoGroup>
@@ -5101,7 +5101,7 @@
       <infoLinks>
         <infoLink id="1d33-606b-1f08-f8a3" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
         <infoLink id="4c4a-3e5a-8bcb-6d43" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
-        <infoLink id="a395-2af9-6d9b-6a0f" name="Stabliser" hidden="false" targetId="d3fb-834f-d6a6-3a25" type="rule"/>
+        <infoLink id="a395-2af9-6d9b-6a0f" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
         <infoLink id="af7a-235a-c6a5-5e5c" name="AU 105mm Gun" hidden="false" targetId="fb92-75de-9346-ce49" type="profile"/>
         <infoLink id="e0c8-164b-2b12-c290" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
       </infoLinks>
