@@ -128,7 +128,7 @@
 	<description>does not have usual +1 to hit penalty for shooting over 16&quot;/40CM. cannot hit infantry teams unless they are stationary and  in bulletproof cover</description>
 	</rule>
     <rule id="c037-2081-25b7-61b7" name="Chobham Armor" publicationId="cc6b-118f-f23b-6738" hidden="false">
-      <description>Side Armour is 16 against HEAT weapons.</description>
+      <description>Front and side Armour is 16 against HEAT weapons.</description>
     </rule>
     <rule id="c9ad-9317-fa93-e4f2" name="Strike Aircraft" publicationId="cc6b-118f-f23b-6738" hidden="false">
       <description>At the state of each of their turns, the owning player may roll a die. On a score of 4+, the Strike aricraft Unit arrives and will be placed anywhere on the table in the Movement Step as long as the Aircraft stand can be placed flat on the table or suitable terrain.
