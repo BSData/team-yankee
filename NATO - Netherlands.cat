@@ -1,0 +1,2439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4312-e1af-b02b-57f0" name="NATO - Netherlands" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="8861-8a1f-4cf4-3274" name="*[F] Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" targetId="8d28-3caf-2a43-5fdd" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55a4-5ae5-4142-298e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fda5-56a7-476d-429e" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="252f-46b7-f4af-a141" name="*[F] Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" targetId="9b09-e126-b921-5209" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e89-52a3-3959-b90e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4e06-fba8-1105-0ad0" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c7c1-b959-c816-fbc3" name="*[F] Leopard 2A5 Tank Eskadron" hidden="false" collective="false" import="true" targetId="a1da-f273-62e2-f4f9" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0cd-c966-7623-20ce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="01fe-7737-cb2b-6b93" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a37-58f6-badc-58b5" name="*[F] Verkennings Eskadron" hidden="false" collective="false" import="true" targetId="f2d9-c021-9dbb-e016" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03a8-cf11-5df6-4a13" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c849-0fbb-d305-d69b" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="36ef-109e-651b-7c22" name="*[F] YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" targetId="569d-e0d7-5e43-5c34" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8844-220c-5e21-cab7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b3b-e647-63e9-b5a2" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="200c-515b-6542-a03d" name="*[FS] Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9063-f02c-c069-7398" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c557-76fa-f6e6-8475" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7166-ea44-9e1a-f6bb" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="93f3-0beb-7023-4026" name="*[FS] Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b1d4-7827-03f8-4a71" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="90a1-42cd-1717-d6f5" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c3f4-cd1f-c845-efed" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5356-4ff5-0c5c-e4a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9551-5e36-059d-1c90" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="41fc-ca73-d289-cebf" name="*[FS] Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9950-d8ed-a296-8387" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3381-7373-e7ca-57e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="378d-b21f-5c12-3937" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce83-f7b3-5d8d-f94b" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1da-f273-62e2-f4f9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0670-7f17-1313-64a8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="43d0-b28c-dbb5-f5ee" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b36-6400-2e25-3b2e" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2d9-c021-9dbb-e016" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="539d-671b-44bc-9976" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7320-60c9-449b-3fa4" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="70e1-ade8-7f25-a7bc" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f8-564d-3095-6f04" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="569d-e0d7-5e43-5c34" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="79cd-0e6e-b497-0743" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="08a2-6c81-bf6e-f8f8" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a286-276c-ef34-2f1e" name="*[S] M109 Veldartillerie Batterij" hidden="false" collective="false" import="true" targetId="2bc0-a397-5e7a-2839" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9cd0-111f-e5e6-3c0c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0092-32a1-4272-3848" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="347a-8fec-b1a8-55c1" name="*[S] MLRS Raketwerper Batterij" hidden="false" collective="false" import="true" targetId="5b1d-86b2-bad9-11ba" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b6f-ec9c-5b15-c230" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6004-869d-6483-63d9" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cbc5-4149-75e5-834e" name="*[S] YPR-765 OP" hidden="true" collective="false" import="true" targetId="cb51-8f1e-75a7-bc44" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d5-3e3e-ed51-3686" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="610b-5aff-0e94-1ec4" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b1d-86b2-bad9-11ba" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bc0-a397-5e7a-2839" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="af46-bd3b-7554-8de6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3f7a-75d6-f6c3-2eb1" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fcde-0eb1-2045-4cd2" name="*[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b15c-a778-d48a-3f09" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="dd02-9e0c-ee24-a89e" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5784-4b75-e87f-f46f" name="*[S] Roland Flarakpanzer Batterie" hidden="false" collective="false" import="true" targetId="4930-8e03-f430-d2c0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="100a-52af-0508-7bc3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e53d-3e6e-642d-d7b4" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e81e-c7a8-98c8-2a25" name="[SG] Aircraft Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc85-ef36-71c8-de62" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="54b0-7c8c-6700-45c3" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2aad-a7fd-8a3e-9c95" name="*[S] LARS Raketenwerper Batterie" hidden="false" collective="false" import="true" targetId="89ea-bfe2-f2e5-b84c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ecbc-6398-89b3-c7c8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a389-91cd-c3db-89fe" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1fea-934c-dfd8-31a9" name="*[S] Tornado Strike Flight" hidden="false" collective="false" import="true" targetId="382a-79c1-014b-c676" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e20e-653c-809a-ff07" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="86b2-6414-224c-705b" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="fc45-fac3-04f0-bf99" name="Leopard 2A5 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5f9b-6a05-fbce-589b" name="Leopard 2A5" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Remount 3+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">22</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">13</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot; / 35cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot; / 45cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armor, Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c62c-1ffc-4fb8-ad4a" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
+        <infoLink id="9cfd-1f0f-a35e-2b17" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="ba83-81d9-6723-7d2e" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="52ad-f00d-92d0-b4bf" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+        <infoLink id="2e59-3d3e-7a1a-70c1" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="565f-b768-8526-3c21" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bdc6-0cfd-70c5-9055">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a032-a251-5a61-dac7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-f44e-4723-da3f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3459-020d-7a36-1085" name="4x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="64.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49fe-0971-19d9-53f7" name="3x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="48.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bdc6-0cfd-70c5-9055" name="2x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="32.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bc0-a397-5e7a-2839" name="[Artillery] M109 Veldartillerie Batterij" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6112-16d9-6cef-3e94" name="M109" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">2</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot; / 40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot; / 60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot; / 70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="98c7-0681-936a-d319" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
+        <infoLink id="eb7e-59ab-1c08-1f5b" name="155mm Howitzer" hidden="false" targetId="74e1-7c5c-470a-0d45" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e1ac-c41e-5258-0650" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a65d-ee6d-1709-c3e1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe2-835b-becf-5315" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f825-f1d6-20ec-ce4d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a65d-ee6d-1709-c3e1" name="3x M109" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e6c3-a4de-913e-2b33" name="6x M109" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d287-c066-d470-39cc" name="Leopard 2 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c154-4418-4870-1a2d" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
+        <infoLink id="5996-e0c0-275f-2626" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="56bd-acb7-1a2e-1abc" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+        <infoLink id="1d21-2ca3-94fc-fa19" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="da7a-5d2e-f26e-3ae6" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="8dd1-2b57-0a74-adbd" name="Leopard 2" hidden="false" targetId="276b-d15c-6b96-dd93" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="019e-80d2-f9ca-4b88" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="75aa-befe-2774-87bd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4963-840e-ae8c-bcb1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a17-bfbe-f7e7-1895" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="75aa-befe-2774-87bd" name="2x Leopard 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="52e7-8c9b-e606-c0a6" name="3x Leopard 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="afe2-6388-4b53-7456" name="4x Leopard 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae03-2e0a-b010-8f20" name="Leopard 1 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f264-5fec-c2b3-fe16" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="749c-3be5-d7fb-6484" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
+        <infoLink id="14c1-02ea-79ab-01b6" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="17cf-f4f0-a2e7-b317" name="105mm L7 Gun" hidden="false" targetId="0174-6092-8d5e-d9b4" type="infoGroup"/>
+        <infoLink id="4a85-c250-00a0-027e" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="24d2-a0d7-0664-b475" name="Leopard 1" hidden="false" targetId="9c73-f94d-6099-ebf3" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1dd7-11b4-fe28-1cd0" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b63-3714-a1b9-603e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d94-79b4-0ae9-858f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682d-c5e5-e415-f3da" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9b63-3714-a1b9-603e" name="3x Leopard 1" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ed12-16de-9e5a-6396" name="4x Leopard 1" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33af-2fee-265e-cd4b" name="PAH Anti-Tank Helicopter Flight" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="62ad-049b-2e58-08dc" name="HOT Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">23</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided, HEAT</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce5f-ac64-a234-4c1e" name="PAH" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+
+Morale 3+</characteristic>
+            <characteristic name="Skill" typeId="d287-43b1-d61a-f837">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
+            <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
+            <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f9cc-8141-735c-ef0b" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="7b0c-341e-9b35-2443" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="6f0a-8f30-77e6-43f2" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="56b6-754c-1a90-d697" name="Hunter-killer" hidden="false" targetId="7504-9285-5e1a-6726" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="19a9-7723-39d0-2559" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ccb-641a-3df7-0853">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0021-c32d-40f9-b1f0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e5-24c7-199a-a8f8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2ccb-641a-3df7-0853" name="2x PAH" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9843-a03b-3179-d2b3" name="4x PAH" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89ea-bfe2-f2e5-b84c" name="[Artillery] LARS Raketenwerper Batterie" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fa03-0cf6-8b84-85b4" name="LARS" hidden="false" typeId="973a-aa06-b137-2f9e" typeName="Unarmored Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="3b8f-cc49-ba8e-2b20">4+
+Morale 3+</characteristic>
+            <characteristic name="Skill" typeId="ef6b-6ca3-15b2-d564">3+
+Assault -
+Counterattack -</characteristic>
+            <characteristic name="Is Hit On" typeId="e656-145b-4cc9-2635">4+</characteristic>
+            <characteristic name="Save" typeId="8c9a-7318-13dc-0de3">5+</characteristic>
+            <characteristic name="Tactical" typeId="c997-2f6a-9060-6d07">8&quot; / 20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="2827-8574-da44-3efa">8&quot; / 20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="9196-f0b2-890d-de98">14&quot; / 35cm</characteristic>
+            <characteristic name="Road Dash" typeId="f49e-f223-b4e9-e0ef">36&quot; / 90cm</characteristic>
+            <characteristic name="Cross" typeId="3c9b-51af-c084-2a62">5+</characteristic>
+            <characteristic name="Notes" typeId="c7dc-2dd4-46c5-a14c"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0ca-3a48-735c-5365" name="110mm LARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">80&quot;/200cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">3</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0d72-65e3-5dc2-67e7" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="3143-4a31-461c-db7d" name="Unarmoured" hidden="false" targetId="5dac-a918-145f-931e" type="rule"/>
+        <infoLink id="33f0-6cdc-3778-78cf" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="05fd-3758-c0bc-7a89" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5049-01a7-4949-4159">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8404-88b1-fcdb-23f1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-0d05-7909-11f3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5049-01a7-4949-4159" name="2x LARS" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c6a0-7d99-c0b9-a6f2" name="4x LARS" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c55f-f4f0-ac47-08eb" name="2x LARS w-Minelets" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="4ed5-b09d-f15f-2c61" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5d39-daab-8d5f-3596" name="4x LARSw-Minelets" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="0d22-fa03-bf34-bbcf" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4930-8e03-f430-d2c0" name="[Anti-aircraft] Roland Flarakpanzer Batterie" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7590-3a35-57ca-46ee" name="Roland 2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 3+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault -
+Counterattack -</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">1</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">20&quot; / 50cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">36&quot; / 90cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Infra-Red</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a24e-acae-c36b-4264" name="Roland 2 AA Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">56&quot; / 140cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / - </characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">-</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1459-2355-ec77-31fb" name="Guided AA" hidden="false" targetId="8fe0-6df6-1e26-7ec2" type="rule"/>
+        <infoLink id="2a25-bb2a-6170-42fb" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e87-4388-d4f6-7f9d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="44af-77b9-be96-903d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6077-c940-03ab-2bc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-f1b6-114a-c4b2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="44af-77b9-be96-903d" name="2x Roland 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="34b4-3e2e-b307-6a21" name="4x Roland 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3b41-dc68-03c8-ae92" name="6x Roland 2" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="382a-79c1-014b-c676" name="[Aircraft] Tornado Strike Flight" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="032e-d026-71f7-9978" name="Mauser BK-27 Auto-Cannon" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot; / 20cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">- / 3</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">7</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Anti-Helicopter</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29c9-b4bc-68ac-d35c" name="Tornado" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+
+Morale 3+</characteristic>
+            <characteristic name="Skill" typeId="d287-43b1-d61a-f837">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
+            <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
+            <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ebc0-de9b-f864-0e62" name="MW-1 Submunition Dispenser w-KB44 Bomblet" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">6&quot; / 15cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">8</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b168-ef8a-b9da-3196" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+        <infoLink id="5e49-4ed5-db3f-11f3" name="Strike Aircraft" hidden="false" targetId="c9ad-9317-fa93-e4f2" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c8f-986f-0762-934a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bccd-aece-eb63-6b01">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbb-bbd0-6450-cbc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03cd-3447-5de1-18ac" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bccd-aece-eb63-6b01" name="2x Tornado" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5bad-31f5-b1ff-58b1" name="4x Tornado" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d28-3caf-2a43-5fdd" name="Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="5bdb-9db3-ec4d-8df1" name="Leopard 1 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d018-9e2f-18ad-9933" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a71f-b507-2e59-9d60" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0ce0-7d1d-58e9-5b13" name="Leopard 1 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+</characteristic>
+                <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+</characteristic>
+                <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+                <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">9</characteristic>
+                <characteristic name="Side" typeId="7011-0119-007e-4560">5</characteristic>
+                <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+                <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot; / 40cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
+                <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+                <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Bazooka Skirts, Infra-Red</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2903-0899-1cb5-650c" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+            <infoLink id="f5d8-c3d0-47ae-a305" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
+            <infoLink id="fd24-79dc-86d1-0b56" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+            <infoLink id="7414-0193-20df-bec1" name="105mm L7 Gun" hidden="false" targetId="0174-6092-8d5e-d9b4" type="infoGroup"/>
+            <infoLink id="ed94-e736-020f-99b6" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="5d92-dd3e-c696-2576" name="1x Leopard 1" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1c3-93f5-9d93-bad5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eacc-a0c2-2c13-dee6" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="690f-5b21-d692-50cb" name="1) Optional Leopard 1 Tank Peloton" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c450-cc58-f6cd-f963" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bba0-28d4-117c-06c5" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f2d7-304f-6854-b56c" name="3) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1840-e6ff-4040-00ca" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="413a-c0b6-3d6b-e0d2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2d57-8372-fe25-b99d" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9329-4c66-2a59-0b37" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6756-ddfa-e96a-8601" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b6f1-cec4-e150-8d57" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="36b6-8ccd-d566-35f9" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1aed-50f5-c1a3-7394" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cf54-10a4-aa61-17cb" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5d8-60cc-c908-1163" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d084-cda1-ce94-0f31" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2c09-1496-4bfb-06d4" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9d33-1d17-769e-ad87" name="*[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03f8-3923-d191-ac4a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1c50-4622-5513-e65d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="86b2-196b-b4e4-e150" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6781-217d-5237-22df" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="08a1-fc62-11e5-14ea" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b09-e126-b921-5209" name="Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="0750-64a2-dec7-2577" name="Leopard 2 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5980-5c13-fd3f-c182" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfb-1fb3-f866-48ab" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d0b1-e51c-9bbf-d394" name="Leopard 2 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+</characteristic>
+                <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+</characteristic>
+                <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+                <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">18</characteristic>
+                <characteristic name="Side" typeId="7011-0119-007e-4560">7</characteristic>
+                <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+                <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot; / 35cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">20&quot; / 50cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
+                <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+                <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armor, Thermal Imaging</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c1b-20b4-38a0-d306" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+            <infoLink id="f48e-4194-87fa-f28a" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+            <infoLink id="dc65-4a32-7f86-6a6c" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+            <infoLink id="16ce-c371-c9ae-cd94" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+            <infoLink id="badb-5ac8-ff04-1302" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="cf3f-6717-4f88-65e7" name="1x Leopard 2" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f23c-3c27-5d2a-90db" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdcb-3d9b-63cb-0374" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6021-b546-6874-957d" name="1) Optional Leopard 2 Tank Pelotons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="efbe-f997-f21e-da11" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c032-be1d-e891-ac8f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cdba-dd71-58ae-292c" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e95-bee7-2782-73dd" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1cca-3894-e30a-9f95" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8e8c-8f49-55a9-f6ca" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f193-848d-6ae4-2a10" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="dd0a-5943-3d56-9d11" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6291-8cc6-bac3-e8f8" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="77a3-f4fb-df75-bfce" name="3) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="dced-a003-42d1-c49a" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0542-3da1-6d75-35b4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="938c-97d6-5c5c-9122" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="455c-43d9-460d-5a81" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0aef-fdc0-ec9c-6076" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d7d-94f5-e3a3-a197" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="860f-6563-7ad7-a825" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="39f9-bc30-de2d-9d52" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4ab2-5667-4286-c214" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1da-f273-62e2-f4f9" name="Leopard 2A5 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="45ff-407e-0249-7711" name="Leopard 2A5 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a3-d6ad-e6ab-a6c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a9-3140-99cf-c173" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a637-7892-7c2d-f51d" name="Leopard 2A5 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+</characteristic>
+                <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+</characteristic>
+                <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+                <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">22</characteristic>
+                <characteristic name="Side" typeId="7011-0119-007e-4560">13</characteristic>
+                <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+                <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot; / 35cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot; / 45cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
+                <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+                <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armor, Thermal Imaging</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a571-a4ab-b31d-233d" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
+            <infoLink id="3639-1902-530b-dac7" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+            <infoLink id="0626-5823-2917-e18c" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+            <infoLink id="24e8-ff64-d9bd-a167" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+            <infoLink id="eab3-0d0d-f28d-b8a9" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="1e56-b505-1172-795a" name="1x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adba-2b57-a3ed-6e67" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1038-938f-112b-3aa7" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7247-c06e-d154-f357" name="1) Optional Leopard 2A5 Tank Pelotons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3a79-64e0-869f-3194" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e870-0c6b-0137-9e04" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b0f0-9795-189d-ff59" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e13-4850-049a-8489" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e32a-30cd-03de-f68a" name="3) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4b37-b82b-aea6-2165" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9315-3238-bd95-11a4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7583-91d0-2f81-b39d" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7aae-340b-2de2-6cd6" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2e84-e402-eb15-02f7" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b352-de5a-ac32-6d81" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5fb0-3ef6-0104-4ce5" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4cdb-ed48-2ca2-afb9" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a50f-b611-d625-2f8c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="da28-b609-95ba-866d" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="90b5-60cd-203d-caaf" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e9aa-6487-596a-3e9e" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec29-57e7-b292-eda2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1fda-e595-f98e-2c2c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="569d-e0d7-5e43-5c34" name="YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="750d-f116-af7a-4535" name="YPR-765 Pantserinfanterie Compagnie HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa3d-9440-964d-8cc8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="57c6-f5f3-8091-d8fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="65fb-d5d3-e765-b3e0" name="YPR-765 Pantserinfanterie Compagnie HQ" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+              <characteristics>
+                <characteristic name="Courage" typeId="dbca-5616-8114-4e72">3+</characteristic>
+                <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">3+
+Assault 4+</characteristic>
+                <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">4+</characteristic>
+                <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
+                <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot;/20cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="00d8-2a6f-fd92-ff9e">8&quot;/20cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f0b7-cce5-f47e-17dd">12&quot;/30cm</characteristic>
+                <characteristic name="Road Dash" typeId="c2ed-7d88-a972-da85">12&quot;/30cm</characteristic>
+                <characteristic name="Cross" typeId="fbda-9b21-d859-ec36">AUTO</characteristic>
+                <characteristic name="Notes" typeId="666f-d8c3-22ed-0134"/>
+              </characteristics>
+            </profile>
+            <profile id="7cf0-e9ca-22f8-24f4" name="FAL rifle team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+                <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+                <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+                <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+                <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="292c-1476-e9af-6559" name="1x FAL rifle team, 1x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a459-85c6-c4b9-4004" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bef6-9d7f-7b6a-0ec5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2c70-cc29-e760-34e3" name="*[M] YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11f8-827c-6196-cd68" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="12dd-d1c2-86f3-62fc" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b6b9-c863-763b-7a9b" name="2) Optional Pantserinfanterie Peloton" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6dad-fa37-d506-79de" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1443-9297-fb2d-f44b" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ef3a-9135-7a97-fa56" name="1) Armour Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="370e-59ea-d3fc-4e5c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="24f5-a282-afad-7fd6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bfc-68ce-ae7b-d05a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e456-9fdb-aec8-3034" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry"/>
+            <entryLink id="bd7e-5a4b-6af4-235a" name="*[FS] Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry"/>
+            <entryLink id="370e-59ea-d3fc-4e5c" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="702f-57be-d3e7-5d1f" name="3) Optional Mortar Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d2a-a936-a52a-e7f7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5366-47a3-1e37-16ad" name="[M] 120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="610b-5aff-0e94-1ec4" type="selectionEntry"/>
+            <entryLink id="94fe-3655-1a13-c0e8" name="[M] M106 120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="d7d5-3e3e-ed51-3686" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8b40-cc2b-5395-1eed" name="4) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7c81-38bf-18e1-80c7" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f85-ae22-cf2e-7cff" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="77c2-c0d2-2a97-9545" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="154e-df0a-ebd5-edba" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c33f-ae02-a5ec-57db" name="[S] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b40-6f1e-3b12-4500" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0601-585a-5c7e-8478" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c64f-4af0-dbd6-ecd4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c1f5-d982-c815-c81a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2d9-c021-9dbb-e016" name="Verkennings Eskadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="dd6b-b153-4b66-5c6b" name="Verkennings Eskadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bbbd-a145-6317-2216" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="011f-c593-0bfe-5872" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="57e9-f410-ad35-0c53" name="M113 C&amp;V HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
+Remount 4+</characteristic>
+                <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 5+
+Counterattack 4+</characteristic>
+                <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+                <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+                <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+                <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+                <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+                <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+                <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Infra-Red, Scout, Spearhead</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c121-3b59-ec00-bbd3" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+            <infoLink id="4e25-195e-ffc4-951e" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+            <infoLink id="0e8f-8f44-f07f-105c" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
+            <infoLink id="f4f6-2bc2-0267-ac86" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
+            <infoLink id="5ddf-89d6-ab14-dbf5" name="25mm gun" hidden="false" targetId="e321-46a2-ddd2-2d3f" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="c604-4af7-9d1a-c73d" name="1x M113 C&amp;V" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="70fe-eb29-4625-01b5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2fa1-5b19-fdd1-88a9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53a9-05de-9686-2f06" name="1) Optional M113 C&amp;V Ploegs" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e52d-bb0a-279d-f095" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="063b-d52f-3688-3008" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="952a-02ef-1806-db00" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a229-696d-0480-8dcb" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7e37-faa9-8313-0841" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c36e-6118-7b43-c9e4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b807-da40-b102-9d5c" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0658-6356-133d-9d68" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8052-dec8-906e-77eb" name="2) Armour Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="468e-4665-11c1-26b6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8788-d64a-e99c-0900" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9dd2-954c-6d8a-6b48" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="105c-8199-9dd6-af9e" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="468e-4665-11c1-26b6" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2114-7287-b326-d7bf" name="5) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e682-9761-74e8-7799" name="*[M] M106 Mortier Peloton" hidden="false" collective="false" import="true" targetId="44b5-1a95-68f7-08a6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6362-d446-048e-fd55" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1121-2e9c-3fd6-7395" name="[M] M113 Tirailleur Peloton" hidden="false" collective="false" import="true" targetId="3d44-24fd-3ef2-1c83" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f020-1eb5-8045-f0e5" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9c66-408c-a57e-db55" name="3) Optional Armouor Unit #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8956-e0b3-3af0-f0c5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b43d-d047-8fe6-8f94" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="55d2-5870-f7fd-64ee" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4130-e7ab-7f62-e40e" name="4) Optional Armouor Unit #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d272-27ef-0258-31aa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3f31-aaf8-a084-93d3" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="9c3d-ea73-f9bc-41e0" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fa12-8d26-65ca-6519" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="36d5-86e0-607a-695e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e8ff-265b-23cf-143a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4706-15d9-f12b-6d3a" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ad8-d4c9-3432-3972" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8602-f792-38b2-3924" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b1d-86b2-bad9-11ba" name="[Artillery] MLRS Raketwerper Batterij" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="505f-f3bd-4c98-f515" name="M270 MLRS" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault -
+Counterattack -</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">0</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot; / 40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot; / 60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">MLRS</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f088-d1e3-4c33-c76f" name="M270 MLRS" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">120&quot;/300cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">3</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2125-8399-6352-95a2" name="MLRS" hidden="false" targetId="d6a7-6e50-b25c-5811" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2f50-ea89-5c03-7827" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d4b9-0cb0-e42e-2baf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6133-c20e-02ac-b561" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="83c0-7a3e-45b6-94ec" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d4b9-0cb0-e42e-2baf" name="2x M270 MLRS" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ce5-f03b-87f3-96d1" name="3x M270 MLRS" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8417-9460-2a31-9d27" name="2x M270 MLRS w-Minelets" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="391d-d60a-d3ed-a6cb" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fce8-cf5e-ec6e-336a" name="3x M270 MLRS w-Minelets" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="615f-fea6-a072-4dfb" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb51-8f1e-75a7-bc44" name="[Observer] YPR-765 OP" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ed44-2279-95a5-8db7" name="YPR-765 OP" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Infra-Red, Observer, Scout</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4bac-316d-4f06-073b" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="d605-9ea6-f2e3-7ae9" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="c911-58fd-f3dc-f222" name="Observer" hidden="false" targetId="e41f-bf7a-3766-c44c" type="rule"/>
+        <infoLink id="91e4-e73b-8051-335b" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
+        <infoLink id="0051-1080-2d05-4e5d" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="b839-8181-ebed-88e2" name="1x YPR-765 OP" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="78ed-7745-48ca-862f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4960-03d6-9569-6141" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da62-7206-5bda-3bb7" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e244-3aaf-9eff-bab9" name="PRTL" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;/70cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Infra-Red</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a2ba-6e15-1c38-1918" name="Twin 35mm gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">28&quot;/70cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">5 / 4</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">11</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Dedicated AA, Radar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7026-2b27-b9b2-2005" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="3da7-ef4a-3e6b-8f13" name="Dedicated AA" hidden="false" targetId="514b-1009-1db9-e89a" type="rule"/>
+        <infoLink id="65af-f0e4-ed59-8231" name="Radar" hidden="false" targetId="beb6-7b27-c6e9-3056" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1962-35d6-ef5f-ffea" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="303c-f71c-8968-ddfd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ea3-a694-82bd-06c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7371-ba85-bc83-7c7b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="303c-f71c-8968-ddfd" name="2x PRTL" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e13-c968-bf89-cd65" name="3x PRTL" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c66e-6cf1-a8e7-734f" name="2) Optional Stinger Luchtdoel Peloton" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d0d5-b430-16c1-2716" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a6a1-4250-d8a1-62d5" name="2x Stinger teams" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c135-60cf-0a5f-7fb1" name="Stinger Luchtdoel Peloton" hidden="false" targetId="6042-7dd7-401c-b0da" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3372-f811-6b8e-b092" name="3x Stinger teams" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e13-c968-bf89-cd65" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5583-111d-c897-2bc1" name="Stinger Luchtdoel Peloton" hidden="false" targetId="6042-7dd7-401c-b0da" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d04a-93d0-68fb-b471" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="adee-cea9-295e-e079" name="M113 C&amp;V" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Infra-Red, Scout, Spearhead</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aaa7-7585-628a-1f13" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="e699-d7a3-ae30-a59e" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="d904-712a-9da2-8bf7" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
+        <infoLink id="f15a-6fee-200f-f12e" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
+        <infoLink id="dcec-5d8e-f475-3daf" name="25mm gun" hidden="false" targetId="e321-46a2-ddd2-2d3f" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="9419-6360-f54d-d10d" name="2x M113 C&amp;V" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddac-a602-5226-105b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e3c5-a177-fc9a-9a62" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc34-6b87-ae4f-67fa" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="05f0-7c29-3a43-a0be" name="YPR-765 PRAT" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Hammerhead, Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="26e3-c72c-0f96-f668" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="cebc-690b-90b6-e053" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="0a1d-e109-ed8b-6fc6" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="571d-f796-3f40-a410" name="Hammerhead" hidden="false" targetId="a8f5-81a9-be14-76aa" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3c78-2985-85ea-1383" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="439c-ecd1-43c5-692a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fdee-1113-6d41-20ff" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5550-0d9b-ea20-0f85" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b359-47d9-eff3-3e46" name="4x YPR-765 PRAT" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="439c-ecd1-43c5-692a" name="2x YPR-765 PRAT" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="054e-544a-f7a8-f423" name="2) TOW Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5174-390e-3f85-1b91">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d71f-38a2-9f0e-25b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a016-1ad4-712a-77a6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b204-a36d-e0f6-1400" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="be76-db62-cbdf-d4e5" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b204-a36d-e0f6-1400" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="7216-9333-2b5d-9b72" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="439c-ecd1-43c5-692a" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="7216-9333-2b5d-9b72" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b359-47d9-eff3-3e46" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be76-db62-cbdf-d4e5" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1168-a4e9-303b-0c6d" name="TOW-2 missile" hidden="false" targetId="115f-6db1-b370-2bcc" type="infoGroup"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="5174-390e-3f85-1b91" name="iTOW" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c763-b6f3-f3e6-6c86" name="Improved TOW Missile" hidden="false" targetId="56a4-d797-c2dd-f01f" type="infoGroup"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58f8-564d-3095-6f04" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a18a-5e94-1396-17cb" name="YPR-765 Pantserinfanterie Peloton" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+</characteristic>
+            <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">4+</characteristic>
+            <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
+            <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="00d8-2a6f-fd92-ff9e">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f0b7-cce5-f47e-17dd">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="c2ed-7d88-a972-da85">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="fbda-9b21-d859-ec36">AUTO</characteristic>
+            <characteristic name="Notes" typeId="666f-d8c3-22ed-0134">Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d5b4-1bd2-1f61-c898" name="Carl Gustav anti-tank team" hidden="false" targetId="f830-0f6b-a7f9-ea7a" type="infoGroup"/>
+        <infoLink id="1272-5cad-7916-d24b" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="c8e5-d06d-a1fd-4f49" name="GPMG team w- M72 anti-tank" hidden="false" targetId="786b-075a-3b57-c60c" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="17ce-0fe8-a36c-52b0" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7327-0544-3d27-edcd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6ce6-7c44-6c5a-3903" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="10c9-0b97-c31c-c27a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ada2-5dca-fd90-ea28" name="4x GPMG w-M72 teams, 3x Carl Gustav teams, 2x M47 Dragon teams, 4x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7327-0544-3d27-edcd" name="3x GPMG w-M72 teams, 2x Carl Gustav teams, 2x M47 Dragon teams, 3x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e682-8a26-bd1b-80d3" name="2) M47 Missile Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="09a3-a26c-2473-2f39">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1a3f-2590-573e-6a60" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bfe6-abf6-1abf-8fea" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="09a3-a26c-2473-2f39" name="M47 Dragon missile" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1865-4c64-840c-5d1e" name="M47 Dragon missile" hidden="false" targetId="e89c-b5a1-d43a-e952" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0186-5539-82ff-0253" name="M47 Dragon 2 missile" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2aac-b92d-1d2d-1a1e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-5539-82ff-0253" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2aac-b92d-1d2d-1a1e" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2873-8751-71d2-caae" name="M47 Dragon 2 missile" hidden="false" targetId="e7ab-94b5-8874-226b" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5d57-cf92-3f4a-f495" name="*[M] YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e3a-f360-ec61-0ea7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec54-229f-f7fd-8c32" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="024c-10bc-3ab9-6c3c" name="YPR-765 Transport" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="936a-3527-e5a3-027b" name="YPR-765 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Infra-Red, Passengers 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7114-a032-b08f-9c65" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="b3fb-ed08-2ea7-cada" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="bbc2-75f0-bcae-21f5" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="6a48-edc2-612c-4b6c" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="4586-0b42-9dbe-9dee" name="25mm gun" hidden="false" targetId="e321-46a2-ddd2-2d3f" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7d5-3e3e-ed51-3686" name="M106 120mm Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d357-eaac-f472-eea4" name="M106 120mm" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 6
+Counterattack 6</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4d20-0fea-c231-6ba7" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="f598-ba2e-dd97-73a4" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="1762-e61a-b256-d593" name="120mm mortar" hidden="false" targetId="21d6-3d1d-72a6-e19f" type="profile"/>
+        <infoLink id="f04b-52ee-ce21-69a3" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ece2-a174-2dc8-ca46" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="35e3-214c-8fb0-ea53">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="021b-0107-e577-22de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ae74-56c9-019f-7a24" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="35e3-214c-8fb0-ea53" name="2x M106 120mm" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0c97-6264-c734-76e9" name="3x M106 120mm" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="610b-5aff-0e94-1ec4" name="120mm Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a3eb-e2d1-44dd-0653" name="120mm Mortier Peloton" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+</characteristic>
+            <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">4+</characteristic>
+            <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">4+</characteristic>
+            <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="00d8-2a6f-fd92-ff9e">4&quot;/10cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f0b7-cce5-f47e-17dd">6&quot;/15cm</characteristic>
+            <characteristic name="Road Dash" typeId="c2ed-7d88-a972-da85">8&quot;/20cm</characteristic>
+            <characteristic name="Cross" typeId="fbda-9b21-d859-ec36">3+</characteristic>
+            <characteristic name="Notes" typeId="666f-d8c3-22ed-0134">Heavy Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="88df-471c-571b-d9b1" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
+        <infoLink id="342d-d4ad-912f-9342" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+        <infoLink id="c8e2-0a8a-ba5b-7d16" name="120mm mortar" hidden="false" targetId="21d6-3d1d-72a6-e19f" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="be5f-49fc-1202-951e" name="3x 120mm mortar, 3x YPR-765 PRMR" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3382-519d-1b69-f358" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4730-a7ca-8678-193b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="eb11-8c9c-3faf-ae04" name="*[M] YPR-765 PRMR Transport" hidden="false" collective="false" import="true" targetId="0a65-db87-5ccf-619e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="134d-0c97-287a-e72b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9674-72cb-5b86-e1f3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44b5-1a95-68f7-08a6" name="M106 Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="12fc-90ad-a2b4-5cc2" name="M106" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 6
+Counterattack 6</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3ac2-d54b-a4be-0431" name="107mm mortar" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">48&quot;/120cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ea4-70e4-3e95-13a6" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
+        <infoLink id="b81f-c9f9-556b-7185" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="d20e-82c0-f996-2e37" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4643-697f-b72d-bf47" name="3x M106" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5a9-39a6-7e63-3650" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9d2c-079e-f80d-160c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a65-db87-5ccf-619e" name="YPR-765 PRMR Transport" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="df28-f25b-c60a-1440" name="YPR-765 PRMR Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Infra-Red, Passengers 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c5ee-88c4-7d81-329e" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="da4f-4ddb-01c6-7c99" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="719d-5abc-3920-a2c7" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="aa96-811e-9b27-baf7" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="4649-95b5-7fed-39ce" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9063-f02c-c069-7398" name="Leopard 1 Verkennings Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6a5f-48ae-3951-6422" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="eca8-04ba-673b-7cf0" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
+        <infoLink id="2ede-9487-21d5-cbb1" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="2192-9194-1cf9-09dd" name="105mm L7 Gun" hidden="false" targetId="0174-6092-8d5e-d9b4" type="infoGroup"/>
+        <infoLink id="f7b4-2bec-aea7-b7dd" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="1854-01e7-4fd4-4d7e" name="Leopard 1" hidden="false" targetId="9c73-f94d-6099-ebf3" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a37e-bb77-5cdf-95d9" name="2x Leopard 1" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c71-200f-5519-0565" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce97-b4e9-3822-cda6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9950-d8ed-a296-8387" name="Leopard 2 Verkennings Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8d36-a6d0-eaec-2e1d" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
+        <infoLink id="3853-5bc8-1596-3961" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
+        <infoLink id="d8df-51e3-40a3-e463" name="Chobham Armor" hidden="false" targetId="c037-2081-25b7-61b7" type="rule"/>
+        <infoLink id="7bc6-1f1e-8288-759a" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="5490-8aa3-979a-e664" name="7.62mm AA MG" hidden="false" targetId="db58-2db2-d9b2-9fa9" type="infoGroup"/>
+        <infoLink id="eed7-4e2c-4667-cd8c" name="Leopard 2" hidden="false" targetId="276b-d15c-6b96-dd93" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="bcf6-8aed-9ffd-0ea8" name="2x Leopard 2" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61dc-fe84-81e4-bce3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9224-1cb5-70aa-e257" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d44-24fd-3ef2-1c83" name="M113 Tirailleur Peloton" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="94cf-353b-bc33-62da" name="M113 Tirailleur Peloton" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+</characteristic>
+            <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">4+</characteristic>
+            <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
+            <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="00d8-2a6f-fd92-ff9e">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f0b7-cce5-f47e-17dd">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="c2ed-7d88-a972-da85">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="fbda-9b21-d859-ec36">AUTO</characteristic>
+            <characteristic name="Notes" typeId="666f-d8c3-22ed-0134"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d257-089a-aa21-6b9d" name="Carl Gustav anti-tank team" hidden="false" targetId="f830-0f6b-a7f9-ea7a" type="infoGroup"/>
+        <infoLink id="5ddd-d285-e4b1-c3c3" name="GPMG team w- M72 anti-tank" hidden="false" targetId="786b-075a-3b57-c60c" type="infoGroup"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4bef-5f93-d1b5-c056" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="94fa-a9ec-1334-d094">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0410-a160-71e4-5307" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7909-3c76-1376-e3da" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="77b3-ebaa-e7e4-bc3c" name="4x GPMG w-M72 teams, 3x Carl Gustav teams, 3x M113" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="94fa-a9ec-1334-d094" name="3x GPMG w-M72 teams, 2x Carl Gustav teams, 2x M113" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c38c-1ecc-ac18-a827" name="*[M] M113 Transport" hidden="false" collective="false" import="true" targetId="1336-fdee-57f9-849d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d386-d31f-67e1-4f7e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e260-b7be-f2a8-ae33" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1336-fdee-57f9-849d" name="M113 Transport" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ab65-bede-52b6-ce06" name="M113 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Passengers 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bab2-2290-132d-7159" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="ee5e-7411-9d25-672f" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="34b0-a597-09ed-ee1d" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f9c-68cc-b8f1-9b66" name="AH-64 Apache Gevechtshelikopter Vlucht" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ec68-8372-4529-2cdc" name="AH-64 Apache" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
+            <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
+            <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
+            <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d07-f1a5-a32a-b63c" name="AGM-117 Hellfire missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm - 64&quot;/160cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">25</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided, HEAT</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e3c7-616f-6e6b-e86f" name="M230 30mm chain gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">6&quot;/15cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">6 / 3</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">8</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Anti-helicopter, HEAT</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="59bb-7a41-3513-4361" name="M159 rocket launcher" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5597-cd77-7414-5adc" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="ea4a-c315-5862-70d1" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="3607-eae0-1dc9-4c03" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="23b7-c8f4-4ab6-82a7" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+        <infoLink id="fd41-6d25-a897-32f4" name="One Shot" hidden="false" targetId="42d2-8e63-990e-68f9" type="rule"/>
+        <infoLink id="1516-a3e2-9284-44a1" name="Hunter-killer" hidden="false" targetId="7504-9285-5e1a-6726" type="rule"/>
+        <infoLink id="44ec-1785-7535-658e" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0baf-05c4-3447-00e6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="119d-5f9f-4d65-bd56">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8f-90f5-c3eb-d0a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fb-0eed-4cb6-6036" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="119d-5f9f-4d65-bd56" name="2x AH-64 Apache" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e401-0492-6427-d3e5" name="4x AH-64 Apache" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a260-b7b7-ac6e-daa6" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31b2-c06b-2795-efab" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bab-81d7-3ff9-5fc8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0699-82cb-709d-3bfd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c516-e90a-d4af-e292" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f896-849b-aee3-3aca" name="*[S] PAH Anti-Tank Helicopter Flight" hidden="false" collective="false" import="true" targetId="33af-2fee-265e-cd4b" type="selectionEntry"/>
+            <entryLink id="8bab-81d7-3ff9-5fc8" name="*[S] AH-64 Apache Gevechtshelikopter Vlucht" hidden="false" collective="false" import="true" targetId="2f9c-68cc-b8f1-9b66" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="7b5e-9925-2540-8095" name="Milan Mount" page="" hidden="false">
+      <description>Milan missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan Missile weapons line.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="c36d-d290-58f8-adc5" name="7.62mm MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
+        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
+        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
+        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
+        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
+        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+      </characteristics>
+    </profile>
+    <profile id="f200-2ea9-6cfc-2fd7" name="Carl Gustav anti-tank team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">17</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, HEAT, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21d6-3d1d-72a6-e19f" name="120mm mortar" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">64&quot;/160cm</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">3</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c73-f94d-6099-ebf3" name="Leopard 1" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">9</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">5</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot; / 40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Bazooka Skirts, Infra-Red</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="276b-d15c-6b96-dd93" name="Leopard 2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">18</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">7</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot; / 35cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">20&quot; / 50cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armor, Thermal Imaging</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="0174-6092-8d5e-d9b4" name="105mm L7 Gun" hidden="false">
+      <profiles>
+        <profile id="a2ef-a991-f359-9fc7" name="105mm L7 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">40&quot; / 100cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">2 / 2</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">19</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Laser Rangefinder, Smoke, Stabiliser</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f80-cadc-f66a-3c85" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
+        <infoLink id="03e4-3317-325b-dd04" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
+        <infoLink id="9ef0-fe4b-2983-374f" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="db58-2db2-d9b2-9fa9" name="7.62mm AA MG" hidden="false">
+      <profiles>
+        <profile id="34c0-e287-154a-0b1c" name="7.62mm AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot; / 40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 3</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3af3-8a2a-2a16-ddf5" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2079-89ca-de09-45d8" name="120mm L/44 Gun" hidden="false">
+      <profiles>
+        <profile id="461d-7489-75f5-e4eb" name="120mm L/44 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot; / 100cm</characteristic>
+            <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
+            <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
+            <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">22</characteristic>
+            <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">2+</characteristic>
+            <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Advanced Stabiliser, Laser Rangefinder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7eab-7dfb-8971-a3e9" name="Advanced Stabiliser" hidden="false" targetId="16f1-d6c2-e846-b6c8" type="rule"/>
+        <infoLink id="69b0-b71f-f209-539d" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f830-0f6b-a7f9-ea7a" name="Carl Gustav anti-tank team" hidden="false">
+      <profiles>
+        <profile id="71e1-cd80-9ea9-ed5c" name="Carl Gustav anti-tank team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">17</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, HEAT, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d7a7-8504-c16c-71e5" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="da60-13f6-36e5-6a99" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e89c-b5a1-d43a-e952" name="M47 Dragon missile" hidden="false">
+      <profiles>
+        <profile id="165d-b79d-6026-0f59" name="M47 Dragon missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 28&quot;/70cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">18</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, Guided, HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4202-dd27-114c-0aa8" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="9cc9-398c-a6dd-4c22" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e7ab-94b5-8874-226b" name="M47 Dragon 2 missile" hidden="false">
+      <profiles>
+        <profile id="a695-85f7-cd2a-9071" name="M47 Dragon 2 missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 28&quot;/70cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">21</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, Guided, HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4d01-552d-c550-6d00" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="852f-646a-e89c-1518" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="3b21-3d76-8288-89f1" name=".50 cal AA MG" hidden="false">
+      <profiles>
+        <profile id="03e0-2dc3-4de1-64c3" name=".50 cal AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">20&quot;/50cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da38-ac61-3a0a-4e2b" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="786b-075a-3b57-c60c" name="GPMG team w- M72 anti-tank" hidden="false">
+      <profiles>
+        <profile id="8efc-c5b1-d67d-c453" name="GPMG team (M72 anti-tank)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">12&quot;/30cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">12</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">HEAT, Slow FIring</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a659-2e21-1c2a-e801" name="GPMG team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c260-e96f-6a99-efb4" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+        <infoLink id="5769-d2e2-6f7f-fa12" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e321-46a2-ddd2-2d3f" name="25mm gun" hidden="false">
+      <profiles>
+        <profile id="09b9-d617-6083-1b45" name="25mm gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">28&quot;/70cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">8</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Anti-helicopter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d3a6-dc2e-eea3-df96" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="74e1-7c5c-470a-0d45" name="155mm Howitzer" hidden="false">
+      <profiles>
+        <profile id="98b5-7bfa-8be4-9a9a" name="155mm Howitzer" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">96&quot;/240cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58a9-3f71-d388-c7d5" name="155mm Howitzer (Direct Fire)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">36&quot;/90cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">15</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">1+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Brutal, Slow Firing, Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="75ed-68ef-8f69-7631" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+        <infoLink id="22bf-d678-3fef-0b48" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
+        <infoLink id="fd88-009c-7e15-41cc" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+        <infoLink id="89de-f8e6-0bfd-182b" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="56a4-d797-c2dd-f01f" name="Improved TOW Missile" hidden="false">
+      <profiles>
+        <profile id="3cc3-0066-6d83-b4b1" name="Improved TOW Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">21</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided. HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1b4a-2bd2-10d2-9d84" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="0368-2d6e-8ea9-3c9a" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="115f-6db1-b370-2bcc" name="TOW-2 missile" hidden="false">
+      <profiles>
+        <profile id="d359-6cb7-ef7e-8c38" name="TOW-2 Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">23</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided. HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eead-4b74-210b-678e" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
+        <infoLink id="af16-136a-5132-525d" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="6042-7dd7-401c-b0da" name="Stinger Luchtdoel Peloton" hidden="false">
+      <profiles>
+        <profile id="95da-c405-8676-e044" name="Stinger team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">48&quot;/120cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">-</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b101-37f0-2bd7-6d7a" name="Stinger team" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+          <characteristics>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+</characteristic>
+            <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">4+</characteristic>
+            <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
+            <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="00d8-2a6f-fd92-ff9e">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f0b7-cce5-f47e-17dd">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="c2ed-7d88-a972-da85">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="fbda-9b21-d859-ec36">AUTO</characteristic>
+            <characteristic name="Notes" typeId="666f-d8c3-22ed-0134">Heavy Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="424a-03b8-c897-8179" name="Guided AA" hidden="false" targetId="8fe0-6df6-1e26-7ec2" type="rule"/>
+        <infoLink id="44a2-b17d-b434-8bdb" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>
