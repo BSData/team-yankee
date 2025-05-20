@@ -215,9 +215,9 @@
         <categoryLink id="e53d-3e6e-642d-d7b4" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e81e-c7a8-98c8-2a25" name="[SG] Aircraft Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
+    <entryLink id="e81e-c7a8-98c8-2a25" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc85-ef36-71c8-de62" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc85-ef36-71c8-de62" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="54b0-7c8c-6700-45c3" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -237,6 +237,14 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="86b2-6414-224c-705b" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="937f-38a1-7b5b-7a0b" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="81e8-b7f4-1e17-ddd6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f278-66fb-1c63-272d" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -318,9 +326,38 @@ Counterattack 5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="7219-c83c-80cb-7d9a" name="155mm Howitzer" hidden="false">
+          <profiles>
+            <profile id="86dd-049b-f74e-79b4" name="155mm Howitzer" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">96&quot;/240cm</characteristic>
+                <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
+                <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+                <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
+                <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f9ea-4e52-81e9-b65e" name="155mm Howitzer (Direct Fire)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">36&quot;/90cm</characteristic>
+                <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+                <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">15</characteristic>
+                <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">1+</characteristic>
+                <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Brutal, Slow Firing, Smoke</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="41f1-7ddd-3e6d-904f" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+            <infoLink id="e609-d43b-f62e-d498" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
+            <infoLink id="9c14-3b5c-450b-356c" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
+            <infoLink id="fb57-0c6d-316a-bd79" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <infoLinks>
         <infoLink id="98c7-0681-936a-d319" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
-        <infoLink id="eb7e-59ab-1c08-1f5b" name="155mm Howitzer" hidden="false" targetId="74e1-7c5c-470a-0d45" type="infoGroup"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e1ac-c41e-5258-0650" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a65d-ee6d-1709-c3e1">
@@ -2340,34 +2377,6 @@ Remount 3+</characteristic>
       </profiles>
       <infoLinks>
         <infoLink id="d3a6-dc2e-eea3-df96" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
-      </infoLinks>
-    </infoGroup>
-    <infoGroup id="74e1-7c5c-470a-0d45" name="155mm Howitzer" hidden="false">
-      <profiles>
-        <profile id="98b5-7bfa-8be4-9a9a" name="155mm Howitzer" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">96&quot;/240cm</characteristic>
-            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
-            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
-            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
-            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="58a9-3f71-d388-c7d5" name="155mm Howitzer (Direct Fire)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">36&quot;/90cm</characteristic>
-            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
-            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">15</characteristic>
-            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">1+</characteristic>
-            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Brutal, Slow Firing, Smoke</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="75ed-68ef-8f69-7631" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
-        <infoLink id="22bf-d678-3fef-0b48" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
-        <infoLink id="fd88-009c-7e15-41cc" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
-        <infoLink id="89de-f8e6-0bfd-182b" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="56a4-d797-c2dd-f01f" name="Improved TOW Missile" hidden="false">
