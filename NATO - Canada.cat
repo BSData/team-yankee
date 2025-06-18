@@ -26,7 +26,7 @@
         <categoryLink id="0dcb-9ff6-a043-f67d" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9435-2cff-c178-1d75" name="* [F] Leopard 1 C1 Armoured Squadron" hidden="false" collective="false" import="true" targetId="ab0c-2965-0eb0-6cf8" type="selectionEntry">
+    <entryLink id="9435-2cff-c178-1d75" name="Leopard 1 C1 Armoured Squadron" hidden="false" collective="false" import="true" targetId="ab0c-2965-0eb0-6cf8" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3800-97ff-15ab-7fd8" type="max"/>
       </constraints>
@@ -194,9 +194,69 @@
         <categoryLink id="60e9-ccaa-d738-9553" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cfa4-bf54-2c4c-57e5" name="[American] Armour Support" hidden="true" collective="false" import="true" targetId="6573-ffb9-cb5d-cf46" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ee7-74c0-fb21-80ba" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2014-57a4-675c-f6b1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="423a-e5f3-ca2d-3190" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="539e-4dfc-54d5-4609" name="[American] Helicopter Support" hidden="true" collective="false" import="true" targetId="ff29-8acc-3ca5-a02c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ee7-74c0-fb21-80ba" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c6b9-19fe-2f7f-0775" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c398-5ee3-c8e7-4d80" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb69-d7d3-059d-5647" name="[American] Infantry Support" hidden="true" collective="false" import="true" targetId="116e-4fa5-8f5b-5167" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ee7-74c0-fb21-80ba" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3d9e-172a-e157-5273" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="13f8-da35-096c-b6ab" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3276-4580-727e-53e4" name="[American] Strike Aircraft Support" hidden="true" collective="false" import="true" targetId="729a-bc8f-1b4c-4374" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ee7-74c0-fb21-80ba" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4acf-0e61-1066-fef1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="df41-ecc1-fe44-c9d8" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="50be-2cd0-9a75-8836" name="* [FS] Leopard C1 Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="50be-2cd0-9a75-8836" name="Leopard C1 Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d0dd-a511-ab38-7f1b" name="Leopard C1" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -250,7 +310,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60ac-6867-ef23-5603" name="* [FS] M113 Mechanized Platoon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="60ac-6867-ef23-5603" name="M113 Mechanized Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3d3d-7607-802a-9a1d" name="M113 Mechanized Platoon" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
@@ -322,7 +382,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a21b-6af0-2eb6-ae2c" name="* M125 Mortar Platoon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a21b-6af0-2eb6-ae2c" name="M125 Mortar Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5231-06d0-cf20-e012" name="M125" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -388,7 +448,7 @@ Counterattack -</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3469-bf53-af40-694f" name="* M150 TOW Anti-Tank Section" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3469-bf53-af40-694f" name="M150 TOW Anti-Tank Section" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7e7b-26b5-b756-3f0d" name="M150 TOW" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -441,7 +501,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e0d-67c3-54e9-d065" name="* Lynx Recce Patrol" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8e0d-67c3-54e9-d065" name="Lynx Recce Patrol" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8a04-cdfb-6ed5-5f80" name="Lynx" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -488,7 +548,7 @@ Counterattack 6
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ed6-7fb7-5b91-0a8b" name="* M109 Field Battery" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4ed6-7fb7-5b91-0a8b" name="[Artillery] M109 Field Battery" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="689a-5bd7-f0da-4978" name="M109" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -560,7 +620,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28a1-a731-7600-fa4b" name="* M113 OP" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="28a1-a731-7600-fa4b" name="[Observer] M113 OP" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4581-5e6e-30b7-adf2" name="M113 OP" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -606,7 +666,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d78-cb6e-f737-8f03" name="* ADATS Air Defence Platoon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d78-cb6e-f737-8f03" name="[Anti-aircraft] ADATS Air Defence Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="bd66-cf27-717e-45a0" name="ADATS Missile Launcher" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -691,7 +751,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3365-5d29-db81-54ab" name="* M113 Blowpipe Air Defence Section" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3365-5d29-db81-54ab" name="[Anti-aircraft] M113 Blowpipe Air Defence Section" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="deb0-9bac-4df2-e894" name="M113 Blowpipe" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -773,7 +833,7 @@ Counterattack 5+
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfdc-63e5-3f09-9896" name="* [FS] Leopard 2 Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cfdc-63e5-3f09-9896" name="Leopard 2 Armoured Troop" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7402-4469-6498-bfb9" name="Leopard 2" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
           <characteristics>
@@ -831,7 +891,7 @@ Counterattack 5+
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df29-e9c1-0b3d-2295" name="* [F] Leopard 2 Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="df29-e9c1-0b3d-2295" name="Leopard 2 Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="33f9-65d3-f584-1cde" name="Leopard 2 Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
           <profiles>
@@ -967,7 +1027,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0227-cb6b-b846-68f3" name="* [F] Airborne Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0227-cb6b-b846-68f3" name="Airborne Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="23e3-a326-7fad-ed25" name="Airborne Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1094,7 +1154,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c990-6dc0-eedf-4d82" name="* M113 TUA Anti-tank Section" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c990-6dc0-eedf-4d82" name="M113 TUA Anti-tank Section" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f888-89c1-8aa2-f0e9" name="M113 TUA" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -1184,7 +1244,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f30-2f15-b05d-caa5" name="* Coyote Recce Patrol" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1f30-2f15-b05d-caa5" name="Coyote Recce Patrol" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7c44-1a80-3630-dfbc" name="*7.62mm AA MG" hidden="false" targetId="b3ca-6df2-5651-dfa8" type="infoGroup"/>
         <infoLink id="f02e-15c8-ba5a-e0db" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
@@ -1206,7 +1266,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab0c-2965-0eb0-6cf8" name="* [F] Leopard 1 C1 Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ab0c-2965-0eb0-6cf8" name="Leopard C1 Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="6a80-b429-8001-35f4" name="Leopard C1 Armoured Squadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1351,7 +1411,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0416-05af-167e-6928" name="* [F] M113 Mechanized Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0416-05af-167e-6928" name="M113 Mechanized Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="caf5-c102-6001-3ccd" name="M113 Mechanised Company HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1505,7 +1565,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a15e-dc4e-1758-28a8" name="* [FS] Coyote Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a15e-dc4e-1758-28a8" name="Coyote Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3403-9925-a8d3-1190" name="*7.62mm AA MG" hidden="false" targetId="b3ca-6df2-5651-dfa8" type="infoGroup"/>
         <infoLink id="d17d-ad8b-ef71-01a5" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
@@ -1536,7 +1596,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1acf-88e2-c9f7-3a45" name="* [FS] Grizzly Mechanized Platoon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1acf-88e2-c9f7-3a45" name="Grizzly Mechanized Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="660c-50b5-b7d5-cbae" name="Grizzly Mechanized Platoon" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
@@ -1608,7 +1668,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="83e6-2777-d678-768a" name="* [F] Cougar Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="83e6-2777-d678-768a" name="Cougar Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="b4c9-5dde-9ada-7a45" name="Cougar Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
           <profiles>
@@ -1743,7 +1803,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd78-1483-3621-ba4e" name="* [FS] Cougar Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dd78-1483-3621-ba4e" name="Cougar Armoured Troop" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="992d-59bd-8d7d-b3f2" name="Cougar Armoured Troop" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -1796,7 +1856,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b15c-7e08-97b9-ac6f" name="* [F] Coyote Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b15c-7e08-97b9-ac6f" name="Coyote Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="d80b-899d-d0fc-31b3" name="Coyote Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
           <infoLinks>
@@ -1909,7 +1969,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f1f-91cc-7e9a-b707" name="* [F] Grizzly Mechanized Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3f1f-91cc-7e9a-b707" name="Grizzly Mechanized Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="5578-bb87-b233-3bf3" name="Grizzly Mechanised Company HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2054,7 +2114,7 @@ Counterattack 3+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e26f-8859-ea4c-4542" name="* Iltis TOW Anti-tank Section" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e26f-8859-ea4c-4542" name="Iltis TOW Anti-tank Section" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="82ec-a71f-3193-0ed0" name="Iltis TOW Anti-tank Section" hidden="false" typeId="973a-aa06-b137-2f9e" typeName="Unarmored Tank Unit">
           <characteristics>
@@ -2095,7 +2155,7 @@ Counterattack -</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3234-726b-81c9-d625" name="* lltis Recce Patrol" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3234-726b-81c9-d625" name="Iltis Recce Patrol" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="55fb-cf05-476c-75b2" name="ltis Recce Patrol" hidden="false" typeId="973a-aa06-b137-2f9e" typeName="Unarmored Tank Unit">
           <characteristics>
@@ -2137,7 +2197,7 @@ Counterattack -</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f6c9-52c3-a0ae-2faf" name="* [FS] Airborne Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f6c9-52c3-a0ae-2faf" name="Airborne Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f3d9-10e1-8d39-83c8" name="Airborne Platoon" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
@@ -2264,7 +2324,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3acf-899a-3517-7ca7" name="* .50 cal HMG Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3acf-899a-3517-7ca7" name=".50 cal HMG Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3caf-8906-7dc3-2b92" name=".50 cal HMG Platoon" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
@@ -2352,7 +2412,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b77-f730-0ef1-247b" name="* C3 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4b77-f730-0ef1-247b" name="C3 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3e05-f980-74f7-9df5" name="C3 81mm Mortar Platoon" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
@@ -2541,6 +2601,71 @@ Counterattack 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6573-ffb9-cb5d-cf46" name="[American] Armour Support" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="77a6-c916-43ef-48a6" name="Unit Type" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b8b6-31fe-8a6f-9e9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="19ad-3bcf-bbf8-3b78" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="035c-26e7-c46c-bbb6" name="M1A1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="0d0e-ece7-81e6-5c53" type="selectionEntry"/>
+            <entryLink id="0022-e4a0-0ac5-2377" name="M1 Abrams Tank Platoon" hidden="false" collective="false" import="true" targetId="b574-347b-c757-237d" type="selectionEntry"/>
+            <entryLink id="37f6-a4a9-3226-4b5f" name="M60 Patton Tank Platoon" hidden="false" collective="false" import="true" targetId="35e6-e332-e227-ceaa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff29-8acc-3ca5-a02c" name="[American] Helicopter Support" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2f2d-bbc7-0675-f6d2" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5957-fec0-0030-242f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e26f-ef33-cb91-2bca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fab0-e169-ab56-e05b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5957-fec0-0030-242f" name="AH-64 Apache" hidden="false" collective="false" import="true" targetId="aa99-4d17-1ed2-d239" type="selectionEntry"/>
+            <entryLink id="d7d5-853e-73ff-0eae" name="AH-1 Cobra" hidden="false" collective="false" import="true" targetId="79d3-4041-a9c0-dba6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="116e-4fa5-8f5b-5167" name="[American] Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3f34-6532-27aa-e65a" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa5c-207c-7b54-974c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b9ef-082c-a992-af21" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4d61-a83c-4404-c2be" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fa5c-207c-7b54-974c" name="M113 Mech Platoon" hidden="false" collective="false" import="true" targetId="f675-5bf4-b041-50d7" type="selectionEntry"/>
+            <entryLink id="5477-ad8a-956b-334f" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="729a-bc8f-1b4c-4374" name="[American] Strike Aircraft Support" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="a68c-af32-d64d-f19a" name="A-10 Warthog" hidden="false" collective="false" import="true" targetId="a88e-0f4d-92de-dd7f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f8ee-808a-fb7b-f1ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d67b-1d0d-10e4-d803" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -3738,5 +3863,6 @@ Jaguar and PAH</comment>
   </sharedInfoGroups>
   <catalogueLinks>
     <catalogueLink id="c4c5-a177-2cc2-8a03" name="NATO - West Germany" targetId="72a9-f370-d503-444b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="b55d-5a37-ea6b-8c10" name="NATO - America" targetId="ee58-b579-8fa5-c793" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

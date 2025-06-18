@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="American" revision="6" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="American" revision="6" battleScribeVersion="2.03" authorName="Walter Vining" authorContact="toasterfree@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>This is still a work in progress</readme>
   <selectionEntries>
     <selectionEntry id="2572-fade-0e37-b805" name="HMMWV Scout Section" hidden="false" collective="false" import="true" type="unit">
@@ -1011,7 +1011,7 @@
                   <infoLinks>
                     <infoLink id="7588-6f0f-20d3-5cee" name="M2A2/M3A2 Bradley Rules" hidden="false" targetId="0631-0f34-3d58-c206" type="infoGroup"/>
                     <infoLink id="135e-787c-3fef-1909" name="M3A2 Bradley" hidden="false" targetId="cf6e-7eee-33af-7795" type="profile"/>
-                    <infoLink id="7b32-5617-3f57-1322" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+                    <infoLink id="7b32-5617-3f57-1322" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
@@ -1021,7 +1021,7 @@
                   <infoLinks>
                     <infoLink id="efd0-8249-28ce-3e39" name="M2/M3 Bradley Rules" hidden="false" targetId="6d7e-5c8d-994c-3882" type="infoGroup"/>
                     <infoLink id="2394-2edc-8b2a-154b" name="M3 Bradley" hidden="false" targetId="e455-2de1-b433-ebbd" type="profile"/>
-                    <infoLink id="2158-02b3-5e93-f65b" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+                    <infoLink id="2158-02b3-5e93-f65b" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
@@ -1700,7 +1700,7 @@
             <infoLink id="a7a3-f57f-efea-cb25" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
             <infoLink id="d996-3843-35f5-8179" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
             <infoLink id="c362-abea-78f4-e6a3" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
-            <infoLink id="1aac-6f6e-6990-0407" name="Passengers 1" hidden="false" targetId="63c4-326e-93d2-76aa" type="rule"/>
+            <infoLink id="1aac-6f6e-6990-0407" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="d50d-dba9-ca17-cadd" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f4a-7883-bf43-56f2">
@@ -1729,7 +1729,7 @@
                           <infoLinks>
                             <infoLink id="e382-2d48-0a39-5e39" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="3d92-d287-0861-2f26" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="c569-04e6-9093-47d3" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="c569-04e6-9093-47d3" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1762,7 +1762,7 @@
                           <infoLinks>
                             <infoLink id="7830-5187-a60b-3fbb" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="5fdd-f293-9625-12d0" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="0fa2-0585-6889-0ad2" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="0fa2-0585-6889-0ad2" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1904,7 +1904,7 @@
                           <infoLinks>
                             <infoLink id="6b78-ce4b-245b-01d2" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="5d3c-72d8-c169-8055" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="b92d-0eba-f5b4-0c44" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="b92d-0eba-f5b4-0c44" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1937,7 +1937,7 @@
                           <infoLinks>
                             <infoLink id="2b37-b648-95ba-1b47" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="7033-06e1-f80e-f86b" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="ecac-1da5-6669-1bf7" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="ecac-1da5-6669-1bf7" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -2335,7 +2335,7 @@
                           <infoLinks>
                             <infoLink id="48ba-2105-d1b2-bed0" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="f56f-3b25-f52a-4ad2" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="909b-17c9-3e5c-a954" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="909b-17c9-3e5c-a954" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -2368,7 +2368,7 @@
                           <infoLinks>
                             <infoLink id="caca-0051-481b-5268" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
                             <infoLink id="0c27-ad6c-1341-928b" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                            <infoLink id="737c-02bf-a6f7-c7fd" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                            <infoLink id="737c-02bf-a6f7-c7fd" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -3136,7 +3136,7 @@
             <infoLink id="a439-b77a-4301-3aeb" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
             <infoLink id="f017-8675-1f48-bfae" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
             <infoLink id="747e-8ac4-6916-ceb8" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-            <infoLink id="bab6-cb5f-970b-1a37" name="Passengers 1" hidden="false" targetId="63c4-326e-93d2-76aa" type="rule"/>
+            <infoLink id="bab6-cb5f-970b-1a37" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
             <infoLink id="9810-35a0-f80b-5530" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
             <infoLink id="cf20-ff7e-7352-782f" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
           </infoLinks>
@@ -4354,7 +4354,7 @@
         <infoLink id="87ed-d766-32f0-48fa" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="c52b-4ae5-0a9c-6171" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
         <infoLink id="f43d-9baf-4a85-aa5c" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-        <infoLink id="647b-a957-4dbc-2c6d" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="647b-a957-4dbc-2c6d" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="35cd-2388-31f2-5452" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a9ea-6e65-7603-aeea">
@@ -4425,8 +4425,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127a-bec6-66f9-01dc" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6af8-11a6-3c4b-d340" name="Assualt #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
-            <infoLink id="0bf8-9ef7-3b30-8aa3" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+            <infoLink id="6af8-11a6-3c4b-d340" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+            <infoLink id="0bf8-9ef7-3b30-8aa3" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
             <infoLink id="17c6-411d-208c-469d" name="M224 60mm Mortar" hidden="false" targetId="1ac9-c0ed-e552-855d" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -4442,8 +4442,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7c-61cd-a9f5-a2fa" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ad31-939c-3303-863a" name="Assualt #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
-            <infoLink id="eb24-ea54-545d-6313" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+            <infoLink id="ad31-939c-3303-863a" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
+            <infoLink id="eb24-ea54-545d-6313" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
             <infoLink id="e93c-4068-deb7-69b4" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -4832,7 +4832,7 @@
         <infoLink id="8cad-cd8b-172b-4543" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
         <infoLink id="6600-73a1-b4cd-edf1" name="HMMWV Transport" hidden="false" targetId="0a70-c302-36b5-0261" type="infoGroup"/>
         <infoLink id="78d6-ebd4-d37a-296f" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-        <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="3725-92b0-7b53-44a4" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="5e42-21f6-ca96-1412" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
       </infoLinks>
@@ -4919,7 +4919,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="d683-9d4f-446e-36b6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-        <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="6f23-2f35-855f-f93e" name="M113  Chassis" hidden="false" targetId="2334-97c0-75d9-04aa" type="profile"/>
         <infoLink id="f64c-fff7-323c-8e55" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="efa2-7e15-bf78-0b9c" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
@@ -5063,7 +5063,7 @@
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="d4a0-223f-2044-68e0" name="M269 MLRS" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="d4a0-223f-2044-68e0" name="M269 MLRS" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">120&quot;/300CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -5169,7 +5169,7 @@
                 <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
               </characteristics>
             </profile>
-            <profile id="5c5b-c1c9-6094-e559" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="5c5b-c1c9-6094-e559" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5292,7 +5292,7 @@
                     <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="29e1-6045-d617-7723" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                <profile id="29e1-6045-d617-7723" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
                     <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5331,7 +5331,7 @@
                     <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d139-1358-c355-28e4" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                <profile id="d139-1358-c355-28e4" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
                     <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5396,7 +5396,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="d35b-ac1d-1959-1daa" name="M256 120mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="d35b-ac1d-1959-1daa" name="M256 120mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5406,7 +5406,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Advanced Stabiliser, Laser Range Finder</characteristic>
       </characteristics>
     </profile>
-    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5416,7 +5416,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5426,7 +5426,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5455,7 +5455,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="5e9d-1099-1f06-3fea" name="M245 25mm Bushmaster" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5e9d-1099-1f06-3fea" name="M245 25mm Bushmaster" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5465,7 +5465,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter, Stabiliser</characteristic>
       </characteristics>
     </profile>
-    <profile id="985f-afac-086e-c6e1" name="TOW 2 Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="985f-afac-086e-c6e1" name="TOW 2 Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-48&quot;/120CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5480,12 +5480,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
       </characteristics>
     </profile>
-    <profile id="7ce8-890c-6d94-5f0b" name="AGM-117 Hellfire missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="7ce8-890c-6d94-5f0b" name="AGM-117 Hellfire missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM-64&quot;/160CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5495,7 +5494,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="60e3-15b9-3956-f689" name="M230 30mm chain gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="60e3-15b9-3956-f689" name="M230 30mm chain gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">6</characteristic>
@@ -5505,7 +5504,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="2481-bc60-b4b2-8b95" name="M159 rocket launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="2481-bc60-b4b2-8b95" name="M159 rocket launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -5534,7 +5533,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="06be-fdea-c9d3-13e2" name="M185 155mm howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="06be-fdea-c9d3-13e2" name="M185 155mm howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">96&quot;/240CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5544,7 +5543,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="d327-44f6-44db-d971" name="M185 155mm howitzer direct fire" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="d327-44f6-44db-d971" name="M185 155mm howitzer direct fire" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">36&quot;/90CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5630,7 +5629,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="5e9c-1d1a-9d40-492b" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5e9c-1d1a-9d40-492b" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5645,12 +5644,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">3+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc30-d2a3-665d-5eba" name="30mm Aden gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="fc30-d2a3-665d-5eba" name="30mm Aden gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20 CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -5660,7 +5658,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
       </characteristics>
     </profile>
-    <profile id="f31d-b68b-6743-4459" name="CBU-100 cluster bomb" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="f31d-b68b-6743-4459" name="CBU-100 cluster bomb" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15 CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -5689,7 +5687,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40 CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -5699,7 +5697,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="a341-d172-fd3c-6cb9" name="TOW Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="a341-d172-fd3c-6cb9" name="TOW Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-48&quot;/120 CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5785,7 +5783,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal  MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal  MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5800,12 +5798,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c5e-84bb-9621-0b88" name="M197 20mm Vulcan Gatling Gun" page="60" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8c5e-84bb-9621-0b88" name="M197 20mm Vulcan Gatling Gun" page="60" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">6</characteristic>
@@ -5946,7 +5943,7 @@
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5956,7 +5953,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5966,7 +5963,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="edab-e5b8-e6e0-e87d" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="edab-e5b8-e6e0-e87d" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5981,12 +5978,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">3+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="26da-08fc-0e84-42d0" name="Door M60 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="26da-08fc-0e84-42d0" name="Door M60 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">4</characteristic>
@@ -5996,7 +5992,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Door Guns</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd19-5346-a65c-d98e" name="M47" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="dd19-5346-a65c-d98e" name="M47" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-28&quot;/70CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -6042,7 +6038,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="089f-1d6a-46af-4495" name="M81 152MM Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="089f-1d6a-46af-4495" name="M81 152MM Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -6052,7 +6048,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, HEAT, Stabilizer</characteristic>
       </characteristics>
     </profile>
-    <profile id="8f91-125f-7836-6ab0" name="MGM51 Sheillelagh Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8f91-125f-7836-6ab0" name="MGM51 Sheillelagh Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM-48&quot;/120CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -6100,7 +6096,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="5949-2341-e13a-f18e" name="XM274 75MM Ares Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5949-2341-e13a-f18e" name="XM274 75MM Ares Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -6110,7 +6106,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Laser Rangefinder</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccbc-7622-a4af-0026" name="M60 GPMG (Heavy)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="ccbc-7622-a4af-0026" name="M60 GPMG (Heavy)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -6158,7 +6154,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -6185,7 +6181,7 @@
         <characteristic name="Counterattack" typeId="498a-fd31-607a-feec">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="26a4-d546-53c8-f619" name="MIM-72 Sidewinder AA Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="26a4-d546-53c8-f619" name="MIM-72 Sidewinder AA Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">72&quot;/180CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -6200,12 +6196,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">3+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="c958-fa5b-4a93-0dab" name="GAU-8/A 30mm Gatling gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="c958-fa5b-4a93-0dab" name="GAU-8/A 30mm Gatling gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -6215,7 +6210,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
       </characteristics>
     </profile>
-    <profile id="933e-fda4-97c4-41ea" name="Maverick Missile" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="933e-fda4-97c4-41ea" name="Maverick Missile" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-36&quot;/90CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -6225,7 +6220,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="00ae-c6f9-0d36-009d" name="CBU-52 Cluster Bomb" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="00ae-c6f9-0d36-009d" name="CBU-52 Cluster Bomb" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -6254,7 +6249,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="8b91-8b42-c24c-f5c5" name="GAU-12 25MM Gatling  Gun" page="81" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8b91-8b42-c24c-f5c5" name="GAU-12 25MM Gatling  Gun" page="81" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -6264,7 +6259,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Dedicated AA, Radar</characteristic>
       </characteristics>
     </profile>
-    <profile id="52a8-5794-35af-0b7e" name="Stinger AA MIssile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="52a8-5794-35af-0b7e" name="Stinger AA MIssile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -6293,7 +6288,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1bf0-5a8e-7e98-c8a3" name="M168 20MM Vulcan Gatling AA gun" page="62" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="1bf0-5a8e-7e98-c8a3" name="M168 20MM Vulcan Gatling AA gun" page="62" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -6322,7 +6317,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="8d17-3a3b-6ed0-8b81" name="Twin 40MM AA Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8d17-3a3b-6ed0-8b81" name="Twin 40MM AA Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -6427,7 +6422,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">32&quot;/80CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -6437,7 +6432,7 @@
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assualt 5, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -6466,7 +6461,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="2042-af6a-b756-5cb5" name="M242 25mm gun" page="77" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="2042-af6a-b756-5cb5" name="M242 25mm gun" page="77" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -6495,7 +6490,7 @@
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd27-5b3d-0a17-d844" name="40mm grenade launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="bd27-5b3d-0a17-d844" name="40mm grenade launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -6510,12 +6505,11 @@
         <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
         <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -6620,7 +6614,7 @@
         <infoLink id="9b0a-b7bf-4b18-cb8b" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
         <infoLink id="0739-cc05-6088-1ac0" name="Door M60 MG" hidden="false" targetId="26da-08fc-0e84-42d0" type="profile"/>
         <infoLink id="0387-ee91-5717-ac25" name="UH-1 Huey" hidden="false" targetId="a7f6-ed76-19aa-dfce" type="profile"/>
-        <infoLink id="91c3-00c9-3879-cb12" name="Passengers 3" hidden="false" targetId="a278-4160-81c9-3665" type="rule"/>
+        <infoLink id="91c3-00c9-3879-cb12" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="9960-4de4-4e2a-7c62" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
       </infoLinks>
     </infoGroup>
@@ -6650,7 +6644,7 @@
     </infoGroup>
     <infoGroup id="0a70-c302-36b5-0261" name="HMMWV Transport" hidden="false">
       <infoLinks>
-        <infoLink id="3242-12f6-2dd9-0216" name="Passengers 1" hidden="false" targetId="63c4-326e-93d2-76aa" type="rule"/>
+        <infoLink id="3242-12f6-2dd9-0216" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="d39a-eb0a-867c-7927" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
         <infoLink id="cad5-2cf2-55e4-d47c" name="HMMWV" hidden="false" targetId="6702-5ea6-6c16-f461" type="profile"/>
       </infoLinks>
@@ -6721,7 +6715,7 @@
         <infoLink id="53eb-20cc-cfd1-28b5" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
         <infoLink id="e225-6b79-f82d-f3c6" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
         <infoLink id="bedb-9122-efbb-3b77" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
-        <infoLink id="5222-c765-1175-dbf7" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="5222-c765-1175-dbf7" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="bb07-4e48-634a-07d8" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
         <infoLink id="05c1-c22b-bebe-3136" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
         <infoLink id="0aba-9eb2-573a-3576" name="M185 155mm howitzer" hidden="false" targetId="06be-fdea-c9d3-13e2" type="profile"/>
@@ -6822,7 +6816,7 @@
         <infoLink id="06e8-07a2-c929-327e" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
         <infoLink id="5a91-9fb9-aa1a-df65" name="Door M60 MG" hidden="false" targetId="26da-08fc-0e84-42d0" type="profile"/>
         <infoLink id="9d6b-dd09-8433-c338" name="2MarDiv UH-1 Huey" hidden="false" targetId="e28f-b0c8-ad98-cfcc" type="profile"/>
-        <infoLink id="c940-4b35-d6f0-c0d1" name="Passengers 3" hidden="false" targetId="a278-4160-81c9-3665" type="rule"/>
+        <infoLink id="c940-4b35-d6f0-c0d1" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="fee0-ea92-f3b6-25d9" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
       </infoLinks>
     </infoGroup>
@@ -6870,7 +6864,7 @@
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e941-dbc2-57fe-bcc6" name="81MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="e941-dbc2-57fe-bcc6" name="81MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">56&quot;/140CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="8" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="8" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 5-18-2025
 Overhauled finished 6-11-2025</readme>
   <categoryEntries>
@@ -450,7 +450,7 @@ Overhauled finished 6-11-2025</readme>
   <sharedSelectionEntries>
     <selectionEntry id="4502-8596-abce-8fbb" name="M3 Bradley Scout Section" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="06e7-140e-48d5-ab88" name="M3 Bradley" hidden="false" targetId="3482-5977-e298-e0e4" type="infoGroup"/>
+        <infoLink id="9910-1f17-4688-e417" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7743-6da3-6c0e-ca56" name="TOW-2" hidden="false" targetId="c148-308e-59c4-ca99" primary="false"/>
@@ -464,7 +464,7 @@ Overhauled finished 6-11-2025</readme>
           <selectionEntries>
             <selectionEntry id="286a-bb50-4303-2850" name="2x M3 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="8150-25ee-e729-7953" name="M2/M3 Bradley" hidden="false" targetId="5333-9f49-b888-b5d7" type="profile"/>
+                <infoLink id="26ea-a55f-1969-7ab9" name="*M3 Bradley" hidden="false" targetId="3482-5977-e298-e0e4" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
@@ -472,8 +472,7 @@ Overhauled finished 6-11-2025</readme>
             </selectionEntry>
             <selectionEntry id="7eb4-3790-5fc8-32e0" name="2x M3A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="46c8-58ac-ace6-621f" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
-                <infoLink id="5ee5-337e-db32-c564" name="M2A2/M3A2 Bradley" hidden="false" targetId="83e6-9c1a-7784-ae25" type="profile"/>
+                <infoLink id="fd15-8dc6-bc2c-e203" name="*M3A2 Bradley" hidden="false" targetId="2cb6-593f-3347-75a7" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
@@ -575,12 +574,11 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">4+</characteristic>
             <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
             <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
           </characteristics>
         </profile>
-        <profile id="8618-0a20-60cd-ebfd" name="AGM-117 Hellfire missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="8618-0a20-60cd-ebfd" name="AGM-117 Hellfire missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM-64&quot;/160CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -590,7 +588,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT</characteristic>
           </characteristics>
         </profile>
-        <profile id="9ae7-9e38-6eb1-006e" name="M230 30mm chain gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="9ae7-9e38-6eb1-006e" name="M230 30mm chain gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">6</characteristic>
@@ -641,12 +639,11 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
             <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">3+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
             <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
           </characteristics>
         </profile>
-        <profile id="97bc-ef4a-69bf-edaa" name="30mm Aden gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="97bc-ef4a-69bf-edaa" name="30mm Aden gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20 CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -656,7 +653,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
           </characteristics>
         </profile>
-        <profile id="ae93-e346-4b94-32d1" name="CBU-100 cluster bomb" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="ae93-e346-4b94-32d1" name="CBU-100 cluster bomb" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15 CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -904,7 +901,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9d78-4dc9-ad62-375d" name="GAU-12 25MM Gatling  Gun" page="81" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="9d78-4dc9-ad62-375d" name="GAU-12 25MM Gatling  Gun" page="81" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -967,7 +964,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a302-e3de-624b-df1a" name="M168 20MM Vulcan Gatling AA gun" page="62" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="a302-e3de-624b-df1a" name="M168 20MM Vulcan Gatling AA gun" page="62" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -1027,7 +1024,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2eff-eeaf-126c-b671" name="Twin 40mm AA Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="2eff-eeaf-126c-b671" name="Twin 40mm AA Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -1454,6 +1451,9 @@ Overhauled finished 6-11-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1da7-2927-3bcd-662a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="eb2c-b9c0-9338-5fdd" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1467,6 +1467,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="c699-cb21-9b08-af72" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="58f4-f145-cfc2-0f3f" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1544,6 +1547,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="8282-0389-4027-353d" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7999-57f1-4bd8-86cb" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1598,7 +1604,7 @@ Overhauled finished 6-11-2025</readme>
         <infoLink id="87ed-d766-32f0-48fa" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="c52b-4ae5-0a9c-6171" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
         <infoLink id="f43d-9baf-4a85-aa5c" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-        <infoLink id="647b-a957-4dbc-2c6d" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="647b-a957-4dbc-2c6d" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="35cd-2388-31f2-5452" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="468b-bb72-8b7a-1a79">
@@ -1672,7 +1678,7 @@ Overhauled finished 6-11-2025</readme>
                         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="93a1-08f9-1514-92ea" name="40mm grenade launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                    <profile id="93a1-08f9-1514-92ea" name="40mm grenade launcher" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
                         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -1713,8 +1719,7 @@ Overhauled finished 6-11-2025</readme>
               </constraints>
               <infoLinks>
                 <infoLink id="0eb2-7b41-1e0c-877c" name="M224 60mm Mortar" hidden="false" targetId="1ac9-c0ed-e552-855d" type="profile"/>
-                <infoLink id="87ae-1951-55c4-4aa4" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
-                <infoLink id="d69d-7716-6106-b913" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                <infoLink id="d69d-7716-6106-b913" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
@@ -1753,9 +1758,8 @@ Overhauled finished 6-11-2025</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0972-77ab-09b0-311a" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e100-0bc9-c9ed-38b5" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
                 <infoLink id="d968-573a-8058-b618" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                <infoLink id="ebde-49d0-5827-1ab5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                <infoLink id="ebde-49d0-5827-1ab5" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                 <infoLink id="ed5d-3052-e813-dcf9" name="SMAW" hidden="false" targetId="edcf-9938-6a95-a495" type="profile"/>
               </infoLinks>
               <costs>
@@ -1767,9 +1771,8 @@ Overhauled finished 6-11-2025</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a7a0-297f-8d12-33a0" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e91b-7ea6-4b34-9ebd" name="Assault #" hidden="false" targetId="b814-659f-46f8-b83a" type="rule"/>
                 <infoLink id="7f3d-c700-d55c-fd6e" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-                <infoLink id="1b16-5c73-4a05-ebd3" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+                <infoLink id="1b16-5c73-4a05-ebd3" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
                 <infoLink id="6943-220a-2371-05ff" name="SMAW" hidden="false" targetId="edcf-9938-6a95-a495" type="profile"/>
               </infoLinks>
               <costs>
@@ -1908,6 +1911,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="8e86-1527-2ae3-f192" name="MK 19 40mm GL" hidden="false" targetId="f6cd-1fc9-54a9-8735" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="163b-9553-fa54-4792" name="HMMWV-M2" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1916,6 +1922,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="5c17-6d53-d2fb-a204" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1962,6 +1971,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="80f6-62a9-0fd2-8cbf" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="37ca-210e-e24c-4c9a" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1998,7 +2010,7 @@ Overhauled finished 6-11-2025</readme>
     </selectionEntry>
     <selectionEntry id="4f66-790c-5c1b-76a3" name="Marine LAV-M Mortar Section" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d0d5-f554-85c4-fc61" name="81mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="d0d5-f554-85c4-fc61" name="81mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">56&quot;/140CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -2098,6 +2110,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="bdc7-adfd-bf62-6687" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5f9b-9c53-0a61-40a1" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2287,6 +2302,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="8b84-27b0-efc9-187e" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c6f7-fd69-362a-6205" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2341,7 +2359,7 @@ Overhauled finished 6-11-2025</readme>
         <infoLink id="8bd2-c44d-4a88-ad76" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="6600-73a1-b4cd-edf1" name="HMMWV Transport" hidden="false" targetId="0a70-c302-36b5-0261" type="infoGroup"/>
         <infoLink id="78d6-ebd4-d37a-296f" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
-        <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="14f2-39e2-ac17-8ea6" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="3725-92b0-7b53-44a4" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="5e42-21f6-ca96-1412" name="M72 LAW" hidden="false" targetId="11bc-8d75-cd12-066c" type="profile"/>
         <infoLink id="1611-17de-437c-2ac0" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
@@ -2355,7 +2373,7 @@ Overhauled finished 6-11-2025</readme>
           <selectionEntries>
             <selectionEntry id="c90e-28b1-9cbd-c77a" name="6x M249 SAW w- M72 LAW, 1x M60 GPMG, 3x M47 Dragon, 10X HMMWV" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0b8c-7594-11d6-58c7" name="M60 GPMG (Heavy)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+                <profile id="0b8c-7594-11d6-58c7" name="M60 GPMG (Heavy)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
                     <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -2461,7 +2479,7 @@ Overhauled finished 6-11-2025</readme>
       </profiles>
       <infoLinks>
         <infoLink id="d683-9d4f-446e-36b6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
-        <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="6778-6d1d-0620-24b5" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="6f23-2f35-855f-f93e" name="M113 Transport" hidden="false" targetId="7139-4fe1-41aa-d2ae" type="infoGroup"/>
         <infoLink id="f64c-fff7-323c-8e55" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
         <infoLink id="efa2-7e15-bf78-0b9c" name="M47" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
@@ -2531,7 +2549,6 @@ Overhauled finished 6-11-2025</readme>
         <infoLink id="950b-0520-503a-fba6" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
         <infoLink id="cb2e-7348-41bd-8fa1" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="31ba-0e58-ed7f-4023" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
-        <infoLink id="4b1c-d273-38fc-032c" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ef83-73c7-104c-2e38" name="TOW-2" hidden="false" targetId="c148-308e-59c4-ca99" primary="false"/>
@@ -2563,13 +2580,15 @@ Overhauled finished 6-11-2025</readme>
           <selectionEntries>
             <selectionEntry id="1b06-35ca-f2f0-748c" name="3x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="d129-67be-585f-559d" name="M2/M3 Bradley" hidden="false" targetId="5333-9f49-b888-b5d7" type="profile"/>
+                <infoLink id="74a5-ef6a-6d48-a64c" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="dda4-bb21-55e0-e460" name="3x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="f545-9dac-6099-9380" name="M2A2/M3A2 Bradley" hidden="false" targetId="83e6-9c1a-7784-ae25" type="profile"/>
-                <infoLink id="3e66-ab6d-1ba1-3bfc" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+                <infoLink id="d5dc-8a7c-8e55-c1e4" name="*M2A2 Bradley" hidden="false" targetId="2216-38af-a150-daa3" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
@@ -2603,7 +2622,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="d4a0-223f-2044-68e0" name="M269 MLRS" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="d4a0-223f-2044-68e0" name="M269 MLRS" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">120&quot;/300CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -2717,7 +2736,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5732-0cd0-c374-702c" name="M30 107mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="5732-0cd0-c374-702c" name="M30 107mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -2843,6 +2862,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="a563-90aa-eba1-7b99" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e454-02f1-360c-4da8" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2893,7 +2915,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fc99-81a9-4972-ba6b" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="fc99-81a9-4972-ba6b" name="M30 107MM Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -2935,7 +2957,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2a5-f849-3d5d-7a41" name="Marine LAV Company" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="3376-6c03-e412-a99d" name="LAV Company HQ" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2943,30 +2964,31 @@ Overhauled finished 6-11-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cdf-8f8d-2b3b-0868" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0ab2-5206-124d-c442" name="Marine LAV HQ" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+            <profile id="0ab2-5206-124d-c442" name="Marine LAV HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
               <characteristics>
-                <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
-                <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">14&quot;/35CM</characteristic>
-                <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">20&quot;/50CM</characteristic>
-                <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">48&quot;/120CM</characteristic>
-                <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">4+</characteristic>
-                <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">1</characteristic>
-                <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">1</characteristic>
-                <characteristic name="Top" typeId="f293-d7ab-abe0-c981">0</characteristic>
-                <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-                <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">2+</characteristic>
-                <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-                <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">3+</characteristic>
-                <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
-                <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-                <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
+                <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">2+
+Morale 3+
+Remount 3+</characteristic>
+                <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+
+Counterattack 4+</characteristic>
+                <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+                <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
+                <characteristic name="Side" typeId="7011-0119-007e-4560">1</characteristic>
+                <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+                <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25CM</characteristic>
+                <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">14&quot;/35CM</characteristic>
+                <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">20&quot;/50CM</characteristic>
+                <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">48&quot;/120CM</characteristic>
+                <characteristic name="Cross" typeId="032f-59ad-74b3-1601">4+</characteristic>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Passengers 1, Scout, Thermal Imaging</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="ab23-17e3-6a61-c707" name="LAV Weapons" hidden="false" targetId="51fd-db47-5c78-2555" type="infoGroup"/>
             <infoLink id="819f-e644-1e90-8bfc" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-            <infoLink id="80b3-37c3-66c3-33cb" name="Passengers 1" hidden="false" targetId="63c4-326e-93d2-76aa" type="rule"/>
+            <infoLink id="80b3-37c3-66c3-33cb" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
             <infoLink id="27f8-2629-e43a-0118" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
             <infoLink id="1566-4d52-8225-097f" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
           </infoLinks>
@@ -2981,6 +3003,9 @@ Overhauled finished 6-11-2025</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3027,7 +3052,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bc8-12ed-e356-4c73" name="Marine Rifle Company" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="fc9a-2b0b-2edc-3605" name="Marine Rifle Company HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3062,6 +3086,9 @@ Overhauled finished 6-11-2025</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e8-72e1-ecf5-a377" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0323-4c44-7423-478e" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -3128,7 +3155,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcd6-e6fd-c496-9888" name="Marine M60 Patton Tank Company" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="8ac0-092d-1d47-52de" name="Marine M60 Patton HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3342,7 +3368,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="0edf-e7b9-4335-98bd" name="Combined Arms (LIGHT) Company" page="" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="132e-bc16-edf7-b5a9" name="Combined Arms (LIGHT) Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3364,6 +3389,9 @@ Overhauled finished 6-11-2025</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3459,6 +3487,9 @@ Overhauled finished 6-11-2025</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3544,6 +3575,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="b5b8-6349-0a63-29b1" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a7fd-3a1b-a1a6-82e6" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -3574,7 +3608,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ea8-7247-016a-821b" name="UH-1 Huey Infantry Combat Team" page="" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="a76e-06c2-6ac3-dd86" name="UH-1 Huey Infantry Combat Team HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3591,6 +3624,9 @@ Overhauled finished 6-11-2025</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1084-7611-dd35-9c63" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c29d-a960-74a4-679e" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -3657,7 +3693,7 @@ Overhauled finished 6-11-2025</readme>
         <categoryLink id="c10b-5c66-a746-8e41" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5ff2-1c7c-1fcf-9eba" name="Light Attack Company HQ" page="50" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="5ff2-1c7c-1fcf-9eba" name="Light Attack Company HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e9-a62a-763d-9995" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32a-f1a6-40b7-5707" type="max"/>
@@ -3689,29 +3725,26 @@ Overhauled finished 6-11-2025</readme>
           <selectionEntryGroups>
             <selectionEntryGroup id="9021-0ae1-ea94-55c1" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a3b-5dd0-ced1-1a56">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed0-7e1e-e800-bd8e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2e-78e5-b497-29f8" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ed0-7e1e-e800-bd8e" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2f2e-78e5-b497-29f8" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="9a3b-5dd0-ced1-1a56" name="2x HMMWV-M2" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9a3b-5dd0-ced1-1a56" name="HMMWV-M2" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="3c3a-2499-cae9-0b11" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
                   </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                  </costs>
                 </selectionEntry>
-                <selectionEntry id="6349-df4e-d290-382f" name="2x HMMWV (Minigun)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6349-df4e-d290-382f" name="HMMWV (Minigun)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="90ca-90df-d982-384f" name="M134 Minigun MG" hidden="false" targetId="5248-f3c2-5600-fe4c" type="profile"/>
                   </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
-                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3921,7 +3954,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="0db3-2d6a-bb40-7eab" name="M113 Mech Combat Team" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="4b09-88fb-aef6-aea9" name="M113 Mech HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4035,7 +4067,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7f9-e6e9-4222-b6a6" name="M1A1 Abrams Combat Team" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="aa05-ffe5-c65d-0d51" name="1) M1A1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -4163,7 +4194,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="db9b-9ace-0450-e4a6" name="M2 Bradley Mech Combat Team" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <categoryLinks>
         <categoryLink id="23fe-90e4-6697-4cdd" name="TOW-2" hidden="false" targetId="c148-308e-59c4-ca99" primary="false"/>
       </categoryLinks>
@@ -4175,7 +4205,6 @@ Overhauled finished 6-11-2025</readme>
           </constraints>
           <infoLinks>
             <infoLink id="6b82-4e2f-08ab-49a3" name="M16 rifle team HQ" hidden="false" targetId="758e-dd25-7bbb-19dd" type="profile"/>
-            <infoLink id="b8ce-afe5-af0c-e2d6" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="9028-916f-b03b-05b6" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="7705-5ad4-2069-324b">
@@ -4186,7 +4215,7 @@ Overhauled finished 6-11-2025</readme>
               <selectionEntries>
                 <selectionEntry id="7705-5ad4-2069-324b" name="1x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="a987-af07-9fdb-d054" name="M2/M3 Bradley" hidden="false" targetId="5333-9f49-b888-b5d7" type="profile"/>
+                    <infoLink id="3fb3-28df-6ec6-8a7f" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
@@ -4194,8 +4223,7 @@ Overhauled finished 6-11-2025</readme>
                 </selectionEntry>
                 <selectionEntry id="3257-f0ae-eba6-f104" name="1x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="aba2-703b-4705-f9fd" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
-                    <infoLink id="c1ff-364b-c01f-5c4d" name="M2A2/M3A2 Bradley" hidden="false" targetId="83e6-9c1a-7784-ae25" type="profile"/>
+                    <infoLink id="e7d2-7523-a2f3-42e6" name="*M2A2 Bradley" hidden="false" targetId="2216-38af-a150-daa3" type="infoGroup"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
@@ -4278,59 +4306,16 @@ Overhauled finished 6-11-2025</readme>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e6f1-ef9d-901a-796a" name="1x M3 Bradley" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c7b5-6b9a-1e7b-cc51" name="M3 Bradley HQ" page="" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
-                  <characteristics>
-                    <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
-                    <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
-                    <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;70CM</characteristic>
-                    <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-                    <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-                    <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
-                    <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
-                    <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
-                    <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-                    <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">3+</characteristic>
-                    <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-                    <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-                    <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
-                    <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-                    <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="dbb4-1904-3e76-1278" name="Bradley Weapons &amp; Rules" hidden="false" targetId="3482-5977-e298-e0e4" type="infoGroup"/>
+                <infoLink id="9fa4-89b5-22a8-af38" name="*M3 Bradley" hidden="false" targetId="3482-5977-e298-e0e4" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e57c-2b6c-b2b0-e506" name="1x M3A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="cc68-2bcc-6d3b-eb00" name="M3A2 Bradley HQ" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
-                  <characteristics>
-                    <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
-                    <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
-                    <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;70CM</characteristic>
-                    <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-                    <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-                    <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">5</characteristic>
-                    <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">4</characteristic>
-                    <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
-                    <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-                    <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">3+</characteristic>
-                    <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-                    <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-                    <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
-                    <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-                    <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="28e7-025d-a1ed-340a" name="M3 Bradley" hidden="false" targetId="3482-5977-e298-e0e4" type="infoGroup"/>
-                <infoLink id="d6e9-e6e4-ee47-3690" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+                <infoLink id="ff9b-737d-cdc3-6bc9" name="*M3A2 Bradley" hidden="false" targetId="2cb6-593f-3347-75a7" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
@@ -4472,7 +4457,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="72cd-cde8-19af-d2df" name="M60 Patton Armored Combat Team" page="" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="f4c7-76c3-a2cf-c854" name="M60 Patton HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -4606,7 +4590,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Counterattack" typeId="498a-fd31-607a-feec">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e58-c167-c1ed-bc39" name="MIM-72 Sidewinder AA Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="4e58-c167-c1ed-bc39" name="MIM-72 Sidewinder AA Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">72&quot;/180CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -4652,12 +4636,11 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">3+</characteristic>
             <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
             <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
           </characteristics>
         </profile>
-        <profile id="b78a-daf3-d851-9987" name="CBU-52 Cluster Bomb" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="b78a-daf3-d851-9987" name="CBU-52 Cluster Bomb" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot;/15CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">SALVO</characteristic>
@@ -4667,7 +4650,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">One Shot</characteristic>
           </characteristics>
         </profile>
-        <profile id="9356-0033-4030-ca58" name="GAU-8/A 30mm Gatling gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="9356-0033-4030-ca58" name="GAU-8/A 30mm Gatling gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -4677,7 +4660,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter</characteristic>
           </characteristics>
         </profile>
-        <profile id="7836-4f41-3707-905d" name="Maverick Missile" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="7836-4f41-3707-905d" name="Maverick Missile" page="65" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-36&quot;/90CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -4726,12 +4709,11 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
             <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
             <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
           </characteristics>
         </profile>
-        <profile id="96c7-9a1b-c080-633e" name="M197 20mm Vulcan Gatling Gun" page="60" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="96c7-9a1b-c080-633e" name="M197 20mm Vulcan Gatling Gun" page="60" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">6</characteristic>
@@ -4944,7 +4926,6 @@ Overhauled finished 6-11-2025</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="631a-f5c3-becb-0a12" name="M1 Abrams Combat Team" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntries>
         <selectionEntry id="e484-b6a6-ab9e-6838" name="M1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -5060,7 +5041,7 @@ Overhauled finished 6-11-2025</readme>
     </selectionEntry>
     <selectionEntry id="4e35-2732-5b64-5b2d" name="M551 Sheridan Tank Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="20b3-4eaa-e988-1f47" name="M81 152MM Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="20b3-4eaa-e988-1f47" name="M81 152MM Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5070,7 +5051,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Brutal, HEAT, Stabilizer</characteristic>
           </characteristics>
         </profile>
-        <profile id="c4c4-99db-ab82-c3e5" name="MGM51 Sheillelagh Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="c4c4-99db-ab82-c3e5" name="MGM51 Sheillelagh Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM-48&quot;/120CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5179,6 +5160,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="98c6-8f26-15a3-21b4" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="998d-9a78-9927-34bb" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -5246,6 +5230,9 @@ Overhauled finished 6-11-2025</readme>
               <infoLinks>
                 <infoLink id="b478-4841-e606-26cb" name="TOW" hidden="false" targetId="9aec-34a2-f7a4-6911" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5872-0f32-ba16-f6cb" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -5338,7 +5325,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5348,7 +5335,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5358,7 +5345,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5406,26 +5393,27 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="6702-5ea6-6c16-f461" name="HMMWV" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="6702-5ea6-6c16-f461" name="HMMWV" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
       <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">12&quot;/30CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">20&quot;/50CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">40&quot;/100CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">4+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">0</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">0</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">0</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">-</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">-</characteristic>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 4+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault -
+Counterattack -</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">0</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25CM</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">12&quot;/30CM</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">20&quot;/50CM</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">40&quot;/100CM</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">4+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
       </characteristics>
     </profile>
-    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40 CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -5435,7 +5423,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5462,7 +5450,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5472,7 +5460,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5482,7 +5470,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd19-5346-a65c-d98e" name="M47 Dragon missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="dd19-5346-a65c-d98e" name="M47 Dragon missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-28&quot;/70CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5492,7 +5480,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 5, Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
@@ -5502,7 +5490,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">32&quot;/80CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5512,7 +5500,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assualt 5, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5522,7 +5510,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assualt 5, HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -5532,7 +5520,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 5</characteristic>
       </characteristics>
     </profile>
-    <profile id="b333-af96-1c3e-dba6" name="Door M60 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="b333-af96-1c3e-dba6" name="Door M60 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">4</characteristic>
@@ -5542,11 +5530,10 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Door Guns</characteristic>
       </characteristics>
     </profile>
-    <profile id="b277-d9ec-9629-e692" name="M159 rocket launcher" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+    <profile id="b277-d9ec-9629-e692" name="M159 rocket launcher" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
-        <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
         <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
         <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
         <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">One Shot</characteristic>
@@ -5571,7 +5558,7 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="79b4-4ee7-1967-3b95" name="Stinger AA MIssile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="79b4-4ee7-1967-3b95" name="Stinger AA MIssile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
@@ -5581,69 +5568,32 @@ Overhauled finished 6-11-2025</readme>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="5333-9f49-b888-b5d7" name="M2/M3 Bradley" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;25CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="83e6-9c1a-7784-ae25" name="M2A2/M3A2 Bradley" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;25CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16&quot;/40CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">5</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">4</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
-      </characteristics>
-    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="078f-b587-f3e3-35aa" name="UH-1 Huey" hidden="false">
       <profiles>
-        <profile id="c8bf-d47c-45ed-ea8e" name="UH-1 Huey" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+        <profile id="c8bf-d47c-45ed-ea8e" name="UH-1 Huey" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
           <characteristics>
-            <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
-            <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
-            <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">3+</characteristic>
-            <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
-            <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 3</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9b0a-b7bf-4b18-cb8b" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
         <infoLink id="0739-cc05-6088-1ac0" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
-        <infoLink id="91c3-00c9-3879-cb12" name="Passengers 3" hidden="false" targetId="a278-4160-81c9-3665" type="rule"/>
+        <infoLink id="91c3-00c9-3879-cb12" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="9960-4de4-4e2a-7c62" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="bf3e-484b-d36c-ebdf" name="RDF/LT" hidden="false">
       <profiles>
-        <profile id="500e-572e-c87f-d350" name="XM274 75MM Ares Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="500e-572e-c87f-d350" name="XM274 75MM Ares Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5663,15 +5613,36 @@ Overhauled finished 6-11-2025</readme>
       </infoLinks>
     </infoGroup>
     <infoGroup id="0a70-c302-36b5-0261" name="HMMWV Transport" hidden="false">
+      <profiles>
+        <profile id="49cc-5f33-0c05-b568" name="HMMWV" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault -
+Counterattack -</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">0</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">12&quot;/30CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">20&quot;/50CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">40&quot;/100CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">4+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Passengers 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="3242-12f6-2dd9-0216" name="Passengers 1" hidden="false" targetId="63c4-326e-93d2-76aa" type="rule"/>
+        <infoLink id="3242-12f6-2dd9-0216" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="d39a-eb0a-867c-7927" name="7.62 AA MG" hidden="false" targetId="0db1-913b-4e9a-0860" type="profile"/>
-        <infoLink id="cad5-2cf2-55e4-d47c" name="HMMWV" hidden="false" targetId="6702-5ea6-6c16-f461" type="profile"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="51fd-db47-5c78-2555" name="LAV Weapons" hidden="false">
       <profiles>
-        <profile id="8e98-6455-83ac-c580" name="M242 25mm gun" page="77" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="8e98-6455-83ac-c580" name="M242 25mm gun" page="77" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5691,27 +5662,28 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="1e66-485a-3aa2-9419" name="UH-1 Huey [Marine]" hidden="false">
       <profiles>
-        <profile id="e564-6425-d003-8bf0" name="Marine UH-1 Huey" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
+        <profile id="e564-6425-d003-8bf0" name="Marine UH-1 Huey" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
           <characteristics>
-            <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
-            <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
-            <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308">4+</characteristic>
-            <characteristic name="Skill" typeId="d287-43b1-d61a-f837">4+</characteristic>
-            <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">UNLIMITED</characteristic>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">4+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 4</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="06e8-07a2-c929-327e" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
         <infoLink id="5a91-9fb9-aa1a-df65" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
-        <infoLink id="c940-4b35-d6f0-c0d1" name="Passengers 3" hidden="false" targetId="a278-4160-81c9-3665" type="rule"/>
         <infoLink id="fee0-ea92-f3b6-25d9" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="7347-6602-1ed8-7957" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="8bb3-8f34-fb86-66dc" name="M256 120mm gun" hidden="false">
       <profiles>
-        <profile id="3c3a-dd63-87c6-e427" name="M256 120mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="3c3a-dd63-87c6-e427" name="M256 120mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5739,7 +5711,7 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="c251-4715-48f6-29a4" name="M68 105mm gun" hidden="false">
       <profiles>
-        <profile id="3ce6-e385-3cc9-d548" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="3ce6-e385-3cc9-d548" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5757,7 +5729,7 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="c3c3-0d3a-9ec6-3380" name="Patton Weapons" hidden="false">
       <profiles>
-        <profile id="7b5d-bef9-672c-dd78" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="7b5d-bef9-672c-dd78" name="M68 105mm gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot;/100CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -5777,7 +5749,7 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="347c-5746-5490-1dda" name="M109" hidden="false">
       <profiles>
-        <profile id="0a0b-c705-b7b8-0402" name="M185 155mm howitzer (Artillery)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="0a0b-c705-b7b8-0402" name="M185 155mm howitzer (Artillery)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">96&quot;/240CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">ARTILLERY</characteristic>
@@ -5787,7 +5759,7 @@ Overhauled finished 6-11-2025</readme>
             <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
           </characteristics>
         </profile>
-        <profile id="980c-5bbb-2ef0-bd01" name="M185 155mm howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="980c-5bbb-2ef0-bd01" name="M185 155mm howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">36&quot;/90CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5801,7 +5773,7 @@ Overhauled finished 6-11-2025</readme>
       <infoLinks>
         <infoLink id="9337-4916-bbc6-fb01" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
         <infoLink id="0435-d0d0-6976-8561" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
-        <infoLink id="c06b-e7b3-62bd-c6c2" name="Slow Firing" hidden="false" targetId="2037-79f0-8461-6a15" type="rule"/>
+        <infoLink id="c06b-e7b3-62bd-c6c2" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
         <infoLink id="136e-a133-30bc-2cdb" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
         <infoLink id="3f6f-46c2-6fb2-a079" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
         <infoLink id="12d8-ff33-e8c1-9809" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
@@ -5809,36 +5781,37 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="7139-4fe1-41aa-d2ae" name="M113 Transport" hidden="false">
       <profiles>
-        <profile id="c52a-b623-e886-bada" name="M113 Chassis" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+        <profile id="c52a-b623-e886-bada" name="M113 Chassis" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">10&quot;/25CM</characteristic>
-            <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">16/&quot;/40CM</characteristic>
-            <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">24&quot;/60CM</characteristic>
-            <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-            <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">3+</characteristic>
-            <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">3</characteristic>
-            <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">2</characteristic>
-            <characteristic name="Top" typeId="f293-d7ab-abe0-c981">1</characteristic>
-            <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-            <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-            <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
-            <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">4+</characteristic>
-            <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-            <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">5+</characteristic>
-            <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16/&quot;/40CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot;/60CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Dragon Mount, Passengers 3, Thermal Imaging</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="975e-8aa7-fb0c-fd65" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="3f00-0285-200f-2442" name="Dragon Mount" hidden="false" targetId="dfec-07f6-3fa0-c825" type="rule"/>
-        <infoLink id="ceea-8579-99f1-3fcc" name="Passengers 3" hidden="false" targetId="a278-4160-81c9-3665" type="rule"/>
+        <infoLink id="ceea-8579-99f1-3fcc" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="d88c-0ae7-fd33-d9b5" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="9aec-34a2-f7a4-6911" name="TOW" hidden="false">
       <profiles>
-        <profile id="7eea-3a8a-9d7d-dc72" name="TOW Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="7eea-3a8a-9d7d-dc72" name="TOW Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-48&quot;/120 CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5856,7 +5829,7 @@ Overhauled finished 6-11-2025</readme>
     </infoGroup>
     <infoGroup id="4e7c-0d03-773a-e58a" name="TOW-2" hidden="false">
       <profiles>
-        <profile id="be2f-029a-a270-12c2" name="TOW 2 Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="be2f-029a-a270-12c2" name="TOW 2 Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-48&quot;/120CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -5936,33 +5909,141 @@ Overhauled finished 6-11-2025</readme>
         <infoLink id="4f9f-c062-e1a5-b5d3" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="3482-5977-e298-e0e4" name="M3 Bradley" hidden="false">
+    <infoGroup id="3482-5977-e298-e0e4" name="*M3 Bradley" hidden="false">
       <profiles>
-        <profile id="13a4-3815-e541-f107" name="M245 25mm Bushmaster" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="9e76-d6d6-69ff-4e10" name="M3 Bradley" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
-            <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
-            <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
-            <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">8</characteristic>
-            <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
-            <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Anti-Helicopter, Stabiliser</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
+Morale 3+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+
+Counterattack 4+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;70CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Applique Armour, Scout, Thermal Imaging</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="82d6-86b1-0531-7a44" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="e867-0008-a176-72d6" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-        <infoLink id="d1d1-35b2-157f-1cec" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
         <infoLink id="707c-77c2-ae2f-dfbb" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
         <infoLink id="04da-7fab-50a7-31e4" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
         <infoLink id="72db-b464-e0e3-6deb" name="TOW-2" hidden="false" targetId="4e7c-0d03-773a-e58a" type="infoGroup"/>
-        <infoLink id="76f9-8832-4bca-084a" name="Spearhead" hidden="false" targetId="e9cf-a511-2a6a-6507" type="rule"/>
-        <infoLink id="6570-0dd9-c956-ef2d" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
+        <infoLink id="19c2-08d0-c649-cfdc" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+        <infoLink id="34bb-6cc5-d0aa-88aa" name="M245 25mm Bushmaster" hidden="false" targetId="d98e-125d-a6c7-e41e" type="infoGroup"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="f384-fff2-f671-83be" name="M2 Bradley" hidden="false">
       <profiles>
-        <profile id="e32a-0d5a-477e-c4df" name="M245 25mm Bushmaster" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="6326-e997-28ec-c152" name="M2 Bradley" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">3</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;70CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Applique Armour, Passengers 2, Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9fb6-9550-d052-dc62" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="dc27-97eb-f013-5f80" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="2ee9-5d5c-f42b-322d" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
+        <infoLink id="5b7b-97f8-1615-f1e3" name="TOW-2" hidden="false" targetId="4e7c-0d03-773a-e58a" type="infoGroup"/>
+        <infoLink id="6a3e-5edf-65be-1374" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="61ad-e47d-44e0-948c" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+        <infoLink id="30e1-88c4-2bcf-2d44" name="M245 25mm Bushmaster" hidden="false" targetId="d98e-125d-a6c7-e41e" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2216-38af-a150-daa3" name="*M2A2 Bradley" hidden="false">
+      <profiles>
+        <profile id="d950-5e85-c27c-e939" name="M2A2 Bradley" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 5+
+Counterattack 5+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">5</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">4</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;70CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Applique Armour, Passengers 2, Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bb0b-b55f-32cc-35f6" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="5b66-8524-6e68-67b6" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="0393-b037-a1f2-f405" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
+        <infoLink id="c64b-a637-e6e6-2cd4" name="TOW-2" hidden="false" targetId="4e7c-0d03-773a-e58a" type="infoGroup"/>
+        <infoLink id="01e2-5a02-f2d9-37f5" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="7faf-6b65-7023-1eb7" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+        <infoLink id="4499-6880-45e4-ec69" name="M245 25mm Bushmaster" hidden="false" targetId="d98e-125d-a6c7-e41e" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2cb6-593f-3347-75a7" name="*M3A2 Bradley" hidden="false">
+      <profiles>
+        <profile id="04f4-7055-b65c-44aa" name="M3A2 Bradley" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
+Morale 3+
+Remount 4+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+
+Counterattack 4+</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">5</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">4</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">1</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;25CM</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">16&quot;/40CM</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;70CM</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Applique Armour, Scout, Thermal Imaging</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5100-1483-0f23-84c1" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="a7e9-f7db-8c24-7c74" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+        <infoLink id="00d3-281c-1a66-a55b" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
+        <infoLink id="68c8-4dae-a4eb-b554" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
+        <infoLink id="dfd8-4deb-623f-cd8d" name="TOW-2" hidden="false" targetId="4e7c-0d03-773a-e58a" type="infoGroup"/>
+        <infoLink id="9983-f65f-0d3b-8b66" name="Applique Armour" hidden="false" targetId="b905-73c4-a912-0aae" type="rule"/>
+        <infoLink id="1cdb-0aec-0438-57bc" name="M245 25mm Bushmaster" hidden="false" targetId="d98e-125d-a6c7-e41e" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="d98e-125d-a6c7-e41e" name="M245 25mm Bushmaster" hidden="false">
+      <profiles>
+        <profile id="cb9d-b7db-d1af-3055" name="M245 25mm Bushmaster" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot;/60CM</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -5974,13 +6055,8 @@ Overhauled finished 6-11-2025</readme>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9fb6-9550-d052-dc62" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-        <infoLink id="dc27-97eb-f013-5f80" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
-        <infoLink id="afbe-843a-bd6d-0742" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
-        <infoLink id="2ee9-5d5c-f42b-322d" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
-        <infoLink id="5b7b-97f8-1615-f1e3" name="TOW-2" hidden="false" targetId="4e7c-0d03-773a-e58a" type="infoGroup"/>
-        <infoLink id="4138-9785-d0c9-d79c" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
-        <infoLink id="6a3e-5edf-65be-1374" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+        <infoLink id="6c06-962c-ddea-7b72" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
+        <infoLink id="98b9-ecfb-1958-a395" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

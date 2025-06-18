@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="72a9-f370-d503-444b" name="NATO - West Germany" revision="3" battleScribeVersion="2.03" authorName="N.Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="72a9-f370-d503-444b" name="NATO - West Germany" revision="3" battleScribeVersion="2.03" authorName="N.Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 5-12-2025</readme>
   <categoryEntries>
     <categoryEntry id="72dc-e11c-74bb-f5e2" name="HOT 2" hidden="false"/>
@@ -167,10 +167,7 @@ Counterattack 4+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -228,10 +225,7 @@ Counterattack 5+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -328,7 +322,7 @@ Counterattack 5+</characteristic>
       <infoGroups>
         <infoGroup id="c05f-aecc-ce48-fd8b" name="M126 155mm Howitzer" hidden="false">
           <profiles>
-            <profile id="490a-8286-13b3-7648" name="M126 155mm Howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="490a-8286-13b3-7648" name="M126 155mm Howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">88&quot; / 220cm</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">Artillery</characteristic>
@@ -338,7 +332,7 @@ Counterattack 5+</characteristic>
                 <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
               </characteristics>
             </profile>
-            <profile id="07ae-232e-b657-cdd5" name="M126 155mm Howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="07ae-232e-b657-cdd5" name="M126 155mm Howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot; / 60cm</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -420,7 +414,7 @@ Counterattack 5+</characteristic>
       <infoGroups>
         <infoGroup id="9bb7-5017-cb41-c9bc" name="M109A3G" hidden="false">
           <profiles>
-            <profile id="fddd-89d8-60b9-b8c7" name="155mm FH70 Howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="fddd-89d8-60b9-b8c7" name="155mm FH70 Howitzer" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">112&quot; / 280cm</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">Artillery</characteristic>
@@ -430,7 +424,7 @@ Counterattack 5+</characteristic>
                 <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
               </characteristics>
             </profile>
-            <profile id="cb53-e9b9-735d-7bf1" name="155mm FH70 Howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="cb53-e9b9-735d-7bf1" name="155mm FH70 Howitzer (Direct Fire)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">24&quot; / 60cm</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -506,10 +500,7 @@ Counterattack 4+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -644,6 +635,9 @@ Counterattack 4+</characteristic>
               <infoLinks>
                 <infoLink id="9870-c60f-9ac4-a2d7" name="35mm Rh 503 Gun" hidden="false" targetId="5197-227e-b6de-20c6" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -673,7 +667,7 @@ Counterattack 4+</characteristic>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="64f6-b1fc-bb3b-68b3" name="Twin 35mm L/90 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="64f6-b1fc-bb3b-68b3" name="Twin 35mm L/90 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">28&quot; / 70cm</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
@@ -699,7 +693,7 @@ Counterattack 4+</characteristic>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="922f-aadc-2181-accc" name="Redeye" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+            <profile id="922f-aadc-2181-accc" name="Redeye" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot; / 120cm</characteristic>
                 <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -1058,7 +1052,7 @@ Counterattack 4+</characteristic>
             <characteristic name="Counterattack" typeId="552a-1058-00df-a425">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="bfd3-53b9-721e-8285" name="20mm Rh 202 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+        <profile id="bfd3-53b9-721e-8285" name="20mm Rh 202 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
             <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -1154,24 +1148,22 @@ Counterattack 4+</characteristic>
                         <characteristic name="Courage" typeId="c68f-dba5-3af1-dcfc">4+</characteristic>
                         <characteristic name="Skill" typeId="d287-43b1-d61a-f837">3+</characteristic>
                         <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
-                        <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308"/>
                       </characteristics>
                     </profile>
-                    <profile id="3c57-41cc-1915-78f9" name="Door MG3 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+                    <profile id="3c57-41cc-1915-78f9" name="Door MG3 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot; / 40cm</characteristic>
-                        <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261"/>
+                        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261"/>
                         <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
                         <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
                         <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
-                        <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="485f-a542-ecc3-0a0b" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
                     <infoLink id="943e-befb-1562-da44" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
-                    <infoLink id="c867-a1f7-7aff-8b1e" name="Passengers 4" hidden="false" targetId="bb9d-7f42-7b00-a932" type="rule"/>
+                    <infoLink id="c867-a1f7-7aff-8b1e" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
                   </infoLinks>
                 </infoGroup>
               </infoGroups>
@@ -1417,10 +1409,7 @@ Morale 3+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1461,14 +1450,13 @@ Morale 3+</characteristic>
     </selectionEntry>
     <selectionEntry id="f482-ebe0-ad79-68b4" name="*[Artillery] 227mm MARS Raketenwerfer Batterie" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7739-e6d2-e281-9d85" name="227mm MARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="7739-e6d2-e281-9d85" name="227mm MARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">120&quot; / 300cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">3</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
         <profile id="9fa9-a887-b53c-f386" name="MARS" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -1487,10 +1475,7 @@ Counterattack -</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot; / 60cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1568,10 +1553,7 @@ Counterattack 5+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">24&quot; / 60cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1599,14 +1581,13 @@ Counterattack 5+</characteristic>
     </selectionEntry>
     <selectionEntry id="517f-7f9e-971e-6fdd" name="*[Aircraft] Tornado Strike Flight" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4c01-8213-dc2d-429d" name="Mauser BK-27 Auto-Cannon" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="4c01-8213-dc2d-429d" name="Mauser BK-27 Auto-Cannon" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot; / 20cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">- / 3</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">- / 3</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">7</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Anti-Helicopter</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
         <profile id="cb93-2e72-d03d-e6ce" name="Tornado" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
@@ -1617,17 +1598,15 @@ Morale 3+</characteristic>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308"/>
           </characteristics>
         </profile>
-        <profile id="b30c-dcf9-8dd5-61d1" name="MW-1 Submunition Dispenser w-KB44 Bomblet" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="b30c-dcf9-8dd5-61d1" name="MW-1 Submunition Dispenser w-KB44 Bomblet" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">6&quot; / 15cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">8</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1669,7 +1648,6 @@ Morale 3+</characteristic>
             <characteristic name="Is Hit On" typeId="a94f-1214-dc73-0af0">4+</characteristic>
             <characteristic name="Save" typeId="cf80-c66b-9018-b7bc">5+</characteristic>
             <characteristic name="Movement" typeId="0683-6f3b-3779-ddb2">Unlimited</characteristic>
-            <characteristic name="Morale" typeId="3af5-6c3e-3f0d-e308"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1761,20 +1739,16 @@ Counterattack -</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">36&quot; / 90cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
-        <profile id="cd91-f029-148d-244c" name="Roland 2 AA Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="cd91-f029-148d-244c" name="Roland 2 AA Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">56&quot; / 140cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">3 / - </characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / - </characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">-</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided AA</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1827,20 +1801,16 @@ Counterattack -</characteristic>
             <characteristic name="Cross Country Dash" typeId="9196-f0b2-890d-de98">14&quot; / 35cm</characteristic>
             <characteristic name="Road Dash" typeId="f49e-f223-b4e9-e0ef">36&quot; / 90cm</characteristic>
             <characteristic name="Cross" typeId="3c9b-51af-c084-2a62">5+</characteristic>
-            <characteristic name="Morale" typeId="0ada-75a5-d97c-27ab"/>
-            <characteristic name="Rally" typeId="e3db-8480-b84f-e5d2"/>
-            <characteristic name="Assault" typeId="de60-c7f5-0e2f-c396"/>
-            <characteristic name="Counterattack" typeId="25f5-40ee-c362-bef3"/>
+            <characteristic name="Notes" typeId="c7dc-2dd4-46c5-a14c"/>
           </characteristics>
         </profile>
-        <profile id="bb9d-d36b-539e-40bd" name="110mm LARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="bb9d-d36b-539e-40bd" name="110mm LARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">80&quot;/200cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">SALVO</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">3</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Smoke Bombardment</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2011,21 +1981,25 @@ Counterattack -</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9c8e-1318-b0ee-2807" name="3) Optional Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9c8e-1318-b0ee-2807" name="4) Optional AA Batterie" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="a801-f184-cb10-9048" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0ede-7770-b85b-b752" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="2a25-f683-b5d0-379b" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b404-d8f1-f6dc-949b" type="max"/>
-              </constraints>
-            </entryLink>
             <entryLink id="b2a1-726e-96da-4aa7" name="*[Anti-aircraft] Gepard Flakpanzer Batterie" hidden="false" collective="false" import="true" targetId="2f9d-8ebf-626a-8b5a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6466-a576-1ce8-13be" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="953e-8890-f794-0b61" name="3) Optional Recon Trupps" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="aaef-75d6-b312-94d8" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="548f-2e67-f186-b55a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7e72-8ad1-7bb6-9838" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="15f9-efbb-694d-354f" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2087,9 +2061,9 @@ Counterattack -</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cdc8-e52c-c974-2738" name="2) Optional Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cdc8-e52c-c974-2738" name="3) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="7042-18f5-f436-1e68" name="(GBJ) [M] Leopard 1 Gebirgsjäger Zug" hidden="false" collective="false" import="true" targetId="d222-84a8-14b6-5a9e" type="selectionEntry">
+            <entryLink id="7042-18f5-f436-1e68" name="* [M] Leopard 1 Gebirgsjäger Zug" hidden="false" collective="false" import="true" targetId="d222-84a8-14b6-5a9e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df2-f512-8122-9189" type="max"/>
               </constraints>
@@ -2099,19 +2073,23 @@ Counterattack -</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ee-b7bf-7c6e-3854" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f1c7-b084-bc9c-3624" name="[FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5c4b-6d75-16b3-af43" type="max"/>
-              </constraints>
-            </entryLink>
             <entryLink id="a8f7-9b11-cd0d-7615" name="[M] M113 Panzermörser Zug" hidden="false" collective="false" import="true" targetId="7d50-386e-c1c3-7f6c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5895-c375-af29-97e1" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="a161-bd14-c41b-5a29" name="[FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5d73-b02b-913c-0033" name="2) Optional Recon Trupps" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9e35-964b-1518-542c" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9f2b-2917-bb6b-bef0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c8c9-45e7-9f37-98a4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b646-a3b0-1e0a-8bab" name="* [FS] Luchs Späh Trupp" hidden="false" collective="false" import="true" targetId="e67f-2193-5898-a52e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0890-55c0-20c0-e8d1" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2576,10 +2554,7 @@ Counterattack 3+</characteristic>
                 <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
                 <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
                 <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-                <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-                <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-                <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-                <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+                <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3046,20 +3021,16 @@ Counterattack 5+</characteristic>
             <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
             <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
             <characteristic name="Cross" typeId="032f-59ad-74b3-1601">3+</characteristic>
-            <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-            <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-            <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-            <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
           </characteristics>
         </profile>
-        <profile id="d52d-40d8-2a89-8a8b" name="90mm L/40 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="d52d-40d8-2a89-8a8b" name="90mm L/40 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">32&quot;/80cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">2 / 1</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">2 / 1</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">16</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Forward Firing, HEAT</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3147,7 +3118,7 @@ Counterattack 5+</characteristic>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="c36d-d290-58f8-adc5" name="7.62mm MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="c36d-d290-58f8-adc5" name="7.62mm MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -3173,13 +3144,10 @@ Counterattack 3+</characteristic>
         <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
         <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
         <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-        <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-        <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-        <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-        <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
       </characteristics>
     </profile>
-    <profile id="9fae-6127-a7f0-432d" name="105mm L7 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="9fae-6127-a7f0-432d" name="105mm L7 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">40&quot; / 100cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">2</characteristic>
@@ -3223,7 +3191,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="95e5-4998-57d5-ec03" name="G3" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="95e5-4998-57d5-ec03" name="G3" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -3233,7 +3201,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="6c01-181f-e34a-d9b3" name="MG3" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="6c01-181f-e34a-d9b3" name="MG3" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot; / 40cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -3243,7 +3211,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
       </characteristics>
     </profile>
-    <profile id="579f-bf42-ff48-d794" name="Panzerfaust 44" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="579f-bf42-ff48-d794" name="Panzerfaust 44" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot; / 30cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -3253,7 +3221,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="338c-a1b0-0c85-2649" name="Milan Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="338c-a1b0-0c85-2649" name="Milan Missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot; / 20cm - 36&quot; / 90cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
@@ -3263,7 +3231,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided, HEAT, (When dismounted: Assault 5)</characteristic>
       </characteristics>
     </profile>
-    <profile id="5197-227e-b6de-20c6" name="35mm Rh 503 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="5197-227e-b6de-20c6" name="35mm Rh 503 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">28&quot; / 70cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -3273,7 +3241,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Advanced Stabiliser, Laser Rangefinder</characteristic>
       </characteristics>
     </profile>
-    <profile id="3b9c-1934-2a5d-bd47" name="50mm Rh 503 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="3b9c-1934-2a5d-bd47" name="50mm Rh 503 Gun" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">36&quot; / 90cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -3321,7 +3289,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="184d-43f8-c1b4-8e10" name="20mm Rh 202 Gun (Anti-Helicopter)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="184d-43f8-c1b4-8e10" name="20mm Rh 202 Gun (Anti-Helicopter)" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot; / 50cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
@@ -3350,7 +3318,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="52a5-67c1-3dc2-9bf0" name="M120 Mörser" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="52a5-67c1-3dc2-9bf0" name="M120 Mörser" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">64&quot; / 160cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">Artillery</characteristic>
@@ -3415,7 +3383,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="8687-4e61-265f-c51a" name="110mm LARS Rocket" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="8687-4e61-265f-c51a" name="110mm LARS Rocket" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">80&quot; / 200cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">Salvo</characteristic>
@@ -3425,7 +3393,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc3d-187a-2990-50fb" name="MW-1 Submunition Dispenser with KB44 Bomblet" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapons">
+    <profile id="fc3d-187a-2990-50fb" name="MW-1 Submunition Dispenser with KB44 Bomblet" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">6&quot; / 15cm</characteristic>
         <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">Salvo</characteristic>
@@ -3451,10 +3419,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">32&quot; / 80cm</characteristic>
         <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
         <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-        <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-        <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-        <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-        <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
       </characteristics>
     </profile>
     <profile id="376f-b6c2-e238-0309" name="Leopard 1" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -3474,10 +3439,7 @@ Counterattack 4+</characteristic>
         <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot; / 70cm</characteristic>
         <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot; / 80cm</characteristic>
         <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
-        <characteristic name="Morale" typeId="4950-fc13-3dd2-45a4"/>
-        <characteristic name="Remount" typeId="937b-a520-deb0-89f9"/>
-        <characteristic name="Assault" typeId="6efe-9ae5-127f-70cf"/>
-        <characteristic name="Counterattack" typeId="0caf-c884-e5b8-0cf0"/>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -3529,7 +3491,7 @@ Counterattack 4+</characteristic>
         <infoLink id="5f7c-096a-74a0-64b2" name="Marder" hidden="false" targetId="d493-5e10-09f8-1bdd" type="profile"/>
         <infoLink id="b175-7cfa-8370-1154" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
         <infoLink id="a87a-e771-b1f3-0e6d" name="Milan Mount" hidden="false" targetId="7b5e-9925-2540-8095" type="rule"/>
-        <infoLink id="72e7-6a64-a88f-f0a3" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+        <infoLink id="72e7-6a64-a88f-f0a3" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="2fc6-aaa4-e7ba-1306" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="acd2-b387-d038-a56a" name="20mm Rh 202 Gun (Anti-Helicopter)" hidden="false" targetId="184d-43f8-c1b4-8e10" type="profile"/>
         <infoLink id="c18d-a29a-c56c-f57f" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
@@ -3569,7 +3531,7 @@ Counterattack 4+</characteristic>
       <infoLinks>
         <infoLink id="82dc-657c-4c10-4c0e" name="Milan Mount" hidden="false" targetId="7b5e-9925-2540-8095" type="rule"/>
         <infoLink id="07b1-2216-e3f4-e8cd" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
-        <infoLink id="361a-d571-95b8-ac5c" name="Passengers 2" hidden="false" targetId="a5b9-484d-9c48-b035" type="rule"/>
+        <infoLink id="361a-d571-95b8-ac5c" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="ad2a-d54e-0bea-82f1" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="f242-a352-62a1-1186" name="*7.62mm AA MG" hidden="false" targetId="520b-dedd-cdfe-1432" type="infoGroup"/>
       </infoLinks>
@@ -3591,14 +3553,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="520b-dedd-cdfe-1432" name="*7.62mm AA MG" hidden="false">
       <profiles>
-        <profile id="986e-d163-ae4d-3d45" name="7.62mm AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="986e-d163-ae4d-3d45" name="7.62mm AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot; / 40cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">3 / 3</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 3</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">AA</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3608,14 +3569,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="5bcd-be37-bdbf-1254" name="*.50 cal AA MG" hidden="false">
       <profiles>
-        <profile id="a70f-0d2b-2a17-6011" name=".50 cal AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="a70f-0d2b-2a17-6011" name=".50 cal AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">20&quot;/50cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">AA</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3625,14 +3585,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="2299-6aa3-c4d8-de52" name="*105mm L7 Gun" hidden="false">
       <profiles>
-        <profile id="0dc9-6b4f-fc19-5dc3" name="105mm L7 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="0dc9-6b4f-fc19-5dc3" name="105mm L7 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">40&quot; / 100cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">2 / 2</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">2 / 2</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">19</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Laser Rangefinder, Smoke, Stabiliser</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3644,14 +3603,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="4397-ae10-e39b-b514" name="*25mm gun" hidden="false">
       <profiles>
-        <profile id="e915-ce90-2ac3-e255" name="25mm gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="e915-ce90-2ac3-e255" name="25mm gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">28&quot;/70cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">8</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Anti-helicopter</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3661,14 +3619,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="3837-f89f-2dd5-0656" name="*Carl Gustav anti-tank team" hidden="false">
       <profiles>
-        <profile id="b651-6525-d54d-9028" name="Carl Gustav anti-tank team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="b651-6525-d54d-9028" name="Carl Gustav anti-tank team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">17</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, HEAT, Slow Firing</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3680,14 +3637,13 @@ Counterattack 4+</characteristic>
     </infoGroup>
     <infoGroup id="dc3e-f081-8473-488f" name="*Improved TOW Missile" hidden="false">
       <profiles>
-        <profile id="b420-018f-1d70-af93" name="Improved TOW Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="b420-018f-1d70-af93" name="Improved TOW Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">21</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided. HEAT</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3700,14 +3656,13 @@ Counterattack 4+</characteristic>
       <comment>Marder, Marder 2, M113, Fuchs, FSJ, GBJ, Jager
 +1pt per team</comment>
       <profiles>
-        <profile id="da3e-cafe-cdf7-4c6e" name="Milan 2 missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="da3e-cafe-cdf7-4c6e" name="Milan 2 missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot; / 20cm - 36&quot; / 90cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">24</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5+, Guided, HEAT, Thermal Imaging</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3721,14 +3676,13 @@ Counterattack 4+</characteristic>
       <comment>+1pt per two teams
 Jaguar and PAH</comment>
       <profiles>
-        <profile id="f763-0eac-d95c-1e34" name="*HOT 2 missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="f763-0eac-d95c-1e34" name="*HOT 2 missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">24</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided, HEAT</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3739,14 +3693,13 @@ Jaguar and PAH</comment>
     </infoGroup>
     <infoGroup id="1d98-0bd8-c880-ce16" name="*HOT missile" hidden="false">
       <profiles>
-        <profile id="c09c-7875-c4f8-2fe5" name="HOT Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="c09c-7875-c4f8-2fe5" name="HOT Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm - 48&quot;/120cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">23</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided, HEAT</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3757,14 +3710,13 @@ Jaguar and PAH</comment>
     </infoGroup>
     <infoGroup id="67dd-16f1-b86e-3d77" name="* 120mm L/44 Gun" hidden="false">
       <profiles>
-        <profile id="3d07-5b7e-ee7a-d1e4" name="120mm L/44 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="3d07-5b7e-ee7a-d1e4" name="120mm L/44 Gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">40&quot; / 100cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">2 / 2</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">2 / 2</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">22</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Advanced Stabiliser, Laser Rangefinder</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3775,11 +3727,10 @@ Jaguar and PAH</comment>
     </infoGroup>
     <infoGroup id="95a7-af2b-076e-859d" name="*MG3 &amp; G3 w- Panzerfaust 44" hidden="false">
       <profiles>
-        <profile id="9070-072a-c2f4-c65f" name="MG3 &amp; G3 team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapons">
+        <profile id="9070-072a-c2f4-c65f" name="MG3 &amp; G3 team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
-            <characteristic name="Halted ROF " typeId="9ed0-82b4-8515-e261">2</characteristic>
-            <characteristic name="Moving ROF " typeId="a103-8ee9-3848-1e04">1</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">2</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
