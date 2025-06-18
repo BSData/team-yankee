@@ -152,6 +152,7 @@
     <categoryEntry id="f947-2750-08c3-d4fc" name="Support Unit" hidden="false"/>
     <categoryEntry id="6e0b-5b8e-50c9-666c" name="Allied Formation" hidden="false"/>
     <categoryEntry id="ccc5-e668-a26d-db83" name="Formation Support" hidden="false"/>
+    <categoryEntry id="23b6-f962-743b-0715" name="Allied Support" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="cab4-4782-0e92-0a9c" name="1) Main Force" hidden="false">
@@ -163,6 +164,7 @@
         </categoryLink>
         <categoryLink id="c304-0424-a197-1909" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="false"/>
         <categoryLink id="2ce6-6a0c-438a-24b4" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="false"/>
+        <categoryLink id="a3c4-9e79-e502-87a3" name="Allied Support" hidden="false" targetId="23b6-f962-743b-0715" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="4eb7-4027-aa63-b0d1" name="2) Allied Formation" hidden="false">
