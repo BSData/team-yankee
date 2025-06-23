@@ -126,11 +126,11 @@
         <categoryLink id="43d0-b28c-dbb5-f5ee" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3b36-6400-2e25-3b2e" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+    <entryLink id="3b36-6400-2e25-3b2e" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2d9-c021-9dbb-e016" type="greaterThan"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d04a-93d0-68fb-b471" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -522,7 +522,7 @@ Counterattack -</characteristic>
             <characteristic name="Cross Country Dash" typeId="9196-f0b2-890d-de98">14&quot; / 35cm</characteristic>
             <characteristic name="Road Dash" typeId="f49e-f223-b4e9-e0ef">36&quot; / 90cm</characteristic>
             <characteristic name="Cross" typeId="3c9b-51af-c084-2a62">5+</characteristic>
-            <characteristic name="Notes" typeId="c7dc-2dd4-46c5-a14c"></characteristic>
+            <characteristic name="Notes" typeId="c7dc-2dd4-46c5-a14c"/>
           </characteristics>
         </profile>
         <profile id="e0ca-3a48-735c-5365" name="110mm LARS Rocket" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
@@ -1617,11 +1617,17 @@ Counterattack 5+</characteristic>
               <infoLinks>
                 <infoLink id="1168-a4e9-303b-0c6d" name="TOW-2 missile" hidden="false" targetId="115f-6db1-b370-2bcc" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5174-390e-3f85-1b91" name="iTOW" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c763-b6f3-f3e6-6c86" name="Improved TOW Missile" hidden="false" targetId="56a4-d797-c2dd-f01f" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2146,6 +2152,9 @@ Counterattack 5+</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
