@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="72a9-f370-d503-444b" name="NATO - West Germany" revision="3" battleScribeVersion="2.03" authorName="N.Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Overhauled 5-12-2025</readme>
+  <readme>Overhauled 5-12-2025
+More or less finished 6-23-2025</readme>
   <categoryEntries>
     <categoryEntry id="72dc-e11c-74bb-f5e2" name="HOT 2" hidden="false"/>
     <categoryEntry id="0680-635d-731e-6d47" name="MILAN 2" hidden="false"/>
