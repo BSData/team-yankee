@@ -2633,6 +2633,9 @@ Overhauled finished 6-11-2025</readme>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="eefd-a377-ded6-66bb" name="MLRS" hidden="false" targetId="d6a7-6e50-b25c-5811" type="rule"/>
+      </infoLinks>
       <selectionEntries>
         <selectionEntry id="7dfd-6e89-08aa-1a52" name="Add Minelets to entire Battery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3733,11 +3736,17 @@ Counterattack 4+</characteristic>
                   <infoLinks>
                     <infoLink id="3c3a-2499-cae9-0b11" name=".50 cal AA MG" hidden="false" targetId="7db7-f937-aedb-0515" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="6349-df4e-d290-382f" name="HMMWV (Minigun)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="90ca-90df-d982-384f" name="M134 Minigun MG" hidden="false" targetId="5248-f3c2-5600-fe4c" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>

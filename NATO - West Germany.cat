@@ -4153,7 +4153,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armor, Thermal Imaging</characteristic>
       </characteristics>
     </profile>
-    <profile id="9358-7f86-4081-e235" name="Optional - Milan missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+    <profile id="9358-7f86-4081-e235" name="Milan missile (mounted)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -4169,7 +4169,7 @@ Counterattack 3+</characteristic>
         <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbf0-db1d-2d19-2ded" name="Optional - Milan 2 missile " hidden="true" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+    <profile id="fbf0-db1d-2d19-2ded" name="Milan 2 missile (mounted)" hidden="true" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
