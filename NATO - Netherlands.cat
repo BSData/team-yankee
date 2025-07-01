@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4312-e1af-b02b-57f0" name="NATO - Netherlands" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cebe-c5d5-4aae-5fd7" name="NATO - Netherlands" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
-    <entryLink id="8861-8a1f-4cf4-3274" name="*[F] Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" targetId="8d28-3caf-2a43-5fdd" type="selectionEntry">
+    <entryLink id="8861-8a1f-4cf4-3274" name="Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" targetId="8d28-3caf-2a43-5fdd" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55a4-5ae5-4142-298e" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55a4-5ae5-4142-298e" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="fda5-56a7-476d-429e" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+        <categoryLink id="fda5-56a7-476d-429e" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="252f-46b7-f4af-a141" name="*[F] Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" targetId="9b09-e126-b921-5209" type="selectionEntry">
+    <entryLink id="252f-46b7-f4af-a141" name="Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" targetId="9b09-e126-b921-5209" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e89-52a3-3959-b90e" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e89-52a3-3959-b90e" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="4e06-fba8-1105-0ad0" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+        <categoryLink id="4e06-fba8-1105-0ad0" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c7c1-b959-c816-fbc3" name="*[F] Leopard 2A5 Tank Eskadron" hidden="false" collective="false" import="true" targetId="a1da-f273-62e2-f4f9" type="selectionEntry">
+    <entryLink id="c7c1-b959-c816-fbc3" name="Leopard 2A5 Tank Eskadron" hidden="false" collective="false" import="true" targetId="a1da-f273-62e2-f4f9" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0cd-c966-7623-20ce" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0cd-c966-7623-20ce" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="01fe-7737-cb2b-6b93" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+        <categoryLink id="01fe-7737-cb2b-6b93" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0a37-58f6-badc-58b5" name="*[F] Verkennings Eskadron" hidden="false" collective="false" import="true" targetId="f2d9-c021-9dbb-e016" type="selectionEntry">
+    <entryLink id="0a37-58f6-badc-58b5" name="Verkennings Eskadron" hidden="false" collective="false" import="true" targetId="f2d9-c021-9dbb-e016" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03a8-cf11-5df6-4a13" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03a8-cf11-5df6-4a13" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="c849-0fbb-d305-d69b" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+        <categoryLink id="c849-0fbb-d305-d69b" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="36ef-109e-651b-7c22" name="*[F] YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" targetId="569d-e0d7-5e43-5c34" type="selectionEntry">
+    <entryLink id="36ef-109e-651b-7c22" name="YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" targetId="569d-e0d7-5e43-5c34" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8844-220c-5e21-cab7" type="max"/>
+        <constraint field="selections" scope="force" value="3" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8844-220c-5e21-cab7" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3b3b-e647-63e9-b5a2" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
+        <categoryLink id="3b3b-e647-63e9-b5a2" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="200c-515b-6542-a03d" name="*[FS] Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry">
+    <entryLink id="200c-515b-6542-a03d" name="Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9063-f02c-c069-7398" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9063-f02c-c069-7398" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c557-76fa-f6e6-8475" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c557-76fa-f6e6-8475" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7166-ea44-9e1a-f6bb" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="93f3-0beb-7023-4026" name="*[FS] Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+    <entryLink id="93f3-0beb-7023-4026" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae03-2e0a-b010-8f20" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b1d4-7827-03f8-4a71" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b1d4-7827-03f8-4a71" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="90a1-42cd-1717-d6f5" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c3f4-cd1f-c845-efed" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+    <entryLink id="c3f4-cd1f-c845-efed" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5356-4ff5-0c5c-e4a9" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5356-4ff5-0c5c-e4a9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9551-5e36-059d-1c90" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="41fc-ca73-d289-cebf" name="*[FS] Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry">
+    <entryLink id="41fc-ca73-d289-cebf" name="Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9950-d8ed-a296-8387" type="greaterThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9950-d8ed-a296-8387" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d287-c066-d470-39cc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3381-7373-e7ca-57e0" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3381-7373-e7ca-57e0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="378d-b21f-5c12-3937" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce83-f7b3-5d8d-f94b" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+    <entryLink id="ce83-f7b3-5d8d-f94b" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1da-f273-62e2-f4f9" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1da-f273-62e2-f4f9" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0670-7f17-1313-64a8" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0670-7f17-1313-64a8" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="43d0-b28c-dbb5-f5ee" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -130,126 +130,126 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d04a-93d0-68fb-b471" type="greaterThan"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d04a-93d0-68fb-b471" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="539d-671b-44bc-9976" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="539d-671b-44bc-9976" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7320-60c9-449b-3fa4" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="70e1-ade8-7f25-a7bc" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+    <entryLink id="70e1-ade8-7f25-a7bc" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f8-564d-3095-6f04" type="greaterThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="569d-e0d7-5e43-5c34" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f8-564d-3095-6f04" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="569d-e0d7-5e43-5c34" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="79cd-0e6e-b497-0743" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="79cd-0e6e-b497-0743" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="08a2-6c81-bf6e-f8f8" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a286-276c-ef34-2f1e" name="*[S] M109 Veldartillerie Batterij" hidden="false" collective="false" import="true" targetId="2bc0-a397-5e7a-2839" type="selectionEntry">
+    <entryLink id="a286-276c-ef34-2f1e" name="[Artillery] M109 Veldartillerie Batterij" hidden="false" collective="false" import="true" targetId="2bc0-a397-5e7a-2839" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9cd0-111f-e5e6-3c0c" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9cd0-111f-e5e6-3c0c" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0092-32a1-4272-3848" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="0092-32a1-4272-3848" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="347a-8fec-b1a8-55c1" name="*[S] MLRS Raketwerper Batterij" hidden="false" collective="false" import="true" targetId="5b1d-86b2-bad9-11ba" type="selectionEntry">
+    <entryLink id="347a-8fec-b1a8-55c1" name="[Artillery] MLRS Raketwerper Batterij" hidden="false" collective="false" import="true" targetId="5b1d-86b2-bad9-11ba" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b6f-ec9c-5b15-c230" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b6f-ec9c-5b15-c230" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="6004-869d-6483-63d9" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="6004-869d-6483-63d9" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cbc5-4149-75e5-834e" name="*[S] YPR-765 OP" hidden="true" collective="false" import="true" targetId="cb51-8f1e-75a7-bc44" type="selectionEntry">
+    <entryLink id="cbc5-4149-75e5-834e" name="[Observer] YPR-765 OP" hidden="true" collective="false" import="true" targetId="cb51-8f1e-75a7-bc44" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d5-3e3e-ed51-3686" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="610b-5aff-0e94-1ec4" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b1d-86b2-bad9-11ba" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bc0-a397-5e7a-2839" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7d5-3e3e-ed51-3686" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="610b-5aff-0e94-1ec4" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b1d-86b2-bad9-11ba" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bc0-a397-5e7a-2839" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="af46-bd3b-7554-8de6" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="af46-bd3b-7554-8de6" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3f7a-75d6-f6c3-2eb1" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="3f7a-75d6-f6c3-2eb1" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fcde-0eb1-2045-4cd2" name="*[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+    <entryLink id="fcde-0eb1-2045-4cd2" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b15c-a778-d48a-3f09" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b15c-a778-d48a-3f09" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="dd02-9e0c-ee24-a89e" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="dd02-9e0c-ee24-a89e" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5784-4b75-e87f-f46f" name="*[S] Roland Flarakpanzer Batterie" hidden="false" collective="false" import="true" targetId="4930-8e03-f430-d2c0" type="selectionEntry">
+    <entryLink id="5784-4b75-e87f-f46f" name="[Anti-aircraft] Roland Flarakpanzer Batterie" hidden="false" collective="false" import="true" targetId="4930-8e03-f430-d2c0" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="100a-52af-0508-7bc3" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="100a-52af-0508-7bc3" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="e53d-3e6e-642d-d7b4" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="e53d-3e6e-642d-d7b4" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e81e-c7a8-98c8-2a25" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc85-ef36-71c8-de62" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc85-ef36-71c8-de62" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="54b0-7c8c-6700-45c3" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="54b0-7c8c-6700-45c3" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2aad-a7fd-8a3e-9c95" name="*[S] LARS Raketenwerper Batterie" hidden="false" collective="false" import="true" targetId="89ea-bfe2-f2e5-b84c" type="selectionEntry">
+    <entryLink id="2aad-a7fd-8a3e-9c95" name="[Artillery] LARS Raketenwerper Batterie" hidden="false" collective="false" import="true" targetId="89ea-bfe2-f2e5-b84c" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ecbc-6398-89b3-c7c8" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ecbc-6398-89b3-c7c8" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="a389-91cd-c3db-89fe" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="a389-91cd-c3db-89fe" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1fea-934c-dfd8-31a9" name="*[S] Tornado Strike Flight" hidden="false" collective="false" import="true" targetId="382a-79c1-014b-c676" type="selectionEntry">
+    <entryLink id="1fea-934c-dfd8-31a9" name="[Aircraft] Tornado Strike Flight" hidden="false" collective="false" import="true" targetId="382a-79c1-014b-c676" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e20e-653c-809a-ff07" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e20e-653c-809a-ff07" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="86b2-6414-224c-705b" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="86b2-6414-224c-705b" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="937f-38a1-7b5b-7a0b" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="a260-b7b7-ac6e-daa6" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="81e8-b7f4-1e17-ddd6" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="81e8-b7f4-1e17-ddd6" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="f278-66fb-1c63-272d" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+        <categoryLink id="f278-66fb-1c63-272d" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="fc45-fac3-04f0-bf99" name="Leopard 2A5 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fc45-fac3-04f0-bf99" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5f9b-6a05-fbce-589b" name="Leopard 2A5" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -279,33 +279,33 @@ Remount 3+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="565f-b768-8526-3c21" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bdc6-0cfd-70c5-9055">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a032-a251-5a61-dac7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-f44e-4723-da3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a032-a251-5a61-dac7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-f44e-4723-da3f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3459-020d-7a36-1085" name="4x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="64.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="64"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49fe-0971-19d9-53f7" name="3x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="48.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="48"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bdc6-0cfd-70c5-9055" name="2x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="32.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="32"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bc0-a397-5e7a-2839" name="[Artillery] M109 Veldartillerie Batterij" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2bc0-a397-5e7a-2839" name="[Artillery] M109 Veldartillerie Batterij" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6112-16d9-6cef-3e94" name="M109" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -362,28 +362,28 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="e1ac-c41e-5258-0650" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a65d-ee6d-1709-c3e1">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe2-835b-becf-5315" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f825-f1d6-20ec-ce4d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fe2-835b-becf-5315" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f825-f1d6-20ec-ce4d" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a65d-ee6d-1709-c3e1" name="3x M109" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e6c3-a4de-913e-2b33" name="6x M109" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d287-c066-d470-39cc" name="Leopard 2 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d287-c066-d470-39cc" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="c154-4418-4870-1a2d" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
         <infoLink id="5996-e0c0-275f-2626" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
@@ -395,33 +395,33 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="019e-80d2-f9ca-4b88" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="75aa-befe-2774-87bd">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4963-840e-ae8c-bcb1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a17-bfbe-f7e7-1895" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4963-840e-ae8c-bcb1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a17-bfbe-f7e7-1895" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="75aa-befe-2774-87bd" name="2x Leopard 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="52e7-8c9b-e606-c0a6" name="3x Leopard 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="30.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="30"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="afe2-6388-4b53-7456" name="4x Leopard 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="40.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="40"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae03-2e0a-b010-8f20" name="Leopard 1 Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ae03-2e0a-b010-8f20" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="f264-5fec-c2b3-fe16" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
         <infoLink id="749c-3be5-d7fb-6484" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
@@ -433,28 +433,28 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="1dd7-11b4-fe28-1cd0" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b63-3714-a1b9-603e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d94-79b4-0ae9-858f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682d-c5e5-e415-f3da" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d94-79b4-0ae9-858f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682d-c5e5-e415-f3da" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9b63-3714-a1b9-603e" name="3x Leopard 1" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed12-16de-9e5a-6396" name="4x Leopard 1" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33af-2fee-265e-cd4b" name="PAH Anti-Tank Helicopter Flight" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="33af-2fee-265e-cd4b" name="PAH Anti-Tank Helicopter Flight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="62ad-049b-2e58-08dc" name="HOT Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
@@ -485,28 +485,28 @@ Morale 3+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="19a9-7723-39d0-2559" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ccb-641a-3df7-0853">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0021-c32d-40f9-b1f0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e5-24c7-199a-a8f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0021-c32d-40f9-b1f0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e5-24c7-199a-a8f8" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2ccb-641a-3df7-0853" name="2x PAH" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9843-a03b-3179-d2b3" name="4x PAH" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="89ea-bfe2-f2e5-b84c" name="[Artillery] LARS Raketenwerper Batterie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="89ea-bfe2-f2e5-b84c" name="[Artillery] LARS Raketenwerper Batterie" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="fa03-0cf6-8b84-85b4" name="LARS" hidden="false" typeId="973a-aa06-b137-2f9e" typeName="Unarmored Tank Unit">
           <characteristics>
@@ -543,18 +543,18 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="05fd-3758-c0bc-7a89" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5049-01a7-4949-4159">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8404-88b1-fcdb-23f1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-0d05-7909-11f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8404-88b1-fcdb-23f1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-0d05-7909-11f3" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5049-01a7-4949-4159" name="2x LARS" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c6a0-7d99-c0b9-a6f2" name="4x LARS" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c55f-f4f0-ac47-08eb" name="2x LARS w-Minelets" hidden="false" collective="false" import="true" type="unit">
@@ -562,7 +562,7 @@ Counterattack -</characteristic>
                 <infoLink id="4ed5-b09d-f15f-2c61" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d39-daab-8d5f-3596" name="4x LARSw-Minelets" hidden="false" collective="false" import="true" type="unit">
@@ -570,17 +570,17 @@ Counterattack -</characteristic>
                 <infoLink id="0d22-fa03-bf34-bbcf" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4930-8e03-f430-d2c0" name="[Anti-aircraft] Roland Flarakpanzer Batterie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4930-8e03-f430-d2c0" name="[Anti-aircraft] Roland Flarakpanzer Batterie" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7590-3a35-57ca-46ee" name="Roland 2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -604,7 +604,7 @@ Counterattack -</characteristic>
         <profile id="a24e-acae-c36b-4264" name="Roland 2 AA Missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">56&quot; / 140cm</characteristic>
-            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / - </characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / -</characteristic>
             <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">-</characteristic>
             <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
             <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided AA</characteristic>
@@ -618,33 +618,33 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="4e87-4388-d4f6-7f9d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="44af-77b9-be96-903d">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6077-c940-03ab-2bc1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-f1b6-114a-c4b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6077-c940-03ab-2bc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-f1b6-114a-c4b2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="44af-77b9-be96-903d" name="2x Roland 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="34b4-3e2e-b307-6a21" name="4x Roland 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3b41-dc68-03c8-ae92" name="6x Roland 2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="382a-79c1-014b-c676" name="[Aircraft] Tornado Strike Flight" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="382a-79c1-014b-c676" name="[Aircraft] Tornado Strike Flight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="032e-d026-71f7-9978" name="Mauser BK-27 Auto-Cannon" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
@@ -682,33 +682,33 @@ Morale 3+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="8c8f-986f-0762-934a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bccd-aece-eb63-6b01">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbb-bbd0-6450-cbc1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03cd-3447-5de1-18ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebbb-bbd0-6450-cbc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03cd-3447-5de1-18ac" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="bccd-aece-eb63-6b01" name="2x Tornado" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5bad-31f5-b1ff-58b1" name="4x Tornado" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d28-3caf-2a43-5fdd" name="Leopard 1 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="5bdb-9db3-ec4d-8df1" name="Leopard 1 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="5bdb-9db3-ec4d-8df1" name="Leopard 1 Tank Eskadron HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d018-9e2f-18ad-9933" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a71f-b507-2e59-9d60" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d018-9e2f-18ad-9933" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a71f-b507-2e59-9d60" type="min"/>
           </constraints>
           <profiles>
             <profile id="0ce0-7d1d-58e9-5b13" name="Leopard 1 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -739,90 +739,90 @@ Assault 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="5d92-dd3e-c696-2576" name="1x Leopard 1" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1c3-93f5-9d93-bad5" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eacc-a0c2-2c13-dee6" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1c3-93f5-9d93-bad5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eacc-a0c2-2c13-dee6" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="690f-5b21-d692-50cb" name="1) Optional Leopard 1 Tank Peloton" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="c450-cc58-f6cd-f963" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+            <entryLink id="c450-cc58-f6cd-f963" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bba0-28d4-117c-06c5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bba0-28d4-117c-06c5" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f2d7-304f-6854-b56c" name="3) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="1840-e6ff-4040-00ca" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="1840-e6ff-4040-00ca" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="413a-c0b6-3d6b-e0d2" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="413a-c0b6-3d6b-e0d2" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2d57-8372-fe25-b99d" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+            <entryLink id="2d57-8372-fe25-b99d" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9329-4c66-2a59-0b37" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9329-4c66-2a59-0b37" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6756-ddfa-e96a-8601" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+            <entryLink id="6756-ddfa-e96a-8601" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b6f1-cec4-e150-8d57" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b6f1-cec4-e150-8d57" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="36b6-8ccd-d566-35f9" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1aed-50f5-c1a3-7394" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1aed-50f5-c1a3-7394" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cf54-10a4-aa61-17cb" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+            <entryLink id="cf54-10a4-aa61-17cb" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5d8-60cc-c908-1163" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5d8-60cc-c908-1163" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d084-cda1-ce94-0f31" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+            <entryLink id="d084-cda1-ce94-0f31" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2c09-1496-4bfb-06d4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2c09-1496-4bfb-06d4" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9d33-1d17-769e-ad87" name="*[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+        <entryLink id="9d33-1d17-769e-ad87" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03f8-3923-d191-ac4a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1c50-4622-5513-e65d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03f8-3923-d191-ac4a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1c50-4622-5513-e65d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="86b2-196b-b4e4-e150" name="[FS] Leopard 1 Panzer Zug" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
+        <entryLink id="86b2-196b-b4e4-e150" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6781-217d-5237-22df" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="08a1-fc62-11e5-14ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6781-217d-5237-22df" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="08a1-fc62-11e5-14ea" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b09-e126-b921-5209" name="Leopard 2 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="0750-64a2-dec7-2577" name="Leopard 2 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0750-64a2-dec7-2577" name="Leopard 2 Tank Eskadron HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5980-5c13-fd3f-c182" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfb-1fb3-f866-48ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5980-5c13-fd3f-c182" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfb-1fb3-f866-48ab" type="min"/>
           </constraints>
           <profiles>
             <profile id="d0b1-e51c-9bbf-d394" name="Leopard 2 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -853,86 +853,86 @@ Assault 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="cf3f-6717-4f88-65e7" name="1x Leopard 2" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f23c-3c27-5d2a-90db" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdcb-3d9b-63cb-0374" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f23c-3c27-5d2a-90db" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdcb-3d9b-63cb-0374" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6021-b546-6874-957d" name="1) Optional Leopard 2 Tank Pelotons" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="efbe-f997-f21e-da11" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+            <entryLink id="efbe-f997-f21e-da11" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c032-be1d-e891-ac8f" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c032-be1d-e891-ac8f" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="cdba-dd71-58ae-292c" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+            <entryLink id="cdba-dd71-58ae-292c" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e95-bee7-2782-73dd" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e95-bee7-2782-73dd" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1cca-3894-e30a-9f95" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="8e8c-8f49-55a9-f6ca" name="[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+            <entryLink id="8e8c-8f49-55a9-f6ca" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f193-848d-6ae4-2a10" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f193-848d-6ae4-2a10" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="dd0a-5943-3d56-9d11" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+            <entryLink id="dd0a-5943-3d56-9d11" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6291-8cc6-bac3-e8f8" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6291-8cc6-bac3-e8f8" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="77a3-f4fb-df75-bfce" name="3) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="dced-a003-42d1-c49a" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="dced-a003-42d1-c49a" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0542-3da1-6d75-35b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0542-3da1-6d75-35b4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="938c-97d6-5c5c-9122" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+            <entryLink id="938c-97d6-5c5c-9122" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="455c-43d9-460d-5a81" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="455c-43d9-460d-5a81" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0aef-fdc0-ec9c-6076" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+            <entryLink id="0aef-fdc0-ec9c-6076" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d7d-94f5-e3a3-a197" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d7d-94f5-e3a3-a197" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="860f-6563-7ad7-a825" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
+        <entryLink id="860f-6563-7ad7-a825" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="39f9-bc30-de2d-9d52" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4ab2-5667-4286-c214" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="39f9-bc30-de2d-9d52" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4ab2-5667-4286-c214" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1da-f273-62e2-f4f9" name="Leopard 2A5 Tank Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="45ff-407e-0249-7711" name="Leopard 2A5 Tank Eskadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="45ff-407e-0249-7711" name="Leopard 2A5 Tank Eskadron HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a3-d6ad-e6ab-a6c2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a9-3140-99cf-c173" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a3-d6ad-e6ab-a6c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a9-3140-99cf-c173" type="min"/>
           </constraints>
           <profiles>
             <profile id="a637-7892-7c2d-f51d" name="Leopard 2A5 HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -963,86 +963,86 @@ Assault 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="1e56-b505-1172-795a" name="1x Leopard 2A5" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adba-2b57-a3ed-6e67" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1038-938f-112b-3aa7" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adba-2b57-a3ed-6e67" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1038-938f-112b-3aa7" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7247-c06e-d154-f357" name="1) Optional Leopard 2A5 Tank Pelotons" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="3a79-64e0-869f-3194" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+            <entryLink id="3a79-64e0-869f-3194" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e870-0c6b-0137-9e04" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e870-0c6b-0137-9e04" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b0f0-9795-189d-ff59" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+            <entryLink id="b0f0-9795-189d-ff59" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e13-4850-049a-8489" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e13-4850-049a-8489" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e32a-30cd-03de-f68a" name="3) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="4b37-b82b-aea6-2165" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="4b37-b82b-aea6-2165" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9315-3238-bd95-11a4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9315-3238-bd95-11a4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7583-91d0-2f81-b39d" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+            <entryLink id="7583-91d0-2f81-b39d" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7aae-340b-2de2-6cd6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7aae-340b-2de2-6cd6" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2e84-e402-eb15-02f7" name="[FS] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+            <entryLink id="2e84-e402-eb15-02f7" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b352-de5a-ac32-6d81" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b352-de5a-ac32-6d81" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5fb0-3ef6-0104-4ce5" name="2) Optional Armour Unit" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="4cdb-ed48-2ca2-afb9" name="[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+            <entryLink id="4cdb-ed48-2ca2-afb9" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a50f-b611-d625-2f8c" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a50f-b611-d625-2f8c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="da28-b609-95ba-866d" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+            <entryLink id="da28-b609-95ba-866d" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="90b5-60cd-203d-caaf" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="90b5-60cd-203d-caaf" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e9aa-6487-596a-3e9e" name="*[FS] Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
+        <entryLink id="e9aa-6487-596a-3e9e" name="Leopard 2A5 Tank Peloton" hidden="false" collective="false" import="true" targetId="fc45-fac3-04f0-bf99" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec29-57e7-b292-eda2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1fda-e595-f98e-2c2c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec29-57e7-b292-eda2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1fda-e595-f98e-2c2c" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="569d-e0d7-5e43-5c34" name="YPR-765 Pantserinfanterie Compagnie" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="750d-f116-af7a-4535" name="YPR-765 Pantserinfanterie Compagnie HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa3d-9440-964d-8cc8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="57c6-f5f3-8091-d8fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa3d-9440-964d-8cc8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="57c6-f5f3-8091-d8fb" type="max"/>
           </constraints>
           <profiles>
             <profile id="65fb-d5d3-e765-b3e0" name="YPR-765 Pantserinfanterie Compagnie HQ" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
@@ -1073,95 +1073,95 @@ Assault 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="292c-1476-e9af-6559" name="1x FAL rifle team, 1x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a459-85c6-c4b9-4004" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bef6-9d7f-7b6a-0ec5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a459-85c6-c4b9-4004" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bef6-9d7f-7b6a-0ec5" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="2c70-cc29-e760-34e3" name="*[M] YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
+            <entryLink id="2c70-cc29-e760-34e3" name="YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11f8-827c-6196-cd68" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="12dd-d1c2-86f3-62fc" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11f8-827c-6196-cd68" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="12dd-d1c2-86f3-62fc" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b6b9-c863-763b-7a9b" name="2) Optional Pantserinfanterie Peloton" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="6dad-fa37-d506-79de" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+            <entryLink id="6dad-fa37-d506-79de" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1443-9297-fb2d-f44b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1443-9297-fb2d-f44b" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ef3a-9135-7a97-fa56" name="1) Armour Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="370e-59ea-d3fc-4e5c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="24f5-a282-afad-7fd6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bfc-68ce-ae7b-d05a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="24f5-a282-afad-7fd6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bfc-68ce-ae7b-d05a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e456-9fdb-aec8-3034" name="*[FS] Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry"/>
-            <entryLink id="bd7e-5a4b-6af4-235a" name="*[FS] Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry"/>
-            <entryLink id="370e-59ea-d3fc-4e5c" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry"/>
+            <entryLink id="e456-9fdb-aec8-3034" name="Leopard 2 Tank Peloton" hidden="false" collective="false" import="true" targetId="d287-c066-d470-39cc" type="selectionEntry"/>
+            <entryLink id="bd7e-5a4b-6af4-235a" name="Leopard 1 Tank Peloton" hidden="false" collective="false" import="true" targetId="ae03-2e0a-b010-8f20" type="selectionEntry"/>
+            <entryLink id="370e-59ea-d3fc-4e5c" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="702f-57be-d3e7-5d1f" name="3) Optional Mortar Unit" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d2a-a936-a52a-e7f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d2a-a936-a52a-e7f7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5366-47a3-1e37-16ad" name="[M] 120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="610b-5aff-0e94-1ec4" type="selectionEntry"/>
-            <entryLink id="94fe-3655-1a13-c0e8" name="[M] M106 120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="d7d5-3e3e-ed51-3686" type="selectionEntry"/>
+            <entryLink id="5366-47a3-1e37-16ad" name="120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="610b-5aff-0e94-1ec4" type="selectionEntry"/>
+            <entryLink id="94fe-3655-1a13-c0e8" name="M106 120mm Mortier Peloton" hidden="false" collective="false" import="true" targetId="d7d5-3e3e-ed51-3686" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8b40-cc2b-5395-1eed" name="4) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="7c81-38bf-18e1-80c7" name="[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="7c81-38bf-18e1-80c7" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f85-ae22-cf2e-7cff" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f85-ae22-cf2e-7cff" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="77c2-c0d2-2a97-9545" name="[S] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
+            <entryLink id="77c2-c0d2-2a97-9545" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" targetId="da62-7206-5bda-3bb7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="154e-df0a-ebd5-edba" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="154e-df0a-ebd5-edba" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="c33f-ae02-a5ec-57db" name="[S] YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
+            <entryLink id="c33f-ae02-a5ec-57db" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" targetId="fc34-6b87-ae4f-67fa" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b40-6f1e-3b12-4500" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b40-6f1e-3b12-4500" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0601-585a-5c7e-8478" name="*[FS] YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
+        <entryLink id="0601-585a-5c7e-8478" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" targetId="58f8-564d-3095-6f04" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c64f-4af0-dbd6-ecd4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c1f5-d982-c815-c81a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c64f-4af0-dbd6-ecd4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c1f5-d982-c815-c81a" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2d9-c021-9dbb-e016" name="Verkennings Eskadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="dd6b-b153-4b66-5c6b" name="Verkennings Eskadron HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bbbd-a145-6317-2216" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="011f-c593-0bfe-5872" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bbbd-a145-6317-2216" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="011f-c593-0bfe-5872" type="min"/>
           </constraints>
           <profiles>
             <profile id="57e9-f410-ad35-0c53" name="M113 C&amp;V HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -1194,103 +1194,103 @@ Counterattack 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="c604-4af7-9d1a-c73d" name="1x M113 C&amp;V" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="70fe-eb29-4625-01b5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2fa1-5b19-fdd1-88a9" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="70fe-eb29-4625-01b5" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2fa1-5b19-fdd1-88a9" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="53a9-05de-9686-2f06" name="1) Optional M113 C&amp;V Ploegs" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="e52d-bb0a-279d-f095" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="e52d-bb0a-279d-f095" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="063b-d52f-3688-3008" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="063b-d52f-3688-3008" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="952a-02ef-1806-db00" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="952a-02ef-1806-db00" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a229-696d-0480-8dcb" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a229-696d-0480-8dcb" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7e37-faa9-8313-0841" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="7e37-faa9-8313-0841" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c36e-6118-7b43-c9e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c36e-6118-7b43-c9e4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b807-da40-b102-9d5c" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+            <entryLink id="b807-da40-b102-9d5c" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0658-6356-133d-9d68" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0658-6356-133d-9d68" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8052-dec8-906e-77eb" name="2) Armour Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="468e-4665-11c1-26b6">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8788-d64a-e99c-0900" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9dd2-954c-6d8a-6b48" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8788-d64a-e99c-0900" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9dd2-954c-6d8a-6b48" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="105c-8199-9dd6-af9e" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
-            <entryLink id="468e-4665-11c1-26b6" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+            <entryLink id="105c-8199-9dd6-af9e" name="Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="468e-4665-11c1-26b6" name="Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2114-7287-b326-d7bf" name="5) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="e682-9761-74e8-7799" name="*[M] M106 Mortier Peloton" hidden="false" collective="false" import="true" targetId="44b5-1a95-68f7-08a6" type="selectionEntry">
+            <entryLink id="e682-9761-74e8-7799" name="M106 Mortier Peloton" hidden="false" collective="false" import="true" targetId="44b5-1a95-68f7-08a6" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6362-d446-048e-fd55" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6362-d446-048e-fd55" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1121-2e9c-3fd6-7395" name="[M] M113 Tirailleur Peloton" hidden="false" collective="false" import="true" targetId="3d44-24fd-3ef2-1c83" type="selectionEntry">
+            <entryLink id="1121-2e9c-3fd6-7395" name="M113 Tirailleur Peloton" hidden="false" collective="false" import="true" targetId="3d44-24fd-3ef2-1c83" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f020-1eb5-8045-f0e5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f020-1eb5-8045-f0e5" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9c66-408c-a57e-db55" name="3) Optional Armouor Unit #1" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8956-e0b3-3af0-f0c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8956-e0b3-3af0-f0c5" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b43d-d047-8fe6-8f94" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
-            <entryLink id="55d2-5870-f7fd-64ee" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+            <entryLink id="b43d-d047-8fe6-8f94" name="Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="55d2-5870-f7fd-64ee" name="Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4130-e7ab-7f62-e40e" name="4) Optional Armouor Unit #2" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d272-27ef-0258-31aa" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d272-27ef-0258-31aa" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3f31-aaf8-a084-93d3" name="[FS] Leopard 1 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
-            <entryLink id="9c3d-ea73-f9bc-41e0" name="[FS] Leopard 2 Verkennings Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
+            <entryLink id="3f31-aaf8-a084-93d3" name="Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9063-f02c-c069-7398" type="selectionEntry"/>
+            <entryLink id="9c3d-ea73-f9bc-41e0" name="Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" targetId="9950-d8ed-a296-8387" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fa12-8d26-65ca-6519" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+        <entryLink id="fa12-8d26-65ca-6519" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="36d5-86e0-607a-695e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e8ff-265b-23cf-143a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="36d5-86e0-607a-695e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e8ff-265b-23cf-143a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4706-15d9-f12b-6d3a" name="*[FS] M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
+        <entryLink id="4706-15d9-f12b-6d3a" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" targetId="d04a-93d0-68fb-b471" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ad8-d4c9-3432-3972" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8602-f792-38b2-3924" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ad8-d4c9-3432-3972" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8602-f792-38b2-3924" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b1d-86b2-bad9-11ba" name="[Artillery] MLRS Raketwerper Batterij" hidden="false" collective="false" import="true" type="unit">
@@ -1329,18 +1329,18 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="2f50-ea89-5c03-7827" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d4b9-0cb0-e42e-2baf">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6133-c20e-02ac-b561" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="83c0-7a3e-45b6-94ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6133-c20e-02ac-b561" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="83c0-7a3e-45b6-94ec" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="d4b9-0cb0-e42e-2baf" name="2x M270 MLRS" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4ce5-f03b-87f3-96d1" name="3x M270 MLRS" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8417-9460-2a31-9d27" name="2x M270 MLRS w-Minelets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1348,7 +1348,7 @@ Counterattack -</characteristic>
                 <infoLink id="391d-d60a-d3ed-a6cb" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fce8-cf5e-ec6e-336a" name="3x M270 MLRS w-Minelets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1356,14 +1356,14 @@ Counterattack -</characteristic>
                 <infoLink id="615f-fea6-a072-4dfb" name="Minelets" hidden="false" targetId="fd4b-c96a-39c0-f7cd" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb51-8f1e-75a7-bc44" name="[Observer] YPR-765 OP" hidden="false" collective="false" import="true" type="unit">
@@ -1397,16 +1397,16 @@ Counterattack 5+</characteristic>
       <selectionEntries>
         <selectionEntry id="b839-8181-ebed-88e2" name="1x YPR-765 OP" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="78ed-7745-48ca-862f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4960-03d6-9569-6141" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="78ed-7745-48ca-862f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4960-03d6-9569-6141" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da62-7206-5bda-3bb7" name="[Anti-aircraft] PRTL Pantserluchtdoel Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1447,25 +1447,25 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="1962-35d6-ef5f-ffea" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="303c-f71c-8968-ddfd">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ea3-a694-82bd-06c8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7371-ba85-bc83-7c7b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ea3-a694-82bd-06c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7371-ba85-bc83-7c7b" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="303c-f71c-8968-ddfd" name="2x PRTL" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e13-c968-bf89-cd65" name="3x PRTL" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c66e-6cf1-a8e7-734f" name="2) Optional Stinger Luchtdoel Peloton" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d0d5-b430-16c1-2716" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d0d5-b430-16c1-2716" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a6a1-4250-d8a1-62d5" name="2x Stinger teams" hidden="false" collective="false" import="true" type="upgrade">
@@ -1473,14 +1473,14 @@ Counterattack 5+</characteristic>
                 <infoLink id="c135-60cf-0a5f-7fb1" name="Stinger Luchtdoel Peloton" hidden="false" targetId="6042-7dd7-401c-b0da" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3372-f811-6b8e-b092" name="3x Stinger teams" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e13-c968-bf89-cd65" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e13-c968-bf89-cd65" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1488,14 +1488,14 @@ Counterattack 5+</characteristic>
                 <infoLink id="5583-111d-c897-2bc1" name="Stinger Luchtdoel Peloton" hidden="false" targetId="6042-7dd7-401c-b0da" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d04a-93d0-68fb-b471" name="M113 C&amp;V Verkennings Ploeg" hidden="false" collective="false" import="true" type="unit">
@@ -1529,16 +1529,16 @@ Counterattack 5+</characteristic>
       <selectionEntries>
         <selectionEntry id="9419-6360-f54d-d10d" name="2x M113 C&amp;V" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddac-a602-5226-105b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e3c5-a177-fc9a-9a62" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddac-a602-5226-105b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e3c5-a177-fc9a-9a62" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc34-6b87-ae4f-67fa" name="YPR-765 PRAT Anti-tank Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1571,54 +1571,54 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="3c78-2985-85ea-1383" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="439c-ecd1-43c5-692a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fdee-1113-6d41-20ff" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5550-0d9b-ea20-0f85" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fdee-1113-6d41-20ff" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5550-0d9b-ea20-0f85" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b359-47d9-eff3-3e46" name="4x YPR-765 PRAT" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="439c-ecd1-43c5-692a" name="2x YPR-765 PRAT" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="054e-544a-f7a8-f423" name="2) TOW Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5174-390e-3f85-1b91">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d71f-38a2-9f0e-25b8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a016-1ad4-712a-77a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d71f-38a2-9f0e-25b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a016-1ad4-712a-77a6" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b204-a36d-e0f6-1400" name="TOW-2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="be76-db62-cbdf-d4e5" value="1.0">
+                <modifier type="set" field="be76-db62-cbdf-d4e5" value="1">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b204-a36d-e0f6-1400" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b204-a36d-e0f6-1400" type="greaterThan"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="7216-9333-2b5d-9b72" value="1.0">
+                <modifier type="set" field="7216-9333-2b5d-9b72" value="1">
                   <conditions>
-                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="439c-ecd1-43c5-692a" type="greaterThan"/>
+                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="439c-ecd1-43c5-692a" type="greaterThan"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="7216-9333-2b5d-9b72" value="2.0">
+                <modifier type="set" field="7216-9333-2b5d-9b72" value="2">
                   <conditions>
-                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b359-47d9-eff3-3e46" type="greaterThan"/>
+                    <condition field="selections" scope="fc34-6b87-ae4f-67fa" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b359-47d9-eff3-3e46" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be76-db62-cbdf-d4e5" type="min"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be76-db62-cbdf-d4e5" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="1168-a4e9-303b-0c6d" name="TOW-2 missile" hidden="false" targetId="115f-6db1-b370-2bcc" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5174-390e-3f85-1b91" name="iTOW" hidden="false" collective="false" import="true" type="upgrade">
@@ -1626,14 +1626,14 @@ Counterattack 5+</characteristic>
                 <infoLink id="c763-b6f3-f3e6-6c86" name="Improved TOW Missile" hidden="false" targetId="56a4-d797-c2dd-f01f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58f8-564d-3095-6f04" name="YPR-765 Pantserinfanterie Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1661,26 +1661,26 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="17ce-0fe8-a36c-52b0" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7327-0544-3d27-edcd">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6ce6-7c44-6c5a-3903" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="10c9-0b97-c31c-c27a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6ce6-7c44-6c5a-3903" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="10c9-0b97-c31c-c27a" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ada2-5dca-fd90-ea28" name="4x GPMG w-M72 teams, 3x Carl Gustav teams, 2x M47 Dragon teams, 4x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7327-0544-3d27-edcd" name="3x GPMG w-M72 teams, 2x Carl Gustav teams, 2x M47 Dragon teams, 3x YPR-765" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e682-8a26-bd1b-80d3" name="2) M47 Missile Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="09a3-a26c-2473-2f39">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1a3f-2590-573e-6a60" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bfe6-abf6-1abf-8fea" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1a3f-2590-573e-6a60" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bfe6-abf6-1abf-8fea" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="09a3-a26c-2473-2f39" name="M47 Dragon missile" hidden="false" collective="false" import="true" type="upgrade">
@@ -1688,40 +1688,40 @@ Counterattack 5+</characteristic>
                 <infoLink id="1865-4c64-840c-5d1e" name="M47 Dragon missile" hidden="false" targetId="e89c-b5a1-d43a-e952" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0186-5539-82ff-0253" name="M47 Dragon 2 missile" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="2aac-b92d-1d2d-1a1e" value="1.0">
+                <modifier type="set" field="2aac-b92d-1d2d-1a1e" value="1">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-5539-82ff-0253" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-5539-82ff-0253" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2aac-b92d-1d2d-1a1e" type="min"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2aac-b92d-1d2d-1a1e" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="2873-8751-71d2-caae" name="M47 Dragon 2 missile" hidden="false" targetId="e7ab-94b5-8874-226b" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5d57-cf92-3f4a-f495" name="*[M] YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
+        <entryLink id="5d57-cf92-3f4a-f495" name="YPR-765 Transport" hidden="false" collective="false" import="true" targetId="024c-10bc-3ab9-6c3c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e3a-f360-ec61-0ea7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec54-229f-f7fd-8c32" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e3a-f360-ec61-0ea7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec54-229f-f7fd-8c32" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="024c-10bc-3ab9-6c3c" name="YPR-765 Transport" hidden="false" collective="false" import="true" type="unit">
@@ -1753,7 +1753,7 @@ Counterattack 5+</characteristic>
         <infoLink id="4586-0b42-9dbe-9dee" name="25mm gun" hidden="false" targetId="e321-46a2-ddd2-2d3f" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7d5-3e3e-ed51-3686" name="M106 120mm Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1786,25 +1786,25 @@ Counterattack 6</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="ece2-a174-2dc8-ca46" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="35e3-214c-8fb0-ea53">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="021b-0107-e577-22de" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ae74-56c9-019f-7a24" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="021b-0107-e577-22de" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ae74-56c9-019f-7a24" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="35e3-214c-8fb0-ea53" name="2x M106 120mm" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0c97-6264-c734-76e9" name="3x M106 120mm" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="610b-5aff-0e94-1ec4" name="120mm Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1834,24 +1834,24 @@ Counterattack 5+</characteristic>
       <selectionEntries>
         <selectionEntry id="be5f-49fc-1202-951e" name="3x 120mm mortar, 3x YPR-765 PRMR" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3382-519d-1b69-f358" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4730-a7ca-8678-193b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3382-519d-1b69-f358" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4730-a7ca-8678-193b" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="eb11-8c9c-3faf-ae04" name="*[M] YPR-765 PRMR Transport" hidden="false" collective="false" import="true" targetId="0a65-db87-5ccf-619e" type="selectionEntry">
+        <entryLink id="eb11-8c9c-3faf-ae04" name="YPR-765 PRMR Transport" hidden="false" collective="false" import="true" targetId="0a65-db87-5ccf-619e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="134d-0c97-287a-e72b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9674-72cb-5b86-e1f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="134d-0c97-287a-e72b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9674-72cb-5b86-e1f3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44b5-1a95-68f7-08a6" name="M106 Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -1892,16 +1892,16 @@ Counterattack 6</characteristic>
       <selectionEntries>
         <selectionEntry id="4643-697f-b72d-bf47" name="3x M106" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5a9-39a6-7e63-3650" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9d2c-079e-f80d-160c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5a9-39a6-7e63-3650" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9d2c-079e-f80d-160c" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a65-db87-5ccf-619e" name="YPR-765 PRMR Transport" hidden="false" collective="false" import="true" type="unit">
@@ -1933,10 +1933,10 @@ Counterattack 5+</characteristic>
         <infoLink id="4649-95b5-7fed-39ce" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9063-f02c-c069-7398" name="Leopard 1 Verkennings Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9063-f02c-c069-7398" name="Leopard 1 Verkennings Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6a5f-48ae-3951-6422" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
         <infoLink id="eca8-04ba-673b-7cf0" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
@@ -1948,19 +1948,19 @@ Counterattack 5+</characteristic>
       <selectionEntries>
         <selectionEntry id="a37e-bb77-5cdf-95d9" name="2x Leopard 1" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c71-200f-5519-0565" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce97-b4e9-3822-cda6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c71-200f-5519-0565" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce97-b4e9-3822-cda6" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9950-d8ed-a296-8387" name="Leopard 2 Verkennings Tank Peloton" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9950-d8ed-a296-8387" name="Leopard 2 Verkennings Tank Peloton" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8d36-a6d0-eaec-2e1d" name="120mm L/44 Gun" hidden="false" targetId="2079-89ca-de09-45d8" type="infoGroup"/>
         <infoLink id="3853-5bc8-1596-3961" name="7.62mm MG" hidden="false" targetId="c36d-d290-58f8-adc5" type="profile"/>
@@ -1972,16 +1972,16 @@ Counterattack 5+</characteristic>
       <selectionEntries>
         <selectionEntry id="bcf6-8aed-9ffd-0ea8" name="2x Leopard 2" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61dc-fe84-81e4-bce3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9224-1cb5-70aa-e257" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61dc-fe84-81e4-bce3" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9224-1cb5-70aa-e257" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20.0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d44-24fd-3ef2-1c83" name="M113 Tirailleur Peloton" hidden="false" collective="false" import="true" type="unit">
@@ -2008,33 +2008,33 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="4bef-5f93-d1b5-c056" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="94fa-a9ec-1334-d094">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0410-a160-71e4-5307" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7909-3c76-1376-e3da" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0410-a160-71e4-5307" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7909-3c76-1376-e3da" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="77b3-ebaa-e7e4-bc3c" name="4x GPMG w-M72 teams, 3x Carl Gustav teams, 3x M113" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="94fa-a9ec-1334-d094" name="3x GPMG w-M72 teams, 2x Carl Gustav teams, 2x M113" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c38c-1ecc-ac18-a827" name="*[M] M113 Transport" hidden="false" collective="false" import="true" targetId="1336-fdee-57f9-849d" type="selectionEntry">
+        <entryLink id="c38c-1ecc-ac18-a827" name="M113 Transport" hidden="false" collective="false" import="true" targetId="1336-fdee-57f9-849d" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d386-d31f-67e1-4f7e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e260-b7be-f2a8-ae33" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d386-d31f-67e1-4f7e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e260-b7be-f2a8-ae33" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1336-fdee-57f9-849d" name="M113 Transport" hidden="false" collective="false" import="true" type="unit">
@@ -2064,10 +2064,10 @@ Counterattack 5+</characteristic>
         <infoLink id="34b0-a597-09ed-ee1d" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f9c-68cc-b8f1-9b66" name="AH-64 Apache Gevechtshelikopter Vlucht" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f9c-68cc-b8f1-9b66" name="AH-64 Apache Gevechtshelikopter Vlucht" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ec68-8372-4529-2cdc" name="AH-64 Apache" hidden="false" typeId="cb62-cf79-c5be-c00b" typeName="Aircraft">
           <characteristics>
@@ -2118,47 +2118,47 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="0baf-05c4-3447-00e6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="119d-5f9f-4d65-bd56">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8f-90f5-c3eb-d0a2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fb-0eed-4cb6-6036" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df8f-90f5-c3eb-d0a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fb-0eed-4cb6-6036" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="119d-5f9f-4d65-bd56" name="2x AH-64 Apache" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e401-0492-6427-d3e5" name="4x AH-64 Apache" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a260-b7b7-ac6e-daa6" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="31b2-c06b-2795-efab" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bab-81d7-3ff9-5fc8">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0699-82cb-709d-3bfd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c516-e90a-d4af-e292" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0699-82cb-709d-3bfd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c516-e90a-d4af-e292" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f896-849b-aee3-3aca" name="*[S] PAH Anti-Tank Helicopter Flight" hidden="false" collective="false" import="true" targetId="33af-2fee-265e-cd4b" type="selectionEntry"/>
-            <entryLink id="8bab-81d7-3ff9-5fc8" name="*[S] AH-64 Apache Gevechtshelikopter Vlucht" hidden="false" collective="false" import="true" targetId="2f9c-68cc-b8f1-9b66" type="selectionEntry"/>
+            <entryLink id="f896-849b-aee3-3aca" name="PAH Anti-Tank Helicopter Flight" hidden="false" collective="false" import="true" targetId="33af-2fee-265e-cd4b" type="selectionEntry"/>
+            <entryLink id="8bab-81d7-3ff9-5fc8" name="AH-64 Apache Gevechtshelikopter Vlucht" hidden="false" collective="false" import="true" targetId="2f9c-68cc-b8f1-9b66" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="7b5e-9925-2540-8095" name="Milan Mount" page="" hidden="false">
+    <rule id="7b5e-9925-2540-8095" name="Milan Mount" hidden="false">
       <description>Milan missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan Missile weapons line.</description>
     </rule>
   </sharedRules>
