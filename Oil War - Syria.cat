@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44d0-d508-d970-6a39" name="Oil War - Syria" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f408-3dc2-4459-bff0" name="Oil War - Syria" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 6-15-2025</readme>
   <entryLinks>
     <entryLink id="88e7-7687-923a-fad1" name="T-72M Tank Battalion " hidden="false" collective="false" import="true" targetId="ae10-627b-ef0b-c588" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be48-f4cc-c193-332d" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be48-f4cc-c193-332d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="cabe-7888-7e6d-e2d9" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
@@ -12,7 +12,7 @@
     </entryLink>
     <entryLink id="7e01-ef88-9da4-91c5" name="T-62 Tank Battalion " hidden="false" collective="false" import="true" targetId="24b4-35df-31ca-019d" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0759-d747-e24b-0f6d" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0759-d747-e24b-0f6d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1674-94bb-9bc8-541b" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
@@ -20,7 +20,7 @@
     </entryLink>
     <entryLink id="90f1-123b-68fa-63f2" name="T-55 Tank Battalion " hidden="false" collective="false" import="true" targetId="4d2d-98e5-3985-cc61" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f77d-568d-e59f-e730" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f77d-568d-e59f-e730" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f373-25f6-79f8-0227" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
@@ -28,7 +28,7 @@
     </entryLink>
     <entryLink id="337d-9bdc-4645-4e95" name="BTR Mech Battalion" hidden="false" collective="false" import="true" targetId="dd45-ae2f-090c-71c8" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f111-5946-79ce-1e6a" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f111-5946-79ce-1e6a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0110-a5da-19b6-4328" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
@@ -36,7 +36,7 @@
     </entryLink>
     <entryLink id="e70a-e4ed-abfb-04a0" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd2-db93-06da-8ed5" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd2-db93-06da-8ed5" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="e12c-3b32-4bfa-1d5a" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -44,7 +44,7 @@
     </entryLink>
     <entryLink id="da64-4e9f-3aed-2b59" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="cde0-5857-68ca-0ce2" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c62-56f5-a5ee-00b9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c62-56f5-a5ee-00b9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="cabc-07a0-b101-0b18" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -54,12 +54,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae10-627b-ef0b-c588" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae10-627b-ef0b-c588" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bcca-7c74-9ec0-7462" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bcca-7c74-9ec0-7462" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1849-bc05-007b-5898" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -69,12 +69,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b4-35df-31ca-019d" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b4-35df-31ca-019d" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5bbf-add0-d6c3-51bf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5bbf-add0-d6c3-51bf" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="af93-c408-f63d-732f" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -84,12 +84,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d2d-98e5-3985-cc61" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d2d-98e5-3985-cc61" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="95ed-6635-754c-bb0a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="95ed-6635-754c-bb0a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="44cb-40d7-34c2-90ef" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -99,12 +99,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a99-6b4d-1a68-02ec" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a99-6b4d-1a68-02ec" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="898a-ccac-1f79-599c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="898a-ccac-1f79-599c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="63fe-02a0-1d0a-1af4" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -114,12 +114,12 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd45-ae2f-090c-71c8" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd45-ae2f-090c-71c8" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="27c9-1b8e-fffd-13cc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="27c9-1b8e-fffd-13cc" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="aa2e-a9d5-c75c-4634" name="Formation Support" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
@@ -127,7 +127,7 @@
     </entryLink>
     <entryLink id="f9d1-9d54-b5e0-cae5" name="BMP-1 Mech Battalion" hidden="false" collective="false" import="true" targetId="1a99-6b4d-1a68-02ec" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ca-b656-d25d-8d6c" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ca-b656-d25d-8d6c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b46b-c5bd-dff8-abfe" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
@@ -135,7 +135,7 @@
     </entryLink>
     <entryLink id="1d15-3a0a-4fb4-69c3" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" targetId="89fd-4c4e-01e3-be70" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5931-67db-524a-a2b2" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5931-67db-524a-a2b2" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="df8c-4ef4-453c-2f21" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -143,7 +143,7 @@
     </entryLink>
     <entryLink id="f480-e0d9-2daf-614f" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="5ca9-84c3-4b62-240b" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f5-e8cc-7cf9-ddbe" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f5-e8cc-7cf9-ddbe" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6df0-6fac-f023-db9f" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -155,16 +155,16 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d036-0143-60b1-da26" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cde0-5857-68ca-0ce2" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89fd-4c4e-01e3-be70" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d036-0143-60b1-da26" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cde0-5857-68ca-0ce2" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89fd-4c4e-01e3-be70" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c823-a1b8-bbc6-13e9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c823-a1b8-bbc6-13e9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c9a8-6f46-cb28-715f" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -172,7 +172,7 @@
     </entryLink>
     <entryLink id="a72b-8190-1fb8-9ae1" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" targetId="06e5-f78d-ad25-a88b" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-df08-98dd-ed4a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-df08-98dd-ed4a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="00c0-8b33-1a7b-b111" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -180,7 +180,7 @@
     </entryLink>
     <entryLink id="2e64-b06d-e58b-ce6a" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" targetId="0557-e354-81f0-17ed" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead5-50c5-7198-5c96" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead5-50c5-7198-5c96" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6ce3-4d02-1c5d-bbb6" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -188,7 +188,7 @@
     </entryLink>
     <entryLink id="2be7-05cf-8f28-b419" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7b32-24d8-d0d0-f4af" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f547-dc84-4981-050e" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f547-dc84-4981-050e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8891-3a18-c827-054a" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -196,7 +196,7 @@
     </entryLink>
     <entryLink id="62d6-61d7-a545-970d" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7b32-24d8-d0d0-f4af" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f495-874c-c6f6-63f5" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f495-874c-c6f6-63f5" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c271-a5ab-5bb1-c3ae" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -204,7 +204,7 @@
     </entryLink>
     <entryLink id="930d-cf98-526d-11bd" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" targetId="04bc-94b7-73f3-13cf" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c4-9bba-cc62-b013" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c4-9bba-cc62-b013" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="5168-4228-b19c-2c94" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
@@ -250,25 +250,25 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="2677-e645-2ee6-c24c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="371b-a70f-4d7e-8afe">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0e-e60b-d781-010d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f84d-7bd3-0740-e1bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0e-e60b-d781-010d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f84d-7bd3-0740-e1bd" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="371b-a70f-4d7e-8afe" name="2x SA-13 Gopher" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4db1-842a-2df4-f5a4" name="4x SA-13 Gopher" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b0e-2b9c-8f3f-1d37" name="SA-9 Gaskin SAM Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -310,25 +310,25 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="1629-8011-8595-9816" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="630e-6549-7940-0123">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d28b-233d-ed98-dc70" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20c4-0dee-4cdb-f4f0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d28b-233d-ed98-dc70" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20c4-0dee-4cdb-f4f0" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="630e-6549-7940-0123" name="2x SA-9 Gaskin" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="19cb-f1f0-84d9-6faa" name="4x SA-9 Gaskin" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0581-c5ba-37b6-ca1b" name="ZSU-23-4 Shilka Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -374,25 +374,25 @@ Counterattack 4+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="f899-0f99-6250-1e76" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbde-bfa7-e3b2-35f3">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9946-01ea-05ff-0304" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3280-5fd7-8376-2619" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9946-01ea-05ff-0304" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3280-5fd7-8376-2619" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="eb50-b6f2-90f3-b6c6" name="4x ZSU-23-4 Shilka" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fbde-bfa7-e3b2-35f3" name="2x ZSU-23-4 Shilka" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06e5-f78d-ad25-a88b" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -428,25 +428,25 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="da81-56e2-b078-bd73" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="36c2-a637-f042-1454">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f5-5521-c5f3-21ef" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fe1-497c-f3a3-03a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f5-5521-c5f3-21ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fe1-497c-f3a3-03a0" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="36c2-a637-f042-1454" name="2x BRDM-2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0718-d4f9-423e-e507" name="4x BRDM-2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ca9-84c3-4b62-240b" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -490,25 +490,25 @@ Counterattack 6</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="378a-6a6e-beb7-eed0" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="acd2-9f7a-bc9d-1238">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c08-baa6-5504-9251" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c24-63de-ea7f-bda9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c08-baa6-5504-9251" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c24-63de-ea7f-bda9" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="acd2-9f7a-bc9d-1238" name="2x Spandrel" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95b3-80e8-c5a3-e425" name="3x Spandrel" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d036-0143-60b1-da26" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
@@ -574,25 +574,25 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="9751-1d56-11b0-6fad" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4ea-e4cc-ee82-d9a3">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf3-5156-0af2-6630" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eb8-c445-6fd4-2ca5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf3-5156-0af2-6630" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eb8-c445-6fd4-2ca5" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a4ea-e4cc-ee82-d9a3" name="3x 2S1 Carnation" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aca9-126f-270c-d7fc" name="6x 2S1 Carnation" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee42-210f-6008-eb65" name="T-72M Tank Company" hidden="false" collective="false" import="true" type="unit">
@@ -628,68 +628,68 @@ Counterattack 4+</characteristic>
       <selectionEntries>
         <selectionEntry id="4b93-17a1-f7de-c0ef" name="Fit up to three Tanks with Mine Clearing Devices" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a09-d6d5-b451-2060" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a09-d6d5-b451-2060" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="a292-8146-f606-7623" name="Mine Clearing Device" hidden="false" targetId="a4e7-abba-6c06-ce98" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="320e-0806-3b81-ada2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5cbb-7ed3-08b7-672c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02d-2382-e2a4-ca8f" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb7-c01b-4b78-6d74" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02d-2382-e2a4-ca8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb7-c01b-4b78-6d74" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5cbb-7ed3-08b7-672c" name="3x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d353-4e98-1122-158f" name="4x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a68b-f154-b6cf-86b0" name="5x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1309-a262-f4f0-7a89" name="6x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c6b-b187-2768-0aa3" name="7x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="90d9-c5d8-04b4-e1db" name="9x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="28"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="28.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="81e0-2886-6e8d-02b7" name="10x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="32"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="32.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c44-e762-97d9-38ee" name="8x T-72" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b45-e5df-1ee8-03c7" name="T-62 Tank Company" hidden="false" collective="false" import="true" type="unit">
@@ -724,45 +724,45 @@ Counterattack 4+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="6c1b-acef-e232-28fd" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3dc9-eeb4-d024-ddd7">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3fb-261d-9a31-204c" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc4-0ee1-729f-b329" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3fb-261d-9a31-204c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc4-0ee1-729f-b329" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3dc9-eeb4-d024-ddd7" name="5x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5b67-0142-a807-8152" name="7x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="780e-4ddb-efcf-6916" name="8x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7c28-9e5a-1e55-bfd0" name="9x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af94-c289-e888-ee1c" name="10x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bd09-3386-6035-1f45" name="6x T-62" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7aba-78af-6ec3-828a" name="T-55 Tank Company" hidden="false" collective="false" import="true" type="unit">
@@ -797,58 +797,58 @@ Counterattack 4+</characteristic>
       <selectionEntries>
         <selectionEntry id="2bec-1906-596a-d58c" name="Bazooka Skirts for Company" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3581-cf07-10d6-cb7c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3581-cf07-10d6-cb7c" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="f5d2-7dbb-97ed-b2db" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="a89b-24c3-1d42-8295" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="426e-f080-9e88-df1d">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f76-5658-eb15-58ee" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a57-10fa-48a2-e442" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f76-5658-eb15-58ee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a57-10fa-48a2-e442" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="426e-f080-9e88-df1d" name="5x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="253c-6cb7-e5da-35df" name="6x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c55-f2c1-c5d7-8a1a" name="7x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0909-710c-cd36-628a" name="8x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1fc-e259-3a06-932c" name="9x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="756b-9bd1-44bc-441c" name="10x T-55" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76a7-33c8-e31f-c4b6" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" type="unit">
@@ -861,26 +861,26 @@ Counterattack 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="6aab-c1cc-659b-30e9" name="1x SA-7 Grail AA missile team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e13-5eae-19b6-287a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e13-5eae-19b6-287a" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="e369-8015-d516-ddda" name="SA-7 Grail AA missile team" hidden="false" targetId="d55b-dd7b-c751-8a3d" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="fcf8-bde8-097c-3dd9" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e165-cecc-2d12-531a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26cc-5046-b4e6-fef2" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aabb-22ae-68a9-38aa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26cc-5046-b4e6-fef2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aabb-22ae-68a9-38aa" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e165-cecc-2d12-531a" name="4x AK-74 team, 3x RPG-7 team, 4x BMP-1" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfd6-480a-da1e-4396" name="7x AK-74 team , 6x RPG-7 team, 2x PKM team, 9x BMP-1" hidden="false" collective="false" import="true" type="unit">
@@ -888,7 +888,7 @@ Counterattack 4+</characteristic>
                 <infoLink id="a7c4-177a-9171-ec5b" name="PKM LMG team" hidden="false" targetId="cc7d-1b8b-5b0e-a36f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="748d-90ea-c7f7-1823" name="10x AK-74 team, 9x RPG-7 team, 2x PKM team, 12x BMP-1" hidden="false" collective="false" import="true" type="unit">
@@ -896,14 +896,14 @@ Counterattack 4+</characteristic>
                 <infoLink id="b503-0549-3f7a-6abc" name="PKM LMG team" hidden="false" targetId="cc7d-1b8b-5b0e-a36f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64f0-cc4f-e91a-25f3" name="BTR Mech Company" hidden="false" collective="false" import="true" type="unit">
@@ -914,8 +914,8 @@ Counterattack 4+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="457b-7437-f5dd-b3ec" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c288-ef97-9417-d7fa">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0be9-d466-f2fb-f998" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b46a-e8f9-36c0-f0b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0be9-d466-f2fb-f998" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b46a-e8f9-36c0-f0b6" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="c288-ef97-9417-d7fa" name="4x AK-74 team w-RPG-18, 3x RPG-7 team, 4x BTR-60" hidden="false" collective="false" import="true" type="unit">
@@ -924,19 +924,19 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="4x AK-74 team w-RPG-18, 3x RPG-7 team, 4x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="4x AK-74 team w-RPG-18, 3x RPG-7 team, 4x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b42-8deb-8be1-debc" name="7x AK-74 team w-RPG-18 , 6x RPG-7 team, 1x PKM team, 8x BTR-60" hidden="false" collective="false" import="true" type="unit">
@@ -945,12 +945,12 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="7x AK-74 team w-RPG-18 , 6x RPG-7 team, 1x PKM team, 8x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="7x AK-74 team w-RPG-18 , 6x RPG-7 team, 1x PKM team, 8x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -960,7 +960,7 @@ Counterattack 4+</characteristic>
                 <infoLink id="0b0a-473f-3c04-b9b3" name="PKM LMG team" hidden="false" targetId="cc7d-1b8b-5b0e-a36f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d2e3-5d79-ba34-411f" name="10x AK-74 team w- RPG-18, 9x RPG-7 team, 1x PKM team, 11x BTR-60" hidden="false" collective="false" import="true" type="unit">
@@ -969,12 +969,12 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="10x AK-74 team w- RPG-18, 9x RPG-7 team, 1x PKM team, 11x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="10x AK-74 team w- RPG-18, 9x RPG-7 team, 1x PKM team, 11x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -984,14 +984,14 @@ Counterattack 4+</characteristic>
                 <infoLink id="6baa-a6c1-3d6d-de67" name="PKM LMG team" hidden="false" targetId="cc7d-1b8b-5b0e-a36f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e4fd-aad9-cf23-d012" name="4) Optional Anti-tank team" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c872-659f-1108-0523" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c872-659f-1108-0523" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="17c5-205b-dd65-24a1" name="1x AT-3 Sagger missile team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1000,12 +1000,12 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="1x AT-3 Sagger missile team,  1x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="1x AT-3 Sagger missile team, 1x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1015,7 +1015,7 @@ Counterattack 4+</characteristic>
                 <infoLink id="1e86-d3e7-7357-3632" name="AT-3 Sagger missile (BTR)" hidden="false" targetId="ce59-644e-e762-1660" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa94-4935-bfec-5eb0" name="1x Milan missile team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1024,12 +1024,12 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="1x Milan missile team, 1x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="1x Milan missile team, 1x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1039,14 +1039,14 @@ Counterattack 4+</characteristic>
                 <infoLink id="ec61-de62-c55b-1e9d" name="Milan missile (BTR)" hidden="false" targetId="601a-8ea4-ae65-7330" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b62e-c743-2788-f95f" name="Add Milan missiles to 3x AMX-10Ps" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                    <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1054,34 +1054,40 @@ Counterattack 4+</characteristic>
                 <infoLink id="5db2-860a-1b37-4d17" name="Milan missile (AMX-10P)" hidden="false" targetId="4794-3d4a-3947-0146" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1fe7-17d7-b831-bdb5" name="2) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9d69-2096-ea91-0194">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="feba-458c-c245-8c24" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="22d3-a030-4d11-8744" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="feba-458c-c245-8c24" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="22d3-a030-4d11-8744" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9d69-2096-ea91-0194" name="BTR-60" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="636e-2301-4ffe-08af" name="BTR-60" hidden="false" targetId="d501-4498-3d38-ffba" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0249-01f9-879f-db08" name="AMX-10P " hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="0e7c-a456-cbd7-fec7" name="AMX-10P " hidden="false" targetId="fc55-e1ec-ed34-65ef" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ff4-8776-b91a-179a" name="OT-64" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c936-306c-2943-ac53" name="OT-64" hidden="false" targetId="deba-bee5-fb48-907b" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1093,32 +1099,32 @@ Counterattack 4+</characteristic>
                   <modifiers>
                     <modifier type="set" field="name" value="1x SA-7 Grail AA missile team, 1x AMX-10P">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0249-01f9-879f-db08" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" field="name" value="1x SA-7 Grail AA missile team, 1x OT-64">
                       <conditions>
-                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
+                        <condition field="selections" scope="64f0-cc4f-e91a-25f3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ff4-8776-b91a-179a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a8e-222b-4af8-ad2d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a8e-222b-4af8-ad2d" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="0736-d414-ec18-dac8" name="SA-7 Grail AA missile team" hidden="false" targetId="d55b-dd7b-c751-8a3d" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cde0-5857-68ca-0ce2" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
@@ -1183,25 +1189,25 @@ Counterattack 6</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="6d01-5ed9-bea3-1cd1" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="68b0-f58d-97b2-0442">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412d-ad64-1ab7-4aa0" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe8-2f69-1b9c-057a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412d-ad64-1ab7-4aa0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe8-2f69-1b9c-057a" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="68b0-f58d-97b2-0442" name="3x 2S3 Acacia" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e4a4-9bf6-d653-dc90" name="6x 2S3 Acacia" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89fd-4c4e-01e3-be70" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" type="unit">
@@ -1241,25 +1247,25 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="5835-566c-bae3-7e16" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="fac2-2b02-28fe-7246">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591e-7f53-5a6f-757b" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d294-c147-adf1-7fb6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591e-7f53-5a6f-757b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d294-c147-adf1-7fb6" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="fac2-2b02-28fe-7246" name="3x BM-21 Hail" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78ed-5bc8-f5de-50aa" name="6x BM-21 Hail" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6a7-05da-6ea1-a400" name="SA-8 Gecko SAM Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -1301,25 +1307,25 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="716c-813a-d21a-e931" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e00-2d63-d787-f5da">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c2-2e17-a2fc-fd04" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27f-a831-5146-3d4e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c2-2e17-a2fc-fd04" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27f-a831-5146-3d4e" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7e00-2d63-d787-f5da" name="2x SA-8 Gecko" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fecd-8ce9-ddff-3033" name="4x SA-8 Gecko" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e00-0687-8cff-31a2" name="Mi-24 Hind Assault Helicopter Company" hidden="false" collective="false" import="true" type="unit">
@@ -1365,33 +1371,33 @@ Counterattack -</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="1779-eb83-6aa5-f4f8" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="aa5e-fbcf-5e50-7192">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1532-55fb-e556-0c3a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9b-b6b7-f2e8-8441" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1532-55fb-e556-0c3a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9b-b6b7-f2e8-8441" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="aa5e-fbcf-5e50-7192" name="2x Mi-24 Hind" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b61-88b1-2fa1-0b80" name="4x Mi-24 Hind" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae10-627b-ef0b-c588" name="T-72M Tank Battalion " hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="1346-d035-0b56-9ec5" name="[F] T-72 Tank Battalion HQ" page="34" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa3-7d96-39b3-17d9" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979a-860d-a632-21f0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa3-7d96-39b3-17d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979a-860d-a632-21f0" type="max"/>
           </constraints>
           <profiles>
             <profile id="2b25-968e-84af-3326" name="T-72 (HQ)" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -1425,14 +1431,17 @@ Counterattack 3+</characteristic>
           <selectionEntries>
             <selectionEntry id="21e0-0c44-9e3c-0caa" name="1x T-72M" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc3b-e8e9-1ec5-274c" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d40-da3d-2da6-db1f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc3b-e8e9-1ec5-274c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d40-da3d-2da6-db1f" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1440,14 +1449,14 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="7be4-fec4-af1d-3fba" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="ee42-210f-6008-eb65" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ac5-fbf0-6350-f0e2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3ac5-fbf0-6350-f0e2" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9f10-db29-6c28-fdc7" name="2) Optional Mech Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5340-ccb2-a3fe-ddf5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5340-ccb2-a3fe-ddf5" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="cccd-75e1-6ef8-171e" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry"/>
@@ -1456,7 +1465,7 @@ Counterattack 3+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="7ed2-24ee-da21-5c36" name="3) Optional AA Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6e-e3f0-6cce-ac81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6e-e3f0-6cce-ac81" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="7288-6e80-d208-b5f6" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" targetId="4343-25f5-ece5-7c52" type="selectionEntry"/>
@@ -1467,27 +1476,27 @@ Counterattack 3+</characteristic>
       <entryLinks>
         <entryLink id="1f75-17b9-517b-dd22" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="ee42-210f-6008-eb65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4aa2-0b7a-45ed-1a2a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c9da-801e-796a-10fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4aa2-0b7a-45ed-1a2a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c9da-801e-796a-10fb" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3386-ec3b-91ed-c016" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="ee42-210f-6008-eb65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5025-94c3-78d1-0cd7" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d7d5-0dce-1a3b-97f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5025-94c3-78d1-0cd7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d7d5-0dce-1a3b-97f7" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24b4-35df-31ca-019d" name="T-62 Tank Battalion " hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="ed6b-91fd-a153-8b4f" name="T-62 Tank Battalion HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f075-7545-7184-087e" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67bc-c650-c9a3-0300" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f075-7545-7184-087e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67bc-c650-c9a3-0300" type="max"/>
           </constraints>
           <profiles>
             <profile id="5224-e68f-a4ba-884a" name="T-62 Tank Battalion HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -1520,23 +1529,23 @@ Counterattack 3+</characteristic>
           <selectionEntries>
             <selectionEntry id="a962-9871-22f5-4fa5" name="1x T-62" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba74-6fb0-0c03-5cfa" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4002-1619-223e-7203" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba74-6fb0-0c03-5cfa" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4002-1619-223e-7203" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="4e8d-6932-1be8-0494" name="2) Optional Mech Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="673e-2b75-64c0-1767" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="673e-2b75-64c0-1767" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="12a3-49a3-bed5-1278" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry"/>
@@ -1547,14 +1556,14 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="e4b7-add0-d959-9e57" name="T-62 Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9167-c9df-b2e4-e149" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9167-c9df-b2e4-e149" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0f48-d9f7-c897-e2fa" name="3) Optional AA Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139f-b408-9e00-c928" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139f-b408-9e00-c928" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="db50-a344-66e9-a29e" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" targetId="4343-25f5-ece5-7c52" type="selectionEntry"/>
@@ -1565,27 +1574,27 @@ Counterattack 3+</characteristic>
       <entryLinks>
         <entryLink id="05a9-f2bf-75a6-b3d5" name="T-62 Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f813-b4f6-7147-a8c7" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2808-b532-24df-eaf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f813-b4f6-7147-a8c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2808-b532-24df-eaf3" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6a4b-e319-c26f-e832" name="T-62 Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e0a-6293-1d5c-33ce" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c90c-1579-3a39-33fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e0a-6293-1d5c-33ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c90c-1579-3a39-33fb" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d2d-98e5-3985-cc61" name="T-55 Tank Battalion " hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="2565-b246-664e-0093" name="[F] T-55AM Tank Battalion HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-9211-2ab7-4993" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5a-8776-f843-bda5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-9211-2ab7-4993" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5a-8776-f843-bda5" type="max"/>
           </constraints>
           <profiles>
             <profile id="f4a1-2af3-0791-7b00" name="T-55AM (HQ)" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
@@ -1617,27 +1626,27 @@ Counterattack 3+</characteristic>
           <selectionEntries>
             <selectionEntry id="e05c-16b3-5b92-ec5b" name="1x T-55" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5156-9fa7-c23c-1db4" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d66e-a090-995d-0322" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5156-9fa7-c23c-1db4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d66e-a090-995d-0322" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="84a5-09e4-c1b1-bc8d" name="Bazooka Skirts" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b85-e0f9-5dd5-6ba4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b85-e0f9-5dd5-6ba4" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="9669-030c-abc2-954d" name="Bazooka Skirts" hidden="false" targetId="2cb5-d057-feb4-dd26" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1646,14 +1655,14 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="0c49-f7ee-80de-8af9" name="T-55 Tank Company" hidden="false" collective="false" import="true" targetId="7aba-78af-6ec3-828a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2285-f7b9-c18f-91cc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2285-f7b9-c18f-91cc" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8b22-49a3-b531-f171" name="2) Optional Mech Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e681-0f23-1ba5-24c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e681-0f23-1ba5-24c2" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="cc5b-d4f4-d494-63c1" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry"/>
@@ -1662,7 +1671,7 @@ Counterattack 3+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="e92c-278b-418c-29f9" name="3) Optional AA Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b9-8050-f9a1-1897" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b9-8050-f9a1-1897" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="7867-b41e-1667-5439" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" targetId="4343-25f5-ece5-7c52" type="selectionEntry"/>
@@ -1673,27 +1682,27 @@ Counterattack 3+</characteristic>
       <entryLinks>
         <entryLink id="fe79-c535-f49d-1a02" name="T-55 Tank Company" hidden="false" collective="false" import="true" targetId="7aba-78af-6ec3-828a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b37e-5c72-fd07-e464" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d1b-bd03-f4c8-2642" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b37e-5c72-fd07-e464" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d1b-bd03-f4c8-2642" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="fdbe-457e-9fc5-5c0d" name="T-55 Tank Company" hidden="false" collective="false" import="true" targetId="7aba-78af-6ec3-828a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8232-e143-c8f9-b5ba" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="246f-9b0a-b761-f596" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8232-e143-c8f9-b5ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="246f-9b0a-b761-f596" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd45-ae2f-090c-71c8" name="BTR Mech Battalion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="61ab-5a9c-795f-2d5a" name="BTR Mech Battalion HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac86-4ba4-4293-0d75" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea5a-70ba-5dca-a0a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac86-4ba4-4293-0d75" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea5a-70ba-5dca-a0a6" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="688c-6f36-942c-9500" name="AK-74 team (HQ)" hidden="false" targetId="a03c-97d7-b346-c759" type="infoGroup"/>
@@ -1701,41 +1710,50 @@ Counterattack 3+</characteristic>
           <selectionEntries>
             <selectionEntry id="9bae-c359-edb5-b5d1" name="1x AK-74 assault rifle team" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b2-c8ac-3653-e001" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ef-723f-9aff-160b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b2-c8ac-3653-e001" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ef-723f-9aff-160b" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="c18c-5466-963b-c8a3" name="1) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="930d-6c67-3ab6-a714">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="56bf-04d4-14d2-9dea" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ab4d-db95-9fef-062c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="56bf-04d4-14d2-9dea" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ab4d-db95-9fef-062c" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="930d-6c67-3ab6-a714" name="1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="1fb2-4b87-6f6d-41b8" name="BTR-60" hidden="false" targetId="d501-4498-3d38-ffba" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="43a0-fcf7-adac-41bd" name="1x AMX-10P " hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="02e4-ba0c-05ef-b138" name="AMX-10P " hidden="false" targetId="fc55-e1ec-ed34-65ef" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="31b0-97fe-2d70-6504" name="1x OT-64" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="7c99-7ef0-9675-e2d8" name="OT-64" hidden="false" targetId="deba-bee5-fb48-907b" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1744,14 +1762,14 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="276a-f1e6-3200-cd91" name="BTR Mech Company" hidden="false" collective="false" import="true" targetId="64f0-cc4f-e91a-25f3" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c799-3808-6cb2-9f2e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c799-3808-6cb2-9f2e" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e786-6c6a-fbc4-6209" name="2) Optional Tank Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8738-4e2f-4d05-6e72" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8738-4e2f-4d05-6e72" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="36e9-d46b-137d-e99a" name="T-62 Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry"/>
@@ -1761,7 +1779,7 @@ Counterattack 3+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="5e70-8acd-6f0b-0bce" name="3) Optional AA Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c9-7cc7-199c-d4d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c9-7cc7-199c-d4d7" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="0343-e215-cc75-fc79" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" targetId="4343-25f5-ece5-7c52" type="selectionEntry"/>
@@ -1772,12 +1790,12 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="722a-5f54-c133-02f3" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49e-ce5a-2ae8-6286" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49e-ce5a-2ae8-6286" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="6fe2-9995-e89d-c3fc" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="5ca9-84c3-4b62-240b" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-5253-c795-7afc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-5253-c795-7afc" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1786,19 +1804,19 @@ Counterattack 3+</characteristic>
       <entryLinks>
         <entryLink id="79b5-b9fd-5928-5675" name="BTR Mech Company" hidden="false" collective="false" import="true" targetId="64f0-cc4f-e91a-25f3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bf3c-09f1-02cc-7e14" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d0d-e73f-527a-e16c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bf3c-09f1-02cc-7e14" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d0d-e73f-527a-e16c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="94bd-1501-bfc4-0ecb" name="BTR Mech Company" hidden="false" collective="false" import="true" targetId="64f0-cc4f-e91a-25f3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b38e-5e0a-671b-2673" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f93-a7a1-65f5-bac8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b38e-5e0a-671b-2673" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f93-a7a1-65f5-bac8" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4343-25f5-ece5-7c52" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" type="unit">
@@ -1844,23 +1862,26 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f25-f897-c038-1b35" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5beb-c050-3ef2-c263">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b990-80b5-ef1d-2a2f" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d85-61e7-fb47-9c76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b990-80b5-ef1d-2a2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d85-61e7-fb47-9c76" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e27b-296d-bfa4-5c76" name="4x ZSU-57-2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5beb-c050-3ef2-c263" name="2x ZSU-57-2" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2f82-9c45-bb61-7a57" name="Gazelle HOT Anti-tank Helicopter Company" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1884,33 +1905,33 @@ Counterattack 5+</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="26a0-5a4d-6f19-086a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e145-0126-ead1-4f36">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8d-ce84-01ea-f908" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2284-0532-61b5-d16d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8d-ce84-01ea-f908" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2284-0532-61b5-d16d" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e145-0126-ead1-4f36" name="2x Gazelle HOT" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="abce-4d0d-5ae6-13d2" name="4x Gazelle HOT" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0557-e354-81f0-17ed" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="26f2-dd8f-4297-44ba" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="54c0-5c40-82b2-e493">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d29d-8521-4a6f-9fbc" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c48f-69e1-434d-5c63" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d29d-8521-4a6f-9fbc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c48f-69e1-434d-5c63" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="54c0-5c40-82b2-e493" name="SA-9 Gaskin SAM Platoon" hidden="false" collective="false" import="true" targetId="8b0e-2b9c-8f3f-1d37" type="selectionEntry"/>
@@ -1918,13 +1939,16 @@ Counterattack 5+</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7b32-24d8-d0d0-f4af" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="67a6-0b35-cd1d-fa28" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5c9e-fd2f-7247-c634">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bb4-f4ae-1f37-2463" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5bdd-2d6a-60df-7f1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bb4-f4ae-1f37-2463" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5bdd-2d6a-60df-7f1c" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="5c9e-fd2f-7247-c634" name="Mi-24 Hind Assault Helicopter Company" hidden="false" collective="false" import="true" targetId="3e00-0687-8cff-31a2" type="selectionEntry"/>
@@ -1932,31 +1956,34 @@ Counterattack 5+</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1a99-6b4d-1a68-02ec" name="BMP-1 Mech Battalion" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="b785-d84f-c49d-18fa" name="[F] BMP-1 HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec35-bcb5-bbb0-754d" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356b-af8f-68e7-d741" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec35-bcb5-bbb0-754d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356b-af8f-68e7-d741" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="88e3-8d58-d6fa-af54" name="1x AK-74 assault rifle team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91d-c53c-6695-66ee" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a22c-6042-bb9a-08b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91d-c53c-6695-66ee" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a22c-6042-bb9a-08b4" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="fd3f-af2b-faf5-5218" name="AK-74 team (HQ)" hidden="false" targetId="a03c-97d7-b346-c759" type="infoGroup"/>
                 <infoLink id="e727-b70e-8e1e-3df7" name="BMP-1" hidden="false" targetId="c91e-5728-c153-79b7" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1965,14 +1992,14 @@ Counterattack 5+</characteristic>
           <entryLinks>
             <entryLink id="9c0a-1e1f-9188-7a73" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="77ee-f15d-4a31-2802" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="77ee-f15d-4a31-2802" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="62fa-02b7-cb59-e60c" name="2) Optional Tank Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc1-2e56-07f7-bde3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc1-2e56-07f7-bde3" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="2e09-e64d-4d32-aa05" name="T-62 Tank Company" hidden="false" collective="false" import="true" targetId="3b45-e5df-1ee8-03c7" type="selectionEntry"/>
@@ -1982,7 +2009,7 @@ Counterattack 5+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="30ce-d207-b25a-9347" name="4) Optional Artillery Battery" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae66-29be-3892-4664" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae66-29be-3892-4664" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="cede-be77-e59f-fd34" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry"/>
@@ -1990,7 +2017,7 @@ Counterattack 5+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="35a7-7260-94f9-f457" name="3) Optional AA Company" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c8-28d4-c64d-54ff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c8-28d4-c64d-54ff" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="ee02-a437-1421-5447" name="ZSU-57-2 AA Company" hidden="false" collective="false" import="true" targetId="4343-25f5-ece5-7c52" type="selectionEntry"/>
@@ -2001,17 +2028,20 @@ Counterattack 5+</characteristic>
       <entryLinks>
         <entryLink id="a7f2-8dd4-47d0-ca9d" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61dd-423a-1a19-6cb9" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8140-9d53-d1da-e2a1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61dd-423a-1a19-6cb9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8140-9d53-d1da-e2a1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9a76-0b9b-d15d-23f1" name="BMP-1 Mech Company" hidden="false" collective="false" import="true" targetId="76a7-33c8-e31f-c4b6" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2633-4647-8087-d329" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2cd8-161a-46c3-d0f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2633-4647-8087-d329" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2cd8-161a-46c3-d0f3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="99ec-3c5a-c851-a2da" name="[Observer] BTR-60 OP Artillery Observer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2049,14 +2079,17 @@ Counterattack 6</characteristic>
       <selectionEntries>
         <selectionEntry id="00ca-9bc3-3cf7-d0cb" name="1x BTR-60 OP" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="42de-47e8-99fc-c048" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="caf1-6e2d-26d8-41cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="42de-47e8-99fc-c048" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="caf1-6e2d-26d8-41cc" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1"/>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="04bc-94b7-73f3-13cf" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2105,30 +2138,30 @@ Counterattack 6</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="e285-0bb2-a8c7-5967" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f29-e88b-06fe-fa44">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3773-aad1-99a9-6f8f" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b30-3387-c56d-a7f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3773-aad1-99a9-6f8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b30-3387-c56d-a7f7" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7f29-e88b-06fe-fa44" name="2x SU-25 Frogfoot" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b009-b6dd-1bb1-6ba3" name="4x SU-25 Frogfoot" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1403-248e-cbd0-8013" name="6x SU-25 Frogfoot" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="21"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0"/>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
