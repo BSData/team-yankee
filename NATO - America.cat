@@ -1702,9 +1702,29 @@ Overhauled finished 6-11-2025</readme>
               </costs>
             </selectionEntry>
             <selectionEntry id="7217-abe2-2c60-74f6" name="UH-1 Huey x4" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1b44-f62d-6fa5-b412" name="2MarDiv  UH-1 Huey" hidden="false" targetId="1e66-485a-3aa2-9419" type="infoGroup"/>
-              </infoLinks>
+              <infoGroups>
+                <infoGroup id="9439-6e38-1b9c-624b" name="UH-1 Huey [Marine]" hidden="false">
+                  <profiles>
+                    <profile id="cbc5-c636-8d66-7ee2" name="Marine UH-1 Huey" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+                      <characteristics>
+                        <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+                        <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">4+</characteristic>
+                        <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
+                        <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+                        <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+                        <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+                        <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 4</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="bb66-98ea-25d5-bd43" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+                    <infoLink id="66c6-ed0e-b669-bf05" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
+                    <infoLink id="f552-5c96-bbea-8ef2" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+                    <infoLink id="0fa1-6590-2a4f-d29e" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
@@ -2578,7 +2598,19 @@ Overhauled finished 6-11-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="10d3-6b75-bae1-d91e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1b06-35ca-f2f0-748c" name="3x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b06-35ca-f2f0-748c" name="M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="3x M2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="208e-e9cf-cc67-890f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="4x M2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8596-0421-da14-0c76" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="74a5-ef6a-6d48-a64c" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
               </infoLinks>
@@ -2586,7 +2618,19 @@ Overhauled finished 6-11-2025</readme>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dda4-bb21-55e0-e460" name="3x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dda4-bb21-55e0-e460" name="M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="4x M2A2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8596-0421-da14-0c76" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="3x M2A2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="208e-e9cf-cc67-890f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="d5dc-8a7c-8e55-c1e4" name="*M2A2 Bradley" hidden="false" targetId="2216-38af-a150-daa3" type="infoGroup"/>
               </infoLinks>
@@ -4077,7 +4121,7 @@ Counterattack 4+</characteristic>
     </selectionEntry>
     <selectionEntry id="c7f9-e6e9-4222-b6a6" name="M1A1 Abrams Combat Team" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="aa05-ffe5-c65d-0d51" name="1) M1A1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="aa05-ffe5-c65d-0d51" name="M1A1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c212-4dc1-8ad4-74a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c813-9b0f-929f-6ba7" type="max"/>
@@ -4086,7 +4130,7 @@ Counterattack 4+</characteristic>
             <infoLink id="1ce1-8303-1218-a39f" name="M1A1 HQ Weapons" hidden="false" targetId="736a-9ceb-8970-49de" type="infoGroup"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6a53-8d65-11d2-07ef" name="Unit Type" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6a53-8d65-11d2-07ef" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="50b4-bf4e-6850-c8e0">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccfb-c5b9-a833-1f24" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="330d-4bd4-3f35-b443" type="max"/>
@@ -4222,7 +4266,7 @@ Counterattack 4+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e2-b187-277f-d259" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="7705-5ad4-2069-324b" name="1x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7705-5ad4-2069-324b" name="1x M2 Bradley, 1x M16 rifle team" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="3fb3-28df-6ec6-8a7f" name="M2 Bradley" hidden="false" targetId="f384-fff2-f671-83be" type="infoGroup"/>
                   </infoLinks>
@@ -4230,7 +4274,7 @@ Counterattack 4+</characteristic>
                     <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="3257-f0ae-eba6-f104" name="1x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3257-f0ae-eba6-f104" name="1x M2A2 Bradley, 1x M16 rifle team" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="e7d2-7523-a2f3-42e6" name="*M2A2 Bradley" hidden="false" targetId="2216-38af-a150-daa3" type="infoGroup"/>
                   </infoLinks>
@@ -4942,7 +4986,7 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a59-bedd-08b3-0da7" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6d06-fc2f-18ef-bab0" name="Unit Type" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6d06-fc2f-18ef-bab0" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="966f-8189-cafa-b859">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a51-93dc-a754-28d3" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a89-9556-b0b7-b23a" type="max"/>
@@ -5667,27 +5711,6 @@ Counterattack -</characteristic>
         <infoLink id="b7ce-1ee7-d66a-f683" name="7.62 MG" hidden="false" targetId="3e75-a9f5-e820-b029" type="profile"/>
         <infoLink id="20a7-98e0-78a8-4934" name="AA MG" hidden="false" targetId="60ba-123c-4f2a-1604" type="rule"/>
         <infoLink id="106e-f8c0-a84b-0c83" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
-      </infoLinks>
-    </infoGroup>
-    <infoGroup id="1e66-485a-3aa2-9419" name="UH-1 Huey [Marine]" hidden="false">
-      <profiles>
-        <profile id="e564-6425-d003-8bf0" name="Marine UH-1 Huey" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
-          <characteristics>
-            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
-            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">4+</characteristic>
-            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
-            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
-            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
-            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
-            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 4</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="06e8-07a2-c929-327e" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
-        <infoLink id="5a91-9fb9-aa1a-df65" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
-        <infoLink id="fee0-ea92-f3b6-25d9" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
-        <infoLink id="7347-6602-1ed8-7957" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="8bb3-8f34-fb86-66dc" name="M256 120mm gun" hidden="false">
