@@ -2598,8 +2598,13 @@ Overhauled finished 6-11-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="10d3-6b75-bae1-d91e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1b06-35ca-f2f0-748c" name="3x M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b06-35ca-f2f0-748c" name="M2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
+                <modifier type="set" field="name" value="3x M2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="208e-e9cf-cc67-890f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
                 <modifier type="set" field="name" value="4x M2 Bradley">
                   <conditions>
                     <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8596-0421-da14-0c76" type="greaterThan"/>
@@ -2613,11 +2618,16 @@ Overhauled finished 6-11-2025</readme>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dda4-bb21-55e0-e460" name="3x M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dda4-bb21-55e0-e460" name="M2A2 Bradley" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="name" value="4x M2A2 Bradley">
                   <conditions>
                     <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8596-0421-da14-0c76" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="3x M2A2 Bradley">
+                  <conditions>
+                    <condition field="selections" scope="97dd-eb71-692d-636a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="208e-e9cf-cc67-890f" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4111,7 +4121,7 @@ Counterattack 4+</characteristic>
     </selectionEntry>
     <selectionEntry id="c7f9-e6e9-4222-b6a6" name="M1A1 Abrams Combat Team" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="aa05-ffe5-c65d-0d51" name="1) M1A1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="aa05-ffe5-c65d-0d51" name="M1A1 Abrams Combat Team HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c212-4dc1-8ad4-74a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c813-9b0f-929f-6ba7" type="max"/>
@@ -4120,7 +4130,7 @@ Counterattack 4+</characteristic>
             <infoLink id="1ce1-8303-1218-a39f" name="M1A1 HQ Weapons" hidden="false" targetId="736a-9ceb-8970-49de" type="infoGroup"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6a53-8d65-11d2-07ef" name="Unit Type" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6a53-8d65-11d2-07ef" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="50b4-bf4e-6850-c8e0">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccfb-c5b9-a833-1f24" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="330d-4bd4-3f35-b443" type="max"/>
@@ -4976,7 +4986,7 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a59-bedd-08b3-0da7" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6d06-fc2f-18ef-bab0" name="Unit Type" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6d06-fc2f-18ef-bab0" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="966f-8189-cafa-b859">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a51-93dc-a754-28d3" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a89-9556-b0b7-b23a" type="max"/>
