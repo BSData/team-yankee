@@ -296,7 +296,7 @@
     </selectionEntry>
     <selectionEntry id="43e3-aaae-1691-d07d" name="AMX-10P Section de Chasseurs" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="6756-fa46-443b-7280" name="1) Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6756-fa46-443b-7280" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5dd6-cd8e-8b33-822d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2516-7484-8ea6-31a9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0330-4a1f-afa4-3869" type="max"/>
@@ -1058,6 +1058,10 @@ Counterattack 5+</characteristic>
     <selectionEntry id="8027-d88a-192c-841c" name="AMX-30 Escadron Blindé" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="c16e-5bdd-fd49-4bda" name="AMX-30 Escadron Blindé HQ" publicationId="63dc-a08d-29fa-af37" page="27" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7cc-90b2-a691-1597" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1b-14c8-efb9-e2ea" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="3dca-6f50-e671-757f" name="1x AMX-30" hidden="false" collective="false" import="true" type="unit">
               <constraints>
@@ -1160,6 +1164,10 @@ Counterattack 3+</characteristic>
     <selectionEntry id="d681-7628-3bd2-40e2" name="AMX-10P Compagnie de Chasseurs" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="fb6d-5f71-4624-1861" name="AMX-10P Compagnie de Chasseurs HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7419-9e89-5cc9-a3ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c9-d3dd-7922-b995" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="1263-30b6-79ea-f0ab" name="1x FAMAS assault rifle team, 1x AMX-10P" hidden="false" collective="false" import="true" type="unit">
               <constraints>
@@ -1236,7 +1244,7 @@ Counterattack 3+</characteristic>
           <entryLinks>
             <entryLink id="1714-3e91-5949-776d" name="* [FS] AMX-10P Section de Chasseurs" hidden="false" collective="false" import="true" targetId="43e3-aaae-1691-d07d" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5456-effe-2cff-0e38" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5456-effe-2cff-0e38" type="max"/>
               </constraints>
               <categoryLinks>
                 <categoryLink id="b717-3a20-2657-ca20" name="AMX-10P" hidden="false" targetId="6c37-9112-16ad-b989" primary="false"/>
@@ -1738,14 +1746,18 @@ Counterattack 3+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f858-8622-0eb9-76db" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3723-8aba-cb58-8be8" name="[FS] VBL Patrouille D&apos;eclairage" hidden="false" collective="false" import="true" targetId="98c9-59f6-60b1-de8f" type="selectionEntry">
+            <entryLink id="3723-8aba-cb58-8be8" name="VBL Patrouille D&apos;eclairage" hidden="false" collective="false" import="true" targetId="98c9-59f6-60b1-de8f" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6fa3-a7dd-dae2-a544" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8aeb-9042-9a6f-80a2" name="[S] VBL Groupe de Antichar Milan" hidden="false" collective="false" import="true" targetId="54c9-ee2b-e64f-c682" type="selectionEntry">
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="73c3-dc63-3271-70b4" name="2) Optional VBL Antichar" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="aab9-5056-fd5e-a55e" name="VBL Groupe de Antichar Milan" hidden="false" collective="false" import="true" targetId="54c9-ee2b-e64f-c682" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f663-a28c-cca4-33a3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d4fd-e81a-e574-2821" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
