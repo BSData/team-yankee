@@ -132,7 +132,20 @@
         <categoryLink id="eaa3-d28a-e0f1-2293" name="Allied Support" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b221-c9ba-bf4d-ef71" name="[Observer] FV432 FOO" hidden="false" collective="false" import="true" targetId="3ff2-1d31-4538-e9b2" type="selectionEntry">
+    <entryLink id="b221-c9ba-bf4d-ef71" name="[Observer] FV432 FOO" hidden="true" collective="false" import="true" targetId="3ff2-1d31-4538-e9b2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88b6-e2cd-3c43-dc99" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1ff-4a63-23cd-fdb2" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a4d-8a19-2aa1-6ee8" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="568c-5c0b-2f4a-0daf" type="max"/>
       </constraints>
