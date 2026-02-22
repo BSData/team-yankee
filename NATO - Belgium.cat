@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="c1c6-f4d3-7e99-ffb5" name="NATO - Belgium" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme></readme>
   <publications>
     <publication id="69aa-a408-cb0b-a05b" name="New Publication"/>
   </publications>
@@ -11,6 +10,7 @@
     <categoryEntry id="b688-07bf-1b35-3497" name="AIFV-B IP" hidden="false"/>
     <categoryEntry id="96d1-60fb-9b54-581f" name="M113 IP" hidden="false"/>
     <categoryEntry id="51d5-f213-77c1-9cd6" name="SCORPION" hidden="false"/>
+    <categoryEntry id="903c-6011-a485-067a" name="Artillery Unit" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="df8a-8a43-ea17-3574" name="[Aircraft] TOW Lynx Helarm Flight" hidden="true" collective="false" import="true" targetId="d46d-3416-5499-4530" type="selectionEntry">
@@ -172,7 +172,7 @@
         <categoryLink id="3b9f-a91a-aa39-e007" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="73e7-7213-feb7-1778" name="* [FS] Scorpion Verkennings Troep" hidden="false" collective="false" import="true" targetId="83d5-22a1-98cf-7422" type="selectionEntry">
+    <entryLink id="73e7-7213-feb7-1778" name="Scorpion Verkennings Troep" hidden="false" collective="false" import="true" targetId="83d5-22a1-98cf-7422" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -233,7 +233,7 @@
         <categoryLink id="6cae-3fbb-efa5-2098" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5802-f60d-3884-0ac7" name="[F] Infanterie Compagnie" hidden="false" collective="false" import="true" targetId="b6e2-ab00-47c9-380d" type="selectionEntry">
+    <entryLink id="5802-f60d-3884-0ac7" name="Infanterie Compagnie" hidden="false" collective="false" import="true" targetId="b6e2-ab00-47c9-380d" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1251-cadc-d6a9-d4a8" type="max"/>
       </constraints>
@@ -265,7 +265,14 @@
         <categoryLink id="9532-e981-a20b-7c56" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b425-ac87-bb7c-ac2f" name="* [Observer] AIFV-B OP" hidden="false" collective="false" import="true" targetId="ab34-5b41-5a21-d98e" type="selectionEntry">
+    <entryLink id="b425-ac87-bb7c-ac2f" name="[Observer] AIFV-B OP" hidden="true" collective="false" import="true" targetId="ab34-5b41-5a21-d98e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="903c-6011-a485-067a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="66cd-c453-2fba-dc61" type="max"/>
       </constraints>
@@ -329,6 +336,9 @@ Counterattack 5+</characteristic>
       <infoLinks>
         <infoLink id="98c7-0681-936a-d319" name=".50 cal AA MG" hidden="false" targetId="3b21-3d76-8288-89f1" type="infoGroup"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f3d3-1934-8811-d85c" name="Artillery Unit" hidden="false" targetId="903c-6011-a485-067a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6a72-1f1b-c580-95c6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7121-b58f-6627-1ea0">
           <constraints>
@@ -573,11 +583,17 @@ Counterattack 3+</characteristic>
                   <infoLinks>
                     <infoLink id="6726-2ab9-9df0-98f2" name="[T] AIFV-B-C25 Transport" hidden="false" targetId="28a7-bedd-e9a5-e378" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="048d-6f09-4c2f-a54f" name="M113" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="a7cb-7f62-e8b5-4c8a" name="[T] M113 Transport" hidden="false" targetId="9a08-a5ba-1ecf-68da" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -867,10 +883,14 @@ Counterattack 5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="6f0b-0e72-5f73-9cec" name="Radar (Gepard)" hidden="false">
+          <description>The Twin 35mm L/90 guns on a Gepard have a Range of 40”/100cm against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="7026-2b27-b9b2-2005" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="3da7-ef4a-3e6b-8f13" name="Dedicated AA" hidden="false" targetId="514b-1009-1db9-e89a" type="rule"/>
-        <infoLink id="65af-f0e4-ed59-8231" name="Radar" hidden="false" targetId="beb6-7b27-c6e9-3056" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1962-35d6-ef5f-ffea" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="303c-f71c-8968-ddfd">
@@ -897,6 +917,9 @@ Counterattack 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ac7-45cb-dd5f-a973" name="M106 Mortier Peloton" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f4d2-69ea-4559-44f3" name="Artillery Unit" hidden="false" targetId="903c-6011-a485-067a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d90a-0cb0-28ea-adf4" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b42-c37a-2e94-b34d">
           <constraints>
@@ -1463,11 +1486,22 @@ Counterattack 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e037-a090-299f-8324" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="aebc-d31f-8a73-e698" name="Great Britain" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="ca70-632c-188d-a652" name="West Germany" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="aebc-d31f-8a73-e698" name="Great Britain" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca70-632c-188d-a652" name="West Germany" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
