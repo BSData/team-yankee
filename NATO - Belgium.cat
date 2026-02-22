@@ -1042,20 +1042,9 @@ Counterattack 5+</characteristic>
         <selectionEntryGroup id="234c-8278-45e4-3924" name="4) Optional Milan team" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8403-9819-97fc-6210" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1cdf-4721-0d88-2a89" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b96d-65f6-88ca-db86" name="1x Milan 2 missile team" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="88b8-a3c5-418b-73ed" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="88b8-a3c5-418b-73ed" type="min"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="7f33-edcf-37b2-51c3" name="[W] Milan 2 missile" hidden="false" targetId="dc53-45ae-4e55-0a15" type="infoGroup"/>
               </infoLinks>
@@ -1067,6 +1056,13 @@ Counterattack 5+</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="505d-a607-2fb4-e0f3" name="1x Milan missile team" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="e8d2-b3c1-8639-2fc2" name="[W] Milan Missile" hidden="false" targetId="e061-4c6e-82b4-15a3" type="infoGroup"/>
               </infoLinks>
@@ -1313,6 +1309,13 @@ Counterattack 5+</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3204-69e6-ced7-239f" name="1) Milan missile" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="546c-bfd3-4893-b95e" name="[W] Milan Missile" hidden="false" targetId="e061-4c6e-82b4-15a3" type="infoGroup"/>
               </infoLinks>
@@ -1327,15 +1330,7 @@ Counterattack 5+</characteristic>
                     <condition field="selections" scope="8c06-7fb4-f507-02a7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d4-413f-9247-8996" type="greaterThan"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="fa4d-4929-809d-2e73" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
-                  </conditions>
-                </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fa4d-4929-809d-2e73" type="min"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="b017-0270-b5c5-a593" name="[W] Milan 2 missile" hidden="false" targetId="dc53-45ae-4e55-0a15" type="infoGroup"/>
               </infoLinks>
@@ -1440,20 +1435,9 @@ Counterattack 5+</characteristic>
         <selectionEntryGroup id="d906-e8fe-7fd3-aea3" name="3) Optional Milan team" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2a05-5167-d87a-0dd3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fb31-a54a-5fa3-f729" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="f2a0-e9c7-3e16-7053" name="1x Milan 2 missile team" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="b559-ddb2-eda0-6372" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b559-ddb2-eda0-6372" type="min"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="5316-3674-827e-0c15" name="[W] Milan 2 missile" hidden="false" targetId="dc53-45ae-4e55-0a15" type="infoGroup"/>
               </infoLinks>
@@ -1465,6 +1449,13 @@ Counterattack 5+</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9b8-a3db-a2e3-e925" name="1x Milan missile team" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6de5-0fba-5919-12e8" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="5ec4-df2a-0d76-feb6" name="[W] Milan Missile" hidden="false" targetId="e061-4c6e-82b4-15a3" type="infoGroup"/>
               </infoLinks>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c32a-4176-7f9a-d108" name="Warsaw Pact - East Germany" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Overhauled 5-18-2025
-Finished overhaul 2-22-26</readme>
+<catalogue id="43d7-1030-18b4-e159" name="Warsaw Pact - Czechoslovakia" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Work started and finished 2-22-26 (pretty much a copy-paste of East Germany with some extra steps)</readme>
   <categoryEntries>
     <categoryEntry id="f134-b723-294a-df6b" name="Artillery Unit" hidden="false"/>
     <categoryEntry id="6f8c-d881-ddc9-430e" name="BMP-1" hidden="true"/>
@@ -14,7 +13,7 @@ Finished overhaul 2-22-26</readme>
     <categoryEntry id="8c87-32a3-69ce-2c81" name="T-72B" hidden="true"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="690e-ecd2-8212-6d62" name="BMP Mot-Schützen Bataillon" hidden="false" collective="false" import="true" targetId="86d3-6db3-5789-b609" type="selectionEntry">
+    <entryLink id="690e-ecd2-8212-6d62" name="BMP Motor Rifle Battalion" hidden="false" collective="false" import="true" targetId="86d3-6db3-5789-b609" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7370-9a13-a963-c8b2" type="max"/>
       </constraints>
@@ -22,7 +21,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="27c7-be58-358f-f55e" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d667-f894-566b-0155" name="T-55AM2 Panzer Bataillon" hidden="false" collective="false" import="true" targetId="1f52-bc34-7bcb-a595" type="selectionEntry">
+    <entryLink id="d667-f894-566b-0155" name="T-55AM2 Tank Battalion" hidden="false" collective="false" import="true" targetId="1f52-bc34-7bcb-a595" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="856c-16b5-1e4e-1ebc" type="max"/>
       </constraints>
@@ -30,7 +29,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="b1e7-9a58-6eb7-e30d" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1130-ab6b-49dd-bf58" name="T-72B Panzer Bataillon" hidden="false" collective="false" import="true" targetId="339e-a00b-0ba6-19d6" type="selectionEntry">
+    <entryLink id="1130-ab6b-49dd-bf58" name="T-72B Tank Battalion" hidden="false" collective="false" import="true" targetId="339e-a00b-0ba6-19d6" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="086f-28bc-c4e4-799e" type="max"/>
       </constraints>
@@ -38,7 +37,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="3f94-c8e9-535d-0fea" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2cc6-2175-9d9b-2079" name="T-72M Panzer Bataillon" hidden="false" collective="false" import="true" targetId="1c72-cfe8-50da-4fc8" type="selectionEntry">
+    <entryLink id="2cc6-2175-9d9b-2079" name="T-72M Tank Battalion" hidden="false" collective="false" import="true" targetId="1c72-cfe8-50da-4fc8" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="755c-53f4-4054-7cea" type="max"/>
       </constraints>
@@ -46,7 +45,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8db9-929c-acfd-c6f8" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="96b3-8d9a-1612-9db6" name="BTR-60 Mot-Schützen Bataillon" hidden="false" collective="false" import="true" targetId="e8b8-a722-07b1-8ac1" type="selectionEntry">
+    <entryLink id="96b3-8d9a-1612-9db6" name="Wheeled Motor Rifle Battalion" hidden="false" collective="false" import="true" targetId="e8b8-a722-07b1-8ac1" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="21df-e0a7-6708-a3a2" type="max"/>
       </constraints>
@@ -54,7 +53,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="d62b-af69-676d-7dd0" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3819-2711-61ca-6bbd" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="833c-6e84-db88-eff3" type="selectionEntry">
+    <entryLink id="3819-2711-61ca-6bbd" name="[Artillery] DANA SP 152mm Artillery Battery" hidden="false" collective="false" import="true" targetId="cef6-310b-2922-b3a8" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9991-e781-d27e-b0f6" type="max"/>
       </constraints>
@@ -70,7 +69,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8b61-6597-a2f8-3845" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c047-cbf4-d182-26c7" name="[Anti-aircraft] SA-8/9/13 Flak Zug" hidden="false" collective="false" import="true" targetId="6966-1297-7f45-6195" type="selectionEntry">
+    <entryLink id="c047-cbf4-d182-26c7" name="[Anti-aircraft] SA-8/9/13 Platoon" hidden="false" collective="false" import="true" targetId="6966-1297-7f45-6195" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1405-7603-ad76-3f0a" type="max"/>
       </constraints>
@@ -78,7 +77,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="b258-ed11-a915-10c3" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="75cd-83a1-4846-28a4" name="[Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+    <entryLink id="75cd-83a1-4846-28a4" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="722c-6c4f-7b0c-d41b" type="max"/>
       </constraints>
@@ -86,7 +85,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="3718-55a7-262b-76c9" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7db4-d3af-136b-c3e1" name="[Artillery] Raketenwerfer Support" hidden="false" collective="false" import="true" targetId="f0d7-5461-2f67-6d65" type="selectionEntry">
+    <entryLink id="7db4-d3af-136b-c3e1" name="[Artillery] RM-70 Rocket Launcher Battery" hidden="false" collective="false" import="true" targetId="4b90-e8b0-11c8-610c" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3b9c-2585-d2fa-dd66" type="max"/>
       </constraints>
@@ -117,7 +116,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8856-5af8-e499-1d03" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="427b-a80a-88a6-3ad7" name="[Reconnaissance] Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="2f07-b4aa-51fb-654b" type="selectionEntry">
+    <entryLink id="427b-a80a-88a6-3ad7" name="[Reconnaissance] Scout Platoon" hidden="false" collective="false" import="true" targetId="2f07-b4aa-51fb-654b" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="60d2-0c5c-c709-8989" type="max"/>
       </constraints>
@@ -125,7 +124,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8b24-9f0e-caae-98d9" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="345b-4b89-b0ae-86da" name="[Anti-tank] Spandrel Panzerabwehr Zug" hidden="false" collective="false" import="true" targetId="6cf8-f356-14b7-cc25" type="selectionEntry">
+    <entryLink id="345b-4b89-b0ae-86da" name="[Anti-tank] Spandrel Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="6cf8-f356-14b7-cc25" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2a6b-cc21-67a8-f3d8" type="max"/>
       </constraints>
@@ -133,7 +132,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8e33-770a-0a7e-5505" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4a8e-1e3d-cc5a-a0c1" name="T-55 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
+    <entryLink id="4a8e-1e3d-cc5a-a0c1" name="T-55 Tank Company" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -148,7 +147,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="0ac4-16c4-5588-ee80" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2f2b-4fe4-de0b-fa2c" name="T-72M Panzer Kompanie" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
+    <entryLink id="2f2b-4fe4-de0b-fa2c" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -163,7 +162,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="eeaf-d627-be89-7549" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a016-6285-80a2-8db3" name="T-55AM2 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
+    <entryLink id="a016-6285-80a2-8db3" name="T-55AM2 Tank Company" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -178,7 +177,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="ff13-2df0-f4c8-38bf" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3edb-2468-8179-31cf" name="T-55AM2 Raketenpanzer Kompanie" hidden="false" collective="false" import="true" targetId="fe57-d329-6a74-15f9" type="selectionEntry">
+    <entryLink id="3edb-2468-8179-31cf" name="T-55AM2 Missile Tank Company" hidden="false" collective="false" import="true" targetId="fe57-d329-6a74-15f9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -193,7 +192,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="a443-415a-3ba5-2b9e" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6ed3-0e89-77f2-432e" name="BMP-1 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
+    <entryLink id="6ed3-0e89-77f2-432e" name="BMP-1 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -208,7 +207,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="8025-fced-5fd0-2657" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1680-afe5-eb52-55f4" name="BMP-2 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="ca39-e034-d3c0-52cf" type="selectionEntry">
+    <entryLink id="1680-afe5-eb52-55f4" name="BMP-2 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="ca39-e034-d3c0-52cf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -223,7 +222,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="e8c7-126e-c73d-db6f" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b391-0296-aba8-f470" name="BTR-60 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
+    <entryLink id="b391-0296-aba8-f470" name="Wheeled Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -238,7 +237,7 @@ Finished overhaul 2-22-26</readme>
         <categoryLink id="db3d-f267-2e66-24f6" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c5ef-f86d-1e00-910d" name="T-72B Panzer Kompanie" hidden="false" collective="false" import="true" targetId="54ea-8e2b-f95e-f1bc" type="selectionEntry">
+    <entryLink id="c5ef-f86d-1e00-910d" name="T-72B Tank Company" hidden="false" collective="false" import="true" targetId="54ea-8e2b-f95e-f1bc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -255,7 +254,7 @@ Finished overhaul 2-22-26</readme>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="7bc4-70f6-71d4-79be" name="T-55AM2 Panzer Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7bc4-70f6-71d4-79be" name="T-55AM2 Tank Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="60d5-00f3-500d-220f" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2af7-6bb5-5783-be84">
           <constraints>
@@ -268,7 +267,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="c7de-c365-b0a0-67f9" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="096a-3ae4-7920-d806" name="6x T-55AM2" hidden="false" collective="false" import="true" type="unit">
@@ -276,7 +275,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="ede6-1040-6c8b-935c" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2b18-c131-b4ff-54e2" name="7x T-55AM2" hidden="false" collective="false" import="true" type="unit">
@@ -284,7 +283,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="1d54-a45c-5e52-3115" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff30-8429-b4b9-d6e5" name="8x T-55AM2" hidden="false" collective="false" import="true" type="unit">
@@ -292,7 +291,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="0234-4d8c-a08b-48c7" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="20b4-c0bd-5594-f068" name="9x T-55AM2" hidden="false" collective="false" import="true" type="unit">
@@ -300,7 +299,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="1b65-b092-4721-32a5" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1156-696b-b8e1-c700" name="10x T-55AM2" hidden="false" collective="false" import="true" type="unit">
@@ -308,7 +307,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="de4c-fddb-22a8-6ee2" name="T-55AM2" hidden="false" targetId="1ba9-05c2-d8e0-6ba2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="16.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -333,7 +332,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e8d-642c-67c6-0564" name="T-72M Panzer Kompanie" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0e8d-642c-67c6-0564" name="T-72M Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="cb35-88db-6d0c-d0a8" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f387-9cea-16bc-2b25">
           <constraints>
@@ -346,7 +345,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="4f90-9149-49b2-2ace" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc8a-907e-f81f-e822" name="4x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -354,7 +353,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="3fc3-8865-f7b3-767d" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5a54-1ca4-3d26-9e92" name="5x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -362,7 +361,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="052e-78d3-420c-97a2" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a960-5ff7-5cb2-28a2" name="6x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -370,7 +369,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="4c00-f13b-3593-827e" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="19.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="06d9-3718-0acd-e0dd" name="7x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -378,7 +377,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="6b2c-544a-d467-4abd" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="23.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1135-8b98-22cf-e059" name="8x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -386,7 +385,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="7042-77df-0923-6f2e" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="27.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="21.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="070d-7f6c-5c2d-0bc7" name="9x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -394,7 +393,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="efc6-1d98-bd34-9c81" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="31.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b4f-76fc-d7c0-7cb2" name="10x T-72M" hidden="false" collective="false" import="true" type="unit">
@@ -402,7 +401,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="4d22-271e-5840-c93c" name="T-72M" hidden="false" targetId="1593-11b8-a9fe-cba0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="35.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="27.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -427,7 +426,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0fe-7954-8a55-d852" name="BMP-1 Mot-Schützen Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b0fe-7954-8a55-d852" name="BMP-1 Motor Rifle Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="8bcf-46e8-4435-c08a" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="36c8-e137-fb92-a587">
           <constraints>
@@ -435,45 +434,45 @@ Finished overhaul 2-22-26</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7083-f069-bc2c-92f4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="36c8-e137-fb92-a587" name="4x MPi KM teams w/RPG-18 AT, 3x RPG-7 AT teams, 4x BMP-1s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="36c8-e137-fb92-a587" name="4x Vz.58 teams w/RPG-75 AT, 3x RPG-7 AT teams, 4x BMP-1s" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="673d-da8c-8ea9-0e35" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
                 <infoLink id="38d0-69da-196f-fbd7" name="[T] BMP-1 Transport" hidden="false" targetId="a47c-ccb6-9cd3-1a95" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e396-f12f-96c8-221d" name="7x MPi KM teams w/RPG-18 AT, 6x RPG-7 AT teams, 2x PKM LMG teams, 9x BMP-1s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="e396-f12f-96c8-221d" name="7x Vz.58 teams w/RPG-75 AT, 6x RPG-7 AT teams, 2x  Vz.59 LMG teams, 9x BMP-1s" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="ff47-40d5-c1aa-3ddf" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="10f2-618d-fbeb-9b89" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
                 <infoLink id="c83f-ea23-8230-2e07" name="[T] BMP-1 Transport" hidden="false" targetId="a47c-ccb6-9cd3-1a95" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0e17-9b40-5350-13df" name="10x MPi KM teams w/RPG-18 AT, 9x RPG-7 AT teams, 2x PKM LMG teams, 12x BMP-1s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="0e17-9b40-5350-13df" name="10x Vz.58 teams w/RPG-75 AT, 9x RPG-7 AT teams, 2x Vz.59 LMG teams, 12x BMP-1s" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="4f69-f949-61c2-3f12" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="a744-b3ab-a953-2bb4" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
                 <infoLink id="5551-69ca-613d-2d3b" name="[T] BMP-1 Transport" hidden="false" targetId="a47c-ccb6-9cd3-1a95" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="19.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5bc2-a12a-6c9b-d108" name="2) Optional Teams" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="8581-8b2a-0104-a6fd" name="1x SA-14 Gremlin AA missile team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8581-8b2a-0104-a6fd" name="1x SA-7 Grail AA missile team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a6-589c-98cb-2df8" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c7e8-a5ac-9dd8-59a9" name="SA-14 Gremlin AA Missile Team" hidden="false" targetId="33be-94f8-0d8b-0c55" type="infoGroup"/>
+                <infoLink id="c7e8-a5ac-9dd8-59a9" name="[W] SA-7 Grail AA missile team" hidden="false" targetId="33be-94f8-0d8b-0c55" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
@@ -497,48 +496,11 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca39-e034-d3c0-52cf" name="BMP-2 Mot-Schützen Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ca39-e034-d3c0-52cf" name="BMP-2 Motor Rifle Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="f389-695f-da40-f6da" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e0d-c9fe-6647-fe21">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d874-b127-0cba-6f66" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df9-2a8c-6c54-08ac" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7e0d-c9fe-6647-fe21" name="4x MPi KM teams w/RPG-18 AT, 3x RPG-7 AT teams, 4x BMP-2s" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="cb48-53b7-b5ca-47ef" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="845f-8264-34af-5d07" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c49a-42c4-b0b9-b5eb" name="7x MPi KM teams w/RPG-18 AT, 6x RPG-7 AT teams, 2x PKM LMG teams, 9x BMP-2s" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="f001-9a75-6698-8615" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
-                <infoLink id="9140-96cf-c8c4-2a81" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="c844-9244-64d3-b4e1" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="18.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0365-b2b8-51ce-5adb" name="10x MPi KM teams w/RPG-18 AT, 9x RPG-7 AT teams, 2x PKM LMG teams, 12x BMP-2s" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="bd0e-9de2-a1e3-b16c" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
-                <infoLink id="f330-c0a0-0013-2b13" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="1efe-3438-26c5-c451" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="24.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="5e89-f5a4-5035-a406" name="2) Optional Teams" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="e51d-a2e9-887e-d2a3" name="1x SA-14 Gremlin AA missile team, 1x BMP-2" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e51d-a2e9-887e-d2a3" name="1x SA-7 Grail AA missile team, 1x BMP-2" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f1-b45c-5bf0-f80f" type="max"/>
               </constraints>
@@ -562,12 +524,49 @@ Finished overhaul 2-22-26</readme>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7616-8e55-cb11-0cf7" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="05a1-e4ba-5c86-f918">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6453-8116-1993-e847" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e61-7f28-6cff-84d0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="05a1-e4ba-5c86-f918" name="4x Vz.58 teams w/RPG-75 AT, 3x RPG-7 AT teams, 4x BMP-2s" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="4a1b-2dbc-c0e0-301c" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
+                <infoLink id="282b-fda8-ee7d-c852" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b4ad-4eb7-7ba8-440c" name="7x Vz.58 teams w/RPG-75 AT, 6x RPG-7 AT teams, 2x  Vz.59 LMG teams, 9x BMP-2s" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="d796-5f0d-7074-3059" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="e875-3968-1836-730f" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
+                <infoLink id="4cde-09f2-be27-d2b1" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6cd2-c0ad-a071-76c2" name="10x Vz.58 teams w/RPG-75 AT, 9x RPG-7 AT teams, 2x Vz.59 LMG teams, 12x BMP-2s" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="debe-9662-d32f-fba0" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="4a54-b8dc-a734-5e22" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
+                <infoLink id="c90a-dbf4-33f7-876c" name="[T] BMP-2 Transport" hidden="false" targetId="1230-22e4-dde4-c526" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="18.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0fb-3cfc-5923-fa04" name="BRDM-2 Aufklärungs Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f0fb-3cfc-5923-fa04" name="BRDM-2 Scout Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="46f3-ead6-2c19-0210" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="83aa-a200-5e06-ac19">
           <constraints>
@@ -598,11 +597,11 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4be4-3096-9811-2692" name="BTR-60 Mot-Schützen Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4be4-3096-9811-2692" name="Wheeled Motor Rifle Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="0e7d-0f99-b8f4-efcf" name="2) Optional Teams" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0e7d-0f99-b8f4-efcf" name="3) Optional Teams" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="43b7-fbb0-4603-c6ce" name="1x SA-14 Gremlin AA Missile Team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="43b7-fbb0-4603-c6ce" name="1x SA-7 Grail AA Missile Team, 1x BTR-60/OT-64" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e04-029f-9d01-1ef6" type="max"/>
               </constraints>
@@ -613,7 +612,7 @@ Finished overhaul 2-22-26</readme>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f3b4-bb49-0a08-5692" name="1x AGS-17 Grenade Launcher Team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f3b4-bb49-0a08-5692" name="1x AGS-17 Grenade Launcher Team, 1x BTR-60/OT-64" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142a-6b84-5dc3-74b0" type="max"/>
               </constraints>
@@ -624,7 +623,7 @@ Finished overhaul 2-22-26</readme>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9924-8e24-5364-3b20" name="1x AT-4 Spigot Missile Team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9924-8e24-5364-3b20" name="1x AT-4 Spigot Missile Team, 1x BTR-60/OT-64" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1585-2822-462a-5fb7" type="max"/>
               </constraints>
@@ -635,7 +634,7 @@ Finished overhaul 2-22-26</readme>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="adba-02a7-e681-332f" name="1x AT-4 Spigot Missile Team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="adba-02a7-e681-332f" name="1x AT-4 Spigot Missile Team, 1x BTR-60/OT-64" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2ec9-984c-236b-2495" type="max"/>
               </constraints>
@@ -648,39 +647,94 @@ Finished overhaul 2-22-26</readme>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1cbb-8419-ec71-d276" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d179-3d33-0040-3370">
+        <selectionEntryGroup id="ca03-715d-feec-1e69" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="99eb-6606-7145-fe47">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac18-c8c5-1c7a-78ee" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad2-d2de-52f5-bafe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab31-6019-5be3-46ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353a-078e-a4e8-7aad" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d179-3d33-0040-3370" name="4x MPi KM teams w/RPG-18 AT, 3x RPG-7 AT teams, 4x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="99eb-6606-7145-fe47" name="4x Vz. 58 teams w/RPG-75 AT, 3x RPG-7 AT teams" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
-                <infoLink id="4ae8-2839-c669-4d61" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="1d34-2840-4d43-c926" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+                <infoLink id="f6b8-955c-7df4-78f5" name="Motor Rifle" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="63c0-9ccc-1b4f-bfd0" name="7x MPi KM teams w/RPG-18 AT, 6x RPG-7 AT teams, 1x PKM LMG team, 8x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="f31c-12e0-922c-37ad" name="7x Vz. 58 teams w/RPG-75 AT, 6x RPG-7 AT teams, 1x Vz.59 LMG team" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
-                <infoLink id="892a-bc0f-1c1a-97ef" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
-                <infoLink id="2f0d-410f-3766-3de8" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="e697-519e-5ec9-5d9c" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+                <infoLink id="c679-e86c-843a-38a1" name="[W] Vz. 59 LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="51ed-11f4-b2d5-0af6" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a0b1-1599-77d6-9bf2" name="10x MPi KM teams w/RPG-18 AT, 9x RPG-7 AT teams, 2x PKM LMG teams, 11x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="41f3-3993-0603-2d43" name="10x Vz. 58 teams w/RPG-75 AT, 9x RPG-7 AT teams, 2x Vz.59 LMG teams" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
-                <infoLink id="7fe2-c53a-5409-9bd8" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
-                <infoLink id="9d8e-9eff-2eee-80a4" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="5c1c-8886-cbdc-32bc" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+                <infoLink id="5014-edb3-de2f-5035" name="[W] Vz. 59 LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="4514-33e9-8f77-c583" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4a33-ae29-0320-3b5a" name="2) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f1-c1f9-b871-bb28">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6428-cab1-abc4-e7d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e10-2e40-89fc-9942" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9aec-d1bf-973a-ebd9" name="BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="4x BTR-60">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99eb-6606-7145-fe47" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="8x BTR-60">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f31c-12e0-922c-37ad" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="11x BTR-60">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41f3-3993-0603-2d43" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="d15c-6b0b-626f-a8b6" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="39f1-c1f9-b871-bb28" name="OT-64" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="4x OT-64">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99eb-6606-7145-fe47" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="8x OT-64">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f31c-12e0-922c-37ad" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="11x OT-64">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41f3-3993-0603-2d43" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5e46-70bb-af29-a859" name="[T] OT-64 Transport" hidden="false" targetId="f28f-a23b-4cf0-30bb" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -690,7 +744,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d1a-18be-979b-fef2" name="ZSU-23-4 Shilka Flak Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3d1a-18be-979b-fef2" name="ZSU-23-4 Shilka AA Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="cb8a-e4b6-bb8d-f8b4" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f457-5cec-7185-dd8d">
           <constraints>
@@ -711,7 +765,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="35aa-4cc3-8916-b219" name="ZSU-23-4 Shilka" hidden="false" targetId="5e95-ef24-c341-e9e0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -721,7 +775,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23c0-f7be-96be-894f" name="SA-13 Gopher Flak Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="23c0-f7be-96be-894f" name="SA-13 Gopher SAM Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="17e1-6d9d-f143-e6e7" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="959f-8a09-083c-d20b">
           <constraints>
@@ -742,7 +796,7 @@ Finished overhaul 2-22-26</readme>
                 <infoLink id="5242-5adb-7d67-9718" name="SA-13 Gopher" hidden="false" targetId="3df5-a839-560a-6bba" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -752,7 +806,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a3e-173c-6edd-73bc" name="SA-9 Gaskin Flak Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3a3e-173c-6edd-73bc" name="SA-9 Gaskin SAM Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="4aa0-cde3-4905-8d29" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e84-05b7-12a0-e484">
           <constraints>
@@ -783,7 +837,7 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ca1-31b2-4c10-e2d3" name="[Artillery] 2S1 Carnation Artillerie Batterie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5ca1-31b2-4c10-e2d3" name="[Artillery] 2S1 Carnation Artillery Battery" page="" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="099e-508f-58fd-dd0c" name="Artillery Unit" hidden="false" targetId="f134-b723-294a-df6b" primary="false"/>
       </categoryLinks>
@@ -817,50 +871,16 @@ Finished overhaul 2-22-26</readme>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c10f-45e3-3889-81f3" name="BM-21 Hail Raketenwerfer Batterie" page="" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="d59e-4b4d-8f07-547f" name="Artillery Unit" hidden="false" targetId="f134-b723-294a-df6b" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3634-b5ee-15a2-5214" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="09c2-9188-f3ff-3044">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30c-894d-5bab-5a16" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="997c-479e-cd5c-aa7f" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="09c2-9188-f3ff-3044" name="3x BM-21 Hail" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4bbe-d414-aefb-b564" name="BM-21 Hail" hidden="false" targetId="1326-67be-977a-621f" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="384b-5694-daaa-2a87" name="6x BM-21 Hail" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="6cb0-7f51-34f5-c621" name="BM-21 Hail" hidden="false" targetId="1326-67be-977a-621f" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a864-08d8-5491-b682" name="[Observer] BMP-1 Observation Post" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ea64-e6ab-ba55-f3bb" name="BMP-1 OP" page="" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
-Counterattack 5+</characteristic>
+Counterattack 6</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">2</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
@@ -897,7 +917,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6cf8-f356-14b7-cc25" name="[Anti-tank] Spandrel Panzerabwehr Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6cf8-f356-14b7-cc25" name="[Anti-tank] Spandrel Anti-tank Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="0299-abe0-0c02-5832" name="1) Unit-Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="0571-e7c7-42b9-8756">
           <constraints>
@@ -959,7 +979,7 @@ Counterattack 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e3d2-da9e-4685-c3da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c7f5-8dbd-dcc1-f3c8" name="2x MPi KM teams w/RPG-18 AT, 2x RPG-7 AT teams" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c7f5-8dbd-dcc1-f3c8" name="2x Vz. 58 teams w/RPG-75 AT, 2x RPG-7 AT teams" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="1c1b-94d5-bdc3-8e91" name="MI-24 Hind Assault Landing Company" hidden="false" targetId="65db-bd86-6de3-bf34" type="infoGroup"/>
               </infoLinks>
@@ -967,7 +987,7 @@ Counterattack 5+</characteristic>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2d6c-323c-ee0c-8e83" name="4x MPi KM teams w/RPG-18 AT, 4x RPG-7 AT teams" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2d6c-323c-ee0c-8e83" name="4x Vz. 58 teams w/RPG-75 AT, 4x RPG-7 AT teams" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -976,7 +996,7 @@ Counterattack 5+</characteristic>
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="b1fe-a9c7-647d-91af" name="MI-24 Hind Assault Landing Company" hidden="false" targetId="65db-bd86-6de3-bf34" type="infoGroup"/>
+                <infoLink id="c9ae-82be-0829-d31a" name="MI-24 Hind Assault Landing Company" hidden="false" targetId="65db-bd86-6de3-bf34" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
@@ -1028,9 +1048,9 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f52-bc34-7bcb-a595" name="T-55AM2 Panzer Bataillon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1f52-bc34-7bcb-a595" name="T-55AM2 Tank Battalion" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="6c44-52d5-f81f-47c9" name="T-55AM2 Panzer Bataillon HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6c44-52d5-f81f-47c9" name="T-55AM2 Tank Battalion HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a26-7885-49ca-3946" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6822-4f9b-732b-341c" type="max"/>
@@ -1072,7 +1092,7 @@ Counterattack 5+</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6631-3e1e-2ccb-31d1" name="1) Armour Kompanie #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="da64-4967-6a78-84ee">
+        <selectionEntryGroup id="6631-3e1e-2ccb-31d1" name="1) Armour Company #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="da64-4967-6a78-84ee">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2fd-364d-68c4-4667" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b25-90fd-e60c-2894" type="max"/>
@@ -1095,7 +1115,7 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4af2-1cbc-086b-a2a7" name="4) Optional Infantry Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4af2-1cbc-086b-a2a7" name="4) Optional Infantry Company" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a869-6de7-7a50-dcd2" type="max"/>
           </constraints>
@@ -1112,39 +1132,25 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="595d-174d-7bc4-11d1" name="5) Optional Recon Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="595d-174d-7bc4-11d1" name="5) Optional Recon Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e9-4995-270a-f855" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="0174-be2f-b473-c42a" name="BMP-1 Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="4720-9740-a156-5af8" type="selectionEntry"/>
-            <entryLink id="7179-af1b-6cbd-c16b" name="BRDM Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
+            <entryLink id="7179-af1b-6cbd-c16b" name="BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3bc9-503e-edc2-1533" name="6) Optional AA Zug" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a00-1cc7-2df2-4667" type="max"/>
-          </constraints>
+        <selectionEntryGroup id="be33-9b1d-2fdc-7280" name="8) Optional Artillery Battery" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="5e0b-2745-d4b4-9167" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
-            <entryLink id="eef3-caae-94b9-4ad2" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="be33-9b1d-2fdc-7280" name="7) Optional Units" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="35a0-afea-80f4-a0f2" name="[Anti-aircraft] ZSU-23-4 Shilka Zug" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c2-cd51-31c5-9ee1" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="11c2-cbc0-dc90-6864" name="[Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+            <entryLink id="11c2-cbc0-dc90-6864" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="241f-9d7a-4dda-5fc3" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e019-c46c-21ab-37ba" name="2) Armour Kompanie #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e56-ffa8-df1a-9fb7">
+        <selectionEntryGroup id="e019-c46c-21ab-37ba" name="2) Armour Company #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e56-ffa8-df1a-9fb7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0adc-9187-85ec-8d92" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58af-a43f-a637-b4ad" type="max"/>
@@ -1162,26 +1168,44 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7cbb-b90d-29af-d7e0" name="3) Optional Armour Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7cbb-b90d-29af-d7e0" name="3) Optional Armour Company" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7d-cc9e-e0f5-d915" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="80b7-51ce-4654-392a" name="* [FS] T-55AM2 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
+            <entryLink id="80b7-51ce-4654-392a" name="T-55AM2 Tank Company" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="e7aa-ad2c-a9ea-959c" name="T-55AM2" hidden="false" targetId="12cf-e4a7-f3d6-a602" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="3544-68fa-a963-10c3" name="T-72M Panzer Kompanie" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
+            <entryLink id="3544-68fa-a963-10c3" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="86d1-d019-aa4e-30a6" name="T-72M" hidden="false" targetId="585c-a673-ea8f-6048" primary="false"/>
+                <categoryLink id="132e-0f0d-9dab-264e" name="T-72M" hidden="false" targetId="585c-a673-ea8f-6048" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7a53-7dd9-789d-e8e3" name="T-55 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
+            <entryLink id="7a53-7dd9-789d-e8e3" name="* [FS] T-55 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="b19f-af59-a96c-bd2f" name="T-55" hidden="false" targetId="0531-f7dd-2fb2-4c49" primary="false"/>
               </categoryLinks>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7907-2940-c8a9-af5b" name="6) Optional AA Platoon #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f599-3330-09c8-2eca" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="22de-8868-23b2-e73d" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
+            <entryLink id="7696-8f72-6a15-99f2" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4a17-ff3e-12ea-5a75" name="7) Optional AA Platoon #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951d-64c4-cb6a-6ad7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="100f-c001-80cc-a20a" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" targetId="efbc-7b63-9108-a3bc" type="selectionEntry"/>
+            <entryLink id="ffb1-15e9-f58f-ec54" name="ZSU-23-4 Shilka AA Platoon" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1189,9 +1213,9 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c72-cfe8-50da-4fc8" name="T-72M Panzer Bataillon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1c72-cfe8-50da-4fc8" name="T-72M Tank Battalion" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="e611-bb4d-37e8-e230" name="T-72M Panzer Bataillon HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="e611-bb4d-37e8-e230" name="T-72M Tank Battalion HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3388-390f-69a5-cab6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1628-6143-7829-e3ae" type="max"/>
@@ -1206,7 +1230,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="c51e-79f1-0ccd-7490" name="T-72M HQ" hidden="false" targetId="1508-1f1b-4676-2754" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1216,7 +1240,7 @@ Counterattack 5+</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6ef1-0e5d-59e5-fa54" name="1) Optional Armour Kompanie" hidden="false" collective="false" import="true" defaultSelectionEntryId="a26c-f9ea-d122-488a">
+        <selectionEntryGroup id="6ef1-0e5d-59e5-fa54" name="1) Optional Armour Company" hidden="false" collective="false" import="true" defaultSelectionEntryId="a26c-f9ea-d122-488a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c5-5c3f-10b8-1fe0" type="max"/>
           </constraints>
@@ -1238,7 +1262,7 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0f0a-f3c0-29e8-4a92" name="2) Optional Recon Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0f0a-f3c0-29e8-4a92" name="2) Optional Scout Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad96-5ea0-00f2-1544" type="max"/>
           </constraints>
@@ -1247,40 +1271,53 @@ Counterattack 5+</characteristic>
             <entryLink id="3dd1-5ccf-3c5e-7788" name="BRDM Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d73f-fd48-6e9c-b8b9" name="3) Optional AA Zug" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d25-ad02-bab4-e2c0" type="max"/>
-          </constraints>
+        <selectionEntryGroup id="1003-72bd-00de-53c1" name="6) Optional Artillery Battery" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="d883-99d8-76af-05e9" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
-            <entryLink id="7528-2680-8d2d-8221" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="1003-72bd-00de-53c1" name="4) Optional Units" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="6930-ed14-fd1e-cf21" name="*[Anti-aircraft] ZSU-23-4 Shilka Zug" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e10-4ad8-c6e4-5b21" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b516-bd29-8c75-2777" name="* [FS] BMP-1 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e053-b959-c613-af0e" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="2fea-d5e3-238a-8f51" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="84b5-6f82-d403-ee55" name="*[Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+            <entryLink id="84b5-6f82-d403-ee55" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e13-9d0b-d8db-b27f" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="8b30-dfa6-5b71-963f" name="3) Optional AA Platoon #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752e-e80f-3723-e49a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d397-f71f-7373-7b4b" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
+            <entryLink id="794a-a808-062f-6c08" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="02f3-b9d5-4ef6-11dc" name="4) Optional AA Platoon #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e90-180c-31c4-bac4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="36a0-a245-e989-2782" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" targetId="efbc-7b63-9108-a3bc" type="selectionEntry"/>
+            <entryLink id="c22c-7a85-2230-d473" name="ZSU-23-4 Shilka AA Platoon" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dd5a-a98d-d35f-38ba" name="5) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d86-6a40-3f0b-b5a7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4a15-662b-373a-17bf" name="[FS] BMP-1 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="1c16-35b5-b1b0-1e83" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="990d-fe09-660a-8369" name="[FS] BMP-2 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="ca39-e034-d3c0-52cf" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="60d0-17b6-fb40-cefc" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c829-f9fa-18f3-56b0" name="* [FS] T-72M Panzer Kompanie" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
+        <entryLink id="c829-f9fa-18f3-56b0" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3564-9992-9eb5-e63b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f99-ea7f-d25e-8a5f" type="max"/>
@@ -1289,7 +1326,7 @@ Counterattack 5+</characteristic>
             <categoryLink id="d592-89d1-fe66-6b84" name="T-72M" hidden="false" targetId="585c-a673-ea8f-6048" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="c944-01e9-c1a6-d0ed" name="* [FS] T-72M Panzer Kompanie" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
+        <entryLink id="c944-01e9-c1a6-d0ed" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6b1e-76fd-2a78-d528" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ccb6-1f2d-4d1a-d50c" type="max"/>
@@ -1303,15 +1340,15 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="86d3-6db3-5789-b609" name="BMP Mot-Schützen Bataillon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="86d3-6db3-5789-b609" name="BMP Motor Rifle Battalion" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="fa87-ac90-dea7-f170" name="BMP Mot-Schützen Bataillon HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="fa87-ac90-dea7-f170" name="BMP Motor Rifle Battalion HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34cd-eed8-b3f0-39e8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8987-74ce-62a9-8650" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4696-879b-1df5-6214" name="1x MPi KM team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4696-879b-1df5-6214" name="1x Vz. 58 team, 1x BMP-1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2862-ad6a-7062-de89" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9853-aa84-67ef-c40b" type="max"/>
@@ -1331,7 +1368,7 @@ Counterattack 5+</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1d1a-0dea-cb86-2506" name="1) BMP Kompanie" hidden="false" collective="false" import="true" defaultSelectionEntryId="5140-c811-da63-1198">
+        <selectionEntryGroup id="1d1a-0dea-cb86-2506" name="1) BMP Company" hidden="false" collective="false" import="true" defaultSelectionEntryId="5140-c811-da63-1198">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c79e-a44e-ece8-2c9c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a6e-7210-5ad0-d8c5" type="max"/>
@@ -1349,29 +1386,29 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2d46-b2e5-f0c3-b7f3" name="3) Optional Armour Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2d46-b2e5-f0c3-b7f3" name="3) Optional Armour Company" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="238c-9091-fa60-6892" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3db5-05a8-b0d8-4def" name="* [FS] T-72M Panzer Kompanie" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
+            <entryLink id="3db5-05a8-b0d8-4def" name="T-72M Tank Company" hidden="false" collective="false" import="true" targetId="0e8d-642c-67c6-0564" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="cf97-c224-953c-e1eb" name="T-72M" hidden="false" targetId="585c-a673-ea8f-6048" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="4c27-1caf-0fa2-f361" name="* [FS] T-55AM2 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
+            <entryLink id="4c27-1caf-0fa2-f361" name="T-55AM2 Tank Company" hidden="false" collective="false" import="true" targetId="7bc4-70f6-71d4-79be" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="de64-4c57-47ac-aa38" name="T-55AM2" hidden="false" targetId="12cf-e4a7-f3d6-a602" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="3d05-d5b4-b14c-7c63" name="* [FS] T-55 Panzer Kompanie" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
+            <entryLink id="3d05-d5b4-b14c-7c63" name="T-55 Tank Company" hidden="false" collective="false" import="true" targetId="701f-a826-1d5a-b2cb" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="7878-f886-3d48-7802" name="T-55" hidden="false" targetId="0531-f7dd-2fb2-4c49" primary="false"/>
               </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="14b3-1b22-1cdb-1f31" name="5) Optional Recon Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="14b3-1b22-1cdb-1f31" name="4) Optional Scout Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbce-3664-453a-01a5" type="max"/>
           </constraints>
@@ -1380,35 +1417,21 @@ Counterattack 5+</characteristic>
             <entryLink id="6a31-fa26-005e-41d4" name="BRDM Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="42b7-35dc-f72a-51d0" name="4) Optional AA Zug" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3927-685d-4edb-d949" type="max"/>
-          </constraints>
+        <selectionEntryGroup id="01a0-12ba-6623-ca9a" name="7) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="e1ef-f700-f40f-9f17" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
-            <entryLink id="8b8b-b128-72ec-51c0" name="SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="01a0-12ba-6623-ca9a" name="6) Optional Units" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="a897-0405-ab4f-5baa" name="* [Anti-tank] Spandrel Panzerabwehr Zug" hidden="false" collective="false" import="true" targetId="6cf8-f356-14b7-cc25" type="selectionEntry">
+            <entryLink id="a897-0405-ab4f-5baa" name="[Anti-tank] Spandrel Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="6cf8-f356-14b7-cc25" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ed-9a2d-96bd-8859" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e965-7c5d-3c79-1b43" name="* ZSU-23-4 Shilka Flak Zug" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b149-d309-5995-d412" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="be8b-708e-ac5f-3374" name="* [Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+            <entryLink id="be8b-708e-ac5f-3374" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7dc-1a17-894d-b7cc" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8734-0606-2210-7509" name="2) Optional BMP-1 Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8734-0606-2210-7509" name="2) Optional BMP-1 Company" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="c26f-3ca8-c66c-c5ee" name="* [FS] BMP-1 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
               <constraints>
@@ -1420,9 +1443,27 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4213-bdf7-aa12-aac5" name="5) Optional AA Platoon #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d25e-0286-f85b-c69a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="82ec-14a7-9f4d-9b5e" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
+            <entryLink id="0c82-5235-34ac-78d6" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="094c-d878-2059-468d" name="6) Optional AA Platoon #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ce-e056-23ff-109f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="34c7-d87d-2710-896d" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" targetId="efbc-7b63-9108-a3bc" type="selectionEntry"/>
+            <entryLink id="b656-8b25-7648-7298" name="ZSU-23-4 Shilka AA Platoon" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6b3f-339e-c3ce-7141" name="* [FS] BMP-1 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
+        <entryLink id="6b3f-339e-c3ce-7141" name="[FS] BMP-1 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f66f-1bf1-c882-fb4a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46c4-9596-1fc8-70a7" type="min"/>
@@ -1436,44 +1477,60 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8b8-a722-07b1-8ac1" name="BTR-60 Mot-Schützen Bataillon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e8b8-a722-07b1-8ac1" name="Wheeled Motor Rifle Battalion" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="2b4d-e67b-5db6-556c" name="BTR-60 Mot-Schützen Bataillon HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="2b4d-e67b-5db6-556c" name="Wheeled Motor Rifle Battalion HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d166-c1d4-c8db-a79d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="436f-bd6f-4fd7-9872" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0086-4188-8a49-0c33" name="1x MPi KM Team, 1x BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0086-4188-8a49-0c33" name="1x Vz.58 team" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a5b-7beb-fe7e-6c48" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b82d-2fec-c340-3fbe" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="53cf-e934-1f7b-d834" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
-                <infoLink id="0dad-b63e-c89c-01f8" name="Mot-Schutz HQ" hidden="false" targetId="0ed1-6f2f-d1d0-a305" type="infoGroup"/>
+                <infoLink id="0dad-b63e-c89c-01f8" name="Motor Rifle HQ" hidden="false" targetId="0ed1-6f2f-d1d0-a305" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7b38-70be-a83e-648d" name="1) Transport Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="6bb3-679e-2bb7-025c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435a-676b-0eca-ee88" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c6-4cf4-d35c-4198" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="49a4-4873-dd62-3d35" name="BTR-60" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="c449-8670-e06a-34cd" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6bb3-679e-2bb7-025c" name="OT-64" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="50a4-c5c5-ea05-8bca" name="[T] OT-64 Transport" hidden="false" targetId="f28f-a23b-4cf0-30bb" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="47a0-36a4-4072-d580" name="4) Optional AA Zug" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-01a0-3df2-b4ae" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="f8ee-27ae-be27-548d" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
-            <entryLink id="afcc-3a32-a559-6606" name="SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9e65-19e7-752b-4218" name="3) Optional Recon Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9e65-19e7-752b-4218" name="3) Optional Scout Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8736-5c2b-a5fa-7c78" type="max"/>
           </constraints>
@@ -1482,7 +1539,7 @@ Counterattack 5+</characteristic>
             <entryLink id="d808-bc68-290c-0bc2" name="BRDM Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8a86-ed69-05d2-32d5" name="1) Optional BTR-60 Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8a86-ed69-05d2-32d5" name="1) Optional Wheeled Motor Company" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="cb5c-fb45-0504-58ae" name="* [FS] BTR-60 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
               <constraints>
@@ -1494,26 +1551,21 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7bcb-46c0-65c6-4912" name="5) Optional Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7bcb-46c0-65c6-4912" name="6) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="2d48-289c-8e84-9069" name="* [Anti-tank] Spandrel Panzerabwehr Zug" hidden="false" collective="false" import="true" targetId="6cf8-f356-14b7-cc25" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6556-16dc-8cc6-790c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ea6a-09b3-ab15-926a" name="* ZSU-23-4 Shilka Flak Zug" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c9-b005-18cf-b028" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="8ece-3d7d-468a-615f" name="* [Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+            <entryLink id="8ece-3d7d-468a-615f" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9a4-a0d8-a1b5-e551" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5ab3-63fb-9c3a-e9ac" name="2) Optional Armour Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5ab3-63fb-9c3a-e9ac" name="2) Optional Armour Company" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04b-4c61-7df1-396e" type="max"/>
           </constraints>
@@ -1530,9 +1582,27 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e7d1-2dbb-8b3f-f3ac" name="4) Optional AA Platoon #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b975-c6a9-6b68-595e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ae03-1484-f360-a44b" name="SA-13 Gopher Zug" hidden="false" collective="false" import="true" targetId="23c0-f7be-96be-894f" type="selectionEntry"/>
+            <entryLink id="8cc1-5249-8670-6d25" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4b5d-d280-ca88-beda" name="5) Optional AA Platoon #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b44e-b69c-c2b3-0ba4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fa04-8a11-865e-4718" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" targetId="efbc-7b63-9108-a3bc" type="selectionEntry"/>
+            <entryLink id="45db-4811-d237-b6dc" name="ZSU-23-4 Shilka AA Platoon" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="44be-223b-b991-9431" name="* [FS] BTR-60 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
+        <entryLink id="44be-223b-b991-9431" name="[FS] Wheeled Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fb0c-ea13-f5a7-8c93" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="eacf-36a8-7600-6d03" type="max"/>
@@ -1541,7 +1611,7 @@ Counterattack 5+</characteristic>
             <categoryLink id="4249-c7a1-0ab4-fb7f" name="BTR-60" hidden="false" targetId="b950-828f-1c8b-bf62" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="1218-d5bf-1bdc-7204" name="* [FS] BTR-60 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
+        <entryLink id="1218-d5bf-1bdc-7204" name="[FS] Wheeled Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4be4-3096-9811-2692" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61ed-15f0-01f8-19fe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2dd3-ad70-9ec3-8c4d" type="max"/>
@@ -1555,7 +1625,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4720-9740-a156-5af8" name="BMP-1 Aufklärungs Zug" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4720-9740-a156-5af8" name="BMP-1 Scout Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="6e2c-134c-2122-4593" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="96a4-3d64-c5f4-8b29">
           <constraints>
@@ -1568,7 +1638,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="df08-e152-bf41-3048" name="BMP-1 Scout" hidden="false" targetId="c7c3-2f12-fd9d-8c83" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="afbc-08b4-818b-3f5c" name="3x BMP-1 Scout" hidden="false" collective="false" import="true" type="upgrade">
@@ -1576,7 +1646,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="dbff-0559-d4d9-5cbc" name="BMP-1 Scout" hidden="false" targetId="c7c3-2f12-fd9d-8c83" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f6c1-e732-aa54-9d15" name="4x BMP-1 Scout" hidden="false" collective="false" import="true" type="upgrade">
@@ -1584,7 +1654,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="696a-cb96-cd8c-556b" name="BMP-1 Scout" hidden="false" targetId="c7c3-2f12-fd9d-8c83" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1594,24 +1664,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0d7-5461-2f67-6d65" name="[Artillery] Raketenwerfer Support" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b6a4-8a95-0a63-0365" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e81b-915b-cb14-112f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="972a-3459-95ab-202c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61b9-4156-847b-bd39" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="e81b-915b-cb14-112f" name="* [Artillery] BM-21 Hail Raketenwerfer Batterie" hidden="false" collective="false" import="true" targetId="c10f-45e3-3889-81f3" type="selectionEntry"/>
-            <entryLink id="68eb-5792-eb87-d704" name="[Artillery] RM-70 Raketenwerfer Batterie" hidden="false" collective="false" import="true" targetId="4b90-e8b0-11c8-610c" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6966-1297-7f45-6195" name="[Anti-aircraft] SA-8/9/13 Flak Zug" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6966-1297-7f45-6195" name="[Anti-aircraft] SA-8/9/13 Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="9342-e703-b68b-72fb" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="7d0b-6c1b-883a-3c50">
           <constraints>
@@ -1640,40 +1693,6 @@ Counterattack 5+</characteristic>
             <entryLink id="0c77-6619-5757-f489" name="[Aircraft] Su-22 Fitter Fight-bomber Flight" hidden="false" collective="false" import="true" targetId="b83c-b0cf-2cca-3dd1" type="selectionEntry"/>
             <entryLink id="71f5-5c2a-c82b-7e9b" name="[M] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" targetId="7953-9285-5384-00bd" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="833c-6e84-db88-eff3" name="[Artillery] 2S3 Acacia Artillerie Batterie" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="855f-78c7-b725-ad90" name="Artillery Unit" hidden="false" targetId="f134-b723-294a-df6b" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ad6a-993b-fcc6-670d" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="70eb-54ab-0c81-f19f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2db2-930a-f7d8-85a4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f8-1656-208a-de3e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="70eb-54ab-0c81-f19f" name="3x 2S3 Acacia" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="2b60-9022-50fd-dfd2" name="2S3 Acacia" hidden="false" targetId="2ff7-56e7-f3e9-e757" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0f5c-a114-db25-d175" name="6x 2S3 Acacia" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="2c30-1fb2-c778-06a8" name="2S3 Acacia" hidden="false" targetId="2ff7-56e7-f3e9-e757" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1766,7 +1785,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7103-c586-532c-6665" name="SA-8 Gecko Flak Zug" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7103-c586-532c-6665" name="SA-8 Gecko SAM Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="2648-442d-f22d-91b6" name="1) Unit Size" page="" hidden="false" collective="false" import="true" defaultSelectionEntryId="dce0-9672-e12e-7cd5">
           <constraints>
@@ -1779,7 +1798,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="f4df-4096-4ed9-deba" name="SA-8 Gecko" hidden="false" targetId="734a-0f54-d150-0bf2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4203-1949-52eb-9786" name="4x SA-8 Gecko" hidden="false" collective="false" import="true" type="unit">
@@ -1787,7 +1806,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="0196-de07-5202-f510" name="SA-8 Gecko" hidden="false" targetId="734a-0f54-d150-0bf2" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1797,7 +1816,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b90-e8b0-11c8-610c" name="RM-70 Raketenwerfer Batterie" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4b90-e8b0-11c8-610c" name="[Artillery] RM-70 Rocket Launcher Battery" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="a280-e4e9-b0fb-38bd" name="Artillery Unit" hidden="false" targetId="f134-b723-294a-df6b" primary="false"/>
       </categoryLinks>
@@ -1813,7 +1832,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="9907-3b6d-39ba-a164" name="RM-70 Batterie" hidden="false" targetId="cb96-86c7-f4b3-ace0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7ec9-7f1b-df15-012b" name="6x RM-70" hidden="false" collective="false" import="true" type="upgrade">
@@ -1821,7 +1840,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="d5e5-cb97-f4e6-032a" name="RM-70 Batterie" hidden="false" targetId="cb96-86c7-f4b3-ace0" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1831,7 +1850,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="701f-a826-1d5a-b2cb" name="T-55 Panzer Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="701f-a826-1d5a-b2cb" name="T-55 Tank Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="0470-1f91-4822-b522" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c49-a4d1-e24a-77f6">
           <constraints>
@@ -1852,7 +1871,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="2b5a-ac9d-e396-d328" name="T-55" hidden="false" targetId="21bc-d70c-7723-ce10" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ddc4-bf07-f587-4a68" name="7x T-55" hidden="false" collective="false" import="true" type="unit">
@@ -1860,7 +1879,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="d50e-918a-61af-d497" name="T-55" hidden="false" targetId="21bc-d70c-7723-ce10" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b78d-45e3-fb03-abfc" name="8x T-55" hidden="false" collective="false" import="true" type="unit">
@@ -1868,7 +1887,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="b0bd-536b-88e4-1779" name="T-55" hidden="false" targetId="21bc-d70c-7723-ce10" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="849a-d723-910e-78d2" name="9x T-55" hidden="false" collective="false" import="true" type="unit">
@@ -1876,7 +1895,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="99ae-38b0-3098-c07b" name="T-55" hidden="false" targetId="21bc-d70c-7723-ce10" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d31f-0107-3451-ea48" name="10x T-55" hidden="false" collective="false" import="true" type="unit">
@@ -1884,7 +1903,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="eb85-558e-d67e-2672" name="T-55" hidden="false" targetId="21bc-d70c-7723-ce10" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1909,7 +1928,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe57-d329-6a74-15f9" name="T-55AM2 Raketenpanzer Kompanie" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fe57-d329-6a74-15f9" name="T-55AM2 Missile Tank Company" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="1eb3-a714-5db3-cb61" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="045b-7a91-b0ee-3d02">
           <constraints>
@@ -1923,7 +1942,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="80a2-2631-d0d3-4cb8" name="[W] AT-10 Stabber Missile" hidden="false" targetId="3eef-17e3-2d46-b6f6" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="50ff-a1d8-bbdf-a453" name="6x T-55AM2 (AT-10)" hidden="false" collective="false" import="true" type="unit">
@@ -1932,7 +1951,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="d4f8-220c-c234-70cf" name="[W] AT-10 Stabber Missile" hidden="false" targetId="3eef-17e3-2d46-b6f6" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2158-07b1-6554-2cd8" name="7x T-55AM2 (AT-10)" hidden="false" collective="false" import="true" type="unit">
@@ -1941,7 +1960,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="30d8-44d8-49b3-6373" name="[W] AT-10 Stabber Missile" hidden="false" targetId="3eef-17e3-2d46-b6f6" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1966,9 +1985,9 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="339e-a00b-0ba6-19d6" name="T-72B Panzer Bataillon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="339e-a00b-0ba6-19d6" name="T-72B Tank Battalion" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="a878-afcf-2f71-0561" name="T-72B Panzer Bataillon HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="a878-afcf-2f71-0561" name="T-72B Tank Battalion HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a8-04ca-f102-c700" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf8-e39c-4d39-6c4d" type="max"/>
@@ -2010,7 +2029,7 @@ Counterattack 5+</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b0bc-781b-bab0-83d1" name="1) Optional Armour Kompanie" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b0bc-781b-bab0-83d1" name="1) Optional Armour Company" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8f-ddca-16cb-9d77" type="max"/>
           </constraints>
@@ -2027,7 +2046,7 @@ Counterattack 5+</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5b3c-1d37-0e70-262e" name="2) Optional Recon Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5b3c-1d37-0e70-262e" name="2) Optional Scout Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e12-4892-e7cc-89a6" type="max"/>
           </constraints>
@@ -2036,7 +2055,7 @@ Counterattack 5+</characteristic>
             <entryLink id="09a0-a730-43c2-e4d8" name="BRDM Aufklärungs Zug" hidden="false" collective="false" import="true" targetId="f0fb-3cfc-5923-fa04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5ed6-0d45-179d-07da" name="3) Optional AA Zug" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5ed6-0d45-179d-07da" name="3) Optional AA Platoon #1" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b3-f09e-60d8-946e" type="max"/>
           </constraints>
@@ -2045,25 +2064,38 @@ Counterattack 5+</characteristic>
             <entryLink id="2b08-18c8-f227-b5f5" name="*[Anti-aircraft] SA-9 Gaskin Zug" hidden="false" collective="false" import="true" targetId="3a3e-173c-6edd-73bc" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6711-281b-a0ac-52ce" name="4) Optional Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6711-281b-a0ac-52ce" name="6) Optional Artillery Battery" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="af1b-9c18-c77e-195a" name="* ZSU-23-4 Shilka Flak Zug" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd7-7427-4d75-95e9" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="bdf3-7fac-20bb-8d75" name="* [FS] BMP-1 Mot-Schützen Kompanie" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="322b-baab-a09d-5221" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="fac3-bf2e-e1f1-b985" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="fe81-96d3-922d-11e5" name="* [Artillery] 2S1 Carnation Artillerie Batterie" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
+            <entryLink id="fe81-96d3-922d-11e5" name="[Artillery] 2S1 Carnation Artillery Battery" hidden="false" collective="false" import="true" targetId="5ca1-31b2-4c10-e2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f0-4ccd-c9d2-f22f" type="max"/>
               </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2b77-87c6-da96-3b6a" name="4) Optional AA Platoon #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90af-0ec2-0b6a-a072" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f002-7ff9-e102-6ec6" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" targetId="efbc-7b63-9108-a3bc" type="selectionEntry"/>
+            <entryLink id="fe8b-bb5e-4ed5-9c73" name="ZSU-23-4 Shilka AA Platoon" hidden="false" collective="false" import="true" targetId="3d1a-18be-979b-fef2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="793a-b07d-84cf-ddb8" name="5) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8655-dd3d-82d6-7072" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="baa5-48fa-f519-9f58" name="[FS] BMP-1 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="b0fe-7954-8a55-d852" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="4025-ae01-b301-689f" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="721e-0029-c9db-0729" name="[FS] BMP-2 Motor Rifle Company" hidden="false" collective="false" import="true" targetId="ca39-e034-d3c0-52cf" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="9123-2b52-e67f-cdfd" name="BMP-1" hidden="false" targetId="6f8c-d881-ddc9-430e" primary="false"/>
+              </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2092,7 +2124,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f07-b4aa-51fb-654b" name="[Reconnaissance] Aufklärungs Zug" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f07-b4aa-51fb-654b" name="[Reconnaissance] Scout Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="a537-825c-68b2-6260" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4be-6531-cd31-a3ec">
           <constraints>
@@ -2109,7 +2141,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54ea-8e2b-f95e-f1bc" name="T-72B Panzer Kompanie" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="54ea-8e2b-f95e-f1bc" name="T-72B Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="a2d0-b5ed-91eb-d2e9" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="94a0-ee23-d662-02be">
           <constraints>
@@ -2122,7 +2154,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="3580-3630-e09c-bdf5" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="13.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d88-0735-8763-3e53" name="4x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2130,7 +2162,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="718c-c90e-bff6-37f5" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="19.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7f11-9163-a89b-12c4" name="5x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2138,7 +2170,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="2e88-252c-2515-2322" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="25.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="23.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5633-3589-a0e2-ab23" name="6x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2146,7 +2178,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="0962-9791-e33a-00ac" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="31.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="28.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7604-8056-d0c0-afab" name="7x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2154,7 +2186,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="f3e9-fa73-8517-3a4b" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="37.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="34.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4b6e-395b-2e98-9a42" name="8x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2162,7 +2194,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="83b4-e2ab-f1ec-07a4" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="43.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="39.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f533-6c19-923b-7810" name="9x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2170,7 +2202,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="a629-391b-93cb-a11c" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="49.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="45.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f2b1-7a43-8e9c-fe9e" name="10x T-72B" hidden="false" collective="false" import="true" type="upgrade">
@@ -2178,7 +2210,7 @@ Counterattack 5+</characteristic>
                 <infoLink id="a470-2602-9bdd-e122" name="T-72B" hidden="false" targetId="99d9-989d-3404-5e98" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="55.0"/>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="50.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2211,7 +2243,77 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cef6-310b-2922-b3a8" name="[Artillery] DANA SP 152mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="924e-1645-49ed-b4b8" name="Artillery Unit" hidden="false" targetId="f134-b723-294a-df6b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8032-c413-dba8-a6ba" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="aa5d-310e-3375-905e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d63-cba3-966d-5dfc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d07-ba10-1e61-761f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="aa5d-310e-3375-905e" name="3x DANA SP 152mm" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fb6f-5742-441e-0e66" name="DANA SP 152mm" hidden="false" targetId="e6b7-802b-5771-14bd" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8014-85f9-4282-dc9a" name="6x  DANA SP 152mm" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7e8f-00f1-1599-71a1" name="DANA SP 152mm" hidden="false" targetId="e6b7-802b-5771-14bd" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efbc-7b63-9108-a3bc" name="M53/59 Praga AA Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6de6-b0be-c615-3313" name="1) Unit Size" page="" hidden="false" collective="false" import="true" defaultSelectionEntryId="b94e-5160-f366-dc26">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed45-1a07-6df4-6107" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb4b-9ed2-8a43-6617" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b94e-5160-f366-dc26" name="2x M53/59 Praga" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="07bb-a1e1-fa8d-2dbd" name="M53/59 Praga" hidden="false" targetId="7165-1e47-3bc3-bd98" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a9ec-4f78-8a21-2c3c" name="4x M53/59 Praga" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="cc9a-4a02-2b9e-8575" name="M53/59 Praga" hidden="false" targetId="7165-1e47-3bc3-bd98" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="1ef8-28bd-5456-b33c" name="Autoloader" hidden="false">
+      <description>When a weapon with an Autoloader fires an Artillery Bombardment, reduce the score required To Hit teams under the Template by 1.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="48b3-b6b2-a416-c26b" name="7.62mm MG" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
@@ -2240,7 +2342,7 @@ Counterattack 5+</characteristic>
         <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="fc6e-5e84-7730-c7a2" name="MPi KM assault rifle team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+    <profile id="fc6e-5e84-7730-c7a2" name="Vz.58 assault rifle team" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20cm</characteristic>
         <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 3</characteristic>
@@ -2302,9 +2404,9 @@ Counterattack 5+</characteristic>
         <infoLink id="bc8c-4469-2d93-bfc1" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="2107-ea22-4683-d2d3" name="[W] RPG-18 AT" hidden="false">
+    <infoGroup id="2107-ea22-4683-d2d3" name="[W] RPG-75 AT" hidden="false">
       <profiles>
-        <profile id="9719-bb72-75af-01e2" name="RPG-18 anti-tank" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+        <profile id="9719-bb72-75af-01e2" name="RPG-75 anti-tank" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot; / 20cm</characteristic>
             <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
@@ -2319,7 +2421,7 @@ Counterattack 5+</characteristic>
         <infoLink id="96d7-16df-fe7d-d0ec" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="2a6a-1725-a551-e1f3" name="[W] RPG-7 Anti-Tank Team" hidden="false">
+    <infoGroup id="2a6a-1725-a551-e1f3" name="[W] RPG-7 anti-tank team" hidden="false">
       <profiles>
         <profile id="426b-c97e-a02b-743f" name="RPG-7 anti-tank team" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
@@ -2336,9 +2438,9 @@ Counterattack 5+</characteristic>
         <infoLink id="3c03-bb3b-aeff-6ed1" name="Slow Firing" hidden="false" targetId="7504-1bfb-7651-0911" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="7155-8f80-7d87-3e6e" name="[W] PKM LMG team" hidden="false">
+    <infoGroup id="7155-8f80-7d87-3e6e" name="[W] Vz.59 LMG team" hidden="false">
       <profiles>
-        <profile id="a51e-52d5-605d-f569" name="PKM LMG team" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+        <profile id="a51e-52d5-605d-f569" name="Vz.59 LMG team" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
             <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">7 / 4</characteristic>
@@ -2389,12 +2491,12 @@ Counterattack 5+</characteristic>
       <profiles>
         <profile id="dddc-c55e-6296-f33a" name="BMP-1 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">2</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
@@ -2421,12 +2523,12 @@ Counterattack 4+</characteristic>
       <profiles>
         <profile id="1367-3504-9629-cf84" name="BMP-2 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">2</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
@@ -2503,12 +2605,12 @@ Counterattack 4+</characteristic>
       <profiles>
         <profile id="eb6a-5018-3abe-1ebc" name="BTR-60 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
-Counterattack 5+</characteristic>
+Counterattack 6</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
@@ -2564,9 +2666,9 @@ Counterattack 5+</characteristic>
         <infoLink id="a07c-04cb-2c00-d757" name="Heavy Weapon" hidden="false" targetId="d661-451e-b329-b452" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="33be-94f8-0d8b-0c55" name="[W] SA-14 Gremlin AA missile team" hidden="false">
+    <infoGroup id="33be-94f8-0d8b-0c55" name="[W] SA-7 Grail AA missile team" hidden="false">
       <profiles>
-        <profile id="1094-d710-2297-7bff" name="SA-14 Gremlin AA missile team" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+        <profile id="1094-d710-2297-7bff" name="SA-7 Grail AA missile team" page="" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">48&quot; / 120cm</characteristic>
             <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / -</characteristic>
@@ -2637,9 +2739,9 @@ Counterattack 5+</characteristic>
       <profiles>
         <profile id="0c53-a56e-9d59-7eaa" name="Spandrel" page="" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
 Counterattack 6</characteristic>
@@ -2815,7 +2917,7 @@ Counterattack -</characteristic>
         <infoLink id="e53a-be25-e7f3-04ba" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="cb96-86c7-f4b3-ace0" name="RM-70 Batterie" hidden="false">
+    <infoGroup id="cb96-86c7-f4b3-ace0" name="RM-70 Battery" hidden="false">
       <profiles>
         <profile id="5e27-3486-60bc-0527" name="RM-70 rocket launcher" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
@@ -2828,9 +2930,9 @@ Counterattack -</characteristic>
         </profile>
         <profile id="0ff9-2b06-9088-1a9f" name="RM-70" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
 Counterattack 6</characteristic>
@@ -2857,8 +2959,8 @@ Counterattack 6</characteristic>
         <profile id="d5cd-2b10-9ff2-cae8" name="Su-25" page="" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
           <characteristics>
             <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
-            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
-            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">5+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">4+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
             <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">3+</characteristic>
             <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">4+</characteristic>
             <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
@@ -2913,8 +3015,8 @@ Counterattack 6</characteristic>
       <profiles>
         <profile id="1993-8cc6-8eae-c338" name="MI-24 Hind" page="" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
           <characteristics>
-            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
-            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">5+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">4+</characteristic>
             <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
             <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">3+</characteristic>
             <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">4+</characteristic>
@@ -2968,12 +3070,12 @@ Counterattack 6</characteristic>
       <profiles>
         <profile id="687d-b1d8-8678-b12e" name="Assault Landing Company" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
-            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+
-Morale 3+
-Rally 4+</characteristic>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">5+
+Morale 4+
+Rally 5+</characteristic>
             <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">3+</characteristic>
             <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
             <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot; / 20cm</characteristic>
@@ -2986,9 +3088,9 @@ Counterattack 4+</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f3e3-307f-ddc6-d900" name="RPG-18 AT" hidden="false" targetId="2107-ea22-4683-d2d3" type="infoGroup"/>
-        <infoLink id="5a01-ddb3-b446-8a80" name="MPi KM assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
-        <infoLink id="36fb-a71a-133a-bd93" name="[W] RPG-7 Anti-Tank Team" hidden="false" targetId="2a6a-1725-a551-e1f3" type="infoGroup"/>
+        <infoLink id="f3e3-307f-ddc6-d900" name="[W] RPG-75 AT" hidden="false" targetId="2107-ea22-4683-d2d3" type="infoGroup"/>
+        <infoLink id="5a01-ddb3-b446-8a80" name="Vz. 58 assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
+        <infoLink id="c7c3-41d8-f602-e111" name="[W] RPG-7 anti-tank team" hidden="false" targetId="2a6a-1725-a551-e1f3" type="infoGroup"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="734a-0f54-d150-0bf2" name="SA-8 Gecko" hidden="false">
@@ -3004,9 +3106,9 @@ Counterattack 4+</characteristic>
         </profile>
         <profile id="a948-5066-c6b0-ae91" name="SA-8 Gecko" page="" hidden="false" typeId="973a-aa06-b137-2f9e" typeName="Unarmored Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="3b8f-cc49-ba8e-2b20">4+
-Morale 3+
-Rally 4+</characteristic>
+            <characteristic name="Courage" typeId="3b8f-cc49-ba8e-2b20">5+
+Morale 4+
+Rally 5+</characteristic>
             <characteristic name="Skill" typeId="ef6b-6ca3-15b2-d564">4+
 Assault -
 Counterattack -</characteristic>
@@ -3042,9 +3144,9 @@ Counterattack -</characteristic>
         </profile>
         <profile id="9008-acd6-ea8f-54f6" name="SA-9 Gaskin" page="" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault -
 Counterattack -</characteristic>
@@ -3080,9 +3182,9 @@ Counterattack -</characteristic>
         </profile>
         <profile id="1221-755e-a8de-1a25" name="SA-13 Gopher" page="" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault -
 Counterattack -</characteristic>
@@ -3117,12 +3219,12 @@ Counterattack -</characteristic>
         </profile>
         <profile id="4577-8707-06b5-d4d8" name="ZSU-23-4" page="" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
-Counterattack 5+</characteristic>
+Counterattack 6</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">1</characteristic>
@@ -3149,12 +3251,12 @@ Counterattack 5+</characteristic>
       <profiles>
         <profile id="64cc-b2f8-d481-e577" name="BMP-1 Scout" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 6</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">2</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">2</characteristic>
@@ -3181,12 +3283,12 @@ Counterattack 4+</characteristic>
       <profiles>
         <profile id="ee3d-82a1-60dd-5cbb" name="BRDM-2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 6
-Counterattack 5+</characteristic>
+Counterattack 6</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
@@ -3229,12 +3331,12 @@ Counterattack 5+</characteristic>
       <profiles>
         <profile id="17f4-1549-a509-5c99" name="T-72B (HQ)" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
-Morale 2+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 3+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
 Assault 5+
-Counterattack 3+</characteristic>
+Counterattack 4+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">18</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">9</characteristic>
@@ -3260,12 +3362,12 @@ Counterattack 3+</characteristic>
       <profiles>
         <profile id="074f-9744-90db-58f0" name="T-72M (HQ)" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
-Morale 2+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 3+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
 Assault 5+
-Counterattack 3+</characteristic>
+Counterattack 4+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">15</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">8</characteristic>
@@ -3291,12 +3393,12 @@ Counterattack 3+</characteristic>
       <profiles>
         <profile id="74d8-76e3-690d-b169" name="T-72M" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">15</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">8</characteristic>
@@ -3322,12 +3424,12 @@ Counterattack 4+</characteristic>
       <profiles>
         <profile id="cc33-2b5e-1844-4562" name="T-72B" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">18</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">9</characteristic>
@@ -3353,12 +3455,12 @@ Counterattack 4+</characteristic>
       <profiles>
         <profile id="80bd-ff33-fec2-2ee4" name="T-55AM2 (HQ)" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
-Morale 2+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 3+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
 Assault 5+
-Counterattack 3+</characteristic>
+Counterattack 4+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">14</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">9</characteristic>
@@ -3384,12 +3486,12 @@ Counterattack 3+</characteristic>
       <profiles>
         <profile id="33b1-6ab4-5fb3-5e9c" name="T-55AM2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
-Morale 3+
-Remount 4+</characteristic>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
             <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
             <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">14</characteristic>
             <characteristic name="Side" typeId="7011-0119-007e-4560">9</characteristic>
@@ -3441,16 +3543,16 @@ Counterattack 4+</characteristic>
         <infoLink id="d806-9947-0b13-06ed" name="7.62mm MG" hidden="false" targetId="48b3-b6b2-a416-c26b" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="0ed1-6f2f-d1d0-a305" name="Mot-Schutz HQ" hidden="false">
+    <infoGroup id="0ed1-6f2f-d1d0-a305" name="Motor Rifle HQ" hidden="false">
       <profiles>
-        <profile id="0bb7-9547-407e-1c20" name="Mot-Schützen (HQ)" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+        <profile id="0bb7-9547-407e-1c20" name="Motor Rifle (HQ)" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
-            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">3+
-Morale 2+
-Rally 3+</characteristic>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+
+Morale 3+
+Rally 4+</characteristic>
             <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">3+
 Assault 5+
-Counterattack 3+</characteristic>
+Counterattack 4+</characteristic>
             <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">3+</characteristic>
             <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
             <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot; / 20cm</characteristic>
@@ -3464,19 +3566,19 @@ Counterattack 3+</characteristic>
       </profiles>
       <infoLinks>
         <infoLink id="4d06-3280-fbf7-d698" name="HQ Transport" hidden="false" targetId="2d25-2cc5-0ea9-7fd9" type="rule"/>
-        <infoLink id="db80-01f0-819c-0659" name="MPi KM assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
+        <infoLink id="db80-01f0-819c-0659" name="Vz. 58 assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="f3bb-e554-06fd-2337" name="Mot-Schutz" hidden="false">
+    <infoGroup id="f3bb-e554-06fd-2337" name="Motor Rifle" hidden="false">
       <profiles>
-        <profile id="01f0-528f-3c7b-631d" name="Mot-Schützen Kompanie" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
+        <profile id="01f0-528f-3c7b-631d" name="Motor Rifle Company" hidden="false" typeId="de02-a834-ba11-b332" typeName="Infantry Team">
           <characteristics>
-            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">4+
-Morale 3+
-Rally 4+</characteristic>
+            <characteristic name="Courage" typeId="dbca-5616-8114-4e72">5+
+Morale 4+
+Rally 5+</characteristic>
             <characteristic name="Skill" typeId="f658-164f-55f0-0e6d">4+
 Assault 5+
-Counterattack 4+</characteristic>
+Counterattack 5+</characteristic>
             <characteristic name="Is Hit On" typeId="03bb-8237-592b-a12b">3+</characteristic>
             <characteristic name="Save" typeId="3510-6ce7-e33f-5ca8">3+</characteristic>
             <characteristic name="Tactical" typeId="656c-b7a0-87a8-4b74">8&quot; / 20cm</characteristic>
@@ -3489,9 +3591,130 @@ Counterattack 4+</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c3ab-f208-e1e3-af46" name="RPG-7 Anti-Tank Team" hidden="false" targetId="2a6a-1725-a551-e1f3" type="infoGroup"/>
-        <infoLink id="9947-1cde-158d-1db7" name="RPG-18 AT" hidden="false" targetId="2107-ea22-4683-d2d3" type="infoGroup"/>
-        <infoLink id="aca7-a29b-3895-a9d4" name="MPi KM assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
+        <infoLink id="c3ab-f208-e1e3-af46" name="[W] RPG-7 anti-tank team" hidden="false" targetId="2a6a-1725-a551-e1f3" type="infoGroup"/>
+        <infoLink id="9947-1cde-158d-1db7" name="[W] RPG-75 AT" hidden="false" targetId="2107-ea22-4683-d2d3" type="infoGroup"/>
+        <infoLink id="aca7-a29b-3895-a9d4" name="Vz. 58 assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="7165-1e47-3bc3-bd98" name="M53/59 Praga" hidden="false">
+      <profiles>
+        <profile id="9db3-c48a-53d0-5e17" name="M53/59 Praga" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 6
+Counterattack 6</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">1</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">5+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
+          </characteristics>
+        </profile>
+        <profile id="2dd0-01bd-e2ae-bf7d" name="Twin 30mm vz. 53/59 AA gun" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">24&quot;/60cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 2</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">7</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Dedicated AA, Manual Tracking</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8383-5407-bb7e-1817" name="Manual Tracking" hidden="false">
+          <description>AA Weapons add +1 to the score required To Hit Aircraft that are not Helicopters.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="68ff-31c1-f079-7248" name="Dedicated AA" hidden="false" targetId="514b-1009-1db9-e89a" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f28f-a23b-4cf0-30bb" name="[T] OT-64 Transport" hidden="false">
+      <profiles>
+        <profile id="afcb-f682-74f2-0468" name="OT-64 Transport" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 6
+Counterattack 6</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">0</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot; / 25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">44&quot;/110cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">5+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Amphibious, Passengers 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ad44-5e9f-33b5-849a" name="14.5mm MG" hidden="false" targetId="c17d-8c48-4969-99f5" type="profile"/>
+        <infoLink id="c59e-36d6-ba92-37c7" name="7.62mm MG" hidden="false" targetId="48b3-b6b2-a416-c26b" type="profile"/>
+        <infoLink id="c0a0-28f4-574d-3fa5" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
+        <infoLink id="cfe5-3931-04f6-2e82" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e6b7-802b-5771-14bd" name="DANA SP 152mm" hidden="false">
+      <profiles>
+        <profile id="49e6-6e3b-aa1b-2003" name="152mm gun-howitzer" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">96&quot;/240cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">ARTILLERY</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">2+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Autoloader, Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db23-e72f-f735-9fe9" name="DANA SP 152mm" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">5+
+Morale 4+
+Remount 5+</characteristic>
+            <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 6
+Counterattack 6</characteristic>
+            <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">3+</characteristic>
+            <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">1</characteristic>
+            <characteristic name="Side" typeId="7011-0119-007e-4560">1</characteristic>
+            <characteristic name="Top" typeId="cc2b-8114-3c93-7362">0</characteristic>
+            <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">36&quot;/90cm</characteristic>
+            <characteristic name="Cross" typeId="032f-59ad-74b3-1601">5+</characteristic>
+            <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Infra-Red</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3694-39ff-ef00-56a4" name="152mm gun-howitzer (Direct Fire)" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">24&quot;/60cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">14</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">1+</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Brutal, Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cbd0-034f-b910-2f9e" name="[W] 7.62mm AA MG" hidden="false" targetId="3739-50e9-effa-888f" type="infoGroup"/>
+        <infoLink id="886c-38dc-3967-925b" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
+        <infoLink id="24b7-dff5-ce8d-9d43" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
+        <infoLink id="3ffb-dad6-a5ef-b5df" name="Autoloader" hidden="false" targetId="1ef8-28bd-5456-b33c" type="rule"/>
+        <infoLink id="f75b-b972-7b7f-11db" name="Brutal" hidden="false" targetId="2102-fd36-69d4-0b93" type="rule"/>
+        <infoLink id="e896-f008-8b4f-d250" name="Smoke" hidden="false" targetId="f3d4-cf1f-bfdd-e76c" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
