@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="8" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="9" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 5-18-2025
-Overhauled finished 6-11-2025</readme>
+Overhauled finished 6-11-2025
+Airmobile Formations added 2-22-26</readme>
   <categoryEntries>
     <categoryEntry id="c148-308e-59c4-ca99" name="TOW-2" hidden="false"/>
+    <categoryEntry id="a6b9-bdf5-88db-3da9" name="Airmobile Formation" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="0fa4-ee0a-d789-8fe7" name="** [FAD] M1A1 Abrams Combat Team" hidden="false" collective="false" import="true" targetId="c7f9-e6e9-4222-b6a6" type="selectionEntry">
@@ -118,7 +120,7 @@ Overhauled finished 6-11-2025</readme>
         <categoryLink id="83cb-1ae1-fc80-28d4" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="60a9-901c-bc2b-f707" name="** [Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="6930-d86c-1e7d-19cf" type="selectionEntry">
+    <entryLink id="60a9-901c-bc2b-f707" name="[Aircraft] Helicopter Support" hidden="false" collective="false" import="true" targetId="6930-d86c-1e7d-19cf" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="855e-bb0d-6886-3305" type="max"/>
       </constraints>
@@ -401,7 +403,7 @@ Overhauled finished 6-11-2025</readme>
         <categoryLink id="d944-cded-3bc6-c0c6" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="120f-54fa-bf8c-3f17" name="[FS] M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry">
+    <entryLink id="120f-54fa-bf8c-3f17" name="M2 Bradley Mech Platoon" hidden="false" collective="false" import="true" targetId="97dd-eb71-692d-636a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -444,6 +446,14 @@ Overhauled finished 6-11-2025</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="a04a-775a-b5ec-f506" name="New CategoryLink" hidden="false" targetId="ccc5-e668-a26d-db83" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df6a-b9c0-3df3-c4a0" name="[Airborne Operation]" hidden="false" collective="false" import="true" targetId="4807-22bf-b1e4-92a8" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fd93-f0be-ffc4-942e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e5f3-7cd6-a26b-30ca" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1111,6 +1121,21 @@ Overhauled finished 6-11-2025</readme>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ff6d-df84-5cb4-518e" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1ebf-d1f2-4aa0-0ef2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1269,7 +1294,6 @@ Overhauled finished 6-11-2025</readme>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2958-6741-2b19-9aa9" name="UH-1 Huey" hidden="false" targetId="078f-b587-f3e3-35aa" type="infoGroup"/>
         <infoLink id="b78f-cbe2-30d4-0867" name="M47 Dragon missile" hidden="false" targetId="dd19-5346-a65c-d98e" type="profile"/>
         <infoLink id="6394-d0d7-cacd-6dad" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="218f-2939-9279-1cf3" name="M249 SAW" hidden="false" targetId="109c-2484-66ac-f390" type="profile"/>
@@ -1285,19 +1309,19 @@ Overhauled finished 6-11-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63db-5f3e-418e-4390" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cca8-fa51-1e1e-b9e5" name="5x M249 SAW w- M72 LAW, 1x M47, 2x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cca8-fa51-1e1e-b9e5" name="5x M249 SAW w- M72 LAW, 1x M47" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a883-cec0-daeb-9105" name="7x M249 SAW w- M72 LAW, 1x M47, 3x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a883-cec0-daeb-9105" name="7x M249 SAW w- M72 LAW, 1x M47" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ef4f-07cb-96e3-33c6" name="2) Optional Weapons Teams" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ef4f-07cb-96e3-33c6" name="3) Optional Weapons Teams" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1401-108f-0519-f359" name="1x M224 60mm Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1331,6 +1355,13 @@ Overhauled finished 6-11-2025</readme>
               </costs>
             </selectionEntry>
             <selectionEntry id="6f82-886a-17fa-425a" name="1x UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ebe-72f6-d3c9-c254" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="720c-fea3-ab43-3f18" type="max"/>
               </constraints>
@@ -1347,6 +1378,62 @@ Overhauled finished 6-11-2025</readme>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f124-227e-6cf8-01fd" name="2) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ebe-72f6-d3c9-c254">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87c-e2f6-afdf-dac8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efbf-bf51-d663-d1eb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ebe-72f6-d3c9-c254" name="UH-1 Huey" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x3">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a883-cec0-daeb-9105" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cca8-fa51-1e1e-b9e5" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0d7a-8058-83d0-ae0b" name="UH-1 Huey" hidden="false" targetId="078f-b587-f3e3-35aa" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2432-9943-ad36-3c17" name="CH-47 Chinook" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6b9-bdf5-88db-3da9" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2"/>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="3a0b-b4d1-5aee-58bd" name="CH-47 Chinook" hidden="false" targetId="b607-ebc4-eaad-e7e7" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6ad5-d22d-8293-8cae" name="Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6b9-bdf5-88db-3da9" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1535,6 +1622,21 @@ Overhauled finished 6-11-2025</readme>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e2ca-161e-7638-6761" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="310d-03be-6198-d15a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e04a-4dc0-4bd3-e5ca" name="1) Missile Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd66-87a6-9a16-4333">
@@ -1656,6 +1758,13 @@ Overhauled finished 6-11-2025</readme>
           </constraints>
           <selectionEntries>
             <selectionEntry id="f3eb-27b1-9c2f-4475" name="AAVP7 x2" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6b9-bdf5-88db-3da9" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoGroups>
                 <infoGroup id="e641-4da8-c6f7-16c2" name="AAVP7" hidden="false">
                   <profiles>
@@ -1725,6 +1834,36 @@ Overhauled finished 6-11-2025</readme>
                   </infoLinks>
                 </infoGroup>
               </infoGroups>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a956-d34f-70c7-fd2e" name="CH-53 Sea Stallion x2" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6b9-bdf5-88db-3da9" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="cdb7-9083-086d-55f2" name="CH-53 Sea Stallion" hidden="false" targetId="e82f-3142-8765-a3d6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f895-d568-7753-2338" name="CH-46 Sea Knight x3" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6b9-bdf5-88db-3da9" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="03ff-872c-23e6-8df7" name="CH-46 Sea Knight" hidden="false" targetId="b9f6-de2a-ba55-e8be" type="infoGroup"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
@@ -1883,6 +2022,23 @@ Overhauled finished 6-11-2025</readme>
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry id="6ac3-6cf1-84bb-8769" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be02-d4fd-92e6-84cd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="eb97-456a-1a23-6f25" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd0e-9ebe-91d0-ecf6">
           <constraints>
@@ -2854,6 +3010,21 @@ Overhauled finished 6-11-2025</readme>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="565e-cd17-d6a0-c4a5" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ee6b-4fd4-b75d-c86b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -3099,6 +3270,13 @@ Counterattack 4+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bc8-12ed-e356-4c73" name="Marine Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="a6b9-bdf5-88db-3da9">
+          <conditions>
+            <condition field="selections" scope="2bc8-12ed-e356-4c73" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7fa3-9222-dc8e-ad78" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry id="fc9a-2b0b-2edc-3605" name="Marine Rifle Company HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3142,6 +3320,21 @@ Counterattack 4+</characteristic>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7fa3-9222-dc8e-ad78" name="0) Airmobile Formation" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="67fa-6db4-f5dc-cb64" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f17a-aec0-ae88-b6d0" name="1) Optional Rifle Platoon" hidden="false" collective="false" import="true">
@@ -3155,12 +3348,12 @@ Counterattack 4+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="1b33-560e-ea36-ca54" name="2) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="1319-3ac2-f8f3-cd44" name="* [FS] Marine M60 Patton Tank Platoon" hidden="false" collective="false" import="true" targetId="644e-ee06-7959-82dc" type="selectionEntry">
+            <entryLink id="1319-3ac2-f8f3-cd44" name="Marine M60 Patton Tank Platoon" hidden="false" collective="false" import="true" targetId="644e-ee06-7959-82dc" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e7-2d01-228e-d785" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e66a-ecd3-dee1-2dab" name="[FS] Marine LAV Platoon" hidden="false" collective="false" import="true" targetId="8749-c96c-f48d-05cf" type="selectionEntry">
+            <entryLink id="e66a-ecd3-dee1-2dab" name="Marine LAV Platoon" hidden="false" collective="false" import="true" targetId="8749-c96c-f48d-05cf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc57-b9f6-04f6-7760" type="max"/>
               </constraints>
@@ -3313,9 +3506,6 @@ Counterattack 4+</characteristic>
     </selectionEntry>
     <selectionEntry id="3767-85f0-399d-d4b1" name="Combined Arms (HEAVY) Company" hidden="false" collective="false" import="true" type="unit">
       <comment>2</comment>
-      <categoryLinks>
-        <categoryLink id="a64f-836f-401b-03c1" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6cc-34f6-8eea-a41b" name="Combined Arms (Heavy) Company HQ" page="47" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3490,9 +3680,6 @@ Counterattack 4+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="4b41-e903-4c84-5f96" name="HMMWV Cavalry Troop" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="668f-43ef-e366-add7" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="babf-426d-a1d0-6d53" name="HMMWV Cavalry Troop HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3531,6 +3718,21 @@ Counterattack 4+</characteristic>
               </constraints>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ba5-e266-ab5d-8de3" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c85-159d-4075-92b8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3593,6 +3795,23 @@ Counterattack 4+</characteristic>
         <infoLink id="57ec-4bfb-7197-133a" name="Scout" hidden="false" targetId="9df5-f39b-4148-24ca" type="rule"/>
         <infoLink id="ded0-14a8-2ea5-2e2d" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4c8c-1b49-a5f1-55dd" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="76c6-451d-d45b-947c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b224-c809-47d2-e35d" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ddd-340c-7949-5ff6">
           <constraints>
@@ -3655,6 +3874,13 @@ Counterattack 4+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ea8-7247-016a-821b" name="UH-1 Huey Infantry Combat Team" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="a6b9-bdf5-88db-3da9">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="90d1-27c8-9cad-2cef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry id="a76e-06c2-6ac3-dd86" name="UH-1 Huey Infantry Combat Team HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3662,7 +3888,6 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b338-4120-d115-e915" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3f88-e583-bb7c-aa42" name="UH-1 Huey" hidden="false" targetId="078f-b587-f3e3-35aa" type="infoGroup"/>
             <infoLink id="9048-8714-90b3-0f12" name="M16 rifle team HQ" hidden="false" targetId="758e-dd25-7bbb-19dd" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -3678,6 +3903,21 @@ Counterattack 4+</characteristic>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="90d1-27c8-9cad-2cef" name="0) Airmobile Formation" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f53-7610-96ef-fac4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3708,7 +3948,7 @@ Counterattack 4+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="758f-940d-87ba-983b" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0e28-27de-3475-9c8d" name="HMMWV-AT Platoon" hidden="false" collective="false" import="true" targetId="457c-3484-b0fc-ec28" type="selectionEntry">
+            <entryLink id="0e28-27de-3475-9c8d" name="HMMWV-TOW AT Platoon" hidden="false" collective="false" import="true" targetId="457c-3484-b0fc-ec28" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a74b-5474-4c35-ceee" type="max"/>
               </constraints>
@@ -3736,9 +3976,6 @@ Counterattack 4+</characteristic>
     </selectionEntry>
     <selectionEntry id="fe88-2b9a-6e11-0e62" name="Light Attack Company" hidden="false" collective="false" import="true" type="unit">
       <comment>2</comment>
-      <categoryLinks>
-        <categoryLink id="c10b-5c66-a746-8e41" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5ff2-1c7c-1fcf-9eba" name="Light Attack Company HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -4930,7 +5167,7 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c956-fe80-85fe-6e2c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="13c8-e160-c660-bd0d" name="** [M] Marine HMMWV Observation Post" hidden="true" collective="false" import="true" targetId="59fb-1d86-aa6b-736e" type="selectionEntry">
+            <entryLink id="13c8-e160-c660-bd0d" name="Marine HMMWV Observation Post" hidden="true" collective="false" import="true" targetId="59fb-1d86-aa6b-736e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -4939,7 +5176,7 @@ Counterattack 4+</characteristic>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="546c-c962-533f-2ea2" name="** [M] M113 FIST" hidden="true" collective="false" import="true" targetId="aef9-00cb-4ee0-87be" type="selectionEntry">
+            <entryLink id="546c-c962-533f-2ea2" name="M113 FIST" hidden="true" collective="false" import="true" targetId="aef9-00cb-4ee0-87be" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -5144,6 +5381,23 @@ Counterattack 4+</characteristic>
         <infoLink id="f4da-5299-b68d-4745" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
         <infoLink id="f085-21ac-08af-b9da" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="f58d-56ab-2e22-5211" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8546-e19c-2a54-c09c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="cbfe-ec18-c2f3-9221" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b7a7-e145-0929-a316">
           <constraints>
@@ -5184,6 +5438,23 @@ Counterattack 4+</characteristic>
         <infoLink id="0a4d-79ea-9c2f-792e" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
         <infoLink id="a575-a0c4-d177-70e7" name="HMMWV" hidden="false" targetId="6702-5ea6-6c16-f461" type="profile"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0d9e-3a5a-18e4-152a" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4807-22bf-b1e4-92a8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c115-c6e3-4f25-5431" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5750-f44b-6193-6ab1" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a5a-d4f5-3d17-4995">
           <constraints>
@@ -5338,112 +5609,137 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4807-22bf-b1e4-92a8" name="[Airborne Operation]" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="45dc-c67c-0962-a6f7" name="Aeromobile Reserves" hidden="false" targetId="b4b4-c4cb-5eab-1b42" type="rule"/>
+        <infoLink id="d594-631c-4321-33af" name="Airborne Operation" hidden="false" targetId="044c-f67b-99ee-7638" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="f9ba-68ae-07bd-b643" name="Parachute Rules" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d706-d3c3-0383-3970" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="507f-2f35-e62c-773e" name="Parachute Deployment" hidden="false" targetId="1e05-5886-22ee-625a" type="rule"/>
+            <infoLink id="53d6-35af-4392-660c" name="Parachute Deployment - Rough Landing / Landing Off Table" hidden="false" targetId="8b11-e3b4-ff3a-323d" type="rule"/>
+            <infoLink id="d20f-2aab-9fa5-90f0" name="Parachute Drift Table" hidden="false" targetId="5e12-ea34-8a5f-431c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="bfcf-30b2-50c3-ab09" name="M1A1 Abrams HQ" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="bfcf-30b2-50c3-ab09" name="M1A1 Abrams HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
       <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot;/35CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">18&quot;/45CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;/70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">19</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">10</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">2</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">3+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">2+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
+Morale 3+
+Remount 2+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+
+Counterattack 3+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">19</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">10</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot;/35CM</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot;/45CM</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;/70CM</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armour, Thermal Imaging</characteristic>
       </characteristics>
     </profile>
-    <profile id="80f1-757f-fcc9-8289" name="M1A1HC Abrams HQ" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="80f1-757f-fcc9-8289" name="M1A1HC Abrams HQ" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
       <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot;/35CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">18&quot;/45CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;/70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">21</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">11</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">2</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">3+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">3+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">2+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">3+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">3+</characteristic>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">3+
+Morale 3+
+Remount 2+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">3+
+Assault 4+
+Counterattack 3+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">21</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">11</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot;/35cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot;/45cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;/70cm</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80cm</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armour, Thermal Imaging</characteristic>
       </characteristics>
     </profile>
-    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="7db7-f937-aedb-0515" name=".50 cal AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">4</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">20&quot;/50cm</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="0db1-913b-4e9a-0860" name="7.62 AA MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="3e75-a9f5-e820-b029" name="7.62 MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="5d42-4fd3-6a3c-87eb" name="M1A1HC Abrams" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="5d42-4fd3-6a3c-87eb" name="M1A1HC Abrams" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
       <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot;/35CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">18&quot;/45CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;/70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">21</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">11</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">2</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">2+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 2+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 4+
+Counterattack 4+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">21</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">11</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot;/35CM</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot;/45CM</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;/70CM</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armour, Thermal Imaging</characteristic>
       </characteristics>
     </profile>
-    <profile id="872d-daa3-fe3d-a036" name="M1A1 Abrams" hidden="false" typeId="e086-dcd6-1518-dc44" typeName="Tank Unit">
+    <profile id="872d-daa3-fe3d-a036" name="M1A1 Abrams" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
       <characteristics>
-        <characteristic name="Tactical" typeId="0f95-1160-8137-2e70">14&quot;/35CM</characteristic>
-        <characteristic name="Terrain Dash" typeId="f9c7-641e-a00f-0552">18&quot;/45CM</characteristic>
-        <characteristic name="Cross Country Dash" typeId="8fd7-dfd5-de5e-e574">28&quot;/70CM</characteristic>
-        <characteristic name="Road Dash" typeId="f778-f445-c19b-30d4">32&quot;/80CM</characteristic>
-        <characteristic name="Cross" typeId="ae80-d6b0-cb1b-4c9c">2+</characteristic>
-        <characteristic name="Front" typeId="ca8b-c8f9-96f3-a913">19</characteristic>
-        <characteristic name="Side" typeId="a40f-72f4-3d35-ec93">10</characteristic>
-        <characteristic name="Top" typeId="f293-d7ab-abe0-c981">2</characteristic>
-        <characteristic name="Is Hit on" typeId="1a01-5cd5-d0d0-91c0">4+</characteristic>
-        <characteristic name="Courage" typeId="12e0-c8cc-7fb1-25b5">4+</characteristic>
-        <characteristic name="Morale" typeId="fb3f-6bb0-8c2b-d44a">4+</characteristic>
-        <characteristic name="Remount" typeId="39b2-e446-443a-ccaf">2+</characteristic>
-        <characteristic name="Skill" typeId="2347-c398-3cb7-2f91">4+</characteristic>
-        <characteristic name="Assault" typeId="071d-fb0c-dc9f-c97f">4+</characteristic>
-        <characteristic name="Counterattack" typeId="552a-1058-00df-a425">4+</characteristic>
+        <characteristic name="Courage" typeId="5ee0-23e6-42ea-47de">4+
+Morale 4+
+Remount 2+</characteristic>
+        <characteristic name="Skill" typeId="77c7-e659-4a0c-a38f">4+
+Assault 4+
+Counterattack 4+</characteristic>
+        <characteristic name="Is Hit on" typeId="e693-f9bf-d2bd-225c">4+</characteristic>
+        <characteristic name="Front" typeId="3234-1c68-4b74-9d5f">19</characteristic>
+        <characteristic name="Side" typeId="7011-0119-007e-4560">10</characteristic>
+        <characteristic name="Top" typeId="cc2b-8114-3c93-7362">2</characteristic>
+        <characteristic name="Tactical" typeId="bc1b-82d3-08fc-916c">14&quot;/35CM</characteristic>
+        <characteristic name="Terrain Dash" typeId="1ff4-646b-beac-9b2c">18&quot;/45CM</characteristic>
+        <characteristic name="Cross Country Dash" typeId="b863-6232-9412-c3be">28&quot;/70CM</characteristic>
+        <characteristic name="Road Dash" typeId="f74a-19ab-96a1-2a3b">32&quot;/80CM</characteristic>
+        <characteristic name="Cross" typeId="032f-59ad-74b3-1601">2+</characteristic>
+        <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0">Chobham Armour, Thermal Imaging</characteristic>
       </characteristics>
     </profile>
     <profile id="6702-5ea6-6c16-f461" name="HMMWV" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
@@ -5466,24 +5762,22 @@ Counterattack -</characteristic>
         <characteristic name="Notes" typeId="7c50-9f1d-ca19-57c0"/>
       </characteristics>
     </profile>
-    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="f6cd-1fc9-54a9-8735" name="MK 19 40mm GL" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40 CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">4</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">4</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40 CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">5 / 4</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="b8ec-c5d7-69f3-1692" name=".50 cal MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">20&quot;/50CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">4</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">20&quot;/50cm</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">4</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
     <profile id="758e-dd25-7bbb-19dd" name="M16 rifle team HQ" hidden="false" typeId="095d-7a5e-b507-44e4" typeName="Infantry Team">
@@ -5503,84 +5797,76 @@ Counterattack -</characteristic>
         <characteristic name="Counter Attack" typeId="57d9-d0c4-dd83-6019">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="109c-2484-66ac-f390" name="M249 SAW" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">3</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">1</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">12&quot;/30CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">3 / 2</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">1</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="11bc-8d75-cd12-066c" name="M72 LAW" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">12&quot;/30CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">12</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">5+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">HEAT, Slow Firing</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">12&quot;/30CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">12</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">5+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd19-5346-a65c-d98e" name="M47 Dragon missile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="dd19-5346-a65c-d98e" name="M47 Dragon missile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">8&quot;/20CM-28&quot;/70CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">-</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">18</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">3+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 5, Guided, HEAT</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">8&quot;/20CM-28&quot;/70CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">18</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5, Guided, HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="5248-f3c2-5600-fe4c" name="M134 Minigun MG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">7</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">4</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93"/>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">7 / 4</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7"/>
       </characteristics>
     </profile>
-    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="1ac9-c0ed-e552-855d" name="M224 60mm Mortar" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">32&quot;/80CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">1</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">4+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assualt 5, Overhead Fire, Slow Firing</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">32&quot;/80CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">1</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assualt 5, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="edcf-9938-6a95-a495" name="SMAW" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">1</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">1</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">17</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">3+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assualt 5, HEAT, Slow Firing</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / 1</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">17</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">3+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assualt 5, HEAT, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="5d20-0981-2a11-42f7" name="M60 GPMG" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">5</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">2</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Assault 5</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">5 / 2</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Assault 5</characteristic>
       </characteristics>
     </profile>
-    <profile id="b333-af96-1c3e-dba6" name="Door M60 MG" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="b333-af96-1c3e-dba6" name="Door M60 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">16&quot;/40CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">4</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">4</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">2</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">6</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Door Guns</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 4</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
       </characteristics>
     </profile>
     <profile id="b277-d9ec-9629-e692" name="M159 rocket launcher" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
@@ -5611,14 +5897,13 @@ Counterattack -</characteristic>
         <characteristic name="Counterattack" typeId="552a-1058-00df-a425">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="79b4-4ee7-1967-3b95" name="Stinger AA MIssile" hidden="false" typeId="c31a-db70-952b-43ec" typeName="Weapon">
+    <profile id="79b4-4ee7-1967-3b95" name="Stinger AA MIssile" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="236c-2ce4-666b-bfe5">48&quot;/120CM</characteristic>
-        <characteristic name="Halted ROF " typeId="7a61-c54f-97c9-9ecd">-</characteristic>
-        <characteristic name="Moving ROF " typeId="9696-6fb3-ca9f-9769">-</characteristic>
-        <characteristic name="Anti-tank" typeId="b1ef-a4e9-0f52-3c13">-</characteristic>
-        <characteristic name="Firepower" typeId="798b-75af-3f7d-0b25">4+</characteristic>
-        <characteristic name="Notes" typeId="e028-835f-f0cf-cb93">Guided AA</characteristic>
+        <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">48&quot;/120cm</characteristic>
+        <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">1 / -</characteristic>
+        <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">-</characteristic>
+        <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">4+</characteristic>
+        <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Guided AA</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -6089,6 +6374,77 @@ Counterattack 4+</characteristic>
       <infoLinks>
         <infoLink id="6c06-962c-ddea-7b72" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
         <infoLink id="98b9-ecfb-1958-a395" name="Stabiliser" hidden="false" targetId="d3fb-834f-d6a6-3a89" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e82f-3142-8765-a3d6" name="CH-53 Sea Stallion" hidden="false">
+      <profiles>
+        <profile id="8be2-3232-44bd-00af" name="CH-53 Sea Stallion" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="630a-302b-ba3f-1970" name="Door MG3 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 4</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7e47-81ea-8bce-01a8" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+        <infoLink id="a33a-87c8-1577-2f53" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="0c6c-86a6-7b52-40ea" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="b9f6-de2a-ba55-e8be" name="CH-46 Sea Knight" hidden="false">
+      <profiles>
+        <profile id="204c-09ac-a226-5336" name="CH-46 Sea Knight" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2ace-4e78-af71-9ae1" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+        <infoLink id="7ce4-67af-adce-6977" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="697e-dd1e-081c-4438" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="e7f7-a72c-4f43-4a10" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="b607-ebc4-eaad-e7e7" name="CH-47 Chinook" hidden="false">
+      <profiles>
+        <profile id="cb24-da2d-d62d-3cd3" name="CH-47 Chinook" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f439-22c5-8cc5-3a4f" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+        <infoLink id="f21d-72c4-5a52-d6f0" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="96b2-7341-083d-7b88" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="1785-3c35-1818-1179" name="Door M60 MG" hidden="false" targetId="b333-af96-1c3e-dba6" type="profile"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

@@ -654,33 +654,101 @@ Finished overhaul 2-22-26</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad2-d2de-52f5-bafe" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d179-3d33-0040-3370" name="4x MPi KM teams w/RPG-18 AT, 3x RPG-7 AT teams, 4x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="d179-3d33-0040-3370" name="4x MPi KM teams w/RPG-18 AT, 3x RPG-7 AT teams" hidden="false" collective="false" import="true" type="unit">
+              <comment>7</comment>
               <infoLinks>
                 <infoLink id="4ae8-2839-c669-4d61" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="1d34-2840-4d43-c926" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="63c0-9ccc-1b4f-bfd0" name="7x MPi KM teams w/RPG-18 AT, 6x RPG-7 AT teams, 1x PKM LMG team, 8x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="63c0-9ccc-1b4f-bfd0" name="7x MPi KM teams w/RPG-18 AT, 6x RPG-7 AT teams, 1x PKM LMG team" hidden="false" collective="false" import="true" type="unit">
+              <comment>14</comment>
               <infoLinks>
-                <infoLink id="892a-bc0f-1c1a-97ef" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="892a-bc0f-1c1a-97ef" name="[W] PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="2f0d-410f-3766-3de8" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="e697-519e-5ec9-5d9c" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a0b1-1599-77d6-9bf2" name="10x MPi KM teams w/RPG-18 AT, 9x RPG-7 AT teams, 2x PKM LMG teams, 11x BTR-60s" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="a0b1-1599-77d6-9bf2" name="10x MPi KM teams w/RPG-18 AT, 9x RPG-7 AT teams, 2x PKM LMG teams" hidden="false" collective="false" import="true" type="unit">
+              <comment>21</comment>
               <infoLinks>
-                <infoLink id="7fe2-c53a-5409-9bd8" name="PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
+                <infoLink id="7fe2-c53a-5409-9bd8" name="[W] PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="9d8e-9eff-2eee-80a4" name="Mot-Schutz" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
-                <infoLink id="5c1c-8886-cbdc-32bc" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="92ed-cb1e-36ef-8332" name="3) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="7614-d45f-8ed2-69f7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="050b-e32d-2cd0-a836" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba64-66f6-939c-2888" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7614-d45f-8ed2-69f7" name="BTR-60" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="append" field="name" value="x11">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0b1-1599-77d6-9bf2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x4">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d179-3d33-0040-3370" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x8">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63c0-9ccc-1b4f-bfd0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="44f1-5217-e9f2-6ac7" name="[T] BTR-60 Transport" hidden="false" targetId="484d-16eb-e663-2d97" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a9b6-ccab-32cc-e2cc" name="Mi-8 Hip" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="append" field="name" value="x1">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d179-3d33-0040-3370" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63c0-9ccc-1b4f-bfd0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x3">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0b1-1599-77d6-9bf2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="7216-9333-2b5d-9b72" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0b1-1599-77d6-9bf2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="7216-9333-2b5d-9b72" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="4be4-3096-9811-2692" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63c0-9ccc-1b4f-bfd0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="a881-0941-0a17-d8ee" name="Mi-8 Hip" hidden="false" targetId="a12c-05a7-86ae-8cd6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3492,6 +3560,34 @@ Counterattack 4+</characteristic>
         <infoLink id="c3ab-f208-e1e3-af46" name="RPG-7 Anti-Tank Team" hidden="false" targetId="2a6a-1725-a551-e1f3" type="infoGroup"/>
         <infoLink id="9947-1cde-158d-1db7" name="RPG-18 AT" hidden="false" targetId="2107-ea22-4683-d2d3" type="infoGroup"/>
         <infoLink id="aca7-a29b-3895-a9d4" name="MPi KM assault rifle team" hidden="false" targetId="fc6e-5e84-7730-c7a2" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="a12c-05a7-86ae-8cd6" name="Mi-8 Hip" hidden="false">
+      <profiles>
+        <profile id="7f05-1526-2c06-14d5" name="Mi-8 Hip" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">5+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">3+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b60-d995-3daa-4658" name="Door PK MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 4</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e3da-fba5-dc4d-f1ad" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
+        <infoLink id="056c-5358-195d-9ce3" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

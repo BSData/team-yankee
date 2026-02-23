@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="72a9-f370-d503-444b" name="NATO - West Germany" revision="3" battleScribeVersion="2.03" authorName="N.Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="72a9-f370-d503-444b" name="NATO - West Germany" revision="4" battleScribeVersion="2.03" authorName="N.Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 5-12-2025
-More or less finished 6-23-2025</readme>
+More or less finished 6-23-2025
+Airmobile Formations added 2-22-26</readme>
   <categoryEntries>
     <categoryEntry id="72dc-e11c-74bb-f5e2" name="HOT 2" hidden="false"/>
     <categoryEntry id="0680-635d-731e-6d47" name="MILAN 2" hidden="false"/>
+    <categoryEntry id="1e7d-0378-1e3e-60cc" name="Airmobile Formation" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="1022-c92e-de7c-a772" name="[Artillery] 227mm MARS Raketenwerfer Batterie" hidden="false" collective="false" import="true" targetId="f482-ebe0-ad79-68b4" type="selectionEntry">
@@ -377,6 +379,14 @@ More or less finished 6-23-2025</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="b8c6-9ee2-309c-bae8" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="029f-6d5b-24d4-0fdc" name="[Airborne Operation]" hidden="false" collective="false" import="true" targetId="594b-b039-3da5-5d46" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cd03-330d-d3b2-553f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3931-db96-0029-f585" name="New CategoryLink" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1645,6 +1655,33 @@ Counterattack 6</characteristic>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1aa5-f447-a1d3-07a8" name="1x CH-53 Sea Stallion Transport" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e7d-0378-1e3e-60cc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="1a5b-9e0c-bea9-85f8" name="CH-53 Sea Stallion" hidden="false" targetId="18c6-e261-4da5-0152" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6413-3484-f971-a3a3" name="Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e7d-0378-1e3e-60cc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="10f9-83c8-6b2d-d7dd" name="1) Missile Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="690c-1366-6c99-62eb">
@@ -1718,7 +1755,7 @@ Counterattack 4+</characteristic>
         <infoLink id="ec33-bae1-e94b-32ef" name="Improved TOW Missile" hidden="false" targetId="dc3e-f081-8473-488f" type="infoGroup"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7776-1ff2-e72a-6332" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e01-388a-91f2-2989">
+        <selectionEntryGroup id="7776-1ff2-e72a-6332" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e01-388a-91f2-2989">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda4-89db-27ff-d44e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d707-1e5b-6e03-4cab" type="max"/>
@@ -1737,6 +1774,63 @@ Counterattack 4+</characteristic>
             <selectionEntry id="4516-dec1-4e6b-140a" name="4x Wiesel TOW" hidden="false" collective="false" import="true" type="unit">
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1cdf-cf81-8ab2-fe44" name="2) Optional Airmobile Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e7d-0378-1e3e-60cc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9e1b-dfcf-aeee-b9b5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="79fc-72ce-b0d1-17b8" name="Parachuting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ead6-80ad-d74c-1647" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3a9-f0f7-d240-6324" name="CH-53 Sea Stallion Transport" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x1">
+                  <conditions>
+                    <condition field="selections" scope="3dfe-4ada-e677-1ef0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e01-388a-91f2-2989" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3dfe-4ada-e677-1ef0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4516-dec1-4e6b-140a" type="greaterThan"/>
+                        <condition field="selections" scope="3dfe-4ada-e677-1ef0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0015-d72a-7ca2-d0a7" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="7216-9333-2b5d-9b72" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3dfe-4ada-e677-1ef0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4516-dec1-4e6b-140a" type="greaterThan"/>
+                        <condition field="selections" scope="3dfe-4ada-e677-1ef0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0015-d72a-7ca2-d0a7" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="995d-03c6-6a5f-1d4e" name="CH-53 Sea Stallion" hidden="false" targetId="18c6-e261-4da5-0152" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1774,7 +1868,7 @@ Counterattack 4+</characteristic>
         <infoLink id="7707-2be0-8fc7-8948" name="Anti-Helicopter" hidden="false" targetId="8e4a-59b8-2d58-8f33" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3c55-783f-39a5-54e3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1775-06cf-bc68-43a3">
+        <selectionEntryGroup id="3c55-783f-39a5-54e3" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1775-06cf-bc68-43a3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ec-0635-710f-9974" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7efe-02d9-1d51-dd33" type="max"/>
@@ -1788,6 +1882,53 @@ Counterattack 4+</characteristic>
             <selectionEntry id="9e37-07fd-5ff1-473d" name="6x Wiesel FK 20mm" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c68b-c6e2-bae6-3d7c" name="2) Optional Airmobile Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e7d-0378-1e3e-60cc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="05ae-bc0e-8040-ce29" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5ce5-b515-4a6b-1338" name="Parachuting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f4c8-fbf6-904a-f3e9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="43d0-bfaa-c070-35f8" name="CH-53 Sea Stallion Transport" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x2">
+                  <conditions>
+                    <condition field="selections" scope="8228-56c4-ebb1-bf46" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1775-06cf-bc68-43a3" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x3">
+                  <conditions>
+                    <condition field="selections" scope="8228-56c4-ebb1-bf46" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9e37-07fd-5ff1-473d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="7216-9333-2b5d-9b72" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="8228-56c4-ebb1-bf46" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9e37-07fd-5ff1-473d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="25d0-fe23-c04d-07dd" name="CH-53 Sea Stallion" hidden="false" targetId="18c6-e261-4da5-0152" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2524,6 +2665,13 @@ Counterattack -</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3eb-4b09-ffc4-4461" name="Fallschirmjäger Kompanie" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="1e7d-0378-1e3e-60cc">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afcb-e3f1-3afa-359b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="1060-05d1-74d5-8618" name="New CategoryLink" hidden="false" targetId="49c4-0317-f106-84c7" primary="false"/>
       </categoryLinks>
@@ -2566,7 +2714,37 @@ Counterattack 3+</characteristic>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="1.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ad54-1d5e-7265-0b71" name="0) Parachuting" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e7d-0378-1e3e-60cc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0d23-21d0-da03-b988" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="afcb-e3f1-3afa-359b" name="0) Airmobile Formation" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="594b-b039-3da5-5d46" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a0bc-6224-1ac6-d29b" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
@@ -2598,13 +2776,13 @@ Counterattack 3+</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8b17-e531-36ca-3f28" name="[FS] Fallschirmjäger Zug" hidden="false" collective="false" import="true" targetId="6b2b-32ec-dc59-8c0c" type="selectionEntry">
+        <entryLink id="8b17-e531-36ca-3f28" name="Fallschirmjäger Zug" hidden="false" collective="false" import="true" targetId="6b2b-32ec-dc59-8c0c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f579-5bf7-1e56-fd9a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8439-f492-ecfe-4b12" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f640-e590-4258-c2ab" name="(FSJ) [FS] Fallschirmjäger Zug" hidden="false" collective="false" import="true" targetId="6b2b-32ec-dc59-8c0c" type="selectionEntry">
+        <entryLink id="f640-e590-4258-c2ab" name="Fallschirmjäger Zug" hidden="false" collective="false" import="true" targetId="6b2b-32ec-dc59-8c0c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e519-e39c-210b-e1a5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c512-c4a2-0dad-2db4" type="max"/>
@@ -4013,6 +4191,27 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="594b-b039-3da5-5d46" name="[Airborne Operation]" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="584e-9f23-399a-ec13" name="Airborne Operation" hidden="false" targetId="044c-f67b-99ee-7638" type="rule"/>
+        <infoLink id="74de-aa25-12a1-d5d6" name="Aeromobile Reserves" hidden="false" targetId="b4b4-c4cb-5eab-1b42" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0d3a-2052-abaf-b8e7" name="Parachute Rules" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f0b-1ced-23f8-b570" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7d12-6880-d9a7-e809" name="Parachute Deployment" hidden="false" targetId="1e05-5886-22ee-625a" type="rule"/>
+            <infoLink id="8aef-bb99-e60a-73af" name="Parachute Deployment - Rough Landing / Landing Off Table" hidden="false" targetId="8b11-e3b4-ff3a-323d" type="rule"/>
+            <infoLink id="dc0d-03fc-3afa-6578" name="Parachute Drift Table" hidden="false" targetId="5e12-ea34-8a5f-431c" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d968-fbfa-8192-e630" name="Forward Defence" page="" hidden="false">
@@ -4588,6 +4787,35 @@ Jaguar and PAH</comment>
       <infoLinks>
         <infoLink id="3d46-bd14-9a19-98de" name="Advanced Stabiliser" hidden="false" targetId="16f1-d6c2-e846-b6c8" type="rule"/>
         <infoLink id="521a-278a-9619-29ab" name="Laser Rangefinder" hidden="false" targetId="ab4f-6615-cc38-6418" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="18c6-e261-4da5-0152" name="CH-53 Sea Stallion" hidden="false">
+      <profiles>
+        <profile id="b0a4-adac-0a73-0381" name="CH-53 Sea Stallion" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="691d-4712-7bbf-fcda" name="Door MG3 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40cm</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 4</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="99ad-952f-c34c-05e7" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+        <infoLink id="b448-b81d-b72e-e226" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="0027-4b22-481f-f051" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>

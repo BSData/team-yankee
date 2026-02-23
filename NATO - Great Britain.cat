@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e6e0-9a49-2e0b-f063" name="NATO - Great Britain" revision="4" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: zharrpostingghoroth" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e6e0-9a49-2e0b-f063" name="NATO - Great Britain" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: zharrpostingghoroth" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhaul began 5/11/2025
-Began in earnest 9/19/2025; finished same day.</readme>
+Began in earnest 9/19/2025; finished same day.
+Airmobile Formations added 2-22-26</readme>
   <publications>
     <publication id="96f5-a2c3-a592-699e" name="World War III &quot;Team Yankee&quot; - British" shortName="British" publisher="ISBN 9781988558134" publicationDate="2019" publisherUrl="www.team-yankee.com"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="dd59-c376-1e7b-928f" name="Artillery Unit" hidden="true"/>
     <categoryEntry id="eab0-b05b-fc2e-4949" name="MILAN 2" hidden="true"/>
+    <categoryEntry id="d559-bc09-e19f-cc34" name="Airmobile Formation" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="3856-3abf-359b-7311" name="* [Artillery] MLRS Medium Rocket Battery" hidden="false" collective="false" import="true" targetId="762a-dab9-f573-0e28" type="selectionEntry">
@@ -262,6 +264,14 @@ Began in earnest 9/19/2025; finished same day.</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="a74d-0ae0-e3d7-484d" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bd6f-600a-ce9f-805f" name="[Airborne Operation]" hidden="false" collective="false" import="true" targetId="b8e5-38e4-f119-c520" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d3-932e-7c94-962b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cadd-e8be-ce8c-3556" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -938,19 +948,17 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d56f-2ba6-8488-5944" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d1e1-91a8-8f1f-2d85" name="4x GPMG team w-66mm AT, 3x Milan missile team, 1x 2&quot; Mortar team, 3x Lynx" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d1e1-91a8-8f1f-2d85" name="4x GPMG team w-66mm AT, 3x Milan missile team, 1x 2&quot; Mortar team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="f562-0428-3a95-cd33" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
-                <infoLink id="a3bf-1216-7f16-8f88" name="Lynx Airmobile weapons" hidden="false" targetId="90f2-061f-58a4-316f" type="infoGroup"/>
+                <infoLink id="a3bf-1216-7f16-8f88" name="Lynx Airmobile " hidden="false" targetId="90f2-061f-58a4-316f" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d267-cf20-873c-8153" name="3x GPMG team w-66mm AT, 2x Milan missile team, 1x 2&quot; Mortar team, 2x Lynx" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d267-cf20-873c-8153" name="3x GPMG team w-66mm AT, 2x Milan missile team, 1x 2&quot; Mortar team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="f9db-e8b1-7867-341e" name="Lynx Airmobile weapons" hidden="false" targetId="90f2-061f-58a4-316f" type="infoGroup"/>
-                <infoLink id="635f-bf1a-abfd-f69e" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
+                <infoLink id="f9db-e8b1-7867-341e" name="Lynx Airmobile " hidden="false" targetId="90f2-061f-58a4-316f" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="5.0"/>
@@ -964,7 +972,7 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="43f2-db10-4559-6e79" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c8ec-253b-e2a6-0166" name="1) Milan missile" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c8ec-253b-e2a6-0166" name="Milan missile" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="5d32-65b0-d431-63bc" name="[W] Milan Missile" hidden="false" targetId="a906-e2f0-3aeb-5c97" type="infoGroup"/>
               </infoLinks>
@@ -972,7 +980,7 @@ Counterattack 4+</characteristic>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3d01-37f6-ff40-fd2d" name="2) Milan 2 missile" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3d01-37f6-ff40-fd2d" name="Milan 2 missile" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="7216-9333-2b5d-9b72" value="3.0">
                   <conditions>
@@ -1000,6 +1008,50 @@ Counterattack 4+</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="fcc6-fdf7-8f8d-b671" name="3) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="6522-b18e-09e4-dfaa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4030-323d-c47b-fc56" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b6b2-3faf-5475-e7ab" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c2b4-a317-ee98-1acc" name="Chinook" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x1"/>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d559-bc09-e19f-cc34" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="43e0-60a2-cabe-eb8a" name="CH-47 Chinook" hidden="false" targetId="2776-5182-5550-bc7c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6522-b18e-09e4-dfaa" name="Lynx" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x3">
+                  <conditions>
+                    <condition field="selections" scope="56ef-0772-5b30-fc61" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1e1-91a8-8f1f-2d85" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2">
+                  <conditions>
+                    <condition field="selections" scope="56ef-0772-5b30-fc61" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d267-cf20-873c-8153" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="089c-1bf5-4284-8d94" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
@@ -1013,27 +1065,24 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3041-e2fe-cd47-52ec" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a933-f4f4-d06c-5907" name="8x Milan missile team 3x Lynx" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a933-f4f4-d06c-5907" name="8x Milan missile team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="38e2-f9a0-b378-3540" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
                 <infoLink id="fcab-bbe2-2fc5-0af4" name="Lynx Milan Platoon" hidden="false" targetId="6f63-f962-bc94-6ee1" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="11.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="26bd-60b3-995d-25ca" name="6x Milan missile team, 2x Lynx" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="26bd-60b3-995d-25ca" name="6x Milan missile team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="96c4-3ee3-e447-9aed" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
                 <infoLink id="a5e2-85da-cee3-6afb" name="Lynx Milan Platoon" hidden="false" targetId="6f63-f962-bc94-6ee1" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3085-93cf-d940-5468" name="4x Milan missile team, 2x Lynx" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3085-93cf-d940-5468" name="4x Milan missile team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="7924-3fff-76e0-70e8" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
                 <infoLink id="8008-db35-b84f-10ae" name="Lynx Milan Platoon" hidden="false" targetId="6f63-f962-bc94-6ee1" type="infoGroup"/>
               </infoLinks>
               <costs>
@@ -1048,7 +1097,7 @@ Counterattack 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f1c7-be18-f1d1-dbda" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4f30-3120-ff5d-e5a9" name="1) Milan missile" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4f30-3120-ff5d-e5a9" name="Milan missile" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="d6ea-6c1e-bc0b-e637" name="[W] Milan Missile" hidden="false" targetId="a906-e2f0-3aeb-5c97" type="infoGroup"/>
               </infoLinks>
@@ -1056,7 +1105,7 @@ Counterattack 4+</characteristic>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a63e-ba4d-07c1-c7a5" name="2) Milan 2 missile" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a63e-ba4d-07c1-c7a5" name="Milan 2 missile" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="7216-9333-2b5d-9b72" value="6.0">
                   <conditions>
@@ -1085,6 +1134,55 @@ Counterattack 4+</characteristic>
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="7216-9333-2b5d-9b72" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="679c-909d-5171-bb73" name="3) Transport Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc06-fac8-2da8-6cba">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="14c5-87ab-a028-cbb7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3576-8148-8a04-0659" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d9ba-769f-8334-c767" name="Chinook" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x1"/>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d559-bc09-e19f-cc34" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="469c-0449-5537-3d04" name="CH-47 Chinook" hidden="false" targetId="2776-5182-5550-bc7c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bc06-fac8-2da8-6cba" name="Lynx" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="append" field="name" value="x3">
+                  <conditions>
+                    <condition field="selections" scope="b052-76b7-3697-a991" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a933-f4f4-d06c-5907" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="name" value="x2">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="b052-76b7-3697-a991" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3085-93cf-d940-5468" type="greaterThan"/>
+                        <condition field="selections" scope="b052-76b7-3697-a991" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="26bd-60b3-995d-25ca" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="8801-a725-0254-67dc" name="Lynx Transport" hidden="false" targetId="03db-9ebd-4919-fd24" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2110,6 +2208,13 @@ Counterattack 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ba0-58df-8ee7-854a" name="Lynx Airmobile Company" publicationId="96f5-a2c3-a592-699e" page="38" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="d559-bc09-e19f-cc34">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b8e5-38e4-f119-c520" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry id="575f-9b84-b5d4-4433" name="Lynx Airmobile Company HQ" publicationId="96f5-a2c3-a592-699e" page="38" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2174,6 +2279,21 @@ Counterattack 5+</characteristic>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="790d-5818-f1af-51ae" name="0) Airmobile Formation" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b8e5-38e4-f119-c520" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="12be-bb49-0a9f-ba4c" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
           </costs>
@@ -2455,6 +2575,30 @@ Counterattack 5+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8e5-38e4-f119-c520" name="[Airborne Operation]" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2150-a4f7-6dea-41da" name="Airborne Operation" hidden="false" targetId="044c-f67b-99ee-7638" type="rule"/>
+        <infoLink id="8a34-42d1-b262-efd2" name="Aeromobile Reserves" hidden="false" targetId="b4b4-c4cb-5eab-1b42" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="e497-c539-e47a-07b0" name="Parachute Rules" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6d07-d524-c768-61a9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0700-b7e4-4288-f589" name="Parachute Deployment" hidden="false" targetId="1e05-5886-22ee-625a" type="rule"/>
+            <infoLink id="1b15-24de-f182-9fca" name="Parachute Deployment - Rough Landing / Landing Off Table" hidden="false" targetId="8b11-e3b4-ff3a-323d" type="rule"/>
+            <infoLink id="c070-177f-ee23-9284" name="Parachute Drift Table" hidden="false" targetId="5e12-ea34-8a5f-431c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
@@ -3880,6 +4024,35 @@ Counterattack -</characteristic>
         <infoLink id="4aa0-4174-abe8-00b2" name="Guided" hidden="false" targetId="5571-a7f9-133c-dd58" type="rule"/>
         <infoLink id="9ea4-344e-570e-6a56" name="HEAT" hidden="false" targetId="4ac0-f918-a4e1-d232" type="rule"/>
         <infoLink id="6eaf-001c-f8e1-02d3" name="Thermal Imaging" hidden="false" targetId="d777-d425-a1a7-8e83" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2776-5182-5550-bc7c" name="CH-47 Chinook" hidden="false">
+      <profiles>
+        <profile id="abfb-4bfd-9ed7-6e2c" name="CH-47 Chinook" hidden="false" typeId="93f9-4d95-fc61-de58" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Courage" typeId="519d-b8b1-81db-3a75">4+</characteristic>
+            <characteristic name="Morale" typeId="a6ac-0c16-c63a-14a8">3+</characteristic>
+            <characteristic name="Skill" typeId="9d98-b4e1-be94-0c75">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="5437-01f8-2432-9fbd">4+</characteristic>
+            <characteristic name="Save" typeId="3b66-bbe3-88a8-d8bc">5+</characteristic>
+            <characteristic name="Movement" typeId="5cbc-2315-11c6-72c9">UNLIMITED</characteristic>
+            <characteristic name="Notes" typeId="660f-c36d-39cb-2510">Passengers 8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4425-83b7-b66c-a869" name="Door M60 MGs" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="224f-dd7c-9266-b9b2">16&quot;/40CM</characteristic>
+            <characteristic name="Halted / Moving ROF " typeId="9ed0-82b4-8515-e261">4 / 4</characteristic>
+            <characteristic name="Anti-tank" typeId="5f33-46c1-c5f2-ebaf">2</characteristic>
+            <characteristic name="Firepower" typeId="3b54-88ee-7eef-aa5b">6</characteristic>
+            <characteristic name="Notes" typeId="6f6e-850e-037b-22b7">Door Guns</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e329-c008-b59f-2944" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
+        <infoLink id="ea83-72eb-afb2-fd03" name="Helicopter" hidden="false" targetId="76be-ca09-2356-b61c" type="rule"/>
+        <infoLink id="39ad-df1d-e266-adb1" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
