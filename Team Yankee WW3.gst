@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="7" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: zharrpostingghoroth" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9096-fd85-6ba1-72c5" name="Team Yankee WW3" revision="8" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: zharrpostingghoroth" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Picked up, dusted off, and beginning the process of overhauling 5-11-2025 - Ursine</readme>
   <costTypes>
     <costType id="7216-9333-2b5d-9b72" name="pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -189,7 +189,7 @@
     <rule id="c71b-70c7-24dc-9111" name="Jump Jet" hidden="false">
       <description>Jump Jet Strike Aircraft arrrive each turn on a roll of 3+, rather than the usual 4+.</description>
     </rule>
-    <rule id="8e4a-59b8-2d58-8f33" name="Anti-Helicopter" hidden="false">
+    <rule id="8e4a-59b8-2d58-8f33" name="Anti-helicopter" hidden="false">
       <description>Can shoot at Helicopters.</description>
     </rule>
     <rule id="5571-a7f9-133c-dd58" name="Guided" hidden="false">
@@ -280,7 +280,7 @@ When Deploying their remaining Units, a player may trreat the area entirely with
       <description>Mine ploughs, rollers, and flails allow tanks to clear mine fields.</description>
     </rule>
     <rule id="988f-bf9e-b22b-463e" name="Passengers #" hidden="false">
-      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicates how many Teams can be carried.</description>
     </rule>
     <rule id="5dac-a918-145f-931e" name="Unarmoured" hidden="false">
       <description>An Unarmoured Tank team cannot Charge into Contact and must Break Off if Assaulted.</description>
@@ -357,6 +357,43 @@ When Deploying their remaining Units, a player may trreat the area entirely with
     </rule>
     <rule id="e699-aa9d-514c-9f08" name="Tandem Warhead" hidden="false">
       <description>A Tandem Warhead HEAT Weapon is unaffected by ERA Armour. The Tank rolls its Armour Save based on its normal armour rating, not that of ERA.</description>
+    </rule>
+    <rule id="b4b4-c4cb-5eab-1b42" name="Aeromobile Reserves" hidden="true">
+      <description>In a mission with Airmobile Reserves, you may only deploy Aircraft and their Passengers and Parachuted infantry and vehicles from Airborne Formations at the start of the game. All other types of unit must be held in Reserve. </description>
+    </rule>
+    <rule id="044c-f67b-99ee-7638" name="Airborne Operation" hidden="false">
+      <description>Airmobile Formations and Parachutable Units have been marked accordingly; any unit lacking these keywords must be taken in Reserve.</description>
+    </rule>
+    <rule id="1e05-5886-22ee-625a" name="Parachute Deployment" hidden="false">
+      <description>Deploy each airborne Unit or Transport Attachment by parachute separately as follows:
+1. Roll a die to determine the quarter in which the Unit’s Drop Zone marker can be placed. On a roll of 5 or 6, the player may choose any quarter to place the marker in.
+2. Place the Drop Zone marker in the rolled quarter in any orientation.
+3. Roll to determine the Unit’s direction of Drift and place the Unit Leader against the appropriate face of the Drop Zone marker.
+4. Roll again to see how far the Unit Drifts using the Parachute Drift Table.
+5. Move the Unit Leader the indicated distance in the direction of Drift.
+6. Deploy the rest of the Unit so that it is In Command and remove the Drop Zone marker.
+7. The Unit does not start the game Dug In or Gone to Ground.</description>
+    </rule>
+    <rule id="5e12-ea34-8a5f-431c" name="Parachute Drift Table" hidden="false">
+      <description>1 or 2: 4&quot;/10cm
+3 or 4: 8&quot;/20cm
+5 or 6: 12&quot;/30cm
+
+1: North
+2: Northeast
+3: Southeast
+4: South
+5: Southwest
+6: Northwest</description>
+    </rule>
+    <rule id="8b11-e3b4-ff3a-323d" name="Parachute Deployment - Rough Landing / Landing Off Table" hidden="false">
+      <description>If a Parachute Unit Leader’s team ends their Drift in Difficult or Impassable Terrain or within 2&quot;/5cm of an enemy team, they continue to Drift a further 4&quot;/10cm.
+• If the Unit Leader is still in Difficult Terrain, all Teams in the Unit must immediately either roll a Cross test if a Tank team or a Save if an Infantry team, or be Destroyed.
+• If the Unit Leader is still in Impassable Terrain or within 2&quot;/5cm of an enemy Team, the Unit is Destroyed.
+• Otherwise, they deploy the rest of the Unit as normal at their new location.
+
+LANDING OFF TABLE
+If the distance rolled results in the Unit Leader Drifting off the table, then the Unit goes into Reserve in addition to the normal Reserves.</description>
     </rule>
   </sharedRules>
 </gameSystem>

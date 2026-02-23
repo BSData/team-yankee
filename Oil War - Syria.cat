@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9883-83c3-e104-4181" name="Oil War - Syria" revision="2" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Overhauled 6-15-2025</readme>
+<catalogue id="1976-635b-74a8-a4fd" name="Oil War - Syria" revision="3" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Overhauled 6-15-2025
+Re-worked 2-22-26</readme>
+  <categoryEntries>
+    <categoryEntry id="5cf6-3eb1-47ec-43d4" name="Artillery Unit" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
     <entryLink id="88e7-7687-923a-fad1" name="T-72M Tank Battalion " hidden="false" collective="false" import="true" targetId="ae10-627b-ef0b-c588" type="selectionEntry">
       <constraints>
@@ -34,7 +38,7 @@
         <categoryLink id="0110-a5da-19b6-4328" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e70a-e4ed-abfb-04a0" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry">
+    <entryLink id="e70a-e4ed-abfb-04a0" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="a3ea-f291-446b-cb95" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd2-db93-06da-8ed5" type="max"/>
       </constraints>
@@ -42,7 +46,7 @@
         <categoryLink id="e12c-3b32-4bfa-1d5a" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="da64-4e9f-3aed-2b59" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="cde0-5857-68ca-0ce2" type="selectionEntry">
+    <entryLink id="da64-4e9f-3aed-2b59" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="72f8-ea29-8f43-ae4f" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c62-56f5-a5ee-00b9" type="max"/>
       </constraints>
@@ -133,7 +137,7 @@
         <categoryLink id="b46b-c5bd-dff8-abfe" name="Combat Formation" hidden="false" targetId="49c4-0317-f106-84c7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1d15-3a0a-4fb4-69c3" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" targetId="89fd-4c4e-01e3-be70" type="selectionEntry">
+    <entryLink id="1d15-3a0a-4fb4-69c3" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" targetId="269f-edfd-37d4-7c21" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5931-67db-524a-a2b2" type="max"/>
       </constraints>
@@ -141,7 +145,7 @@
         <categoryLink id="df8c-4ef4-453c-2f21" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f480-e0d9-2daf-614f" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="5ca9-84c3-4b62-240b" type="selectionEntry">
+    <entryLink id="f480-e0d9-2daf-614f" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="6bac-57bc-7e1b-d6a1" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f5-e8cc-7cf9-ddbe" type="max"/>
       </constraints>
@@ -149,18 +153,12 @@
         <categoryLink id="6df0-6fac-f023-db9f" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="787b-a5aa-3d2b-820e" name="[Observer] BTR-60 OP Artillery Observer" hidden="true" collective="false" import="true" targetId="99ec-3c5a-c851-a2da" type="selectionEntry">
+    <entryLink id="787b-a5aa-3d2b-820e" name="[Observer] BTR-60 OP Artillery Observer" hidden="true" collective="false" import="true" targetId="a229-cbdd-e123-697e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d036-0143-60b1-da26" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cde0-5857-68ca-0ce2" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89fd-4c4e-01e3-be70" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cf6-3eb1-47ec-43d4" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -170,7 +168,7 @@
         <categoryLink id="c9a8-6f46-cb28-715f" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a72b-8190-1fb8-9ae1" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" targetId="06e5-f78d-ad25-a88b" type="selectionEntry">
+    <entryLink id="a72b-8190-1fb8-9ae1" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" targetId="a61f-9ee2-94aa-185f" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-df08-98dd-ed4a" type="max"/>
       </constraints>
@@ -178,7 +176,7 @@
         <categoryLink id="00c0-8b33-1a7b-b111" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2e64-b06d-e58b-ce6a" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" targetId="0557-e354-81f0-17ed" type="selectionEntry">
+    <entryLink id="2e64-b06d-e58b-ce6a" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" targetId="ad5d-8aa6-1ee9-5a21" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead5-50c5-7198-5c96" type="max"/>
       </constraints>
@@ -186,7 +184,7 @@
         <categoryLink id="6ce3-4d02-1c5d-bbb6" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2be7-05cf-8f28-b419" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7b32-24d8-d0d0-f4af" type="selectionEntry">
+    <entryLink id="2be7-05cf-8f28-b419" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7964-2211-c6d9-259c" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f547-dc84-4981-050e" type="max"/>
       </constraints>
@@ -194,7 +192,7 @@
         <categoryLink id="8891-3a18-c827-054a" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="62d6-61d7-a545-970d" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7b32-24d8-d0d0-f4af" type="selectionEntry">
+    <entryLink id="62d6-61d7-a545-970d" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" targetId="7964-2211-c6d9-259c" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f495-874c-c6f6-63f5" type="max"/>
       </constraints>
@@ -202,7 +200,7 @@
         <categoryLink id="c271-a5ab-5bb1-c3ae" name="Support Unit" hidden="false" targetId="f947-2750-08c3-d4fc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="930d-cf98-526d-11bd" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" targetId="04bc-94b7-73f3-13cf" type="selectionEntry">
+    <entryLink id="930d-cf98-526d-11bd" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" targetId="cdb0-03bd-e025-a846" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c4-9bba-cc62-b013" type="max"/>
       </constraints>
@@ -395,7 +393,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06e5-f78d-ad25-a88b" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a61f-9ee2-94aa-185f" name="[Recon] BRDM-2 Scout Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="947c-feb8-e896-c957" name="BRDM-2" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -449,7 +447,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ca9-84c3-4b62-240b" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6bac-57bc-7e1b-d6a1" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c007-5548-210f-00c2" name="Spandrel" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -511,7 +509,7 @@ Counterattack 6</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d036-0143-60b1-da26" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a3ea-f291-446b-cb95" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2957-4390-13fe-d59d" name="2S1 Carnation" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -571,6 +569,9 @@ Counterattack 5+</characteristic>
         <infoLink id="32f9-20a5-29a4-0eac" name="Amphibious" hidden="false" targetId="5807-4eac-7fae-eda0" type="rule"/>
         <infoLink id="050b-7d74-68ce-ed5a" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="79f2-4a6b-5417-8a9a" name="Artillery Unit" hidden="false" targetId="5cf6-3eb1-47ec-43d4" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9751-1d56-11b0-6fad" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4ea-e4cc-ee82-d9a3">
           <constraints>
@@ -1127,7 +1128,7 @@ Counterattack 4+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cde0-5857-68ca-0ce2" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72f8-ea29-8f43-ae4f" name="[Artillery] 2S3 Acacia Heavy SP Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1aa8-5369-2310-4198" name="2S3 Acacia" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -1186,6 +1187,9 @@ Counterattack 6</characteristic>
         <infoLink id="3967-fa1a-af7a-1a50" name="Infra-Red" hidden="false" targetId="e794-7147-1c60-5942" type="rule"/>
         <infoLink id="fb18-826f-5215-cfb2" name="7.62mm AA MG" hidden="false" targetId="e70a-826a-0fce-f211" type="infoGroup"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="30ee-3888-326b-20fe" name="Artillery Unit" hidden="false" targetId="5cf6-3eb1-47ec-43d4" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6d01-5ed9-bea3-1cd1" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="68b0-f58d-97b2-0442">
           <constraints>
@@ -1210,7 +1214,7 @@ Counterattack 6</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="89fd-4c4e-01e3-be70" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="269f-edfd-37d4-7c21" name="[Artillery] BM-21 Hail Rocket Launcher Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b1f9-9d76-9c0d-d39a" name="BM-21 Rocket Launcher" page="41" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
@@ -1244,6 +1248,9 @@ Counterattack -</characteristic>
         <infoLink id="5601-934c-83b9-8773" name="Smoke Bombardment" hidden="false" targetId="9897-8e4d-613a-55cb" type="rule"/>
         <infoLink id="d64a-5bd1-a106-659f" name="Unarmoured" hidden="false" targetId="5dac-a918-145f-931e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf44-324f-5827-21f7" name="Artillery Unit" hidden="false" targetId="5cf6-3eb1-47ec-43d4" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5835-566c-bae3-7e16" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="fac2-2b02-28fe-7246">
           <constraints>
@@ -1788,12 +1795,12 @@ Counterattack 3+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="ae0e-1a98-f938-f5eb" name="4) Optional Artillery &amp; Anti-tank Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="722a-5f54-c133-02f3" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry">
+            <entryLink id="722a-5f54-c133-02f3" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="a3ea-f291-446b-cb95" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49e-ce5a-2ae8-6286" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6fe2-9995-e89d-c3fc" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="5ca9-84c3-4b62-240b" type="selectionEntry">
+            <entryLink id="6fe2-9995-e89d-c3fc" name="[Anti-tank] Spandrel Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="6bac-57bc-7e1b-d6a1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-5253-c795-7afc" type="max"/>
               </constraints>
@@ -1926,7 +1933,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0557-e354-81f0-17ed" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ad5d-8aa6-1ee9-5a21" name="[Anti-aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="26f2-dd8f-4297-44ba" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="54c0-5c40-82b2-e493">
           <constraints>
@@ -1943,7 +1950,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b32-24d8-d0d0-f4af" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7964-2211-c6d9-259c" name="[Aircraft] Attack Helicopter Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="67a6-0b35-cd1d-fa28" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5c9e-fd2f-7247-c634">
           <constraints>
@@ -2012,7 +2019,7 @@ Counterattack 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae66-29be-3892-4664" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cede-be77-e59f-fd34" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="d036-0143-60b1-da26" type="selectionEntry"/>
+            <entryLink id="cede-be77-e59f-fd34" name="[Artillery] 2S1 Carnation SP Howitzer Battery" hidden="false" collective="false" import="true" targetId="a3ea-f291-446b-cb95" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="35a7-7260-94f9-f457" name="3) Optional AA Company" hidden="false" collective="false" import="true">
@@ -2043,7 +2050,7 @@ Counterattack 5+</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99ec-3c5a-c851-a2da" name="[Observer] BTR-60 OP Artillery Observer" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a229-cbdd-e123-697e" name="[Observer] BTR-60 OP Artillery Observer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a5df-15a2-5414-b6d7" name="BTR-60 OP" hidden="false" typeId="28dc-0c96-453a-604f" typeName="Tank Unit">
           <characteristics>
@@ -2091,7 +2098,7 @@ Counterattack 6</characteristic>
         <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04bc-94b7-73f3-13cf" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cdb0-03bd-e025-a846" name="[Aircraft] SU-25 Frogfoot Aviation Company" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2052-0fc3-80c5-a90c" name="KH-25 Air-Ground Missile" page="42" hidden="false" typeId="e9be-b9e3-7b99-9c51" typeName="Weapon">
           <characteristics>
