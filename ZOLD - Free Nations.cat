@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42f3-a58d-6415-4939" name="OUTDATED - Free Nations" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9211-6b9c-02a5-9215" name="OUTDATED - Free Nations" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf" authorContact="nicolas.dohrendorf@gmail.com" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="63dc-a08d-29fa-af37" name="Free Nations - Canadian, French, Dutch and Australian Forces in WWIII" shortName="Free Nations" publisher="ISBN 9780995104204" publicationDate="2018" publisherUrl="www.team-yankee.com"/>
   </publications>

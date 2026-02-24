@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d513-979e-a800-9289" name="NATO - France" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d71d-1d84-8395-96d6" name="NATO - France" revision="5" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Work begins sometime 6/?/2025</readme>
   <publications>
     <publication id="63dc-a08d-29fa-af37" name="Free Nations - Canadian, French, Dutch and Australian Forces in WWIII" shortName="Free Nations" publisher="ISBN 9780995104204" publicationDate="2018" publisherUrl="www.team-yankee.com"/>
@@ -558,6 +558,9 @@
               <infoLinks>
                 <infoLink id="b326-51dc-1674-8a78" name="VAB Transport" hidden="false" targetId="91ed-9375-9f62-2d88" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ae50-fb0d-6698-f78c" name="VAB T20" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -566,6 +569,9 @@
               <infoLinks>
                 <infoLink id="2dc6-1627-d096-b0fb" name="VAB T20 Transport" hidden="false" targetId="6679-80aa-0c36-574e" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1701,6 +1707,9 @@ Counterattack 3+</characteristic>
                   <infoLinks>
                     <infoLink id="99fc-158b-7aaf-1ec3" name="APILAS (Vehicle)" hidden="false" targetId="521b-5ffe-3bbc-ef85" type="infoGroup"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="76ce-b32c-7bc6-0e18" name="Eryx missile" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
@@ -1713,6 +1722,9 @@ Counterattack 3+</characteristic>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1997,6 +2009,9 @@ Counterattack 3+</characteristic>
               <infoLinks>
                 <infoLink id="1faf-1a8b-0402-256b" name="APILAS (Vehicle)" hidden="false" targetId="521b-5ffe-3bbc-ef85" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d290-2d2a-87df-d64d" name="Eryx missile" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -2009,6 +2024,9 @@ Counterattack 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="54c9-ee2b-e64f-c682" name="VBL Groupe de Antichar Milan" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -2059,6 +2077,9 @@ Counterattack 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="98c9-59f6-60b1-de8f" name="VBL Patrouille D&apos;eclairage" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2086,6 +2107,9 @@ Counterattack 3+</characteristic>
               <infoLinks>
                 <infoLink id="3191-5be9-ab6a-4d11" name="APILAS (Vehicle)" hidden="false" targetId="521b-5ffe-3bbc-ef85" type="infoGroup"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="700d-cebd-847c-532a" name="Eryx missile" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -2098,6 +2122,9 @@ Counterattack 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
