@@ -254,6 +254,66 @@
         <categoryLink id="df41-ecc1-fe44-c9d8" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cb81-33d6-ee26-ba2c" name="[British] Armour Support" hidden="true" collective="false" import="true" targetId="4bb8-0eca-2b02-3ccc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab48-7813-7214-9d03" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dd6a-3599-a767-f611" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4ecf-cbf8-8a1d-3b46" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c8ae-5a6d-3ac0-d3b6" name="[British] Helicopter Support" hidden="true" collective="false" import="true" targetId="4f82-80a1-3870-73d5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab48-7813-7214-9d03" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6274-c0fe-d6e4-7ad4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="25ae-88bf-48a0-55eb" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="316d-763a-0be1-7431" name="[British] Infantry Support" hidden="true" collective="false" import="true" targetId="12ca-b41f-3dc3-a81b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab48-7813-7214-9d03" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="63e1-8723-146b-945d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e382-c286-c31c-9ab2" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df00-08ae-e032-56d3" name="[British] Strike Aircraft Support" hidden="true" collective="false" import="true" targetId="61bb-96b3-1159-4b0e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab48-7813-7214-9d03" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="54ca-04eb-683e-d164" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5c24-c72e-111a-c7bd" name="New CategoryLink" hidden="false" targetId="23b6-f962-743b-0715" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="50be-2cd0-9a75-8836" name="Leopard C1 Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
@@ -2607,7 +2667,7 @@ Counterattack 3+</characteristic>
     </selectionEntry>
     <selectionEntry id="6573-ffb9-cb5d-cf46" name="[American] Armour Support" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
-        <selectionEntryGroup id="77a6-c916-43ef-48a6" name="Unit Type" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="77a6-c916-43ef-48a6" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="0022-e4a0-0ac5-2377">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b8b6-31fe-8a6f-9e9f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="19ad-3bcf-bbf8-3b78" type="max"/>
@@ -2663,6 +2723,66 @@ Counterattack 3+</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f8ee-808a-fb7b-f1ab" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d67b-1d0d-10e4-d803" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bb8-0eca-2b02-3ccc" name="[British] Armour Support" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5284-a518-58d5-c8ae" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="0883-8eb9-94fe-49d3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44c0-26fe-1a98-32c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dfd9-308d-2590-3630" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0883-8eb9-94fe-49d3" name="Challenger Armoured Troop" hidden="false" collective="false" import="true" targetId="125f-d032-1bb6-4cf1" type="selectionEntry"/>
+            <entryLink id="dcd2-18d1-0b69-22bf" name="Chieftain Armoured Troop" hidden="false" collective="false" import="true" targetId="4957-ee30-7d91-b027" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12ca-b41f-3dc3-a81b" name="[British] Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c88a-e208-e5f0-6698" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="de0e-2520-8a0f-9aa2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ea65-ffe5-af46-73b0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="687b-62bb-ad5a-d762" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="de0e-2520-8a0f-9aa2" name="FV432 Mechanised Platoon" hidden="false" collective="false" import="true" targetId="7bb9-00a8-668e-6d9d" type="selectionEntry"/>
+            <entryLink id="99b5-6cb9-1928-6c41" name="Warrior Mechanised Platoon" hidden="false" collective="false" import="true" targetId="d6d7-28fc-8199-738a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f82-80a1-3870-73d5" name="[British] Helicopter Support" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="06f6-f504-a583-08bd" name="[Aircraft] TOW Lynx Helarm Flight" hidden="false" collective="false" import="true" targetId="d46d-3416-5499-4530" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7aa8-6a89-c1b5-5508" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4bbf-afaa-05e8-6679" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7216-9333-2b5d-9b72" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61bb-96b3-1159-4b0e" name="[British] Strike Aircraft Support" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="262d-622e-eed3-f1f8" name="[Aircraft] Harrier Close Air Support Flight" hidden="false" collective="false" import="true" targetId="eb5b-42ce-4de8-e45e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5820-7921-f510-0785" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="67ab-a92e-0275-3062" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3862,7 +3982,8 @@ Jaguar and PAH</comment>
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="c4c5-a177-2cc2-8a03" name="NATO - West Germany" targetId="72a9-f370-d503-444b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="b55d-5a37-ea6b-8c10" name="NATO - America" targetId="ee58-b579-8fa5-c793" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="c4c5-a177-2cc2-8a03" name="NATO - West Germany" targetId="72a9-f370-d503-444b" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="b55d-5a37-ea6b-8c10" name="NATO - America" targetId="ee58-b579-8fa5-c793" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="ab4e-bf34-05ba-c4e0" name="NATO - Great Britain" targetId="390d-79be-1199-e173" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>

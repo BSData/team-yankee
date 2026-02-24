@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="9" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee58-b579-8fa5-c793" name="NATO - America" revision="8" battleScribeVersion="2.03" authorName="Walter Vining, UrsinePatriarch" authorContact="toasterfree@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 5-18-2025
 Overhauled finished 6-11-2025
 Airmobile Formations added 2-22-26</readme>
@@ -619,7 +619,7 @@ Airmobile Formations added 2-22-26</readme>
         <infoLink id="6c4d-8e4a-a2e2-14c1" name="M159 rocket launcher" hidden="false" targetId="b277-d9ec-9629-e692" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3b5f-4225-bf4c-d4b0" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3b5f-4225-bf4c-d4b0" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d38-b83c-bb50-7a77">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="905b-9982-af12-4bb7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="378c-9c07-a173-d7ab" type="max"/>
