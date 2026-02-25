@@ -358,7 +358,7 @@ When Deploying their remaining Units, a player may trreat the area entirely with
     <rule id="e699-aa9d-514c-9f08" name="Tandem Warhead" hidden="false">
       <description>A Tandem Warhead HEAT Weapon is unaffected by ERA Armour. The Tank rolls its Armour Save based on its normal armour rating, not that of ERA.</description>
     </rule>
-    <rule id="b4b4-c4cb-5eab-1b42" name="Aeromobile Reserves" hidden="true">
+    <rule id="b4b4-c4cb-5eab-1b42" name="Aeromobile Reserves" hidden="false">
       <description>In a mission with Airmobile Reserves, you may only deploy Aircraft and their Passengers and Parachuted infantry and vehicles from Airborne Formations at the start of the game. All other types of unit must be held in Reserve. </description>
     </rule>
     <rule id="044c-f67b-99ee-7638" name="Airborne Operation" hidden="false">
@@ -394,6 +394,9 @@ When Deploying their remaining Units, a player may trreat the area entirely with
 
 LANDING OFF TABLE
 If the distance rolled results in the Unit Leader Drifting off the table, then the Unit goes into Reserve in addition to the normal Reserves.</description>
+    </rule>
+    <rule id="e032-bb36-fa16-147a" name="Transport Capacity (Airborne Assault)" hidden="false">
+      <description>Teams that cannot fit on a transport during an Airborne Assault mission must be left out of the game; this specifically applies to Optional teams and cannot be calculated by the system, so please plan accordingly. </description>
     </rule>
   </sharedRules>
 </gameSystem>

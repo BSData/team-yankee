@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2a14-1486-1f68-9f7f" name="Warsaw Pact - Poland" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2a14-1486-1f68-9f7f" name="Warsaw Pact - Poland" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Work started and finished 2-22-26 (I did East Germany, then Czechoslovakia, then Poland here; EG is 80% of these lists, the CZ/Po are almost the exact same again. Took me literally an hour to do Poland.)</readme>
   <categoryEntries>
     <categoryEntry id="f134-b723-294a-df6b" name="Artillery Unit" hidden="false"/>
@@ -617,6 +617,7 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="99eb-6606-7145-fe47" name="4x AKM teams, 3x RPG-7 AT teams" hidden="false" collective="false" import="true" type="unit">
+              <comment>7+1</comment>
               <infoLinks>
                 <infoLink id="f6b8-955c-7df4-78f5" name="Motor Rifle" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
               </infoLinks>
@@ -625,6 +626,7 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f31c-12e0-922c-37ad" name="7x AKM teams, 6x RPG-7 AT teams, 1x PKM LMG team" hidden="false" collective="false" import="true" type="unit">
+              <comment>14+1</comment>
               <infoLinks>
                 <infoLink id="c679-e86c-843a-38a1" name="[W] PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="51ed-11f4-b2d5-0af6" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
@@ -634,6 +636,7 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="41f3-3993-0603-2d43" name="10x AKM teams, 9x RPG-7 AT teams, 1x PKM LMG team" hidden="false" collective="false" import="true" type="unit">
+              <comment>20+1</comment>
               <infoLinks>
                 <infoLink id="5014-edb3-de2f-5035" name="[W] PKM LMG team" hidden="false" targetId="7155-8f80-7d87-3e6e" type="infoGroup"/>
                 <infoLink id="4514-33e9-8f77-c583" name="Mot-Schutz (BMP-1)" hidden="false" targetId="f3bb-e554-06fd-2337" type="infoGroup"/>
@@ -3469,6 +3472,11 @@ Counterattack 5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="6fbc-cb52-3e7f-305b" name="Transport Capacity (Airborne Assault)" hidden="false">
+          <description>Teams that cannot fit on a transport during an Airborne Assault mission must be left out of the game; this specifically applies to Optional teams and cannot be calculated by the system, so please plan accordingly. </description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="c805-eef7-0681-172d" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="3298-ca8a-3224-b1a6" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>

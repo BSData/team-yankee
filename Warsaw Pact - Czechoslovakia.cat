@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43d7-1030-18b4-e159" name="Warsaw Pact - Czechoslovakia" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43d7-1030-18b4-e159" name="Warsaw Pact - Czechoslovakia" revision="1" battleScribeVersion="2.03" authorName="Nicolas Dohrendorf, UrsinePatriarch" authorContact="nicolas.dohrendorf@gmail.com, Discord: Zharrpostingghoroth" authorUrl="https://github.com/BSData/team-yankee" library="false" gameSystemId="9096-fd85-6ba1-72c5" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Work started and finished 2-22-26 (pretty much a copy-paste of East Germany with some extra steps)</readme>
   <categoryEntries>
     <categoryEntry id="f134-b723-294a-df6b" name="Artillery Unit" hidden="false"/>
@@ -3778,6 +3778,11 @@ Counterattack 6</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="5dcc-19d1-6477-9e22" name="Transport Capacity (Airborne Assault)" hidden="false">
+          <description>Teams that cannot fit on a transport during an Airborne Assault mission must be left out of the game; this specifically applies to Optional teams and cannot be calculated by the system, so please plan accordingly. </description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="5280-2ac1-fd35-99e4" name="Passengers #" hidden="false" targetId="988f-bf9e-b22b-463e" type="rule"/>
         <infoLink id="c50b-bfec-212c-23a2" name="Door Guns" hidden="false" targetId="d4c9-bc96-f8a6-89e2" type="rule"/>
